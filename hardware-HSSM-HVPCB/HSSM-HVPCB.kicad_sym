@@ -86,7 +86,7 @@
 		(symbol "ACDC_converter_LNK3202D-TL_power_intergrations_0_1"
 			(rectangle
 				(start -10.16 7.62)
-				(end 10.16 -7.62)
+				(end 10.16 -8.89)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -169,10 +169,10 @@
 			)
 		)
 		(symbol "ACDC_converter_LNK3202D-TL_power_intergrations_1_1"
-			(pin power_in line
+			(pin bidirectional line
 				(at -12.7 5.08 0)
 				(length 2.54)
-				(name "+VIN"
+				(name "BP/M"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -187,10 +187,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -12.7 -5.08 0)
+			(pin bidirectional line
+				(at -12.7 1.27 0)
 				(length 2.54)
-				(name "-VIN"
+				(name "FB"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -205,10 +205,28 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 12.7 -5.08 180)
+			(pin bidirectional line
+				(at -12.7 -6.35 0)
 				(length 2.54)
-				(name "-VOUT"
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 -6.35 180)
+				(length 2.54)
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -224,9 +242,9 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 0 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
-				(name "0V"
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -242,9 +260,9 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 5.08 180)
+				(at 12.7 1.27 180)
 				(length 2.54)
-				(name "+VOUT"
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -252,6 +270,24 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
