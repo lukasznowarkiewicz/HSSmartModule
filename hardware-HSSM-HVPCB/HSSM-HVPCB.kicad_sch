@@ -765,6 +765,590 @@
 				)
 			)
 		)
+		(symbol "HSSM-HVPCB:power_meter_CS5480-INZ"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -26.416 20.574 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "CS5480-INZ"
+				(at -26.416 18.034 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CIR-QFN-24"
+				(at -2.794 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS5480_F3.pdf"
+				(at -2.794 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC ENERGY METER 3-CH 24QFN"
+				(at -2.794 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CS5480-INZ"
+				(at -2.794 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Cirrus Logic Inc."
+				(at -2.794 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CS5480-INZ power metering"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CIR-QFN-24 CIR-QFN-24-M CIR-QFN-24-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "power_meter_CS5480-INZ_0_1"
+				(polyline
+					(pts
+						(xy 17.78 17.78) (xy -17.78 17.78)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -25.4 8.89 0)
+					(length 7.62)
+					(name "XIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -25.4 90)
+					(length 7.62)
+					(name "VREF+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -25.4 90)
+					(length 7.62)
+					(name "GNDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -25.4 90)
+					(length 7.62)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 -10.16 180)
+					(length 7.62)
+					(name "DO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 -6.35 180)
+					(length 7.62)
+					(name "DO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 -2.54 180)
+					(length 7.62)
+					(name "DO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 1.27 180)
+					(length 7.62)
+					(name "TX/SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 5.08 180)
+					(length 7.62)
+					(name "RX/SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 8.89 180)
+					(length 7.62)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 25.4 270)
+					(length 7.62)
+					(name "SSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 25.4 270)
+					(length 7.62)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -1.27 25.4 270)
+					(length 7.62)
+					(name "GNDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 25.4 270)
+					(length 7.62)
+					(name "VDDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 25.4 270)
+					(length 7.62)
+					(name "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 1.27 0)
+					(length 7.62)
+					(name "IIN1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 -6.35 0)
+					(length 7.62)
+					(name "IIN1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 -2.54 0)
+					(length 7.62)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 -10.16 0)
+					(length 7.62)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -25.4 90)
+					(length 7.62)
+					(name "IIN2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -25.4 90)
+					(length 7.62)
+					(name "IIN2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -25.4 90)
+					(length 7.62)
+					(name "VREF-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "power_meter_CS5480-INZ_1_1"
+				(rectangle
+					(start -17.78 17.78)
+					(end 17.78 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "25"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 25.4 270)
+					(length 7.62)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -25.4 5.08 0)
+					(length 7.62)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -8.89 25.4 270)
+					(length 7.62)
+					(name "XOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HSSM-HVPCB:terminal_1x10_2086-1103_wago"
 			(pin_names
 				(offset 1.016) hide)
@@ -1194,9 +1778,184 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 35.56 156.21) (xy 35.56 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e4fa50-ada9-40e4-8a72-c27141d5b494")
+	)
+	(wire
+		(pts
+			(xy 36.83 118.11) (xy 36.83 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8444bb9-7fb4-45c9-a7c3-2513f268956f")
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:power_meter_CS5480-INZ")
+		(at 76.2 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03bbf458-353a-4bb8-aa4e-f090197dc4d2")
+		(property "Reference" "U2"
+			(at 102.87 35.5914 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "CS5480-INZ"
+			(at 102.87 38.1314 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CIR-QFN-24"
+			(at 73.406 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS5480_F3.pdf"
+			(at 73.406 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC ENERGY METER 3-CH 24QFN"
+			(at 73.406 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CS5480-INZ"
+			(at 102.87 40.6714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Cirrus Logic Inc."
+			(at 102.87 43.2114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "ed7f775a-de31-4f9d-8c99-64c8e4f028ee")
+		)
+		(pin "1"
+			(uuid "9d8a6113-e455-439a-bb76-2fd1d8c4da72")
+		)
+		(pin "12"
+			(uuid "f1feb290-e0d9-46c0-9c5b-ef82eedfb94f")
+		)
+		(pin "13"
+			(uuid "903f3201-f6a5-4192-b2e7-f8eac0ff0226")
+		)
+		(pin "14"
+			(uuid "a667611e-b311-4291-aeea-a0e3148e2d9f")
+		)
+		(pin "15"
+			(uuid "3ee3b276-f6d4-49fc-b987-3b655c693386")
+		)
+		(pin "16"
+			(uuid "28509da7-9131-4095-9635-1b08a3ac3f2e")
+		)
+		(pin "17"
+			(uuid "90984f74-c5ca-4192-a050-85600fb80fdc")
+		)
+		(pin "18"
+			(uuid "3b3a1902-1a42-4821-8d17-5eac86a5e85a")
+		)
+		(pin "20"
+			(uuid "e260c60a-36cc-45e4-b4d8-c718bf8968ed")
+		)
+		(pin "21"
+			(uuid "973988bc-925d-47a4-b10d-6b4af5c879d8")
+		)
+		(pin "22"
+			(uuid "54cb1ea1-670d-4130-a07a-4e1d833ed93e")
+		)
+		(pin "23"
+			(uuid "48d1be4e-c67e-4969-bd4a-f6e09d26a137")
+		)
+		(pin "25"
+			(uuid "7727cd4b-be6d-4114-b249-d0f538d44f89")
+		)
+		(pin "3"
+			(uuid "5f4f661f-608e-47c3-896b-b78ea869b889")
+		)
+		(pin "4"
+			(uuid "e77885f1-24cd-4e69-9a22-52a72654de75")
+		)
+		(pin "5"
+			(uuid "ef7ed86e-84dc-4dda-ba75-86d565b9daea")
+		)
+		(pin "6"
+			(uuid "396061ae-6945-4199-8c79-861056611ced")
+		)
+		(pin "7"
+			(uuid "f5a97d4e-144a-49ef-be61-a57f0861ae7c")
+		)
+		(pin "8"
+			(uuid "70b2bdd8-49f5-4e2b-b257-dd7a2de87da5")
+		)
+		(pin "9"
+			(uuid "df0ccbc2-468c-4743-be1f-932fea1f610d")
+		)
+		(pin "19"
+			(uuid "7309dbdd-aaa6-4b0f-9ac9-241b11327f79")
+		)
+		(pin "2"
+			(uuid "d0bafbf0-2ed8-4615-8ae3-4d1e535b81bd")
+		)
+		(pin "24"
+			(uuid "03eec749-e185-4b6d-8ad3-b029d95a8c33")
+		)
+		(pin "11"
+			(uuid "93678140-38d2-4857-94e2-f91690c4c147")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "HSSM-HVPCB:G6DN-1A-L DC12")
-		(at 53.34 93.98 0)
+		(at 41.91 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1205,7 +1964,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c97fa36-8374-4e0b-945f-f29a3228fe00")
 		(property "Reference" "K1"
-			(at 62.23 90.1699 0)
+			(at 50.8 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1973,7 @@
 			)
 		)
 		(property "Value" "G6DN-1A-L DC12"
-			(at 62.23 92.7099 0)
+			(at 50.8 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 95.25 0)
+			(at 50.8 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,7 +1992,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/2/307/en-g6dn-838135.pdf"
-			(at 53.34 93.98 0)
+			(at 41.91 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,7 +2001,7 @@
 			)
 		)
 		(property "Description" "Standex Meder DIP reed relay, SPST, Closing Contact"
-			(at 53.34 93.98 0)
+			(at 41.91 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,7 +2010,7 @@
 			)
 		)
 		(property "MPN" "G6DN-1A-L DC12"
-			(at 62.23 95.2499 0)
+			(at 50.8 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1260,7 +2019,7 @@
 			)
 		)
 		(property "Manufacturer" "OMRON"
-			(at 62.23 97.7899 0)
+			(at 50.8 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +2050,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:G6DN-1A-L DC12")
-		(at 53.34 115.57 0)
+		(at 40.64 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1300,7 +2059,7 @@
 		(fields_autoplaced yes)
 		(uuid "36fccb2a-a4be-4b93-bd1f-2b387f72a9e3")
 		(property "Reference" "K2"
-			(at 62.23 111.7599 0)
+			(at 49.53 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,7 +2068,7 @@
 			)
 		)
 		(property "Value" "G6DN-1A-L DC12"
-			(at 62.23 114.2999 0)
+			(at 49.53 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,7 +2077,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 116.84 0)
+			(at 49.53 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +2087,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/2/307/en-g6dn-838135.pdf"
-			(at 53.34 115.57 0)
+			(at 40.64 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +2096,7 @@
 			)
 		)
 		(property "Description" "Standex Meder DIP reed relay, SPST, Closing Contact"
-			(at 53.34 115.57 0)
+			(at 40.64 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +2105,7 @@
 			)
 		)
 		(property "MPN" "G6DN-1A-L DC12"
-			(at 62.23 116.8399 0)
+			(at 49.53 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,7 +2114,7 @@
 			)
 		)
 		(property "Manufacturer" "OMRON"
-			(at 62.23 119.3799 0)
+			(at 49.53 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1494,7 +2253,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:fuse_5A_250VAC_SF-3812TL500T-2")
-		(at 85.09 137.16 0)
+		(at 35.56 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1503,23 +2262,25 @@
 		(fields_autoplaced yes)
 		(uuid "5a83819c-609d-41a3-9e8c-7b567e374636")
 		(property "Reference" "F1"
-			(at 85.09 127 0)
+			(at 36.83 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "fuse_5A_250VAC_SF-3812TL500T-2"
-			(at 85.09 129.54 0)
+			(at 36.83 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 137.16 0)
+			(at 35.56 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +2289,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/sf-3812tl-t.pdf"
-			(at 85.09 137.16 0)
+			(at 35.56 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +2298,7 @@
 			)
 		)
 		(property "Description" "fuse_5A_250VAC_SF-3812TL500T-2"
-			(at 85.09 137.16 0)
+			(at 35.56 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,19 +2307,21 @@
 			)
 		)
 		(property "MPN" "SF-3812TL500T-2"
-			(at 85.09 132.08 0)
+			(at 36.83 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 85.09 134.62 0)
+			(at 36.83 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -1768,7 +2531,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:fuse_5A_250VAC_SF-3812TL500T-2")
-		(at 123.19 137.16 0)
+		(at 36.83 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1777,23 +2540,25 @@
 		(fields_autoplaced yes)
 		(uuid "c8fdb04d-3c50-4b9f-a653-38fc2111204f")
 		(property "Reference" "F2"
-			(at 123.19 127 0)
+			(at 38.1 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "fuse_5A_250VAC_SF-3812TL500T-2"
-			(at 123.19 129.54 0)
+			(at 38.1 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 137.16 0)
+			(at 36.83 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +2567,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/sf-3812tl-t.pdf"
-			(at 123.19 137.16 0)
+			(at 36.83 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +2576,7 @@
 			)
 		)
 		(property "Description" "fuse_5A_250VAC_SF-3812TL500T-2"
-			(at 123.19 137.16 0)
+			(at 36.83 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,19 +2585,21 @@
 			)
 		)
 		(property "MPN" "SF-3812TL500T-2"
-			(at 123.19 132.08 0)
+			(at 38.1 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 123.19 134.62 0)
+			(at 38.1 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "1"
