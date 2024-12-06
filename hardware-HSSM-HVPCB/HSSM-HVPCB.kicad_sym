@@ -439,11 +439,24 @@
 			)
 		)
 		(symbol "C_0u1_16V_0402_GRM155R71C104KA88J_0_1"
-			(rectangle
-				(start -1.905 0.889)
-				(end 1.905 -0.889)
+			(polyline
+				(pts
+					(xy -0.508 -1.524) (xy -0.508 1.524)
+				)
 				(stroke
-					(width 0.254)
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 -1.524) (xy 0.508 1.524)
+				)
+				(stroke
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -454,7 +467,7 @@
 		(symbol "C_0u1_16V_0402_GRM155R71C104KA88J_1_1"
 			(pin passive line
 				(at -2.54 0 0)
-				(length 0.635)
+				(length 2.032)
 				(name "~"
 					(effects
 						(font
@@ -472,7 +485,7 @@
 			)
 			(pin passive line
 				(at 2.54 0 180)
-				(length 0.635)
+				(length 2.032)
 				(name "~"
 					(effects
 						(font
