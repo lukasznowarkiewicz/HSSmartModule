@@ -4450,6 +4450,12 @@
 		)
 	)
 	(junction
+		(at 240.03 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0499847c-34f5-464c-868d-8a91ea1c36f2")
+	)
+	(junction
 		(at 224.79 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4486,6 +4492,12 @@
 		(uuid "59fd181c-1c16-419c-b72f-06052955da13")
 	)
 	(junction
+		(at 251.46 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73598f38-a56d-4c89-8bc2-be68747b51e6")
+	)
+	(junction
 		(at 240.03 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4516,22 +4528,16 @@
 		(uuid "ad2ec8c0-0a36-41f7-8b80-925fbea625a1")
 	)
 	(junction
-		(at 224.79 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3da7228-3dc6-4a39-a7b4-02fc0abbc9b0")
-	)
-	(junction
-		(at 240.03 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e81a1861-fc88-4f5e-b5a3-50625c771bdf")
-	)
-	(junction
 		(at 160.02 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb665e6c-ba59-431b-993b-5cb53210fd74")
+	)
+	(junction
+		(at 251.46 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f176c598-d13c-4f84-bf43-7e8443996bf3")
 	)
 	(junction
 		(at 204.47 71.12)
@@ -4551,7 +4557,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 105.41) (xy 224.79 105.41)
+			(xy 204.47 105.41) (xy 240.03 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4561,7 +4567,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 97.79) (xy 240.03 105.41)
+			(xy 251.46 97.79) (xy 251.46 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4578,16 +4584,6 @@
 			(type default)
 		)
 		(uuid "153abca5-52de-4013-849e-1d3ee25d05a5")
-	)
-	(wire
-		(pts
-			(xy 224.79 96.52) (xy 224.79 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ba9a9e0-2b49-4d57-86ea-1e575963b188")
 	)
 	(wire
 		(pts
@@ -4691,16 +4687,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 86.36) (xy 224.79 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c683f31-b4f7-4366-af83-7fbfc1fbbd7a")
-	)
-	(wire
-		(pts
 			(xy 133.35 105.41) (xy 133.35 107.95)
 		)
 		(stroke
@@ -4741,6 +4727,26 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 96.52) (xy 240.03 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a84217-b229-480f-aca4-8b00bde0ff0c")
+	)
+	(wire
+		(pts
+			(xy 251.46 86.36) (xy 256.54 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c995e4-b2d7-415a-97f0-f73b741b9750")
+	)
+	(wire
+		(pts
 			(xy 139.7 105.41) (xy 133.35 105.41)
 		)
 		(stroke
@@ -4768,6 +4774,16 @@
 			(type default)
 		)
 		(uuid "7502dc4b-a02c-497a-a48c-6a4cce1cd051")
+	)
+	(wire
+		(pts
+			(xy 240.03 86.36) (xy 240.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78be967a-3000-4795-a64f-f3a0005df130")
 	)
 	(wire
 		(pts
@@ -4821,16 +4837,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 86.36) (xy 256.54 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "884c74b1-2f3c-42c4-ab03-1b13f0bd5b8f")
-	)
-	(wire
-		(pts
 			(xy 193.04 78.74) (xy 193.04 82.55)
 		)
 		(stroke
@@ -4881,16 +4887,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 105.41) (xy 256.54 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bc8ce2a-db38-42ed-ba7e-60a5285ccfba")
-	)
-	(wire
-		(pts
 			(xy 224.79 81.28) (xy 224.79 86.36)
 		)
 		(stroke
@@ -4918,6 +4914,16 @@
 			(type default)
 		)
 		(uuid "a635ba2c-2a0a-4a03-9087-81799533deff")
+	)
+	(wire
+		(pts
+			(xy 240.03 105.41) (xy 251.46 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad19e5c9-38a3-45f1-b16f-09fc67230d52")
 	)
 	(wire
 		(pts
@@ -5021,13 +5027,23 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 86.36) (xy 240.03 92.71)
+			(xy 251.46 86.36) (xy 251.46 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d6cc8f46-c62f-4205-a6b8-fa1f82e843d8")
+	)
+	(wire
+		(pts
+			(xy 251.46 105.41) (xy 256.54 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db170b29-3e5d-4245-81d0-4611027d5ccd")
 	)
 	(wire
 		(pts
@@ -5038,6 +5054,16 @@
 			(type default)
 		)
 		(uuid "e4ee3154-ae42-4098-b615-a7945fc903de")
+	)
+	(wire
+		(pts
+			(xy 240.03 86.36) (xy 251.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53c23f3-59da-4834-a985-052149b716f2")
 	)
 	(wire
 		(pts
@@ -5109,19 +5135,9 @@
 		)
 		(uuid "fa56962f-8bb6-40dc-9ee3-ab6fd87ee021")
 	)
-	(wire
-		(pts
-			(xy 224.79 105.41) (xy 240.03 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb211b9c-aa48-4043-830a-12388e3646a6")
-	)
 	(text "12V DC \n(TODO - set proper voltage with resistors)"
 		(exclude_from_sim no)
-		(at 269.24 94.996 0)
+		(at 264.16 96.774 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6577,7 +6593,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_3k3_5pct_0402_RC0402JR-073K3L")
-		(at 240.03 95.25 90)
+		(at 251.46 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6586,7 +6602,7 @@
 		(fields_autoplaced yes)
 		(uuid "69c86835-d572-4fbd-b4e1-ee80f0ad12d9")
 		(property "Reference" "R4"
-			(at 242.57 93.98 90)
+			(at 254 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6596,7 +6612,7 @@
 			)
 		)
 		(property "Value" "R_3k3_5pct_0402_RC0402JR-073K3L"
-			(at 247.904 95.25 0)
+			(at 259.334 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6607,7 +6623,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 250.444 95.25 0)
+			(at 261.874 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6618,7 +6634,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 252.984 95.25 0)
+			(at 264.414 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6629,7 +6645,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor, 3.3kΩ, ±5%, 0402, RC0402JR-073K3L"
-			(at 240.03 95.25 0)
+			(at 251.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6638,7 +6654,7 @@
 			)
 		)
 		(property "MPN" "RC0402JR-073K3L"
-			(at 255.524 95.25 0)
+			(at 266.954 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6649,7 +6665,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 258.064 95.25 0)
+			(at 269.494 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +6676,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 260.604 95.25 0)
+			(at 272.034 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +6686,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 263.144 95.25 0)
+			(at 274.574 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6680,7 +6696,7 @@
 			)
 		)
 		(property "Val" "3k3"
-			(at 242.57 96.5199 90)
+			(at 254 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +6847,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:C_100uF_20pct_16V_5mm_WCAP-ATG5_860020372006")
-		(at 224.79 93.98 270)
+		(at 240.03 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6840,7 +6856,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ee41792-63ed-4dda-b09d-8e20eaead41a")
 		(property "Reference" "C3"
-			(at 227.33 92.8369 90)
+			(at 242.57 92.8369 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,7 +6866,7 @@
 			)
 		)
 		(property "Value" "C_100uF_20pct_16V_5mm_WCAP-ATG5_860020372006"
-			(at 216.916 93.98 0)
+			(at 232.156 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +6877,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:C_Radial_D5_L11_P2"
-			(at 214.376 93.98 0)
+			(at 229.616 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6872,7 +6888,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860020372006.pdf"
-			(at 211.836 93.98 0)
+			(at 227.076 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6883,7 +6899,7 @@
 			)
 		)
 		(property "Description" "Aluminum Electrolytic Capacitor, 100 µF, 16V, ±20%, Radial Leaded, 5mm Diameter, WCAP-ATG5 Series"
-			(at 224.79 93.98 0)
+			(at 240.03 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6892,7 +6908,7 @@
 			)
 		)
 		(property "MPN" "860020372006"
-			(at 209.296 93.98 0)
+			(at 224.536 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,7 +6919,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 206.756 93.98 0)
+			(at 221.996 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6914,7 +6930,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 204.216 93.98 0)
+			(at 219.456 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6924,7 +6940,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 201.676 93.98 0)
+			(at 216.916 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6934,7 +6950,7 @@
 			)
 		)
 		(property "Val" "100µF"
-			(at 227.33 95.3768 90)
+			(at 242.57 95.3768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
