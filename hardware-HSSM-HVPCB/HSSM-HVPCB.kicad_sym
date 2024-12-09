@@ -794,20 +794,20 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 0.508 -1.524) (xy 0.508 1.524)
-				)
+		)
+		(symbol "C_6u8_20pct_400V_8mm_WCAP-ATG5_860021374009_1_1"
+			(arc
+				(start 0.7619 1.524)
+				(mid 0.3398 0)
+				(end 0.7619 -1.524)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-		)
-		(symbol "C_6u8_20pct_400V_8mm_WCAP-ATG5_860021374009_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 2.032)
