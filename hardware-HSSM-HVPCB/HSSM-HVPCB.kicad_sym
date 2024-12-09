@@ -980,7 +980,7 @@
 			)
 		)
 	)
-	(symbol "R_10R_Axial_RR02J10RTB"
+	(symbol "R_10_5pct_Axial_RR02J10RTB"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -996,8 +996,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10 Ω ±5%, 2 W, Axial"
-			(at 0 -10.668 0)
+		(property "Value" "R_10_5pct_Axial_RR02J10RTB"
+			(at 0 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1007,8 +1007,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:R_Axial_DIN0207_L9.0mm_D3.5mm_P10.16mm"
-			(at 0 -14.986 0)
+		(property "Footprint" "HSSM-HVPCB:R_axial_vertical_4mm"
+			(at 0 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +1019,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/usa-en/product-3-1879352-7.datasheet.pdf"
-			(at 0 -17.526 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1029,7 +1029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Axial Metal Film Resistor, 10 Ω, ±5%, 2 W, RR Series, Flame Retardant Coating, Pulse Withstanding"
+		(property "Description" "SMD Resistor, 10Ω, ±5%, 0402, RR02J10RTB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1039,7 +1039,7 @@
 			)
 		)
 		(property "MPN" "RR02J10RTB"
-			(at 0 -20.066 0)
+			(at 0 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,7 +1050,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity"
-			(at 0 -22.606 0)
+			(at 0 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,7 +1061,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 0 -25.146 0)
+			(at 0 -20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +1071,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 0 -27.686 0)
+			(at 0 -23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,37 +1080,16 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "10R"
+		(property "Val" "10"
 			(at 0 -5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Tolerance" "5%"
-			(at 0 -8.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Power" "2 W"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "TH, RESISTOR, PASSIVE, METAL FILM, 10 Ω, ±5%, 2 W, Axial"
+		(property "ki_keywords" "resistor THT 10 5% Axial RR02J"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1119,7 +1098,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "R_10R_Axial_RR02J10RTB_0_1"
+		(symbol "R_10_5pct_Axial_RR02J10RTB_0_1"
 			(rectangle
 				(start -1.905 0.889)
 				(end 1.905 -0.889)
@@ -1132,7 +1111,7 @@
 				)
 			)
 		)
-		(symbol "R_10R_Axial_RR02J10RTB_1_1"
+		(symbol "R_10_5pct_Axial_RR02J10RTB_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 0.635)
