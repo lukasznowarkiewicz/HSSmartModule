@@ -1531,7 +1531,7 @@
 			)
 		)
 	)
-	(symbol "R_2k05_0402_RC0402FR-072K05L"
+	(symbol "R_2k05_1pct_0402_RC0402FR-072K05L"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -1547,8 +1547,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R_2k05_0402_RC0402FR-072K05L"
-			(at 0 -10.668 0)
+		(property "Value" "R_2k05_1pct_0402_RC0402FR-072K05L"
+			(at 0 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,7 +1559,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 0 -14.986 0)
+			(at 0 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1570,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 0 -17.526 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +1580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Thick Film Resistor, 2.05 kΩ, ±1%, 1/16 W, 0402 [1005 Metric], RC Series, Automotive AEC-Q200 Qualified"
+		(property "Description" "SMD Resistor, 2.05kΩ, ±1%, 0402, RC0402FR-072K05L"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1590,7 +1590,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-072K05L"
-			(at 0 -20.066 0)
+			(at 0 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +1601,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 0 -22.606 0)
+			(at 0 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,22 +1612,20 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 0 -25.146 0)
+			(at 0 -20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 0 -27.686 0)
+			(at 0 -23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 				(justify left bottom)
 				(hide yes)
@@ -1638,32 +1636,11 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Tolerance" "1%"
-			(at 0 -8.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Power" "1/16 W"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "SMT, RESISTOR, PASSIVE, THICK FILM, 2.05 kΩ, ±1%, 1/16 W, 0402"
+		(property "ki_keywords" "resistor SMD 2.05k 1% 0402 RC0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1672,7 +1649,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "R_2k05_0402_RC0402FR-072K05L_0_1"
+		(symbol "R_2k05_1pct_0402_RC0402FR-072K05L_0_1"
 			(rectangle
 				(start -1.905 0.889)
 				(end 1.905 -0.889)
@@ -1685,7 +1662,7 @@
 				)
 			)
 		)
-		(symbol "R_2k05_0402_RC0402FR-072K05L_1_1"
+		(symbol "R_2k05_1pct_0402_RC0402FR-072K05L_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 0.635)
