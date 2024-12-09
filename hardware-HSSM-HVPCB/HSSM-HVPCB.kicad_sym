@@ -1701,7 +1701,7 @@
 			)
 		)
 	)
-	(symbol "R_3k3_0402_RC0402JR-073K3L"
+	(symbol "R_3k3_5pct_0402_RC0402JR-073K3L"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -1717,7 +1717,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R_3k3_0402_RC0402JR-073K3L"
+		(property "Value" "R_3k3_5pct_0402_RC0402JR-073K3L"
 			(at 0 -7.874 0)
 			(effects
 				(font
@@ -1750,7 +1750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Thick Film Resistor, 3.3 kΩ, ±5%, 1/16 W, 0402 [1005 Metric], RC Series, Moisture Resistant"
+		(property "Description" "SMD Resistor, 3.3kΩ, ±5%, 0402, RC0402JR-073K3L"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1810,7 +1810,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ki_keywords" "SMT, RESISTOR, PASSIVE, THICK FILM, 3.3 kΩ, ±5%, 1/16 W, 0402"
+		(property "ki_keywords" "resistor SMD 3.3k 5% 0402 RC0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1819,7 +1819,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "R_3k3_0402_RC0402JR-073K3L_0_1"
+		(symbol "R_3k3_5pct_0402_RC0402JR-073K3L_0_1"
 			(rectangle
 				(start -1.905 0.889)
 				(end 1.905 -0.889)
@@ -1832,7 +1832,7 @@
 				)
 			)
 		)
-		(symbol "R_3k3_0402_RC0402JR-073K3L_1_1"
+		(symbol "R_3k3_5pct_0402_RC0402JR-073K3L_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 0.635)
