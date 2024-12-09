@@ -297,7 +297,7 @@
 			)
 		)
 	)
-	(symbol "C_0u1_16V_0402_GRM155R71C104KA88J"
+	(symbol "C_0u1_10pct_16V_0402_GRM155R71C104KA88J"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -313,8 +313,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C_0u1_16V_0402_GRM155R71C104KA88J"
-			(at 0 -10.668 0)
+		(property "Value" "C_0u1_10pct_16V_0402_GRM155R71C104KA88J"
+			(at 0 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -325,7 +325,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:C_0402"
-			(at 0 -14.986 0)
+			(at 0 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,7 +336,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/catalog/c02e.ashx"
-			(at 0 -17.526 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,7 +346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 16V, X7R, 0402 [1005 Metric], GRM Series"
+		(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 16V, X7R, 0402, GRM155R71C104KA88J"
 			(at 0 0 0)
 			(effects
 				(font
@@ -356,7 +356,7 @@
 			)
 		)
 		(property "MPN" "GRM155R71C104KA88J"
-			(at 0 -20.066 0)
+			(at 0 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -366,8 +366,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 0 -22.606 0)
+		(property "Manufacturer" "Murata"
+			(at 0 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -378,58 +378,35 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 0 -25.146 0)
+			(at 0 -20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 0 -27.686 0)
+			(at 0 -23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Val" "0u1"
+		(property "Val" "0.1µF"
 			(at 0 -5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Tolerance" "±10%"
-			(at 0 -8.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "SMT, CAPACITOR, PASSIVE, CERAMIC, 0.1 µF, ±10%, 16V, 0402, X7R"
+		(property "ki_keywords" "capacitor SMD 0.1uF 16V X7R 0402 GRM155"
 			(at 0 0 0)
 			(effects
 				(font
@@ -438,7 +415,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "C_0u1_16V_0402_GRM155R71C104KA88J_0_1"
+		(symbol "C_0u1_10pct_16V_0402_GRM155R71C104KA88J_0_1"
 			(polyline
 				(pts
 					(xy -0.508 -1.524) (xy -0.508 1.524)
@@ -464,7 +441,7 @@
 				)
 			)
 		)
-		(symbol "C_0u1_16V_0402_GRM155R71C104KA88J_1_1"
+		(symbol "C_0u1_10pct_16V_0402_GRM155R71C104KA88J_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 2.032)
@@ -671,6 +648,212 @@
 			)
 		)
 		(symbol "C_0u1_50V_0402_GRM155R71H104KE14D_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 2.032)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "C_0u1_debug"
+		(pin_numbers hide)
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 -3.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1 µF, ±10%, 50V"
+			(at 0 -10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:C_0402"
+			(at 0 -14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
+			(at 0 -17.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 50V, X7R, 0402 [1005 Metric], GRM Series"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 0 -20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 -22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 -25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 0 -27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0u1"
+			(at 0 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 0 -8.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SMT, CAPACITOR, PASSIVE, CERAMIC, 0.1 µF, ±10%, 50V, X7R, 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "C_0u1_debug_0_1"
+			(polyline
+				(pts
+					(xy -0.508 -1.524) (xy -0.508 1.524)
+				)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_0u1_debug_1_1"
+			(arc
+				(start 0.7619 1.524)
+				(mid 0.3398 0)
+				(end 0.7619 -1.524)
+				(stroke
+					(width 0.3048)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin passive line
 				(at -2.54 0 0)
 				(length 2.032)
@@ -1810,7 +1993,7 @@
 			)
 		)
 		(property "Value" "R_3k3_0402_RC0402JR-073K3L"
-			(at 0 -10.668 0)
+			(at 0 -7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,7 +2004,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 0 -14.986 0)
+			(at 0 -10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +2015,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 0 -17.526 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,7 +2035,7 @@
 			)
 		)
 		(property "MPN" "RC0402JR-073K3L"
-			(at 0 -20.066 0)
+			(at 0 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +2046,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 0 -22.606 0)
+			(at 0 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +2057,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 0 -25.146 0)
+			(at 0 -20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +2067,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 0 -27.686 0)
+			(at 0 -23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,26 +2083,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 0 -8.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Power" "1/16 W"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "SMT, RESISTOR, PASSIVE, THICK FILM, 3.3 kΩ, ±5%, 1/16 W, 0402"
