@@ -1315,7 +1315,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "D_rect_1A_600V_SOD123FL_MURS160-E3_52T"
+			(property "Val" "1A_600V"
 				(at 0 -5.588 0)
 				(effects
 					(font
@@ -5762,8 +5762,8 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "D_rect_1A_600V_SOD123FL_MURS160-E3_52T"
-			(at 208.026 97.282 0)
+		(property "Val" "1A_600V"
+			(at 207.01 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
