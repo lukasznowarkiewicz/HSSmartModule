@@ -6546,6 +6546,26 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 226.06) (xy 302.26 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d29809e-d7ee-44ff-8efa-d2bc20eed60f")
+	)
+	(wire
+		(pts
+			(xy 278.13 229.87) (xy 278.13 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de6126e-1259-4263-b7e8-91954766e23d")
+	)
+	(wire
+		(pts
 			(xy 381 63.5) (xy 381 71.12)
 		)
 		(stroke
@@ -6596,6 +6616,26 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 226.06) (xy 347.98 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17919213-095d-4c3b-a020-c64df7509485")
+	)
+	(wire
+		(pts
+			(xy 346.71 223.52) (xy 347.98 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a12e343-b486-448d-acb2-982b5d2367cf")
+	)
+	(wire
+		(pts
 			(xy 358.14 110.49) (xy 363.22 110.49)
 		)
 		(stroke
@@ -6603,6 +6643,16 @@
 			(type default)
 		)
 		(uuid "1d0c78bc-5372-43b7-a7d7-1fa146840709")
+	)
+	(wire
+		(pts
+			(xy 290.83 229.87) (xy 290.83 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eafdb65-7e56-476f-b347-8ff77dfc7c6c")
 	)
 	(wire
 		(pts
@@ -6626,6 +6676,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 220.98) (xy 346.71 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242024b6-c1a7-4ae4-9f1b-d8d04630fb1c")
+	)
+	(wire
+		(pts
 			(xy 288.29 30.48) (xy 334.01 30.48)
 		)
 		(stroke
@@ -6646,6 +6706,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 224.79) (xy 297.18 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28339b1b-ff95-4f3a-9185-57657e1c1e81")
+	)
+	(wire
+		(pts
 			(xy 276.86 59.69) (xy 280.67 59.69)
 		)
 		(stroke
@@ -6663,6 +6733,16 @@
 			(type default)
 		)
 		(uuid "29a56c0f-dac8-461f-be3a-87210e846d4d")
+	)
+	(wire
+		(pts
+			(xy 293.37 229.87) (xy 293.37 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b3fd7f6-0885-4492-96e0-f7c494fcc9be")
 	)
 	(wire
 		(pts
@@ -6806,6 +6886,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 229.87) (xy 283.21 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f78053f-a6ad-45c6-853a-4924d0f2715d")
+	)
+	(wire
+		(pts
 			(xy 292.1 25.4) (xy 292.1 34.29)
 		)
 		(stroke
@@ -6816,6 +6906,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 229.87) (xy 300.99 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d758bd-7908-441f-a1ac-7164ba8687f6")
+	)
+	(wire
+		(pts
 			(xy 386.08 71.12) (xy 386.08 73.66)
 		)
 		(stroke
@@ -6823,6 +6923,16 @@
 			(type default)
 		)
 		(uuid "44746231-35ec-4ea8-b7c5-2b0865866189")
+	)
+	(wire
+		(pts
+			(xy 271.78 227.33) (xy 280.67 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b71dc7-9a95-473f-80f1-f007211bd041")
 	)
 	(wire
 		(pts
@@ -6853,6 +6963,16 @@
 			(type default)
 		)
 		(uuid "4ebd0248-e9f6-4f9c-907d-16bbcc564093")
+	)
+	(wire
+		(pts
+			(xy 347.98 228.6) (xy 346.71 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53554bed-d14c-488a-9b24-8fb99b976398")
 	)
 	(wire
 		(pts
@@ -6946,6 +7066,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 227.33) (xy 307.34 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea67d98-cadf-4357-9b35-0aac0b3fbb10")
+	)
+	(wire
+		(pts
 			(xy 300.99 147.32) (xy 300.99 148.59)
 		)
 		(stroke
@@ -6996,6 +7126,26 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 224.79) (xy 281.94 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd377a0-5f33-4fe3-8a37-d70b9d802af7")
+	)
+	(wire
+		(pts
+			(xy 288.29 223.52) (xy 287.02 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700a7acc-b70d-4cc4-8452-018e4e9d4413")
+	)
+	(wire
+		(pts
 			(xy 294.64 110.49) (xy 302.26 110.49)
 		)
 		(stroke
@@ -7003,6 +7153,16 @@
 			(type default)
 		)
 		(uuid "711a09ac-66e5-4521-becd-a08f969e1d70")
+	)
+	(wire
+		(pts
+			(xy 266.7 228.6) (xy 266.7 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7294dac4-3b00-45f8-8372-bd5ceb2e8949")
 	)
 	(wire
 		(pts
@@ -7026,6 +7186,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 229.87) (xy 295.91 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c82b49-233e-42fc-95b1-396cfa13aaf2")
+	)
+	(wire
+		(pts
 			(xy 369.57 52.07) (xy 369.57 57.15)
 		)
 		(stroke
@@ -7033,6 +7203,16 @@
 			(type default)
 		)
 		(uuid "78be967a-3000-4795-a64f-f3a0005df130")
+	)
+	(wire
+		(pts
+			(xy 307.34 227.33) (xy 307.34 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6ac73e-14a1-4ba2-8036-23b6b7de4e95")
 	)
 	(wire
 		(pts
@@ -7096,6 +7276,26 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 220.98) (xy 346.71 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b7d6ae-ee1b-436f-bd8f-85b7cc8a5cf1")
+	)
+	(wire
+		(pts
+			(xy 285.75 229.87) (xy 285.75 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c53d40-0396-47c1-9604-ef0dadd12a13")
+	)
+	(wire
+		(pts
 			(xy 322.58 44.45) (xy 322.58 48.26)
 		)
 		(stroke
@@ -7113,6 +7313,16 @@
 			(type default)
 		)
 		(uuid "8e764ae1-4a3b-4861-90a3-63b44306d38a")
+	)
+	(wire
+		(pts
+			(xy 346.71 231.14) (xy 345.44 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5c4d54-c8c6-4fe2-8b43-262711a6ea90")
 	)
 	(wire
 		(pts
@@ -7173,6 +7383,26 @@
 			(type default)
 		)
 		(uuid "a05fad7e-c6bc-4348-976c-558577174541")
+	)
+	(wire
+		(pts
+			(xy 302.26 226.06) (xy 302.26 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a089f7c1-a7ee-42da-814f-a0af4872f718")
+	)
+	(wire
+		(pts
+			(xy 278.13 228.6) (xy 266.7 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e1bc14-3ec6-4865-87a9-448431e8da7f")
 	)
 	(wire
 		(pts
@@ -7246,6 +7476,26 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 226.06) (xy 276.86 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac11cef6-d6f5-4ee8-ae56-764a4a78bd37")
+	)
+	(wire
+		(pts
+			(xy 297.18 224.79) (xy 297.18 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace1e6bd-d7e2-4d43-a90a-f483e9028e1d")
+	)
+	(wire
+		(pts
 			(xy 369.57 71.12) (xy 381 71.12)
 		)
 		(stroke
@@ -7316,6 +7566,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 227.33) (xy 280.67 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74f67c9-d4e9-4139-aa27-6a338f329071")
+	)
+	(wire
+		(pts
 			(xy 363.22 147.32) (xy 363.22 148.59)
 		)
 		(stroke
@@ -7323,6 +7583,16 @@
 			(type default)
 		)
 		(uuid "b7947d65-b2aa-4bd3-8432-aa58cb8ee0e0")
+	)
+	(wire
+		(pts
+			(xy 290.83 223.52) (xy 292.1 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b98a7ebe-c92e-4731-a7d2-3668dff81900")
 	)
 	(wire
 		(pts
@@ -7426,6 +7696,26 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 228.6) (xy 312.42 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a629dc-f57b-4a7c-aa4b-6e94efa889e6")
+	)
+	(wire
+		(pts
+			(xy 300.99 228.6) (xy 312.42 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ffc8ee-9730-4990-b76b-c8ddd71d53d9")
+	)
+	(wire
+		(pts
 			(xy 350.52 180.34) (xy 350.52 182.88)
 		)
 		(stroke
@@ -7443,6 +7733,16 @@
 			(type default)
 		)
 		(uuid "cc63ad6e-8ffc-4941-8d5f-df4b4b57aad7")
+	)
+	(wire
+		(pts
+			(xy 285.75 224.79) (xy 281.94 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e74a48-d216-4a83-b342-ac1904ee6358")
 	)
 	(wire
 		(pts
@@ -7476,6 +7776,26 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 229.87) (xy 288.29 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d796d797-252c-48cc-9762-56af3b64400b")
+	)
+	(wire
+		(pts
+			(xy 346.71 228.6) (xy 346.71 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da345127-ac40-4c49-9f1e-24814fc803cc")
+	)
+	(wire
+		(pts
 			(xy 381 71.12) (xy 386.08 71.12)
 		)
 		(stroke
@@ -7483,6 +7803,16 @@
 			(type default)
 		)
 		(uuid "db170b29-3e5d-4245-81d0-4611027d5ccd")
+	)
+	(wire
+		(pts
+			(xy 298.45 229.87) (xy 298.45 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc348cae-5fc5-4089-8113-2d9b21c186a6")
 	)
 	(wire
 		(pts
@@ -7566,6 +7896,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 223.52) (xy 287.02 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6e3201-6bec-440f-bf95-7725cf5c4ec3")
+	)
+	(wire
+		(pts
 			(xy 322.58 48.26) (xy 322.58 52.07)
 		)
 		(stroke
@@ -7616,6 +7956,26 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 222.25) (xy 271.78 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f597f3f2-857b-4a87-bbd4-44b9f4582eb2")
+	)
+	(wire
+		(pts
+			(xy 283.21 226.06) (xy 276.86 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f713d10d-7c55-4a5c-b840-3e0e69bc7e52")
+	)
+	(wire
+		(pts
 			(xy 354.33 52.07) (xy 359.41 52.07)
 		)
 		(stroke
@@ -7643,6 +8003,16 @@
 			(type default)
 		)
 		(uuid "fa56962f-8bb6-40dc-9ee3-ab6fd87ee021")
+	)
+	(wire
+		(pts
+			(xy 292.1 223.52) (xy 292.1 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb92ce77-c21a-4d4d-bbb3-2ef7e40bd74d")
 	)
 	(wire
 		(pts
@@ -7687,6 +8057,18 @@
 		(uuid 05682bcc-ef4d-4f75-883c-e5a153de15f9)
 	)
 	(rectangle
+		(start 236.22 209.296)
+		(end 403.86 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 19868605-7dc8-45a2-8239-133df7772281)
+	)
+	(rectangle
 		(start 235.966 134.874)
 		(end 404.114 204.216)
 		(stroke
@@ -7719,6 +8101,16 @@
 			)
 		)
 		(uuid "13956aae-79fb-4e60-bf98-1b363175c14c")
+	)
+	(text "Output 1 and output 2 relays control"
+		(exclude_from_sim no)
+		(at 256.794 248.412 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35e62aa5-2eb8-4297-a526-c527e7d82a1a")
 	)
 	(text "12V DC \n(TODO - set proper voltage with resistors)"
 		(exclude_from_sim no)
@@ -8177,6 +8569,71 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 292.1 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cafae2a-4e62-4ca5-87b4-c5ef0b954d2c")
+		(property "Reference" "#PWR032"
+			(at 292.1 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_Q2"
+			(at 292.1 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 292.1 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "187a7b83-d0b6-417b-92ae-ea195cd6370f")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9737,6 +10194,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 287.02 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "403d3e8b-9379-4eb0-bba7-e59acdf75669")
+		(property "Reference" "#PWR031"
+			(at 287.02 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_Q1"
+			(at 287.02 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 287.02 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0620f7b-a2c8-4ef7-865e-c4568dc49850")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 386.08 73.66 0)
 		(unit 1)
@@ -9998,7 +10520,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:terminal_1x10_2601-1110_wago")
-		(at 119.38 182.88 90)
+		(at 288.29 234.95 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10007,7 +10529,7 @@
 		(dnp no)
 		(uuid "500b14e1-0265-4644-99f8-755bca1c5f36")
 		(property "Reference" "J2"
-			(at 120.65 186.69 90)
+			(at 289.56 238.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10015,7 +10537,7 @@
 			)
 		)
 		(property "Value" "2601-1110"
-			(at 120.65 189.23 90)
+			(at 289.56 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10023,7 +10545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 182.88 0)
+			(at 288.29 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10032,7 +10554,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/3775116.pdf"
-			(at 119.38 182.88 0)
+			(at 288.29 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10041,7 +10563,7 @@
 			)
 		)
 		(property "Description" "terminal_1x10_2601-1110_wago"
-			(at 119.38 182.88 0)
+			(at 288.29 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10050,7 +10572,7 @@
 			)
 		)
 		(property "MPN" "2601-1110"
-			(at 120.65 191.77 90)
+			(at 289.56 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10058,7 +10580,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 120.65 194.31 90)
+			(at 289.56 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10099,6 +10621,136 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 302.26 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "504cc996-8b2e-4bad-96b8-70a720aa365f")
+		(property "Reference" "#PWR034"
+			(at 302.26 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_?"
+			(at 302.26 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 302.26 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c83290c-6a32-460b-af19-97e02d419ee5")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 266.7 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50a21355-e89b-42b8-a846-1559f2bbc695")
+		(property "Reference" "#PWR040"
+			(at 266.7 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_N"
+			(at 266.7 213.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 266.7 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "213909a2-a52c-434f-a58c-134040dba653")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -11801,6 +12453,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 307.34 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9582f2c5-28ef-47e5-8233-09cd404d98c3")
+		(property "Reference" "#PWR035"
+			(at 307.34 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_?"
+			(at 307.34 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 307.34 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb42f4cd-bcac-4a24-8654-98d1b6b0858c")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 350.52 182.88 0)
 		(unit 1)
@@ -12187,6 +12904,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 281.94 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cf484c4-3d93-44de-b74a-7acd62c45f1d")
+		(property "Reference" "#PWR037"
+			(at 281.94 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_L"
+			(at 281.94 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 281.94 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fbcc604-979c-4c4d-bb20-bcc6c7434e17")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:Q_NMOS_SOT-23_IRLML6344")
 		(at 288.29 171.45 0)
 		(unit 1)
@@ -12312,6 +13094,71 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 276.86 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4df3833-624e-4e15-95ea-0c2e53b2ad1f")
+		(property "Reference" "#PWR038"
+			(at 276.86 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_L"
+			(at 276.86 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 276.86 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f3e1fec-a065-403d-9426-0e23a63a225e")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12771,6 +13618,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 345.44 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0afdb9e-b021-43b4-a9f9-f24ecc8ef32a")
+		(property "Reference" "#PWR029"
+			(at 347.98 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_S2"
+			(at 339.09 220.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 345.44 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ca6b3b3-847b-4e47-b607-6c1cdc617362")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:LED_Green_Kingbright_APHHS1005CGCK")
 		(at 261.62 177.8 90)
 		(unit 1)
@@ -13192,72 +14106,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:AC")
-		(at 100.33 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c116d89a-b284-46b7-b0e5-e3f477c6628c")
-		(property "Reference" "#PWR011"
-			(at 100.33 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AC_?"
-			(at 100.33 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 100.33 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7971017-b3f4-4868-a577-11d66ff8de18")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HSSM-HVPCB:R_200k_0.1pct_1206_VT1206BRD07200KL")
 		(at 355.6 110.49 0)
 		(unit 1)
@@ -13511,7 +14359,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:terminal_1x10_2086-1103_wago")
-		(at 147.32 167.64 0)
+		(at 353.06 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13520,7 +14368,7 @@
 		(fields_autoplaced yes)
 		(uuid "c833d9e5-0e53-45cd-a112-5fe3febd8847")
 		(property "Reference" "J1"
-			(at 149.86 163.8299 0)
+			(at 355.6 222.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13529,7 +14377,7 @@
 			)
 		)
 		(property "Value" "2086-1103"
-			(at 149.86 166.3699 0)
+			(at 355.6 224.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13538,7 +14386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 167.64 0)
+			(at 353.06 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13547,7 +14395,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2669/2086-1103.pdf"
-			(at 147.32 167.64 0)
+			(at 353.06 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13556,7 +14404,7 @@
 			)
 		)
 		(property "Description" "terminal_1x03_2086-1103_wago"
-			(at 147.32 167.64 0)
+			(at 353.06 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13565,7 +14413,7 @@
 			)
 		)
 		(property "MPN" "2086-1103"
-			(at 149.86 168.9099 0)
+			(at 355.6 227.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13574,7 +14422,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 149.86 171.4499 0)
+			(at 355.6 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13921,6 +14769,73 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 345.44 226.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc02ed76-b632-4208-bb00-4875a9096de0")
+		(property "Reference" "#PWR028"
+			(at 347.98 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_S1"
+			(at 339.09 226.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 345.44 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cafb890-1126-4486-9182-b7557ff7b318")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -14376,6 +15291,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 271.78 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e60bdac4-7e62-41fa-98bf-f829309f5a7f")
+		(property "Reference" "#PWR039"
+			(at 271.78 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_N"
+			(at 271.78 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 271.78 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "116796fb-4bd1-40d4-a0b2-a5d37ea0845f")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 345.44 231.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ece708c9-fb58-4cca-b451-66b9ac23aa5d")
+		(property "Reference" "#PWR030"
+			(at 347.98 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_IN"
+			(at 339.09 231.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 345.44 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7571044f-0b9f-4189-a698-29cfc7d05aff")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:U_Optocoupler_LTV-354T")
 		(at 287.02 113.03 0)
 		(unit 1)
@@ -14634,6 +15681,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 297.18 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1f25bde-0fd1-4a3b-a52d-b11f164358ee")
+		(property "Reference" "#PWR033"
+			(at 297.18 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_?"
+			(at 297.18 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 297.18 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc753ed8-d5bd-4e66-9193-1cf64267831d")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:R_100k_1pct_0402_RC0402FR-07100KL")
 		(at 350.52 177.8 90)
 		(unit 1)
@@ -14756,6 +15868,71 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 312.42 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa70e23c-af6c-4974-9a41-94c019b8132d")
+		(property "Reference" "#PWR036"
+			(at 312.42 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_?"
+			(at 312.42 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 312.42 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0691b385-cd59-4ac4-bbea-cc0e0b616b3c")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
