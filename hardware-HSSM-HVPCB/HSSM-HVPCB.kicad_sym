@@ -5403,8 +5403,8 @@
 		)
 		(symbol "U_Optocoupler_LTV-354T_0_1"
 			(rectangle
-				(start -5.08 3.81)
-				(end 5.08 -3.81)
+				(start -5.842 3.81)
+				(end 5.842 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5439,7 +5439,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 -1.016) (xy -3.048 -1.016) (xy -3.048 -1.016)
+					(xy -5.08 1.016) (xy -3.048 1.016) (xy -3.048 1.016)
 				)
 				(stroke
 					(width 0.254)
@@ -5451,31 +5451,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 -0.508) (xy 1.27 0) (xy 1.27 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.762 0.508) (xy 1.27 1.016) (xy 1.27 1.016)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -1.524) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					(xy -0.254 -1.016) (xy -2.286 -1.016) (xy -2.286 -1.016)
 				)
 				(stroke
 					(width 0.254)
@@ -5487,31 +5463,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.524) (xy 2.54 2.54) (xy 5.08 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.794 -2.54) (xy -2.032 -2.54) (xy -2.032 2.54) (xy -2.794 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.254 0) (xy 1.27 0) (xy 0.508 -0.508) (xy 0.508 -0.508)
+					(xy 0 -0.508) (xy 2.032 0) (xy 2.032 0)
 				)
 				(stroke
 					(width 0)
@@ -5523,7 +5475,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 1.016) (xy 1.27 1.016) (xy 0.508 0.508) (xy 0.508 0.508)
+					(xy 0 0.508) (xy 2.032 1.016) (xy 2.032 1.016)
 				)
 				(stroke
 					(width 0)
@@ -5535,7 +5487,91 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 1.016) (xy -3.048 1.016) (xy -2.032 -1.016) (xy -1.016 1.016) (xy -1.016 1.016) (xy -1.016 1.016)
+					(xy 3.302 -1.524) (xy 3.302 -2.54) (xy 5.842 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 1.524) (xy 3.302 2.54) (xy 5.842 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.842 -2.54) (xy -4.064 -2.54) (xy -4.064 2.54) (xy -5.842 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.794 -2.54) (xy -1.27 -2.54) (xy -1.27 2.54) (xy -2.794 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy 2.032 0) (xy 1.27 -0.508) (xy 1.27 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 1.016) (xy 2.032 1.016) (xy 1.27 0.508) (xy 1.27 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -1.016) (xy -3.048 -1.016) (xy -4.064 1.016) (xy -5.08 -1.016) (xy -5.08 -1.016) (xy -5.08 -1.016)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.254 1.016) (xy -2.286 1.016) (xy -1.27 -1.016) (xy -0.254 1.016) (xy -0.254 1.016) (xy -0.254 1.016)
 				)
 				(stroke
 					(width 0.254)
@@ -5546,8 +5582,8 @@
 				)
 			)
 			(rectangle
-				(start 1.778 1.524)
-				(end 3.302 -1.524)
+				(start 2.54 1.524)
+				(end 4.064 -1.524)
 				(stroke
 					(width 0.254)
 					(type default)
