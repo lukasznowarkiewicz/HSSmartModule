@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "ACDC_converter_LNK3202D-TL_power_intergrations"
+	(symbol "ACDC_converter_LNK3204D-TL_power_intergrations"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" "LNK3202D-TL"
+		(property "Value" "LNK3204D-TL"
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LNK3202D-TL"
+		(property "MPN" "LNK3204D-TL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -83,7 +83,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "ACDC_converter_LNK3202D-TL_power_intergrations_0_1"
+		(symbol "ACDC_converter_LNK3204D-TL_power_intergrations_0_1"
 			(rectangle
 				(start -10.16 7.62)
 				(end 10.16 -8.89)
@@ -168,7 +168,7 @@
 				)
 			)
 		)
-		(symbol "ACDC_converter_LNK3202D-TL_power_intergrations_1_1"
+		(symbol "ACDC_converter_LNK3204D-TL_power_intergrations_1_1"
 			(pin bidirectional line
 				(at -12.7 5.08 0)
 				(length 2.54)

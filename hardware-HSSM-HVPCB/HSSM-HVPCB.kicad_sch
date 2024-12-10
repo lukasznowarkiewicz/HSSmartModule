@@ -5,7 +5,7 @@
 	(uuid "e1056638-7c6b-48e4-9e2e-c0f7b783eee5")
 	(paper "A4")
 	(lib_symbols
-		(symbol "HSSM-HVPCB:ACDC_converter_LNK3202D-TL_power_intergrations"
+		(symbol "HSSM-HVPCB:ACDC_converter_LNK3204D-TL_power_intergrations"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -17,7 +17,7 @@
 					)
 				)
 			)
-			(property "Value" "LNK3202D-TL"
+			(property "Value" "LNK3204D-TL"
 				(at 0 8.89 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "LNK3202D-TL"
+			(property "MPN" "LNK3204D-TL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -86,7 +86,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ACDC_converter_LNK3202D-TL_power_intergrations_0_1"
+			(symbol "ACDC_converter_LNK3204D-TL_power_intergrations_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -8.89)
@@ -171,7 +171,7 @@
 					)
 				)
 			)
-			(symbol "ACDC_converter_LNK3202D-TL_power_intergrations_1_1"
+			(symbol "ACDC_converter_LNK3204D-TL_power_intergrations_1_1"
 				(pin bidirectional line
 					(at -12.7 5.08 0)
 					(length 2.54)
@@ -6398,7 +6398,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:power_meter_CS5480-INZ")
-		(at 76.2 55.88 0)
+		(at 71.12 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6407,7 +6407,7 @@
 		(fields_autoplaced yes)
 		(uuid "03bbf458-353a-4bb8-aa4e-f090197dc4d2")
 		(property "Reference" "U2"
-			(at 102.87 35.5914 0)
+			(at 97.79 22.8914 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6415,7 +6415,7 @@
 			)
 		)
 		(property "Value" "CS5480-INZ"
-			(at 102.87 38.1314 0)
+			(at 97.79 25.4314 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6423,7 +6423,7 @@
 			)
 		)
 		(property "Footprint" "CIR-QFN-24"
-			(at 73.406 55.372 0)
+			(at 68.326 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6433,7 +6433,7 @@
 			)
 		)
 		(property "Datasheet" "https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS5480_F3.pdf"
-			(at 73.406 55.372 0)
+			(at 68.326 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,7 +6443,7 @@
 			)
 		)
 		(property "Description" "IC ENERGY METER 3-CH 24QFN"
-			(at 73.406 55.372 0)
+			(at 68.326 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,7 +6452,7 @@
 			)
 		)
 		(property "MPN" "CS5480-INZ"
-			(at 102.87 40.6714 0)
+			(at 97.79 27.9714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,7 +6460,7 @@
 			)
 		)
 		(property "Manufacturer" "Cirrus Logic Inc."
-			(at 102.87 43.2114 0)
+			(at 97.79 30.5114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10451,6 +10451,105 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-HVPCB:ACDC_converter_LNK3204D-TL_power_intergrations")
+		(at 177.8 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bba0ccda-c96e-4148-a33f-84496afef692")
+		(property "Reference" "U1"
+			(at 177.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LNK3204D-TL"
+			(at 177.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/328/linkswitch_tn2_family_datasheet-3043282.pdf"
+			(at 177.165 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Converter Offline Buck, Buck-Boost, Flyback Topology 66kHz SO-8C"
+			(at 177.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LNK3204D-TL"
+			(at 177.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Power Integrations"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "d879c3b8-e8ba-4a9a-8217-b86aa8882fa6")
+		)
+		(pin "2"
+			(uuid "77a7c145-701d-42b3-a95b-26f745ae5362")
+		)
+		(pin "7"
+			(uuid "7d0e74f0-9fda-451a-a1a2-9c2ecf1e0cba")
+		)
+		(pin "8"
+			(uuid "321ca500-6528-41e0-9406-dc5f7bb95ba3")
+		)
+		(pin "6"
+			(uuid "eb82fa58-11df-433a-bba2-51f9ea04e148")
+		)
+		(pin "1"
+			(uuid "3006355f-3c61-41ed-98c8-bb33c4632d45")
+		)
+		(pin "5"
+			(uuid "162500d4-2197-4f6a-809a-fe1c18f734d3")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:AC")
 		(at 101.6 161.29 0)
 		(unit 1)
@@ -10511,105 +10610,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-HVPCB:ACDC_converter_LNK3202D-TL_power_intergrations")
-		(at 177.8 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c63d1cb7-0c2d-483b-bf08-9f3f64835d8e")
-		(property "Reference" "U1"
-			(at 177.8 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LNK3202D-TL"
-			(at 177.8 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/328/linkswitch_tn2_family_datasheet-3043282.pdf"
-			(at 177.165 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Converter Offline Buck, Buck-Boost, Flyback Topology 66kHz SO-8C"
-			(at 177.8 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LNK3202D-TL"
-			(at 177.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Power Integrations"
-			(at 177.8 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "28d32ee9-1685-4a3b-a425-47f0f6dd892d")
-		)
-		(pin "2"
-			(uuid "8564be79-4d3d-4bba-b4ac-3b06c64a3277")
-		)
-		(pin "8"
-			(uuid "c202ee12-3fd5-4179-ab67-48b7c5a690c0")
-		)
-		(pin "6"
-			(uuid "d8bbc6ac-9bfd-4d40-8d7a-72400eb3b732")
-		)
-		(pin "7"
-			(uuid "fa74448e-5fcb-44f1-b05c-52b442282620")
-		)
-		(pin "1"
-			(uuid "3c14af52-5765-4068-8aeb-5f624e739cbb")
-		)
-		(pin "4"
-			(uuid "651bbe3a-75ee-4155-9bae-691277ddfc40")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "U1")
 					(unit 1)
 				)
 			)
