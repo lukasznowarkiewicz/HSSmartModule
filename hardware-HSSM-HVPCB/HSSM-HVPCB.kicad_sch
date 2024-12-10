@@ -1398,6 +1398,188 @@
 				)
 			)
 		)
+		(symbol "HSSM-HVPCB:F_4A_SlowBlow_Holder_UMZ250_3404.2422.11"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "F_4A_SlowBlow_Holder_UMZ250_3404.2422.11"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-HVPCB:F_Holder_UMZ250"
+				(at 0 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://us.schurter.com/en/datasheet/typ_UMZ_250.pdf"
+				(at 0 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "4A Slow Blow Fuse, Holder, UMZ 250 Series, Schurter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "3404.2422.11"
+				(at 0 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Schurter"
+				(at 0 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Lukasz Nowarkiewicz"
+				(at 0 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "4A Slow Blow"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "Fuse, 4A, Slow Blow, Holder, UMZ 250, Schurter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "F_4A_SlowBlow_Holder_UMZ250_3404.2422.11_0_1"
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "F_4A_SlowBlow_Holder_UMZ250_3404.2422.11_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HSSM-HVPCB:G6DN-1A-L DC12"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3491,154 +3673,6 @@
 				)
 			)
 		)
-		(symbol "HSSM-HVPCB:fuse_5A_250VAC_SF-3812TL500T-2"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "fuse_5A_250VAC_SF-3812TL500T-2"
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/sf-3812tl-t.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "fuse_5A_250VAC_SF-3812TL500T-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "SF-3812TL500T-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Bourns"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "fuse_5A_250VAC_SF-3812TL500T-2_0_1"
-				(rectangle
-					(start -1.27 0.508)
-					(end 1.27 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "fuse_5A_250VAC_SF-3812TL500T-2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "HSSM-HVPCB:power_meter_CS5480-INZ"
 			(pin_names
 				(offset 0.254)
@@ -4902,138 +4936,6 @@
 				)
 			)
 		)
-		(symbol "power:Earth"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "Earth"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"Earth\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global ground gnd"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Earth_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Earth_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -5365,6 +5267,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 118.11) (xy 63.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f21d1b1-e69d-4d4f-82df-337eb5a3731a")
+	)
+	(wire
+		(pts
 			(xy 38.1 116.84) (xy 40.64 116.84)
 		)
 		(stroke
@@ -5425,6 +5337,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 170.18) (xy 63.5 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf06140-5095-49bc-8160-62104fe45ae4")
+	)
+	(wire
+		(pts
 			(xy 204.47 71.12) (xy 204.47 76.2)
 		)
 		(stroke
@@ -5442,6 +5364,16 @@
 			(type default)
 		)
 		(uuid "2d6f86e0-ac54-42f6-9062-e19998f0251f")
+	)
+	(wire
+		(pts
+			(xy 63.5 161.29) (xy 63.5 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3436d5f5-b35b-44e8-a710-7b975ae29b1c")
 	)
 	(wire
 		(pts
@@ -5525,16 +5457,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 105.41) (xy 133.35 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eb80361-e6c8-405b-845b-20c8f2195d54")
-	)
-	(wire
-		(pts
 			(xy 53.34 109.22) (xy 53.34 110.49)
 		)
 		(stroke
@@ -5605,6 +5527,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 92.71) (xy 63.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6025f6af-904f-4b40-812b-e005c270a9bd")
+	)
+	(wire
+		(pts
 			(xy 160.02 105.41) (xy 204.47 105.41)
 		)
 		(stroke
@@ -5622,6 +5554,16 @@
 			(type default)
 		)
 		(uuid "665142f3-d3db-4383-9107-c49b1651da63")
+	)
+	(wire
+		(pts
+			(xy 63.5 109.22) (xy 63.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a2a344-abfe-4bdd-b171-9a9d7c57143f")
 	)
 	(wire
 		(pts
@@ -5725,16 +5667,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 93.98) (xy 133.35 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9082ce61-2719-466f-a013-4e702c6f4c84")
-	)
-	(wire
-		(pts
 			(xy 240.03 71.12) (xy 240.03 74.93)
 		)
 		(stroke
@@ -5772,6 +5704,16 @@
 			(type default)
 		)
 		(uuid "96b04162-56bb-41a2-ae11-08b91be0cfd0")
+	)
+	(wire
+		(pts
+			(xy 63.5 144.78) (xy 63.5 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05fad7e-c6bc-4348-976c-558577174541")
 	)
 	(wire
 		(pts
@@ -6787,6 +6729,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 63.5 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b7d9c85-b998-4b13-ad30-d3527adae018")
+		(property "Reference" "#PWR016"
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_IN"
+			(at 63.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 63.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef12119f-36e8-434a-b025-5797a5bc39a5")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 256.54 85.09 0)
 		(unit 1)
@@ -6980,6 +6988,201 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-HVPCB:F_4A_SlowBlow_Holder_UMZ250_3404.2422.11")
+		(at 63.5 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31f2737c-acfb-4df1-857a-7ef58d8be639")
+		(property "Reference" "F3"
+			(at 64.77 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "F_4A_SlowBlow_Holder_UMZ250_3404.2422.11"
+			(at 71.374 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:F_Holder_UMZ250"
+			(at 73.914 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://us.schurter.com/en/datasheet/typ_UMZ_250.pdf"
+			(at 76.454 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "4A Slow Blow Fuse, Holder, UMZ 250 Series, Schurter"
+			(at 63.5 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3404.2422.11"
+			(at 78.994 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Schurter"
+			(at 81.534 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 84.074 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 86.614 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "4A Slow Blow"
+			(at 64.77 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "808904e4-5d75-41e2-bb61-510a4ed4114a")
+		)
+		(pin "2"
+			(uuid "d9c81753-f059-4da4-ba4b-8d99837d2ac9")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 133.35 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "346db7ce-9082-4e0a-8d38-f93a4fdd7798")
+		(property "Reference" "#PWR02"
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_N"
+			(at 127 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7fc3578-a25d-483d-8b16-f4dc47ca61c3")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:D_rect_1A_1000V_SOD123_1N4007W")
 		(at 240.03 78.74 270)
 		(unit 1)
@@ -7102,6 +7305,134 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:F_4A_SlowBlow_Holder_UMZ250_3404.2422.11")
+		(at 63.5 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38fceee9-0653-45e3-a95b-c66401a7e6e5")
+		(property "Reference" "F4"
+			(at 64.77 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "F_4A_SlowBlow_Holder_UMZ250_3404.2422.11"
+			(at 71.374 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:F_Holder_UMZ250"
+			(at 73.914 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://us.schurter.com/en/datasheet/typ_UMZ_250.pdf"
+			(at 76.454 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "4A Slow Blow Fuse, Holder, UMZ 250 Series, Schurter"
+			(at 63.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3404.2422.11"
+			(at 78.994 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Schurter"
+			(at 81.534 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 84.074 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 86.614 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "4A Slow Blow"
+			(at 64.77 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "808904e4-5d75-41e2-bb61-510a4ed4114a")
+		)
+		(pin "2"
+			(uuid "d9c81753-f059-4da4-ba4b-8d99837d2ac9")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -7234,6 +7565,72 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 63.5 173.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d468f88-9b5e-4d4e-9cfb-bb46b2165c19")
+		(property "Reference" "#PWR017"
+			(at 63.5 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_Q2"
+			(at 63.5 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 63.5 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dc92340-030e-4a0d-bc8c-e2201ed35dd5")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7501,7 +7898,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:terminal_1x10_2601-1110_wago")
-		(at 102.87 175.26 90)
+		(at 119.38 182.88 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7510,7 +7907,7 @@
 		(dnp no)
 		(uuid "500b14e1-0265-4644-99f8-755bca1c5f36")
 		(property "Reference" "J2"
-			(at 104.14 179.07 90)
+			(at 120.65 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7518,7 +7915,7 @@
 			)
 		)
 		(property "Value" "2601-1110"
-			(at 104.14 181.61 90)
+			(at 120.65 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +7923,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 175.26 0)
+			(at 119.38 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,7 +7932,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/3775116.pdf"
-			(at 102.87 175.26 0)
+			(at 119.38 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7941,7 @@
 			)
 		)
 		(property "Description" "terminal_1x10_2601-1110_wago"
-			(at 102.87 175.26 0)
+			(at 119.38 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,7 +7950,7 @@
 			)
 		)
 		(property "MPN" "2601-1110"
-			(at 104.14 184.15 90)
+			(at 120.65 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7561,7 +7958,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 104.14 186.69 90)
+			(at 120.65 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7602,94 +7999,6 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-HVPCB:fuse_5A_250VAC_SF-3812TL500T-2")
-		(at 97.79 140.97 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a83819c-609d-41a3-9e8c-7b567e374636")
-		(property "Reference" "F1"
-			(at 99.06 137.1599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "fuse_5A_250VAC_SF-3812TL500T-2"
-			(at 99.06 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/sf-3812tl-t.pdf"
-			(at 97.79 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "fuse_5A_250VAC_SF-3812TL500T-2"
-			(at 97.79 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SF-3812TL500T-2"
-			(at 99.06 142.2399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 99.06 144.7799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "e900a6d0-154f-419f-b505-115439d72533")
-		)
-		(pin "2"
-			(uuid "5f4b869e-9ae7-4ae4-a837-b8f8fca90a67")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -8492,6 +8801,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 63.5 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d9fb2cf-c050-4aae-bc2b-3b175b232d7e")
+		(property "Reference" "#PWR018"
+			(at 63.5 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_IN"
+			(at 63.5 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "217315e7-73db-48cd-96d9-8ffd582d8c31")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:D_rect_1A_1000V_SOD123_1N4007W")
 		(at 143.51 93.98 180)
 		(unit 1)
@@ -9197,6 +9572,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 63.5 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9cb7530-11ac-42ed-a306-79566267f4a7")
+		(property "Reference" "#PWR012"
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_Q1"
+			(at 63.5 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 63.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41b83899-bf0d-4a33-a8b2-cfe93e406c71")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:L_1.5mH_20pct_1500uH_LPS4012-155MRC")
 		(at 153.67 93.98 0)
 		(unit 1)
@@ -9317,6 +9758,72 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 101.6 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c116d89a-b284-46b7-b0e5-e3f477c6628c")
+		(property "Reference" "#PWR011"
+			(at 101.6 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_?"
+			(at 101.6 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 101.6 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7971017-b3f4-4868-a577-11d66ff8de18")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9548,74 +10055,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 133.35 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c79c06c2-0446-4f31-93a7-a8b37c6c4ef9")
-		(property "Reference" "#PWR02"
-			(at 133.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 133.35 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 133.35 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cff84e65-3510-44e6-8ae3-272e90a48417")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HSSM-HVPCB:terminal_1x10_2086-1103_wago")
-		(at 129.54 161.29 0)
+		(at 147.32 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9624,7 +10065,7 @@
 		(fields_autoplaced yes)
 		(uuid "c833d9e5-0e53-45cd-a112-5fe3febd8847")
 		(property "Reference" "J1"
-			(at 132.08 157.4799 0)
+			(at 149.86 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9633,7 +10074,7 @@
 			)
 		)
 		(property "Value" "2086-1103"
-			(at 132.08 160.0199 0)
+			(at 149.86 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9642,7 +10083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 161.29 0)
+			(at 147.32 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9651,7 +10092,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2669/2086-1103.pdf"
-			(at 129.54 161.29 0)
+			(at 147.32 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9660,7 +10101,7 @@
 			)
 		)
 		(property "Description" "terminal_1x03_2086-1103_wago"
-			(at 129.54 161.29 0)
+			(at 147.32 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9669,7 +10110,7 @@
 			)
 		)
 		(property "MPN" "2086-1103"
-			(at 132.08 162.5599 0)
+			(at 149.86 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9678,7 +10119,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 132.08 165.0999 0)
+			(at 149.86 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9705,96 +10146,8 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:fuse_5A_250VAC_SF-3812TL500T-2")
-		(at 96.52 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8fdb04d-3c50-4b9f-a653-38fc2111204f")
-		(property "Reference" "F2"
-			(at 97.79 116.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "fuse_5A_250VAC_SF-3812TL500T-2"
-			(at 97.79 119.3799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/sf-3812tl-t.pdf"
-			(at 96.52 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "fuse_5A_250VAC_SF-3812TL500T-2"
-			(at 96.52 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SF-3812TL500T-2"
-			(at 97.79 121.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 97.79 124.4599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "e900a6d0-154f-419f-b505-115439d72533")
-		)
-		(pin "2"
-			(uuid "5f4b869e-9ae7-4ae4-a837-b8f8fca90a67")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:AC")
-		(at 133.35 91.44 0)
+		(at 133.35 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9803,6 +10156,24 @@
 		(fields_autoplaced yes)
 		(uuid "c991cb47-f717-4d09-8913-27c5a48552cc")
 		(property "Reference" "#PWR03"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_IN"
+			(at 127 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
 			(at 133.35 93.98 0)
 			(effects
 				(font
@@ -9811,25 +10182,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AC"
-			(at 133.35 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Datasheet" ""
-			(at 133.35 91.44 0)
+			(at 133.35 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9838,7 +10192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 133.35 91.44 0)
+			(at 133.35 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
