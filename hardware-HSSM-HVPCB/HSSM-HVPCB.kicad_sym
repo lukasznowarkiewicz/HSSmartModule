@@ -5439,6 +5439,30 @@
 			)
 			(polyline
 				(pts
+					(xy 3.302 0.508) (xy 5.08 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.302 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
 					(xy -5.08 1.016) (xy -3.048 1.016) (xy -3.048 1.016)
 				)
 				(stroke
@@ -5487,22 +5511,10 @@
 			)
 			(polyline
 				(pts
-					(xy 3.302 -1.524) (xy 3.302 -2.54) (xy 5.842 -2.54)
+					(xy 3.302 1.778) (xy 3.302 -2.032) (xy 3.302 -2.032)
 				)
 				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.302 1.524) (xy 3.302 2.54) (xy 5.842 2.54)
-				)
-				(stroke
-					(width 0.254)
+					(width 0.508)
 					(type default)
 				)
 				(fill
@@ -5559,6 +5571,18 @@
 			)
 			(polyline
 				(pts
+					(xy 3.81 -1.778) (xy 4.318 -1.27) (xy 4.826 -2.286) (xy 3.81 -1.778) (xy 3.81 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
 					(xy -5.08 -1.016) (xy -3.048 -1.016) (xy -4.064 1.016) (xy -5.08 -1.016) (xy -5.08 -1.016) (xy -5.08 -1.016)
 				)
 				(stroke
@@ -5581,19 +5605,32 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 2.54 1.524)
-				(end 4.064 -1.524)
+		)
+		(symbol "U_Optocoupler_LTV-354T_1_1"
+			(circle
+				(center -4.064 -2.54)
+				(radius 0.254)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 132 0 0 1)
 				)
 			)
-		)
-		(symbol "U_Optocoupler_LTV-354T_1_1"
+			(circle
+				(center -4.064 2.54)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 132 0 0 1)
+				)
+			)
 			(pin passive line
 				(at -7.62 2.54 0)
 				(length 2.54)
