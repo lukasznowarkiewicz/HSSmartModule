@@ -3,7 +3,10 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "e1056638-7c6b-48e4-9e2e-c0f7b783eee5")
-	(paper "A4")
+	(paper "A3")
+	(title_block
+		(title "HSSM-HVPCB")
+	)
 	(lib_symbols
 		(symbol "HSSM-HVPCB:ACDC_converter_LNK3204D-TL_power_intergrations"
 			(exclude_from_sim no)
@@ -811,6 +814,189 @@
 				)
 			)
 			(symbol "C_10u_10pct_25V_0603_GRM188R61E106KA73D_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HSSM-HVPCB:C_1uF_10pct_16V_0603_GCM188R71C105KA64D"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_1uF_10pct_16V_0603_GCM188R71C105KA64D"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-HVPCB:C_0603"
+				(at 0 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
+				(at 0 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ceramic Capacitor, 1µF, ±10%, 16V, X7R, 0603, Murata"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GCM188R71C105KA64D"
+				(at 0 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 0 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Lukasz Nowarkiewicz"
+				(at 0 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "1µF"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "Capacitor, 1µF, 10%, 16V, X7R, 0603, Murata"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1uF_10pct_16V_0603_GCM188R71C105KA64D_0_1"
+				(polyline
+					(pts
+						(xy -0.508 -1.524) (xy -0.508 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.524) (xy 0.508 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1uF_10pct_16V_0603_GCM188R71C105KA64D_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 2.032)
@@ -3030,6 +3216,176 @@
 				)
 			)
 		)
+		(symbol "HSSM-HVPCB:R_10k_1pct_0402_RC0402FR-0710KL"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_10k_1pct_0402_RC0402FR-0710KL"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-HVPCB:R_0402"
+				(at 0 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+				(at 0 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Thick Film Resistor, 10kΩ, ±1%, 0.063W, 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RC0402FR-0710KL"
+				(at 0 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Lukasz Nowarkiewicz"
+				(at 0 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "10kΩ"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "Resistor, 10kΩ, 1%, 0402, SMD, Thick Film, Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_10k_1pct_0402_RC0402FR-0710KL_0_1"
+				(rectangle
+					(start -1.905 0.889)
+					(end 1.905 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_10k_1pct_0402_RC0402FR-0710KL_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HSSM-HVPCB:R_11k8_1pct_0402_RC0402FR-0711K8L"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -3162,6 +3518,176 @@
 				)
 			)
 			(symbol "R_11k8_1pct_0402_RC0402FR-0711K8L_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HSSM-HVPCB:R_200k_0.1pct_1206_VT1206BRD07200KL"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_200k_0.1pct_1206_VT1206BRD07200KL"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-HVPCB:R_1206"
+				(at 0 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/PYu_VT_51_RoHS_L_0-3159401.pdf"
+				(at 0 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Thin Film Resistor, 200kΩ, ±0.1%, 0.125W, 1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "VT1206BRD07200KL"
+				(at 0 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Lukasz Nowarkiewicz"
+				(at 0 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "200kΩ"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "Resistor, 200kΩ, 0.1%, 1206, SMD, Thin Film, Vishay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_200k_0.1pct_1206_VT1206BRD07200KL_0_1"
+				(rectangle
+					(start -1.905 0.889)
+					(end 1.905 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_200k_0.1pct_1206_VT1206BRD07200KL_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 0.635)
@@ -3871,6 +4397,428 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HSSM-HVPCB:U_Optocoupler_LTV-354T"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTV-354T"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-HVPCB:U_SOP4"
+				(at 0 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.pl/pl/products/detail/liteon/LTV-354T/385796?srsltid=AfmBOoq4oHF5YULt673NiO7zb96rcuAq5-u3askGrcwFeT-NDLS5hnGi"
+				(at 0 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Optocoupler, Phototransistor Output, 4-Pin SOP, 5000Vrms, Lite-On"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "LTV-354T"
+				(at 0 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Lite-On"
+				(at 0 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Lukasz Nowarkiewicz"
+				(at 0 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "LTV-354T"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "Optocoupler, Phototransistor, 4-Pin SOP, LTV-354T, Lite-On"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "U_Optocoupler_LTV-354T_0_1"
+				(rectangle
+					(start -5.842 3.81)
+					(end 5.842 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.508) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.302 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.016) (xy -3.048 1.016) (xy -3.048 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy -2.286 -1.016) (xy -2.286 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 2.032 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 2.032 1.016) (xy 2.032 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 1.778) (xy 3.302 -2.032) (xy 3.302 -2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.842 -2.54) (xy -4.064 -2.54) (xy -4.064 2.54) (xy -5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 -2.54) (xy -1.27 -2.54) (xy -1.27 2.54) (xy -2.794 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0) (xy 1.27 -0.508) (xy 1.27 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 1.016) (xy 1.27 0.508) (xy 1.27 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.778) (xy 4.318 -1.27) (xy 4.826 -2.286) (xy 3.81 -1.778) (xy 3.81 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.016) (xy -3.048 -1.016) (xy -4.064 1.016) (xy -5.08 -1.016) (xy -5.08 -1.016) (xy -5.08 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -2.286 1.016) (xy -1.27 -1.016) (xy -0.254 1.016) (xy -0.254 1.016) (xy -0.254 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "U_Optocoupler_LTV-354T_1_1"
+				(circle
+					(center -4.064 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 132 0 0 1)
+					)
+				)
+				(circle
+					(center -4.064 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 132 0 0 1)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5012,6 +5960,126 @@
 				)
 			)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:AC"
 			(power)
 			(pin_numbers hide)
@@ -5241,152 +6309,164 @@
 		)
 	)
 	(junction
-		(at 240.03 105.41)
+		(at 369.57 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0499847c-34f5-464c-868d-8a91ea1c36f2")
 	)
 	(junction
-		(at 224.79 86.36)
+		(at 354.33 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ba71355-fbf2-4495-874b-0363cc917d4a")
 	)
 	(junction
-		(at 193.04 86.36)
+		(at 322.58 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c5b0f10-c0c1-45a9-94dd-d4db3b151bac")
 	)
 	(junction
-		(at 53.34 144.78)
+		(at 363.22 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1af3ba37-05a6-46aa-b48c-a9b4df5538c7")
 	)
 	(junction
-		(at 224.79 71.12)
+		(at 354.33 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b390491-31d2-4368-a280-e1556a3e94dc")
 	)
 	(junction
-		(at 22.86 168.91)
+		(at 332.74 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d684ac7-6435-4000-8cd5-58c7d3d9241a")
 	)
 	(junction
-		(at 160.02 105.41)
+		(at 289.56 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "366b4cce-d785-45b9-8600-6975b9ecadbb")
 	)
 	(junction
-		(at 53.34 110.49)
+		(at 290.83 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "488e3fc4-c6fb-49dd-a361-45084142b56e")
 	)
 	(junction
-		(at 204.47 105.41)
+		(at 334.01 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fac8ca1-52c5-4fe4-9def-7099462c60a8")
 	)
 	(junction
-		(at 240.03 86.36)
+		(at 369.57 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59fd181c-1c16-419c-b72f-06052955da13")
 	)
 	(junction
-		(at 251.46 86.36)
+		(at 381 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73598f38-a56d-4c89-8bc2-be68747b51e6")
 	)
 	(junction
-		(at 240.03 71.12)
+		(at 369.57 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81149d60-7d57-49bb-a3dd-c030e5cd199f")
 	)
 	(junction
-		(at 193.04 90.17)
+		(at 322.58 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8840cc60-c1a9-4f2e-a7d8-e590fc891de4")
 	)
 	(junction
-		(at 53.34 92.71)
+		(at 290.83 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88af8518-f96e-4929-8751-e71c1de00ca5")
 	)
 	(junction
-		(at 40.64 168.91)
+		(at 350.52 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e81ce73-7594-4a6c-9d53-c682667fb2f4")
 	)
 	(junction
-		(at 40.64 116.84)
+		(at 278.13 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9721be20-9af6-4c15-b7ef-37839c52509f")
 	)
 	(junction
-		(at 193.04 82.55)
+		(at 322.58 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a417b7f5-2abd-466a-ad88-269c17c856a5")
 	)
 	(junction
-		(at 204.47 86.36)
+		(at 334.01 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aabee05c-8bc0-47aa-8cdd-52c7e8681533")
 	)
 	(junction
-		(at 162.56 68.58)
+		(at 292.1 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad2ec8c0-0a36-41f7-8b80-925fbea625a1")
 	)
 	(junction
-		(at 53.34 162.56)
+		(at 386.08 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7800d6c-cbed-492c-84d0-63e107cc12b6")
+	)
+	(junction
+		(at 363.22 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e83f6437-137c-4ffe-8778-73afd0731054")
 	)
 	(junction
-		(at 24.13 116.84)
+		(at 261.62 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e88ffbfc-f14e-4696-a088-847cdc7b7c2d")
 	)
 	(junction
-		(at 160.02 93.98)
+		(at 302.26 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9fbae1f-2bed-43f2-bbd8-13ec750af0c3")
+	)
+	(junction
+		(at 289.56 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb665e6c-ba59-431b-993b-5cb53210fd74")
 	)
 	(junction
-		(at 251.46 105.41)
+		(at 381 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f176c598-d13c-4f84-bf43-7e8443996bf3")
 	)
 	(junction
-		(at 204.47 71.12)
+		(at 334.01 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd27395f-1560-4668-ab49-0edbb46d7dac")
 	)
 	(wire
 		(pts
-			(xy 44.45 97.79) (xy 44.45 92.71)
+			(xy 281.94 152.4) (xy 281.94 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5396,7 +6476,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 59.69) (xy 240.03 59.69)
+			(xy 345.44 25.4) (xy 369.57 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5406,7 +6486,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 144.78) (xy 53.34 146.05)
+			(xy 363.22 148.59) (xy 363.22 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5416,7 +6496,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 92.71) (xy 53.34 92.71)
+			(xy 386.08 116.84) (xy 386.08 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "086e2a88-4cda-45ea-a3e9-121352b7fdb0")
+	)
+	(wire
+		(pts
+			(xy 281.94 147.32) (xy 290.83 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5426,7 +6516,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 168.91) (xy 40.64 168.91)
+			(xy 347.98 172.72) (xy 350.52 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5436,7 +6526,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 168.91) (xy 40.64 171.45)
+			(xy 350.52 172.72) (xy 350.52 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5446,7 +6536,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 105.41) (xy 240.03 105.41)
+			(xy 334.01 71.12) (xy 369.57 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5456,7 +6546,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 97.79) (xy 251.46 105.41)
+			(xy 381 63.5) (xy 381 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5466,7 +6556,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 116.84) (xy 24.13 119.38)
+			(xy 261.62 171.45) (xy 261.62 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5476,7 +6566,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 162.56) (xy 53.34 162.56)
+			(xy 354.33 166.37) (xy 363.22 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5486,7 +6576,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 82.55) (xy 190.5 82.55)
+			(xy 322.58 48.26) (xy 320.04 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5496,7 +6586,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 186.69) (xy 22.86 187.96)
+			(xy 332.74 190.5) (xy 332.74 191.77)
 		)
 		(stroke
 			(width 0)
@@ -5506,7 +6596,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 118.11) (xy 63.5 123.19)
+			(xy 358.14 110.49) (xy 363.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0c78bc-5372-43b7-a7d7-1fa146840709")
+	)
+	(wire
+		(pts
+			(xy 300.99 172.72) (xy 300.99 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5516,7 +6616,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 116.84) (xy 40.64 116.84)
+			(xy 275.59 171.45) (xy 278.13 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5526,7 +6626,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 64.77) (xy 204.47 64.77)
+			(xy 288.29 30.48) (xy 334.01 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5536,7 +6636,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 121.92) (xy 53.34 127)
+			(xy 290.83 176.53) (xy 290.83 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5546,7 +6646,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 93.98) (xy 151.13 93.98)
+			(xy 276.86 59.69) (xy 280.67 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5556,7 +6656,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 144.78) (xy 53.34 144.78)
+			(xy 354.33 148.59) (xy 363.22 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5566,7 +6666,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 162.56) (xy 53.34 163.83)
+			(xy 363.22 166.37) (xy 363.22 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5576,7 +6676,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 170.18) (xy 63.5 173.99)
+			(xy 373.38 173.99) (xy 373.38 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5586,7 +6686,17 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 71.12) (xy 204.47 76.2)
+			(xy 386.08 110.49) (xy 386.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2086e9-d49a-421f-804e-5414a020eef7")
+	)
+	(wire
+		(pts
+			(xy 334.01 36.83) (xy 334.01 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5596,7 +6706,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 116.84) (xy 40.64 116.84)
+			(xy 283.21 171.45) (xy 278.13 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5606,7 +6716,27 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 161.29) (xy 63.5 165.1)
+			(xy 386.08 100.33) (xy 386.08 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e277f8c-f39b-4861-bc47-2af3423d7621")
+	)
+	(wire
+		(pts
+			(xy 294.64 115.57) (xy 295.91 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301b96bd-c3c9-4103-9294-d5abe8d1abff")
+	)
+	(wire
+		(pts
+			(xy 373.38 165.1) (xy 373.38 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5616,7 +6746,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 64.77) (xy 204.47 71.12)
+			(xy 334.01 30.48) (xy 334.01 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5626,7 +6756,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 91.44) (xy 53.34 92.71)
+			(xy 290.83 146.05) (xy 290.83 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5636,7 +6766,27 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 59.69) (xy 240.03 71.12)
+			(xy 252.73 110.49) (xy 257.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39cb0373-66cf-45be-a5b0-1aca750c9ff0")
+	)
+	(wire
+		(pts
+			(xy 274.32 110.49) (xy 279.4 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a6661e2-4302-465c-b6bd-07c43a6d1a1d")
+	)
+	(wire
+		(pts
+			(xy 369.57 25.4) (xy 369.57 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5646,7 +6796,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 93.98) (xy 160.02 93.98)
+			(xy 285.75 59.69) (xy 289.56 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5656,7 +6806,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 59.69) (xy 162.56 68.58)
+			(xy 292.1 25.4) (xy 292.1 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5666,7 +6816,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 105.41) (xy 256.54 107.95)
+			(xy 386.08 71.12) (xy 386.08 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5676,7 +6826,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 157.48) (xy 44.45 162.56)
+			(xy 354.33 161.29) (xy 354.33 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5686,7 +6836,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 99.06) (xy 204.47 105.41)
+			(xy 334.01 64.77) (xy 334.01 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5696,7 +6846,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 109.22) (xy 53.34 110.49)
+			(xy 290.83 163.83) (xy 290.83 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5706,7 +6856,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 85.09) (xy 256.54 86.36)
+			(xy 386.08 50.8) (xy 386.08 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5716,7 +6866,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 71.12) (xy 204.47 71.12)
+			(xy 340.36 36.83) (xy 334.01 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5726,7 +6876,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 86.36) (xy 224.79 86.36)
+			(xy 334.01 52.07) (xy 354.33 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5736,7 +6886,17 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 96.52) (xy 240.03 105.41)
+			(xy 302.26 110.49) (xy 318.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5735685b-55c1-44bf-9a8d-3f87c8d2838b")
+	)
+	(wire
+		(pts
+			(xy 369.57 62.23) (xy 369.57 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5746,7 +6906,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 86.36) (xy 256.54 86.36)
+			(xy 381 52.07) (xy 386.08 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5756,7 +6916,17 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 179.07) (xy 22.86 181.61)
+			(xy 302.26 100.33) (xy 302.26 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e9a8bf-3939-43c0-8568-58e30d86df1f")
+	)
+	(wire
+		(pts
+			(xy 332.74 182.88) (xy 332.74 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5766,7 +6936,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 105.41) (xy 133.35 105.41)
+			(xy 269.24 71.12) (xy 262.89 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5776,7 +6946,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 92.71) (xy 63.5 93.98)
+			(xy 300.99 147.32) (xy 300.99 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5786,7 +6956,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 105.41) (xy 204.47 105.41)
+			(xy 289.56 71.12) (xy 334.01 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5796,7 +6966,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 92.71) (xy 53.34 93.98)
+			(xy 290.83 147.32) (xy 290.83 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5806,7 +6976,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 109.22) (xy 63.5 113.03)
+			(xy 300.99 163.83) (xy 300.99 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5816,7 +6986,27 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 93.98) (xy 165.1 93.98)
+			(xy 386.08 110.49) (xy 402.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0f1cee-d976-4ede-b0ff-a76ba681c4b1")
+	)
+	(wire
+		(pts
+			(xy 294.64 110.49) (xy 302.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711a09ac-66e5-4521-becd-a08f969e1d70")
+	)
+	(wire
+		(pts
+			(xy 289.56 59.69) (xy 294.64 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5826,7 +7016,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 116.84) (xy 24.13 116.84)
+			(xy 252.73 171.45) (xy 261.62 171.45)
 		)
 		(stroke
 			(width 0)
@@ -5836,7 +7026,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 86.36) (xy 240.03 91.44)
+			(xy 369.57 52.07) (xy 369.57 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5846,7 +7036,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 68.58) (xy 162.56 82.55)
+			(xy 292.1 34.29) (xy 292.1 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5856,7 +7046,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 86.36) (xy 234.95 86.36)
+			(xy 369.57 52.07) (xy 364.49 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5866,7 +7056,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 68.58) (xy 162.56 68.58)
+			(xy 302.26 116.84) (xy 302.26 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809c5cad-a245-4318-a0c8-697bad7ecc7f")
+	)
+	(wire
+		(pts
+			(xy 322.58 34.29) (xy 292.1 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5876,7 +7076,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 59.69) (xy 162.56 59.69)
+			(xy 340.36 25.4) (xy 292.1 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5886,7 +7086,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 93.98) (xy 133.35 93.98)
+			(xy 269.24 59.69) (xy 262.89 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5896,7 +7096,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 78.74) (xy 193.04 82.55)
+			(xy 322.58 44.45) (xy 322.58 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5906,7 +7106,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 124.46) (xy 40.64 127)
+			(xy 278.13 179.07) (xy 278.13 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5916,7 +7116,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 71.12) (xy 240.03 74.93)
+			(xy 369.57 36.83) (xy 369.57 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5926,7 +7126,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 86.36) (xy 158.75 64.77)
+			(xy 288.29 52.07) (xy 288.29 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5936,7 +7136,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 161.29) (xy 53.34 162.56)
+			(xy 363.22 165.1) (xy 363.22 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5946,7 +7146,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 101.6) (xy 160.02 105.41)
+			(xy 289.56 67.31) (xy 289.56 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5956,7 +7156,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 168.91) (xy 22.86 171.45)
+			(xy 332.74 172.72) (xy 332.74 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5966,7 +7166,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 144.78) (xy 63.5 146.05)
+			(xy 373.38 148.59) (xy 373.38 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5976,7 +7176,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 81.28) (xy 224.79 86.36)
+			(xy 354.33 46.99) (xy 354.33 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5986,7 +7186,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 90.17) (xy 193.04 86.36)
+			(xy 322.58 55.88) (xy 322.58 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5996,7 +7196,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 105.41) (xy 44.45 110.49)
+			(xy 281.94 160.02) (xy 281.94 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6006,7 +7206,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 173.99) (xy 53.34 179.07)
+			(xy 363.22 177.8) (xy 363.22 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6016,7 +7216,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 93.98) (xy 193.04 93.98)
+			(xy 320.04 59.69) (xy 322.58 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6026,7 +7226,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 127) (xy 24.13 129.54)
+			(xy 261.62 181.61) (xy 261.62 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6036,7 +7236,17 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 105.41) (xy 251.46 105.41)
+			(xy 346.71 110.49) (xy 353.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb1d45c-491a-41da-9620-72fde8e2d457")
+	)
+	(wire
+		(pts
+			(xy 369.57 71.12) (xy 381 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6046,7 +7256,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 86.36) (xy 158.75 86.36)
+			(xy 294.64 52.07) (xy 288.29 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6056,7 +7266,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 93.98) (xy 160.02 96.52)
+			(xy 289.56 59.69) (xy 289.56 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6066,7 +7276,27 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 82.55) (xy 162.56 82.55)
+			(xy 336.55 110.49) (xy 341.63 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d649e3-6f75-423f-b054-645a6b112eb6")
+	)
+	(wire
+		(pts
+			(xy 379.73 115.57) (xy 379.73 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51bb11b-b416-4ab7-a5fc-8dc9460e9dea")
+	)
+	(wire
+		(pts
+			(xy 294.64 48.26) (xy 292.1 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6076,7 +7306,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 149.86) (xy 44.45 144.78)
+			(xy 354.33 153.67) (xy 354.33 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6086,7 +7316,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 143.51) (xy 53.34 144.78)
+			(xy 363.22 147.32) (xy 363.22 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6096,7 +7326,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 86.36) (xy 204.47 86.36)
+			(xy 322.58 52.07) (xy 334.01 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6106,7 +7336,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 90.17) (xy 193.04 90.17)
+			(xy 320.04 55.88) (xy 322.58 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6116,7 +7346,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 82.55) (xy 240.03 86.36)
+			(xy 369.57 48.26) (xy 369.57 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6126,7 +7356,17 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 168.91) (xy 33.02 168.91)
+			(xy 378.46 115.57) (xy 379.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5a6296-d46a-413d-86bb-21f4f86b9bfb")
+	)
+	(wire
+		(pts
+			(xy 332.74 172.72) (xy 342.9 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6136,7 +7376,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 134.62) (xy 24.13 135.89)
+			(xy 261.62 189.23) (xy 261.62 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6146,7 +7386,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 71.12) (xy 224.79 76.2)
+			(xy 354.33 36.83) (xy 354.33 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6156,7 +7396,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 86.36) (xy 190.5 86.36)
+			(xy 322.58 52.07) (xy 320.04 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6166,7 +7406,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 71.12) (xy 224.79 71.12)
+			(xy 345.44 36.83) (xy 354.33 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6176,7 +7416,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 168.91) (xy 40.64 168.91)
+			(xy 355.6 172.72) (xy 350.52 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6186,7 +7426,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 176.53) (xy 40.64 179.07)
+			(xy 350.52 180.34) (xy 350.52 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6196,7 +7436,37 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 86.36) (xy 251.46 92.71)
+			(xy 262.89 110.49) (xy 269.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc63ad6e-8ffc-4941-8d5f-df4b4b57aad7")
+	)
+	(wire
+		(pts
+			(xy 336.55 115.57) (xy 363.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f3e059-f90e-444d-89ed-fd590a71ef2a")
+	)
+	(wire
+		(pts
+			(xy 378.46 110.49) (xy 386.08 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63cefd3-2ac9-485e-8450-791435fa3e17")
+	)
+	(wire
+		(pts
+			(xy 381 52.07) (xy 381 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6206,7 +7476,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 105.41) (xy 256.54 105.41)
+			(xy 381 71.12) (xy 386.08 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6216,7 +7486,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 110.49) (xy 53.34 110.49)
+			(xy 281.94 165.1) (xy 290.83 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6226,7 +7496,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 81.28) (xy 204.47 86.36)
+			(xy 334.01 46.99) (xy 334.01 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6236,7 +7506,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 86.36) (xy 251.46 86.36)
+			(xy 369.57 52.07) (xy 381 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6246,7 +7516,7 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 168.91) (xy 22.86 168.91)
+			(xy 323.85 172.72) (xy 332.74 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6256,7 +7526,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 105.41) (xy 160.02 105.41)
+			(xy 295.91 115.57) (xy 295.91 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79b103d-c174-4774-888d-5f44d519ac10")
+	)
+	(wire
+		(pts
+			(xy 276.86 71.12) (xy 289.56 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6266,7 +7546,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 71.12) (xy 240.03 71.12)
+			(xy 354.33 36.83) (xy 369.57 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6276,7 +7556,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 86.36) (xy 204.47 91.44)
+			(xy 334.01 52.07) (xy 334.01 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6286,7 +7566,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 82.55) (xy 193.04 86.36)
+			(xy 322.58 48.26) (xy 322.58 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6296,7 +7576,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 116.84) (xy 40.64 119.38)
+			(xy 386.08 110.49) (xy 386.08 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02dda23-1747-44fc-9abf-d555502fece2")
+	)
+	(wire
+		(pts
+			(xy 278.13 171.45) (xy 278.13 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6306,7 +7596,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 93.98) (xy 193.04 90.17)
+			(xy 322.58 59.69) (xy 322.58 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6316,7 +7606,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 116.84) (xy 33.02 116.84)
+			(xy 261.62 171.45) (xy 270.51 171.45)
 		)
 		(stroke
 			(width 0)
@@ -6326,7 +7616,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 86.36) (xy 229.87 86.36)
+			(xy 354.33 52.07) (xy 359.41 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6336,7 +7626,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 73.66) (xy 193.04 68.58)
+			(xy 302.26 110.49) (xy 302.26 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa25bbd6-30ee-410b-a042-9c8803c6b202")
+	)
+	(wire
+		(pts
+			(xy 322.58 39.37) (xy 322.58 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6346,7 +7646,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 110.49) (xy 53.34 111.76)
+			(xy 290.83 165.1) (xy 290.83 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6354,9 +7654,75 @@
 		)
 		(uuid "fd95bcd1-688d-4938-afd8-01eff15fa393")
 	)
+	(wire
+		(pts
+			(xy 252.73 115.57) (xy 279.4 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd79c71-3c10-4fc6-bd98-91f533514645")
+	)
+	(wire
+		(pts
+			(xy 302.26 110.49) (xy 302.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fead197c-6af5-4991-9073-0358ee48fe23")
+	)
+	(rectangle
+		(start 235.966 90.678)
+		(end 404.114 130.556)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 05682bcc-ef4d-4f75-883c-e5a153de15f9)
+	)
+	(rectangle
+		(start 235.966 134.874)
+		(end 404.114 204.216)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 88c707f4-1a54-44f4-8747-beeedfed6d82)
+	)
+	(rectangle
+		(start 245.618 13.462)
+		(end 404.114 89.154)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e0053d6d-f80e-434e-9efd-de876526d399)
+	)
+	(text "Output 1 and output 2 relays control"
+		(exclude_from_sim no)
+		(at 256.54 200.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13956aae-79fb-4e60-bf98-1b363175c14c")
+	)
 	(text "12V DC \n(TODO - set proper voltage with resistors)"
 		(exclude_from_sim no)
-		(at 264.16 96.774 90)
+		(at 393.7 62.484 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6366,7 +7732,7 @@
 	)
 	(text "230VAC"
 		(exclude_from_sim no)
-		(at 132.334 99.568 0)
+		(at 261.874 65.278 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6374,8 +7740,28 @@
 		)
 		(uuid "3dd31732-9fdc-45eb-953b-945883623aa0")
 	)
+	(text "230VAC -> 12VDC"
+		(exclude_from_sim no)
+		(at 256.032 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92cc24ef-b1cf-4279-be00-280f24a844d8")
+	)
+	(text "Switch 1 and switch 2 input circuitry"
+		(exclude_from_sim no)
+		(at 256.286 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd7c2d48-1f45-447f-9570-d18a15fbc0e6")
+	)
 	(label "GPIO_Q1"
-		(at 15.24 116.84 0)
+		(at 252.73 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6385,8 +7771,19 @@
 		)
 		(uuid "0c347411-115f-43d8-93d3-d49eabab3cd9")
 	)
+	(label "GPIO_S2"
+		(at 402.59 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d2e3f47-40e1-4371-a85b-c0d2c5b7930c")
+	)
 	(label "GPIO_Q2"
-		(at 13.97 168.91 0)
+		(at 323.85 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6395,6 +7792,17 @@
 			(justify left bottom)
 		)
 		(uuid "a287c18e-5cb5-4d72-b6c8-9e86b0d0fb8f")
+	)
+	(label "GPIO_S1"
+		(at 318.77 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc3590fb-1786-49c0-8cd3-05f5bcdba691")
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:power_meter_CS5480-INZ")
@@ -6553,7 +7961,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:C_6u8_20pct_400V_8mm_WCAP-ATG5_860021374009")
-		(at 160.02 99.06 270)
+		(at 289.56 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6562,7 +7970,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e569e9c-0778-4327-b979-15101db00333")
 		(property "Reference" "C2"
-			(at 162.56 97.9169 90)
+			(at 292.1 63.6269 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6572,7 +7980,7 @@
 			)
 		)
 		(property "Value" "C_6u8_20pct_400V_8mm_WCAP-ATG5_860021374009"
-			(at 152.146 99.06 0)
+			(at 281.686 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +7991,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:C_Radial_D8_L14_P3.5"
-			(at 149.606 99.06 0)
+			(at 279.146 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,7 +8002,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860021374009.pdf"
-			(at 147.066 99.06 0)
+			(at 276.606 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6605,7 +8013,7 @@
 			)
 		)
 		(property "Description" "Aluminum Electrolytic Capacitor, 6.8 µF, 400V, ±20%, Radial Leaded, 8mm Diameter, WCAP-ATG5 Series"
-			(at 160.02 99.06 0)
+			(at 289.56 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +8022,7 @@
 			)
 		)
 		(property "MPN" "860021374009"
-			(at 144.526 99.06 0)
+			(at 274.066 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,7 +8033,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 141.986 99.06 0)
+			(at 271.526 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +8044,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 139.446 99.06 0)
+			(at 268.986 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +8054,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 136.906 99.06 0)
+			(at 266.446 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +8064,7 @@
 			)
 		)
 		(property "Val" "6.8µF"
-			(at 162.56 100.4568 90)
+			(at 292.1 66.1668 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,7 +8089,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:G6DN-1A-L DC12")
-		(at 58.42 101.6 0)
+		(at 295.91 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6690,7 +8098,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c97fa36-8374-4e0b-945f-f29a3228fe00")
 		(property "Reference" "K1"
-			(at 67.31 97.7899 0)
+			(at 304.8 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6699,7 +8107,7 @@
 			)
 		)
 		(property "Value" "G6DN-1A-L DC12"
-			(at 67.31 100.3299 0)
+			(at 304.8 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6708,7 +8116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 102.87 0)
+			(at 304.8 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,7 +8126,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/2/307/en-g6dn-838135.pdf"
-			(at 58.42 101.6 0)
+			(at 295.91 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6727,7 +8135,7 @@
 			)
 		)
 		(property "Description" "Standex Meder DIP reed relay, SPST, Closing Contact"
-			(at 58.42 101.6 0)
+			(at 295.91 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,7 +8144,7 @@
 			)
 		)
 		(property "MPN" "G6DN-1A-L DC12"
-			(at 67.31 102.8699 0)
+			(at 304.8 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +8153,7 @@
 			)
 		)
 		(property "Manufacturer" "OMRON"
-			(at 67.31 105.4099 0)
+			(at 304.8 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6776,7 +8184,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:D_rect_1A_1000V_SOD123_1N4007W")
-		(at 143.51 105.41 0)
+		(at 273.05 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6785,7 +8193,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d6139e0-4f5d-4885-afd8-f59b87761536")
 		(property "Reference" "D3"
-			(at 143.51 99.06 0)
+			(at 273.05 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,7 +8202,7 @@
 			)
 		)
 		(property "Value" "D_rect_1A_1000V_SOD123_1N4007W"
-			(at 143.51 113.284 0)
+			(at 273.05 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +8213,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:D_SOD123"
-			(at 143.51 115.824 0)
+			(at 273.05 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6816,7 +8224,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6440/1N4007W.pdf"
-			(at 143.51 118.364 0)
+			(at 273.05 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6827,7 +8235,7 @@
 			)
 		)
 		(property "Description" "Rectifier Diode, 1A, 1000V, SOD123, 1N4007W"
-			(at 143.51 105.41 0)
+			(at 273.05 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6836,7 +8244,7 @@
 			)
 		)
 		(property "MPN" "1N4007W"
-			(at 143.51 120.904 0)
+			(at 273.05 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,7 +8255,7 @@
 			)
 		)
 		(property "Manufacturer" "EVVOSEMI"
-			(at 143.51 123.444 0)
+			(at 273.05 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6858,7 +8266,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 143.51 125.984 0)
+			(at 273.05 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,7 +8276,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 143.51 128.524 0)
+			(at 273.05 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +8286,7 @@
 			)
 		)
 		(property "Val" "1A 1000V"
-			(at 143.51 101.6 0)
+			(at 273.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,37 +8309,26 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:D_rect_1A_600V_SOD123FL_MURS160-E3_52T")
-		(at 204.47 95.25 270)
+		(lib_id "HSSM-HVPCB:U_Optocoupler_LTV-354T")
+		(at 370.84 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2492a873-d4c2-402b-894f-474e6a5349f5")
-		(property "Reference" "D1"
-			(at 207.01 93.98 90)
+		(fields_autoplaced yes)
+		(uuid "1f7aea73-43d2-4509-9059-848c3eb9bb84")
+		(property "Reference" "U4"
+			(at 370.84 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "D_rect_1A_600V_SOD123FL_MURS160-E3_52T"
-			(at 196.596 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:D_SOD123FL"
-			(at 194.056 95.25 0)
+		(property "Value" "LTV-354T"
+			(at 370.84 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6941,8 +8338,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0008609320/VISH-S-A0010476695-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 191.516 95.25 0)
+		(property "Footprint" "HSSM-HVPCB:U_SOP4"
+			(at 370.84 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,17 +8349,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rectifier Diode, 1A, 600V, SOD123FL, Surface Mount"
-			(at 204.47 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MURS160-E3/52T"
-			(at 188.976 95.25 0)
+		(property "Datasheet" "https://www.digikey.pl/pl/products/detail/liteon/LTV-354T/385796?srsltid=AfmBOoq4oHF5YULt673NiO7zb96rcuAq5-u3askGrcwFeT-NDLS5hnGi"
+			(at 370.84 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,8 +8360,28 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
-			(at 186.436 95.25 0)
+		(property "Description" "Optocoupler, Phototransistor Output, 4-Pin SOP, 5000Vrms, Lite-On"
+			(at 370.84 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTV-354T"
+			(at 370.84 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 370.84 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6984,7 +8392,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 183.896 95.25 0)
+			(at 370.84 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6994,7 +8402,139 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 181.356 95.25 0)
+			(at 370.84 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "LTV-354T"
+			(at 370.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c1132dc-6693-4d4a-8ee6-450286cec2a4")
+		)
+		(pin "2"
+			(uuid "4c35c77a-138a-4890-9c75-51d580b805c2")
+		)
+		(pin "4"
+			(uuid "76ed0f23-c1e0-49ec-a675-2f381716df76")
+		)
+		(pin "3"
+			(uuid "1a2f66af-eebb-490c-9699-5690d2c40328")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:D_rect_1A_600V_SOD123FL_MURS160-E3_52T")
+		(at 334.01 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2492a873-d4c2-402b-894f-474e6a5349f5")
+		(property "Reference" "D1"
+			(at 336.55 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_rect_1A_600V_SOD123FL_MURS160-E3_52T"
+			(at 326.136 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:D_SOD123FL"
+			(at 323.596 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0008609320/VISH-S-A0010476695-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+			(at 321.056 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rectifier Diode, 1A, 600V, SOD123FL, Surface Mount"
+			(at 334.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MURS160-E3/52T"
+			(at 318.516 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 315.976 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 313.436 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 310.896 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7004,7 +8544,7 @@
 			)
 		)
 		(property "Val" "1A_600V"
-			(at 207.01 96.266 90)
+			(at 336.55 61.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7029,16 +8569,16 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 63.5 92.71 0)
+		(at 336.55 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2b7d9c85-b998-4b13-ad30-d3527adae018")
-		(property "Reference" "#PWR016"
-			(at 63.5 95.25 0)
+		(uuid "27888e2f-ce33-4591-af90-87f4a4076781")
+		(property "Reference" "#PWR023"
+			(at 339.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7046,16 +8586,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AC_IN"
-			(at 63.5 85.09 0)
+		(property "Value" "AC_S2"
+			(at 330.2 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 92.71 0)
+			(at 336.55 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7064,7 +8605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 92.71 0)
+			(at 336.55 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,7 +8614,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 63.5 92.71 0)
+			(at 336.55 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08e72b56-92b9-4968-ada7-6597eb0f502b")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 300.99 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b7d9c85-b998-4b13-ad30-d3527adae018")
+		(property "Reference" "#PWR016"
+			(at 300.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_IN"
+			(at 300.99 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 300.99 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7095,7 +8702,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 256.54 85.09 0)
+		(at 386.08 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7104,7 +8711,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c4f992e-f56e-4270-a96e-9d639348afe8")
 		(property "Reference" "#PWR04"
-			(at 256.54 88.9 0)
+			(at 386.08 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7113,7 +8720,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 256.54 80.01 0)
+			(at 386.08 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +8728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 85.09 0)
+			(at 386.08 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7130,7 +8737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 85.09 0)
+			(at 386.08 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,7 +8746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 256.54 85.09 0)
+			(at 386.08 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,37 +8767,27 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:D_rect_1A_1000V_SOD123_1N4007W")
-		(at 44.45 101.6 270)
+		(lib_id "HSSM-HVPCB:R_10k_1pct_0402_RC0402FR-0710KL")
+		(at 302.26 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2cc432e4-e40b-486f-a46c-406c105fe761")
-		(property "Reference" "D5"
-			(at 39.37 100.33 90)
+		(fields_autoplaced yes)
+		(uuid "2cc01c84-94d0-4a1a-9e23-6e04e98a96cf")
+		(property "Reference" "R13"
+			(at 304.8 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "D_rect_1A_1000V_SOD123_1N4007W"
-			(at 36.576 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:D_SOD123"
-			(at 34.036 101.6 0)
+		(property "Value" "R_10k_1pct_0402_RC0402FR-0710KL"
+			(at 310.134 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7200,8 +8797,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6440/1N4007W.pdf"
-			(at 31.496 101.6 0)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 312.674 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,17 +8808,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Rectifier Diode, 1A, 1000V, SOD123, 1N4007W"
-			(at 44.45 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1N4007W"
-			(at 28.956 101.6 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 315.214 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7231,8 +8819,28 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "EVVOSEMI"
-			(at 26.416 101.6 0)
+		(property "Description" "SMD Thick Film Resistor, 10kΩ, ±1%, 0.063W, 0402"
+			(at 302.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 317.754 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 320.294 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,7 +8851,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 23.876 101.6 0)
+			(at 322.834 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7253,7 +8861,134 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 21.336 101.6 0)
+			(at 325.374 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10kΩ"
+			(at 304.8 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "0c6e2487-14f0-4cfb-bfd2-6c8eac1ee995")
+		)
+		(pin "2"
+			(uuid "5e932d09-5f24-43f4-a796-92ebe4bac550")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:D_rect_1A_1000V_SOD123_1N4007W")
+		(at 281.94 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cc432e4-e40b-486f-a46c-406c105fe761")
+		(property "Reference" "D5"
+			(at 276.86 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_rect_1A_1000V_SOD123_1N4007W"
+			(at 274.066 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:D_SOD123"
+			(at 271.526 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6440/1N4007W.pdf"
+			(at 268.986 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rectifier Diode, 1A, 1000V, SOD123, 1N4007W"
+			(at 281.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4007W"
+			(at 266.446 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "EVVOSEMI"
+			(at 263.906 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 261.366 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 258.826 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +8998,7 @@
 			)
 		)
 		(property "Val" "1A 1000V"
-			(at 32.512 103.124 90)
+			(at 270.002 157.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +9023,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:F_4A_SlowBlow_Holder_UMZ250_3404.2422.11")
-		(at 63.5 167.64 90)
+		(at 373.38 171.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7297,7 +9032,7 @@
 		(fields_autoplaced yes)
 		(uuid "31f2737c-acfb-4df1-857a-7ef58d8be639")
 		(property "Reference" "F3"
-			(at 64.77 166.37 90)
+			(at 374.65 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7307,7 +9042,7 @@
 			)
 		)
 		(property "Value" "F_4A_SlowBlow_Holder_UMZ250_3404.2422.11"
-			(at 71.374 167.64 0)
+			(at 381.254 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7318,7 +9053,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:F_Holder_UMZ250"
-			(at 73.914 167.64 0)
+			(at 383.794 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +9064,7 @@
 			)
 		)
 		(property "Datasheet" "https://us.schurter.com/en/datasheet/typ_UMZ_250.pdf"
-			(at 76.454 167.64 0)
+			(at 386.334 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7340,7 +9075,7 @@
 			)
 		)
 		(property "Description" "4A Slow Blow Fuse, Holder, UMZ 250 Series, Schurter"
-			(at 63.5 167.64 0)
+			(at 373.38 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7349,7 +9084,7 @@
 			)
 		)
 		(property "MPN" "3404.2422.11"
-			(at 78.994 167.64 0)
+			(at 388.874 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +9095,7 @@
 			)
 		)
 		(property "Manufacturer" "Schurter"
-			(at 81.534 167.64 0)
+			(at 391.414 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +9106,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 84.074 167.64 0)
+			(at 393.954 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7381,7 +9116,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 86.614 167.64 0)
+			(at 396.494 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,7 +9126,7 @@
 			)
 		)
 		(property "Val" "4A Slow Blow"
-			(at 64.77 168.9099 90)
+			(at 374.65 172.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7416,7 +9151,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 133.35 105.41 90)
+		(at 262.89 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7425,7 +9160,7 @@
 		(fields_autoplaced yes)
 		(uuid "346db7ce-9082-4e0a-8d38-f93a4fdd7798")
 		(property "Reference" "#PWR02"
-			(at 135.89 105.41 0)
+			(at 265.43 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,7 +9169,7 @@
 			)
 		)
 		(property "Value" "AC_N"
-			(at 127 105.4099 90)
+			(at 256.54 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +9178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 105.41 0)
+			(at 262.89 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,7 +9187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 105.41 0)
+			(at 262.89 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7461,7 +9196,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 133.35 105.41 0)
+			(at 262.89 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,7 +9218,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:D_rect_1A_1000V_SOD123_1N4007W")
-		(at 240.03 78.74 270)
+		(at 369.57 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7492,7 +9227,7 @@
 		(fields_autoplaced yes)
 		(uuid "34e7a02e-73ca-41e9-90a4-cb5ae92a9332")
 		(property "Reference" "D4"
-			(at 242.57 77.47 90)
+			(at 372.11 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7502,7 +9237,7 @@
 			)
 		)
 		(property "Value" "D_rect_1A_1000V_SOD123_1N4007W"
-			(at 232.156 78.74 0)
+			(at 361.696 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7513,7 +9248,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:D_SOD123"
-			(at 229.616 78.74 0)
+			(at 359.156 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +9259,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6440/1N4007W.pdf"
-			(at 227.076 78.74 0)
+			(at 356.616 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,7 +9270,7 @@
 			)
 		)
 		(property "Description" "Rectifier Diode, 1A, 1000V, SOD123, 1N4007W"
-			(at 240.03 78.74 0)
+			(at 369.57 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +9279,7 @@
 			)
 		)
 		(property "MPN" "1N4007W"
-			(at 224.536 78.74 0)
+			(at 354.076 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7555,7 +9290,7 @@
 			)
 		)
 		(property "Manufacturer" "EVVOSEMI"
-			(at 221.996 78.74 0)
+			(at 351.536 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +9301,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 219.456 78.74 0)
+			(at 348.996 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,7 +9311,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 216.916 78.74 0)
+			(at 346.456 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,7 +9321,7 @@
 			)
 		)
 		(property "Val" "1A 1000V"
-			(at 242.57 80.0099 90)
+			(at 372.11 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,7 +9346,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:F_4A_SlowBlow_Holder_UMZ250_3404.2422.11")
-		(at 63.5 115.57 90)
+		(at 300.99 170.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7620,7 +9355,7 @@
 		(fields_autoplaced yes)
 		(uuid "38fceee9-0653-45e3-a95b-c66401a7e6e5")
 		(property "Reference" "F4"
-			(at 64.77 114.3 90)
+			(at 302.26 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7630,7 +9365,7 @@
 			)
 		)
 		(property "Value" "F_4A_SlowBlow_Holder_UMZ250_3404.2422.11"
-			(at 71.374 115.57 0)
+			(at 308.864 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7641,7 +9376,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:F_Holder_UMZ250"
-			(at 73.914 115.57 0)
+			(at 311.404 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,7 +9387,7 @@
 			)
 		)
 		(property "Datasheet" "https://us.schurter.com/en/datasheet/typ_UMZ_250.pdf"
-			(at 76.454 115.57 0)
+			(at 313.944 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7663,7 +9398,7 @@
 			)
 		)
 		(property "Description" "4A Slow Blow Fuse, Holder, UMZ 250 Series, Schurter"
-			(at 63.5 115.57 0)
+			(at 300.99 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7672,7 +9407,7 @@
 			)
 		)
 		(property "MPN" "3404.2422.11"
-			(at 78.994 115.57 0)
+			(at 316.484 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,7 +9418,7 @@
 			)
 		)
 		(property "Manufacturer" "Schurter"
-			(at 81.534 115.57 0)
+			(at 319.024 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7694,7 +9429,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 84.074 115.57 0)
+			(at 321.564 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,7 +9439,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 86.614 115.57 0)
+			(at 324.104 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7714,7 +9449,7 @@
 			)
 		)
 		(property "Val" "4A Slow Blow"
-			(at 64.77 116.8399 90)
+			(at 302.26 171.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7739,7 +9474,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 53.34 143.51 0)
+		(at 363.22 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7748,7 +9483,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c07f043-07e1-455a-9f42-83f147a92744")
 		(property "Reference" "#PWR09"
-			(at 53.34 147.32 0)
+			(at 363.22 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7757,7 +9492,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 53.34 138.43 0)
+			(at 363.22 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7765,7 +9500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 143.51 0)
+			(at 363.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7774,7 +9509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 143.51 0)
+			(at 363.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7783,7 +9518,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 53.34 143.51 0)
+			(at 363.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7805,7 +9540,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 127 0)
+		(at 290.83 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7814,7 +9549,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c2556b1-1f19-411f-b356-fe9c891bbdb6")
 		(property "Reference" "#PWR06"
-			(at 53.34 133.35 0)
+			(at 290.83 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7823,7 +9558,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 132.08 0)
+			(at 290.83 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7831,7 +9566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 127 0)
+			(at 290.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7840,7 +9575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 127 0)
+			(at 290.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7849,7 +9584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 127 0)
+			(at 290.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7870,17 +9605,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:AC")
-		(at 63.5 173.99 180)
+		(lib_id "power:+3V3")
+		(at 302.26 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3d468f88-9b5e-4d4e-9cfb-bb46b2165c19")
-		(property "Reference" "#PWR017"
-			(at 63.5 171.45 0)
+		(uuid "3cf9d9ce-e821-4be9-906a-3f5897e1a5f9")
+		(property "Reference" "#PWR022"
+			(at 302.26 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7888,8 +9623,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AC_Q2"
-			(at 63.5 181.61 0)
+		(property "Value" "+3V3"
+			(at 302.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7897,7 +9632,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 173.99 0)
+			(at 302.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,7 +9641,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 173.99 0)
+			(at 302.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 302.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b81df7db-b60e-4f9e-8188-5b0afbeb411d")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 373.38 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d468f88-9b5e-4d4e-9cfb-bb46b2165c19")
+		(property "Reference" "#PWR017"
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_Q2"
+			(at 373.38 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +9716,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 63.5 173.99 0)
+			(at 373.38 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,7 +9738,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 107.95 0)
+		(at 386.08 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7946,7 +9747,7 @@
 		(fields_autoplaced yes)
 		(uuid "4278cae1-c244-4adf-a430-6ed4e2cfa007")
 		(property "Reference" "#PWR01"
-			(at 256.54 114.3 0)
+			(at 386.08 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7955,7 +9756,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 113.03 0)
+			(at 386.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7963,7 +9764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 107.95 0)
+			(at 386.08 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7972,7 +9773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 107.95 0)
+			(at 386.08 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7981,7 +9782,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 107.95 0)
+			(at 386.08 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8003,7 +9804,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 179.07 0)
+		(at 363.22 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8012,7 +9813,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a1fe6f5-4ca8-440d-93db-0087ff2706d8")
 		(property "Reference" "#PWR010"
-			(at 53.34 185.42 0)
+			(at 363.22 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8021,7 +9822,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 184.15 0)
+			(at 363.22 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8029,7 +9830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 179.07 0)
+			(at 363.22 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,7 +9839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 179.07 0)
+			(at 363.22 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8047,7 +9848,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 179.07 0)
+			(at 363.22 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8069,7 +9870,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:C_10u_10pct_25V_0603_GRM188R61E106KA73D")
-		(at 224.79 78.74 90)
+		(at 354.33 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8078,7 +9879,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b1a3918-f06d-45bd-8e9d-74cec2145701")
 		(property "Reference" "C4"
-			(at 227.33 77.4636 90)
+			(at 356.87 43.1736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,7 +9889,7 @@
 			)
 		)
 		(property "Value" "C_10u_10pct_25V_0603_GRM188R61E106KA73D"
-			(at 232.664 78.74 0)
+			(at 362.204 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8099,7 +9900,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:C_0603"
-			(at 235.204 78.74 0)
+			(at 364.744 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +9911,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM188R61E106KA73_01A-1985831.pdf"
-			(at 237.744 78.74 0)
+			(at 367.284 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +9922,7 @@
 			)
 		)
 		(property "Description" "SMD Ceramic Capacitor, 10 µF, ±10%, 25V, X5R, 0603"
-			(at 224.79 78.74 0)
+			(at 354.33 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8130,7 +9931,7 @@
 			)
 		)
 		(property "MPN" "GRM188R61E106KA73D"
-			(at 240.284 78.74 0)
+			(at 369.824 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8141,7 +9942,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 242.824 78.74 0)
+			(at 372.364 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,7 +9953,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 245.364 78.74 0)
+			(at 374.904 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,7 +9963,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 247.904 78.74 0)
+			(at 377.444 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,7 +9973,7 @@
 			)
 		)
 		(property "Val" "10u"
-			(at 227.33 80.0035 90)
+			(at 356.87 45.7135 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,7 +10106,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_220R_1pct_0402_RC0402FR-07220RL")
-		(at 35.56 116.84 180)
+		(at 273.05 171.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8314,7 +10115,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bb2ea71-4843-4a44-9ac7-75eea59b719b")
 		(property "Reference" "R5"
-			(at 35.56 110.49 0)
+			(at 273.05 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,7 +10124,7 @@
 			)
 		)
 		(property "Value" "R_220R_1pct_0402_RC0402FR-07220RL"
-			(at 35.56 108.966 0)
+			(at 273.05 163.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,7 +10135,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 35.56 106.426 0)
+			(at 273.05 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8345,7 +10146,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 35.56 103.886 0)
+			(at 273.05 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8356,7 +10157,7 @@
 			)
 		)
 		(property "Description" "SMD Thick Film Resistor, 220Ω, ±1%, 0.063W, 0402"
-			(at 35.56 116.84 0)
+			(at 273.05 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8365,7 +10166,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-07220RL"
-			(at 35.56 101.346 0)
+			(at 273.05 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8376,7 +10177,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 35.56 98.806 0)
+			(at 273.05 153.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,7 +10188,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 35.56 96.266 0)
+			(at 273.05 150.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8397,7 +10198,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 35.56 93.726 0)
+			(at 273.05 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8407,7 +10208,7 @@
 			)
 		)
 		(property "Val" "220Ω"
-			(at 35.56 113.03 0)
+			(at 273.05 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8431,7 +10232,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_100k_1pct_0402_RC0402FR-07100KL")
-		(at 40.64 121.92 90)
+		(at 278.13 176.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8440,7 +10241,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d5cbc56-426e-4080-83a1-0960875fd340")
 		(property "Reference" "R6"
-			(at 43.18 120.65 90)
+			(at 280.67 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8450,7 +10251,7 @@
 			)
 		)
 		(property "Value" "R_100k_1pct_0402_RC0402FR-07100KL"
-			(at 48.514 121.92 0)
+			(at 286.004 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8461,7 +10262,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 51.054 121.92 0)
+			(at 288.544 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +10273,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 53.594 121.92 0)
+			(at 291.084 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,7 +10284,7 @@
 			)
 		)
 		(property "Description" "SMD Thick Film Resistor, 100kΩ, ±1%, 0.063W, 0402"
-			(at 40.64 121.92 0)
+			(at 278.13 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8492,7 +10293,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-07100KL"
-			(at 56.134 121.92 0)
+			(at 293.624 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,7 +10304,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 58.674 121.92 0)
+			(at 296.164 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8514,7 +10315,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 61.214 121.92 0)
+			(at 298.704 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8524,7 +10325,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 63.754 121.92 0)
+			(at 301.244 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8534,7 +10335,7 @@
 			)
 		)
 		(property "Val" "100kΩ"
-			(at 43.18 123.1899 90)
+			(at 280.67 177.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8558,8 +10359,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 302.26 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d7ee75c-a863-4e57-99c1-942d62a37d30")
+		(property "Reference" "#PWR020"
+			(at 302.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 302.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 302.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6358a69-42e7-4d8d-a3f8-ddd0c554ffaa")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:G6DN-1A-L DC12")
-		(at 58.42 153.67 0)
+		(at 368.3 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8568,7 +10435,7 @@
 		(fields_autoplaced yes)
 		(uuid "6552e689-f755-4062-a5f1-c346392f0a8d")
 		(property "Reference" "K2"
-			(at 67.31 149.8599 0)
+			(at 377.19 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8577,7 +10444,7 @@
 			)
 		)
 		(property "Value" "G6DN-1A-L DC12"
-			(at 67.31 152.3999 0)
+			(at 377.19 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,7 +10453,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 154.94 0)
+			(at 377.19 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,7 +10463,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/2/307/en-g6dn-838135.pdf"
-			(at 58.42 153.67 0)
+			(at 368.3 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8605,7 +10472,7 @@
 			)
 		)
 		(property "Description" "Standex Meder DIP reed relay, SPST, Closing Contact"
-			(at 58.42 153.67 0)
+			(at 368.3 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,7 +10481,7 @@
 			)
 		)
 		(property "MPN" "G6DN-1A-L DC12"
-			(at 67.31 154.9399 0)
+			(at 377.19 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8623,7 +10490,7 @@
 			)
 		)
 		(property "Manufacturer" "OMRON"
-			(at 67.31 157.4799 0)
+			(at 377.19 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8653,8 +10520,136 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-HVPCB:R_10k_1pct_0402_RC0402FR-0710KL")
+		(at 386.08 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67363ee0-3900-4e00-a42a-9f86f63ed56a")
+		(property "Reference" "R16"
+			(at 388.62 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_10k_1pct_0402_RC0402FR-0710KL"
+			(at 393.954 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 396.494 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 399.034 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Thick Film Resistor, 10kΩ, ±1%, 0.063W, 0402"
+			(at 386.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 401.574 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 404.114 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 406.654 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 409.194 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10kΩ"
+			(at 388.62 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "f5a50d2e-fbca-4678-999c-375bff89b015")
+		)
+		(pin "2"
+			(uuid "05b87e82-6cca-47f1-9921-07fec7c03946")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 40.64 127 0)
+		(at 278.13 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8663,7 +10658,7 @@
 		(fields_autoplaced yes)
 		(uuid "67acf9d7-4fb3-4a12-bbb7-4a6460813e91")
 		(property "Reference" "#PWR07"
-			(at 40.64 133.35 0)
+			(at 278.13 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,7 +10667,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 132.08 0)
+			(at 278.13 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8680,7 +10675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 127 0)
+			(at 278.13 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +10684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 127 0)
+			(at 278.13 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8698,7 +10693,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 127 0)
+			(at 278.13 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +10715,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:L_1mH_10pct_SDR0503-102KL")
-		(at 232.41 86.36 0)
+		(at 361.95 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8729,7 +10724,7 @@
 		(fields_autoplaced yes)
 		(uuid "689b56a0-5915-4a7b-b1aa-7bad1d49f7e8")
 		(property "Reference" "L2"
-			(at 232.41 81.28 0)
+			(at 361.95 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8738,7 +10733,7 @@
 			)
 		)
 		(property "Value" "L_1mH_10pct_SDR0503-102KL"
-			(at 232.41 94.234 0)
+			(at 361.95 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,7 +10744,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:L_SMD_5x5mm"
-			(at 232.41 96.774 0)
+			(at 361.95 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8760,7 +10755,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/BOUR/BOUR-S-A0006604763/BOUR-S-A0006604763-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 232.41 99.314 0)
+			(at 361.95 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8771,7 +10766,7 @@
 			)
 		)
 		(property "Description" "SMD Power Inductor, 1 mH, ±10%, 110 mA, 11.5 Ohms DCR, SDR0503 Series"
-			(at 232.41 86.36 0)
+			(at 361.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +10775,7 @@
 			)
 		)
 		(property "MPN" "SDR0503-102KL"
-			(at 232.41 101.854 0)
+			(at 361.95 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8791,7 +10786,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 232.41 104.394 0)
+			(at 361.95 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8802,7 +10797,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 232.41 106.934 0)
+			(at 361.95 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +10807,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 232.41 109.474 0)
+			(at 361.95 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8822,7 +10817,7 @@
 			)
 		)
 		(property "Val" "1mH"
-			(at 232.41 83.82 0)
+			(at 361.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8846,7 +10841,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_3k3_5pct_0402_RC0402JR-073K3L")
-		(at 251.46 95.25 90)
+		(at 381 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8855,7 +10850,7 @@
 		(fields_autoplaced yes)
 		(uuid "69c86835-d572-4fbd-b4e1-ee80f0ad12d9")
 		(property "Reference" "R4"
-			(at 254 93.98 90)
+			(at 383.54 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8865,7 +10860,7 @@
 			)
 		)
 		(property "Value" "R_3k3_5pct_0402_RC0402JR-073K3L"
-			(at 259.334 95.25 0)
+			(at 388.874 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +10871,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 261.874 95.25 0)
+			(at 391.414 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8887,7 +10882,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 264.414 95.25 0)
+			(at 393.954 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8898,7 +10893,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor, 3.3kΩ, ±5%, 0402, RC0402JR-073K3L"
-			(at 251.46 95.25 0)
+			(at 381 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8907,7 +10902,7 @@
 			)
 		)
 		(property "MPN" "RC0402JR-073K3L"
-			(at 266.954 95.25 0)
+			(at 396.494 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8918,7 +10913,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 269.494 95.25 0)
+			(at 399.034 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8929,7 +10924,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 272.034 95.25 0)
+			(at 401.574 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8939,7 +10934,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 274.574 95.25 0)
+			(at 404.114 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8949,7 +10944,7 @@
 			)
 		)
 		(property "Val" "3k3"
-			(at 254 96.5199 90)
+			(at 383.54 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8974,7 +10969,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 135.89 0)
+		(at 261.62 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8983,7 +10978,7 @@
 		(fields_autoplaced yes)
 		(uuid "7182089f-4e2b-4bda-ac9c-5acdb13ac2db")
 		(property "Reference" "#PWR014"
-			(at 24.13 142.24 0)
+			(at 261.62 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8992,7 +10987,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 140.97 0)
+			(at 261.62 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9000,7 +10995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 135.89 0)
+			(at 261.62 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9009,7 +11004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 135.89 0)
+			(at 261.62 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9018,7 +11013,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 135.89 0)
+			(at 261.62 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9039,8 +11034,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 295.91 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "742cc24e-182e-49f0-8bc8-4f2b1ea978b5")
+		(property "Reference" "#PWR021"
+			(at 295.91 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 295.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 295.91 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6358a69-42e7-4d8d-a3f8-ddd0c554ffaa")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:D_rect_1A_1000V_SOD123_1N4007W")
-		(at 44.45 153.67 270)
+		(at 354.33 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9048,7 +11109,7 @@
 		(dnp no)
 		(uuid "7b18ee29-8e46-49c4-ac1c-3e08692813a8")
 		(property "Reference" "D6"
-			(at 39.37 152.4 90)
+			(at 349.25 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9058,7 +11119,7 @@
 			)
 		)
 		(property "Value" "D_rect_1A_1000V_SOD123_1N4007W"
-			(at 36.576 153.67 0)
+			(at 346.456 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9069,7 +11130,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:D_SOD123"
-			(at 34.036 153.67 0)
+			(at 343.916 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9080,7 +11141,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6440/1N4007W.pdf"
-			(at 31.496 153.67 0)
+			(at 341.376 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9091,7 +11152,7 @@
 			)
 		)
 		(property "Description" "Rectifier Diode, 1A, 1000V, SOD123, 1N4007W"
-			(at 44.45 153.67 0)
+			(at 354.33 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9100,7 +11161,7 @@
 			)
 		)
 		(property "MPN" "1N4007W"
-			(at 28.956 153.67 0)
+			(at 338.836 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9111,7 +11172,7 @@
 			)
 		)
 		(property "Manufacturer" "EVVOSEMI"
-			(at 26.416 153.67 0)
+			(at 336.296 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9122,7 +11183,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 23.876 153.67 0)
+			(at 333.756 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9132,7 +11193,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 21.336 153.67 0)
+			(at 331.216 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9142,7 +11203,7 @@
 			)
 		)
 		(property "Val" "1A 1000V"
-			(at 32.512 155.194 90)
+			(at 342.392 159.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,7 +11228,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 63.5 144.78 0)
+		(at 373.38 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9176,7 +11237,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d9fb2cf-c050-4aae-bc2b-3b175b232d7e")
 		(property "Reference" "#PWR018"
-			(at 63.5 147.32 0)
+			(at 373.38 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,7 +11246,7 @@
 			)
 		)
 		(property "Value" "AC_IN"
-			(at 63.5 137.16 0)
+			(at 373.38 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,7 +11254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 144.78 0)
+			(at 373.38 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +11263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 144.78 0)
+			(at 373.38 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9211,7 +11272,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 63.5 144.78 0)
+			(at 373.38 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9233,7 +11294,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:D_rect_1A_1000V_SOD123_1N4007W")
-		(at 143.51 93.98 180)
+		(at 273.05 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9242,7 +11303,7 @@
 		(fields_autoplaced yes)
 		(uuid "83cb51c9-ec01-415d-97c9-e0288ead60ee")
 		(property "Reference" "D2"
-			(at 143.51 87.63 0)
+			(at 273.05 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9251,7 +11312,7 @@
 			)
 		)
 		(property "Value" "D_rect_1A_1000V_SOD123_1N4007W"
-			(at 143.51 86.106 0)
+			(at 273.05 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9262,7 +11323,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:D_SOD123"
-			(at 143.51 83.566 0)
+			(at 273.05 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9273,7 +11334,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6440/1N4007W.pdf"
-			(at 143.51 81.026 0)
+			(at 273.05 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9284,7 +11345,7 @@
 			)
 		)
 		(property "Description" "Rectifier Diode, 1A, 1000V, SOD123, 1N4007W"
-			(at 143.51 93.98 0)
+			(at 273.05 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9293,7 +11354,7 @@
 			)
 		)
 		(property "MPN" "1N4007W"
-			(at 143.51 78.486 0)
+			(at 273.05 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9304,7 +11365,7 @@
 			)
 		)
 		(property "Manufacturer" "EVVOSEMI"
-			(at 143.51 75.946 0)
+			(at 273.05 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9315,7 +11376,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 143.51 73.406 0)
+			(at 273.05 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9325,7 +11386,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 143.51 70.866 0)
+			(at 273.05 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9335,7 +11396,7 @@
 			)
 		)
 		(property "Val" "1A 1000V"
-			(at 143.51 90.17 0)
+			(at 273.05 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9358,38 +11419,26 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:R_220R_1pct_0402_RC0402FR-07220RL")
-		(at 24.13 132.08 270)
+		(lib_id "HSSM-HVPCB:R_200k_0.1pct_1206_VT1206BRD07200KL")
+		(at 271.78 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8b39660e-d668-4891-af58-0c4d6c364f58")
-		(property "Reference" "R10"
-			(at 26.67 130.81 90)
+		(uuid "88d1ccba-1d4a-487e-895b-522bedebd164")
+		(property "Reference" "R11"
+			(at 271.78 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R_220R_1pct_0402_RC0402FR-07220RL"
-			(at 16.256 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 13.716 132.08 0)
+		(property "Value" "R_200k_0.1pct_1206_VT1206BRD07200KL"
+			(at 271.78 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9399,8 +11448,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 11.176 132.08 0)
+		(property "Footprint" "HSSM-HVPCB:R_1206"
+			(at 271.78 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9410,17 +11459,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Thick Film Resistor, 220Ω, ±1%, 0.063W, 0402"
-			(at 24.13 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402FR-07220RL"
-			(at 8.636 132.08 0)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/PYu_VT_51_RoHS_L_0-3159401.pdf"
+			(at 271.78 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9430,8 +11470,28 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 6.096 132.08 0)
+		(property "Description" "SMD Thin Film Resistor, 200kΩ, ±0.1%, 0.125W, 1206"
+			(at 271.78 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VT1206BRD07200KL"
+			(at 271.78 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 271.78 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9442,7 +11502,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 3.556 132.08 0)
+			(at 271.78 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9452,7 +11512,134 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 1.016 132.08 0)
+			(at 271.78 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "200kΩ"
+			(at 271.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e9813b84-ceb0-47c1-8c63-de1c800593e5")
+		)
+		(pin "1"
+			(uuid "747df0ca-37bd-4cfe-93a7-67863ccde75a")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:R_220R_1pct_0402_RC0402FR-07220RL")
+		(at 261.62 186.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b39660e-d668-4891-af58-0c4d6c364f58")
+		(property "Reference" "R10"
+			(at 264.16 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_220R_1pct_0402_RC0402FR-07220RL"
+			(at 253.746 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 251.206 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 248.666 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Thick Film Resistor, 220Ω, ±1%, 0.063W, 0402"
+			(at 261.62 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-07220RL"
+			(at 246.126 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 243.586 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 241.046 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 238.506 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9462,7 +11649,7 @@
 			)
 		)
 		(property "Val" "220Ω"
-			(at 26.67 133.3499 90)
+			(at 264.16 187.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9487,7 +11674,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:C_100uF_20pct_16V_5mm_WCAP-ATG5_860020372006")
-		(at 240.03 93.98 270)
+		(at 369.57 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9496,7 +11683,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ee41792-63ed-4dda-b09d-8e20eaead41a")
 		(property "Reference" "C3"
-			(at 242.57 92.8369 90)
+			(at 372.11 58.5469 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9506,7 +11693,7 @@
 			)
 		)
 		(property "Value" "C_100uF_20pct_16V_5mm_WCAP-ATG5_860020372006"
-			(at 232.156 93.98 0)
+			(at 361.696 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +11704,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:C_Radial_D5_L11_P2"
-			(at 229.616 93.98 0)
+			(at 359.156 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9528,7 +11715,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860020372006.pdf"
-			(at 227.076 93.98 0)
+			(at 356.616 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9539,7 +11726,7 @@
 			)
 		)
 		(property "Description" "Aluminum Electrolytic Capacitor, 100 µF, 16V, ±20%, Radial Leaded, 5mm Diameter, WCAP-ATG5 Series"
-			(at 240.03 93.98 0)
+			(at 369.57 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9548,7 +11735,7 @@
 			)
 		)
 		(property "MPN" "860020372006"
-			(at 224.536 93.98 0)
+			(at 354.076 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9559,7 +11746,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 221.996 93.98 0)
+			(at 351.536 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9570,7 +11757,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 219.456 93.98 0)
+			(at 348.996 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,7 +11767,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 216.916 93.98 0)
+			(at 346.456 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9590,7 +11777,7 @@
 			)
 		)
 		(property "Val" "100µF"
-			(at 242.57 95.3768 90)
+			(at 372.11 61.0868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9615,7 +11802,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 179.07 0)
+		(at 350.52 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9624,7 +11811,7 @@
 		(fields_autoplaced yes)
 		(uuid "963fffe1-4e5d-401d-b994-8971c61dd324")
 		(property "Reference" "#PWR05"
-			(at 40.64 185.42 0)
+			(at 350.52 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9633,7 +11820,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 184.15 0)
+			(at 350.52 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9641,7 +11828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 179.07 0)
+			(at 350.52 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9650,7 +11837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 179.07 0)
+			(at 350.52 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9659,7 +11846,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 179.07 0)
+			(at 350.52 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,7 +11868,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:C_0u1_10pct_16V_0402_GRM155R71C104KA88J")
-		(at 193.04 76.2 270)
+		(at 322.58 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9690,7 +11877,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a0999b9-9c18-4e8d-bc54-db13e85e5c43")
 		(property "Reference" "C1"
-			(at 195.58 74.9363 90)
+			(at 325.12 40.6463 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9700,7 +11887,7 @@
 			)
 		)
 		(property "Value" "C_0u1_10pct_16V_0402_GRM155R71C104KA88J"
-			(at 185.166 76.2 0)
+			(at 314.706 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9711,7 +11898,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:C_0402"
-			(at 182.626 76.2 0)
+			(at 312.166 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9722,7 +11909,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/catalog/c02e.ashx"
-			(at 180.086 76.2 0)
+			(at 309.626 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9733,7 +11920,7 @@
 			)
 		)
 		(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 16V, X7R, 0402, GRM155R71C104KA88J"
-			(at 193.04 76.2 0)
+			(at 322.58 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9742,7 +11929,7 @@
 			)
 		)
 		(property "MPN" "GRM155R71C104KA88J"
-			(at 177.546 76.2 0)
+			(at 307.086 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9753,7 +11940,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 175.006 76.2 0)
+			(at 304.546 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9764,7 +11951,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 172.466 76.2 0)
+			(at 302.006 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9774,7 +11961,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 169.926 76.2 0)
+			(at 299.466 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9784,7 +11971,7 @@
 			)
 		)
 		(property "Val" "0.1µF"
-			(at 195.58 77.4762 90)
+			(at 325.12 43.1862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9809,7 +11996,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_220R_1pct_0402_RC0402FR-07220RL")
-		(at 35.56 168.91 180)
+		(at 345.44 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9818,7 +12005,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c7123f6-81c6-40c4-9cb4-5a43fb3004b5")
 		(property "Reference" "R7"
-			(at 35.56 162.56 0)
+			(at 345.44 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,7 +12014,7 @@
 			)
 		)
 		(property "Value" "R_220R_1pct_0402_RC0402FR-07220RL"
-			(at 35.56 161.036 0)
+			(at 345.44 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9838,7 +12025,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 35.56 158.496 0)
+			(at 345.44 162.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9849,7 +12036,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 35.56 155.956 0)
+			(at 345.44 159.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9860,7 +12047,7 @@
 			)
 		)
 		(property "Description" "SMD Thick Film Resistor, 220Ω, ±1%, 0.063W, 0402"
-			(at 35.56 168.91 0)
+			(at 345.44 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9869,7 +12056,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-07220RL"
-			(at 35.56 153.416 0)
+			(at 345.44 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9880,7 +12067,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 35.56 150.876 0)
+			(at 345.44 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9891,7 +12078,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 35.56 148.336 0)
+			(at 345.44 152.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9901,7 +12088,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 35.56 145.796 0)
+			(at 345.44 149.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9911,7 +12098,7 @@
 			)
 		)
 		(property "Val" "220Ω"
-			(at 35.56 165.1 0)
+			(at 345.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9935,7 +12122,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 187.96 0)
+		(at 332.74 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9944,7 +12131,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ca133be-4c62-48f3-b171-904c46d13d7c")
 		(property "Reference" "#PWR013"
-			(at 22.86 194.31 0)
+			(at 332.74 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9953,7 +12140,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 193.04 0)
+			(at 332.74 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9961,7 +12148,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 187.96 0)
+			(at 332.74 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9970,7 +12157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 187.96 0)
+			(at 332.74 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9979,7 +12166,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 187.96 0)
+			(at 332.74 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10001,7 +12188,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:Q_NMOS_SOT-23_IRLML6344")
-		(at 50.8 116.84 0)
+		(at 288.29 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10010,7 +12197,7 @@
 		(fields_autoplaced yes)
 		(uuid "9efe5ad0-6aaa-4a1f-8b7f-9ea291cecec8")
 		(property "Reference" "Q1"
-			(at 57.15 115.57 0)
+			(at 294.64 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10020,7 +12207,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_SOT-23_IRLML6344"
-			(at 50.8 124.714 0)
+			(at 288.29 179.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10031,7 +12218,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:Q_SOT23"
-			(at 50.8 127.254 0)
+			(at 288.29 181.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10042,7 +12229,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.pl/pl/products/detail/infineon-technologies/IRLML6344TRPBF/2538152"
-			(at 50.8 129.794 0)
+			(at 288.29 184.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10053,7 +12240,7 @@
 			)
 		)
 		(property "Description" "N-Channel MOSFET, 30V, 5.7A, RDS(on) 29mΩ, SOT-23"
-			(at 50.8 116.84 0)
+			(at 288.29 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10062,7 +12249,7 @@
 			)
 		)
 		(property "MPN" "IRLML6344"
-			(at 50.8 132.334 0)
+			(at 288.29 186.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10073,7 +12260,7 @@
 			)
 		)
 		(property "Manufacturer" "Infineon Technologies"
-			(at 50.8 134.874 0)
+			(at 288.29 189.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10084,7 +12271,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 50.8 137.414 0)
+			(at 288.29 192.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10094,7 +12281,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 50.8 139.954 0)
+			(at 288.29 194.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10104,7 +12291,7 @@
 			)
 		)
 		(property "Val" "NMOS"
-			(at 57.15 118.1099 0)
+			(at 294.64 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,8 +12318,136 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-HVPCB:C_1uF_10pct_16V_0603_GCM188R71C105KA64D")
+		(at 386.08 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6517cfc-c902-42e2-9c6e-66d134d1a06d")
+		(property "Reference" "C6"
+			(at 388.62 113.0236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_1uF_10pct_16V_0603_GCM188R71C105KA64D"
+			(at 393.954 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:C_0603"
+			(at 396.494 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
+			(at 399.034 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic Capacitor, 1µF, ±10%, 16V, X7R, 0603, Murata"
+			(at 386.08 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM188R71C105KA64D"
+			(at 401.574 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 404.114 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 406.654 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 409.194 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1µF"
+			(at 388.62 115.5635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "bcd47b01-9837-4776-8c5a-17a57407e7e9")
+		)
+		(pin "1"
+			(uuid "54254d5f-a9e9-4856-aad3-fd716c4dce39")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:AC")
-		(at 63.5 123.19 180)
+		(at 300.99 177.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10141,7 +12456,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9cb7530-11ac-42ed-a306-79566267f4a7")
 		(property "Reference" "#PWR012"
-			(at 63.5 120.65 0)
+			(at 300.99 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10150,7 +12465,7 @@
 			)
 		)
 		(property "Value" "AC_Q1"
-			(at 63.5 130.81 0)
+			(at 300.99 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10158,7 +12473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 123.19 0)
+			(at 300.99 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10167,7 +12482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 123.19 0)
+			(at 300.99 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10176,7 +12491,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 63.5 123.19 0)
+			(at 300.99 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,7 +12513,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:L_1.5mH_20pct_1500uH_LPS4012-155MRC")
-		(at 153.67 93.98 0)
+		(at 283.21 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10207,7 +12522,7 @@
 		(fields_autoplaced yes)
 		(uuid "abed13db-cb3a-498f-8cc4-863beb0fea1d")
 		(property "Reference" "L1"
-			(at 153.67 88.9 0)
+			(at 283.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,7 +12531,7 @@
 			)
 		)
 		(property "Value" "L_1.5mH_20pct_1500uH_LPS4012-155MRC"
-			(at 153.67 101.854 0)
+			(at 283.21 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,7 +12542,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:L_4.0x4.0mm"
-			(at 153.67 104.394 0)
+			(at 283.21 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10238,7 +12553,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.coilcraft.com/en-us/files/datasheet/LPS4012"
-			(at 153.67 106.934 0)
+			(at 283.21 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10249,7 +12564,7 @@
 			)
 		)
 		(property "Description" "SMD Inductor, 1.5 mH, ±20%, 115 mA, 30 Ohms DCR, LPS4012 Series"
-			(at 153.67 93.98 0)
+			(at 283.21 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10258,7 +12573,7 @@
 			)
 		)
 		(property "MPN" "LPS4012-155MRC"
-			(at 153.67 109.474 0)
+			(at 283.21 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10269,7 +12584,7 @@
 			)
 		)
 		(property "Manufacturer" "Coilcraft"
-			(at 153.67 112.014 0)
+			(at 283.21 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10280,7 +12595,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 153.67 114.554 0)
+			(at 283.21 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10290,7 +12605,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 153.67 117.094 0)
+			(at 283.21 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10300,7 +12615,7 @@
 			)
 		)
 		(property "Val" "1.5mH"
-			(at 153.67 91.44 0)
+			(at 283.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10323,8 +12638,141 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 386.08 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acb0dd75-2567-4bf4-8a37-725683f14209")
+		(property "Reference" "#PWR027"
+			(at 386.08 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 386.08 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 386.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a28f813-03c5-410a-8465-5067b7dc1cc7")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 252.73 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ada71dde-874c-4a39-9eb5-0987c99d6754")
+		(property "Reference" "#PWR019"
+			(at 255.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_S1"
+			(at 246.38 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 252.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7092e5be-9257-4652-8e8f-42eecfa38a5e")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:LED_Green_Kingbright_APHHS1005CGCK")
-		(at 24.13 123.19 90)
+		(at 261.62 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10333,7 +12781,7 @@
 		(fields_autoplaced yes)
 		(uuid "b682b2b0-73bc-4f10-8fd2-133aed12da4c")
 		(property "Reference" "D8"
-			(at 27.94 123.5075 90)
+			(at 265.43 178.1175 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10343,7 +12791,7 @@
 			)
 		)
 		(property "Value" "LED_Green_Kingbright_APHHS1005CGCK"
-			(at 32.004 123.19 0)
+			(at 269.494 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10354,7 +12802,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:LED_1005"
-			(at 34.544 123.19 0)
+			(at 272.034 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10365,7 +12813,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005CGCK.pdf"
-			(at 37.084 123.19 0)
+			(at 274.574 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10376,7 +12824,7 @@
 			)
 		)
 		(property "Description" "Green SMD LED, 525nm, 140mcd, 1005 (0402), Kingbright"
-			(at 24.13 123.19 0)
+			(at 261.62 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,7 +12833,7 @@
 			)
 		)
 		(property "MPN" "APHHS1005CGCK"
-			(at 39.624 123.19 0)
+			(at 277.114 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10396,7 +12844,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 42.164 123.19 0)
+			(at 279.654 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10407,7 +12855,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 44.704 123.19 0)
+			(at 282.194 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10417,7 +12865,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 47.244 123.19 0)
+			(at 284.734 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10427,7 +12875,7 @@
 			)
 		)
 		(property "Val" "LED_GREEN"
-			(at 27.94 126.0474 90)
+			(at 265.43 180.6574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10451,8 +12899,202 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-HVPCB:C_1uF_10pct_16V_0603_GCM188R71C105KA64D")
+		(at 302.26 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b72e5f0a-095b-4c96-a17b-5d5832d17d9e")
+		(property "Reference" "C5"
+			(at 304.8 113.0236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_1uF_10pct_16V_0603_GCM188R71C105KA64D"
+			(at 310.134 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:C_0603"
+			(at 312.674 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
+			(at 315.214 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic Capacitor, 1µF, ±10%, 16V, X7R, 0603, Murata"
+			(at 302.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM188R71C105KA64D"
+			(at 317.754 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 320.294 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 322.834 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 325.374 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1µF"
+			(at 304.8 115.5635 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "9263aa7b-acff-46d0-afc0-5d54924d2658")
+		)
+		(pin "1"
+			(uuid "5ce0904e-ab11-498e-a1ca-f154e3290599")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 379.73 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b74afa42-8830-4815-af67-e09b311a7c9b")
+		(property "Reference" "#PWR025"
+			(at 379.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 379.73 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 379.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 379.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd5c8446-3403-4169-911f-4a597bbf9f11")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:ACDC_converter_LNK3204D-TL_power_intergrations")
-		(at 177.8 87.63 0)
+		(at 307.34 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10461,7 +13103,7 @@
 		(fields_autoplaced yes)
 		(uuid "bba0ccda-c96e-4148-a33f-84496afef692")
 		(property "Reference" "U1"
-			(at 177.8 69.85 0)
+			(at 307.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10469,7 +13111,7 @@
 			)
 		)
 		(property "Value" "LNK3204D-TL"
-			(at 177.8 72.39 0)
+			(at 307.34 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10477,7 +13119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 97.79 0)
+			(at 307.34 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10486,7 +13128,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/2/328/linkswitch_tn2_family_datasheet-3043282.pdf"
-			(at 177.165 87.63 0)
+			(at 306.705 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10495,7 +13137,7 @@
 			)
 		)
 		(property "Description" "Converter Offline Buck, Buck-Boost, Flyback Topology 66kHz SO-8C"
-			(at 177.8 87.63 0)
+			(at 307.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10504,7 +13146,7 @@
 			)
 		)
 		(property "MPN" "LNK3204D-TL"
-			(at 177.8 74.93 0)
+			(at 307.34 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,7 +13154,7 @@
 			)
 		)
 		(property "Manufacturer" "Power Integrations"
-			(at 177.8 77.47 0)
+			(at 307.34 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10551,7 +13193,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 101.6 161.29 0)
+		(at 100.33 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10560,7 +13202,7 @@
 		(fields_autoplaced yes)
 		(uuid "c116d89a-b284-46b7-b0e5-e3f477c6628c")
 		(property "Reference" "#PWR011"
-			(at 101.6 163.83 0)
+			(at 100.33 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,7 +13211,7 @@
 			)
 		)
 		(property "Value" "AC_?"
-			(at 101.6 153.67 0)
+			(at 100.33 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10577,7 +13219,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 161.29 0)
+			(at 100.33 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10586,7 +13228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 161.29 0)
+			(at 100.33 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10595,7 +13237,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 101.6 161.29 0)
+			(at 100.33 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10616,17 +13258,17 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:R_26k7_0.1pct_0402_CPF0402B26K7E1")
-		(at 213.36 59.69 0)
+		(lib_id "HSSM-HVPCB:R_200k_0.1pct_1206_VT1206BRD07200KL")
+		(at 355.6 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c6faa15c-f568-4215-9eb3-0c5df713bbf5")
-		(property "Reference" "R3"
-			(at 213.36 53.34 0)
+		(uuid "c5a2bea5-4efc-49d6-bb3f-0231a5cf35c0")
+		(property "Reference" "R15"
+			(at 355.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10634,19 +13276,8 @@
 				)
 			)
 		)
-		(property "Value" "R_26k7_0.1pct_0402_CPF0402B26K7E1"
-			(at 213.36 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 213.36 70.104 0)
+		(property "Value" "R_200k_0.1pct_1206_VT1206BRD07200KL"
+			(at 355.6 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10656,8 +13287,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/usa-en/product-7-1879215-4.datasheet.pdf"
-			(at 213.36 72.644 0)
+		(property "Footprint" "HSSM-HVPCB:R_1206"
+			(at 355.6 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10667,17 +13298,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Resistor, 26.7kΩ, ±0.1%, 0.063W, 0402, Thin Film"
-			(at 213.36 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CPF0402B26K7E1"
-			(at 213.36 75.184 0)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/PYu_VT_51_RoHS_L_0-3159401.pdf"
+			(at 355.6 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10687,8 +13309,28 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TE Connectivity"
-			(at 213.36 77.724 0)
+		(property "Description" "SMD Thin Film Resistor, 200kΩ, ±0.1%, 0.125W, 1206"
+			(at 355.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VT1206BRD07200KL"
+			(at 355.6 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 355.6 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10699,7 +13341,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 213.36 80.264 0)
+			(at 355.6 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10709,7 +13351,133 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 213.36 82.804 0)
+			(at 355.6 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "200kΩ"
+			(at 355.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "def199d0-be41-4741-8bc3-ef432005e2a3")
+		)
+		(pin "1"
+			(uuid "d59f1415-58bb-43fc-bd57-b5a697080b05")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:R_26k7_0.1pct_0402_CPF0402B26K7E1")
+		(at 342.9 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6faa15c-f568-4215-9eb3-0c5df713bbf5")
+		(property "Reference" "R3"
+			(at 342.9 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_26k7_0.1pct_0402_CPF0402B26K7E1"
+			(at 342.9 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 342.9 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/usa-en/product-7-1879215-4.datasheet.pdf"
+			(at 342.9 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor, 26.7kΩ, ±0.1%, 0.063W, 0402, Thin Film"
+			(at 342.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CPF0402B26K7E1"
+			(at 342.9 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity"
+			(at 342.9 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 342.9 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 342.9 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10719,7 +13487,7 @@
 			)
 		)
 		(property "Val" "26k7"
-			(at 213.36 55.88 0)
+			(at 342.9 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10833,17 +13601,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:AC")
-		(at 133.35 93.98 90)
+		(lib_id "power:+3V3")
+		(at 386.08 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c991cb47-f717-4d09-8913-27c5a48552cc")
-		(property "Reference" "#PWR03"
-			(at 135.89 93.98 0)
+		(uuid "c94e5e3b-d37b-4fac-9645-b925c16c727a")
+		(property "Reference" "#PWR026"
+			(at 386.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,17 +13619,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AC_IN"
-			(at 127 93.9799 90)
+		(property "Value" "+3V3"
+			(at 386.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 93.98 0)
+			(at 386.08 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10870,7 +13637,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 93.98 0)
+			(at 386.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 386.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a42701ca-be1f-459e-98ec-80d3a5159e1b")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 262.89 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c991cb47-f717-4d09-8913-27c5a48552cc")
+		(property "Reference" "#PWR03"
+			(at 265.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_IN"
+			(at 256.54 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10879,7 +13713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 133.35 93.98 0)
+			(at 262.89 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10901,7 +13735,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_11k8_1pct_0402_RC0402FR-0711K8L")
-		(at 213.36 71.12 0)
+		(at 342.9 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10910,7 +13744,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb627aad-68f0-415e-ad5d-1960357bca45")
 		(property "Reference" "R2"
-			(at 213.36 64.77 0)
+			(at 342.9 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10919,7 +13753,7 @@
 			)
 		)
 		(property "Value" "R_11k8_1pct_0402_RC0402FR-0711K8L"
-			(at 213.36 78.994 0)
+			(at 342.9 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10930,7 +13764,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 213.36 81.534 0)
+			(at 342.9 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,7 +13775,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/3795017.pdf"
-			(at 213.36 84.074 0)
+			(at 342.9 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10952,7 +13786,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor, 11.8kΩ, ±1%, 0.063W, 0402, Thick Film"
-			(at 213.36 71.12 0)
+			(at 342.9 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10961,7 +13795,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0711K8L"
-			(at 213.36 86.614 0)
+			(at 342.9 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10972,7 +13806,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 213.36 89.154 0)
+			(at 342.9 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10983,7 +13817,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 213.36 91.694 0)
+			(at 342.9 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10993,7 +13827,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 213.36 94.234 0)
+			(at 342.9 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11003,7 +13837,7 @@
 			)
 		)
 		(property "Val" "11k8"
-			(at 213.36 67.31 0)
+			(at 342.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11026,27 +13860,93 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:LED_Green_Kingbright_APHHS1005CGCK")
-		(at 22.86 175.26 90)
+		(lib_id "power:AC")
+		(at 336.55 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "de14df59-9b9b-4011-b910-b896e962dbd7")
-		(property "Reference" "D7"
-			(at 26.67 175.5775 90)
+		(uuid "d2aab6fd-6b61-45ce-9abe-722dbe62da74")
+		(property "Reference" "#PWR024"
+			(at 339.09 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_N"
+			(at 330.2 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 336.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbb599a8-a1d3-4a85-acca-ff20a35b6ca2")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:R_200k_0.1pct_1206_VT1206BRD07200KL")
+		(at 344.17 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dda634e5-2e6c-4d49-aba5-5b9c837b6b22")
+		(property "Reference" "R14"
+			(at 344.17 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "LED_Green_Kingbright_APHHS1005CGCK"
-			(at 30.734 175.26 0)
+		(property "Value" "R_200k_0.1pct_1206_VT1206BRD07200KL"
+			(at 344.17 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11056,8 +13956,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:LED_1005"
-			(at 33.274 175.26 0)
+		(property "Footprint" "HSSM-HVPCB:R_1206"
+			(at 344.17 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,8 +13967,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005CGCK.pdf"
-			(at 35.814 175.26 0)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/PYu_VT_51_RoHS_L_0-3159401.pdf"
+			(at 344.17 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11078,8 +13978,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Green SMD LED, 525nm, 140mcd, 1005 (0402), Kingbright"
-			(at 22.86 175.26 0)
+		(property "Description" "SMD Thin Film Resistor, 200kΩ, ±0.1%, 0.125W, 1206"
+			(at 344.17 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11087,8 +13987,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "APHHS1005CGCK"
-			(at 38.354 175.26 0)
+		(property "MPN" "VT1206BRD07200KL"
+			(at 344.17 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11098,8 +13998,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kingbright"
-			(at 40.894 175.26 0)
+		(property "Manufacturer" "Vishay"
+			(at 344.17 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11110,7 +14010,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 43.434 175.26 0)
+			(at 344.17 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11120,7 +14020,134 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 45.974 175.26 0)
+			(at 344.17 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "200kΩ"
+			(at 344.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c0aa01a8-95fc-4864-8ef5-c83a12dd38ea")
+		)
+		(pin "1"
+			(uuid "bdb81170-82d8-458f-9172-252324e9e4eb")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:LED_Green_Kingbright_APHHS1005CGCK")
+		(at 332.74 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de14df59-9b9b-4011-b910-b896e962dbd7")
+		(property "Reference" "D7"
+			(at 336.55 179.3875 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Green_Kingbright_APHHS1005CGCK"
+			(at 340.614 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:LED_1005"
+			(at 343.154 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APHHS1005CGCK.pdf"
+			(at 345.694 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Green SMD LED, 525nm, 140mcd, 1005 (0402), Kingbright"
+			(at 332.74 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "APHHS1005CGCK"
+			(at 348.234 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 350.774 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 353.314 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 355.854 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11130,7 +14157,7 @@
 			)
 		)
 		(property "Val" "LED_GREEN"
-			(at 26.67 178.1174 90)
+			(at 336.55 181.9274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11154,8 +14181,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 252.73 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df4b2f43-26bd-470b-8d86-8924fe42f0f5")
+		(property "Reference" "#PWR015"
+			(at 255.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_N"
+			(at 246.38 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 252.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a6b5181-278a-4679-95dd-39e0889303de")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:R_2k49_1pct_0402_RC0402FR-072K49L")
-		(at 204.47 78.74 90)
+		(at 334.01 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11164,7 +14258,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfb083d9-0070-43cc-9658-bf8cbaa32f65")
 		(property "Reference" "R1"
-			(at 207.01 77.47 90)
+			(at 336.55 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11174,7 +14268,7 @@
 			)
 		)
 		(property "Value" "R_2k49_1pct_0402_RC0402FR-072K49L"
-			(at 212.344 78.74 0)
+			(at 341.884 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11185,7 +14279,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 214.884 78.74 0)
+			(at 344.424 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11196,7 +14290,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/3795017.pdf"
-			(at 217.424 78.74 0)
+			(at 346.964 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11207,7 +14301,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor, 2.49kΩ, ±1%, 0.063W, 0402, Thick Film"
-			(at 204.47 78.74 0)
+			(at 334.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11216,7 +14310,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-072K49L"
-			(at 219.964 78.74 0)
+			(at 349.504 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11227,7 +14321,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 222.504 78.74 0)
+			(at 352.044 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11238,7 +14332,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 225.044 78.74 0)
+			(at 354.584 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11248,7 +14342,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 227.584 78.74 0)
+			(at 357.124 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11258,7 +14352,7 @@
 			)
 		)
 		(property "Val" "2k49"
-			(at 207.01 80.0099 90)
+			(at 336.55 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11282,38 +14376,26 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:R_100k_1pct_0402_RC0402FR-07100KL")
-		(at 40.64 173.99 90)
+		(lib_id "HSSM-HVPCB:U_Optocoupler_LTV-354T")
+		(at 287.02 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f74be53d-713e-4e3f-a263-77750d35526d")
-		(property "Reference" "R8"
-			(at 43.18 172.72 90)
+		(uuid "eef93714-7525-4fc3-a2cb-ed8fc8d2482e")
+		(property "Reference" "U3"
+			(at 287.02 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "R_100k_1pct_0402_RC0402FR-07100KL"
-			(at 48.514 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 51.054 173.99 0)
+		(property "Value" "LTV-354T"
+			(at 287.02 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11323,8 +14405,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 53.594 173.99 0)
+		(property "Footprint" "HSSM-HVPCB:U_SOP4"
+			(at 287.02 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11334,17 +14416,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Thick Film Resistor, 100kΩ, ±1%, 0.063W, 0402"
-			(at 40.64 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402FR-07100KL"
-			(at 56.134 173.99 0)
+		(property "Datasheet" "https://www.digikey.pl/pl/products/detail/liteon/LTV-354T/385796?srsltid=AfmBOoq4oHF5YULt673NiO7zb96rcuAq5-u3askGrcwFeT-NDLS5hnGi"
+			(at 287.02 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11354,8 +14427,28 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 58.674 173.99 0)
+		(property "Description" "Optocoupler, Phototransistor Output, 4-Pin SOP, 5000Vrms, Lite-On"
+			(at 287.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTV-354T"
+			(at 287.02 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 287.02 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11366,7 +14459,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 61.214 173.99 0)
+			(at 287.02 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11376,7 +14469,266 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 63.754 173.99 0)
+			(at 287.02 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "LTV-354T"
+			(at 287.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e7337bb-af5a-4df6-a080-8db0cfd14373")
+		)
+		(pin "2"
+			(uuid "23941903-5b5e-4b0b-9843-141dfef18c3e")
+		)
+		(pin "4"
+			(uuid "b3cfa370-dab5-4c2f-8dd5-364d5e03e350")
+		)
+		(pin "3"
+			(uuid "ed9be35c-9e4a-4c53-817b-7bfae5f10663")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:R_200k_0.1pct_1206_VT1206BRD07200KL")
+		(at 260.35 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef46898b-4e87-4f5f-81ed-81e0259f4e61")
+		(property "Reference" "R12"
+			(at 260.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_200k_0.1pct_1206_VT1206BRD07200KL"
+			(at 260.35 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_1206"
+			(at 260.35 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/447/PYu_VT_51_RoHS_L_0-3159401.pdf"
+			(at 260.35 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Thin Film Resistor, 200kΩ, ±0.1%, 0.125W, 1206"
+			(at 260.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VT1206BRD07200KL"
+			(at 260.35 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 260.35 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 260.35 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 260.35 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "200kΩ"
+			(at 260.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e9813b84-ceb0-47c1-8c63-de1c800593e5")
+		)
+		(pin "1"
+			(uuid "747df0ca-37bd-4cfe-93a7-67863ccde75a")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:R_100k_1pct_0402_RC0402FR-07100KL")
+		(at 350.52 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f74be53d-713e-4e3f-a263-77750d35526d")
+		(property "Reference" "R8"
+			(at 353.06 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_100k_1pct_0402_RC0402FR-07100KL"
+			(at 358.394 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 360.934 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 363.474 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Thick Film Resistor, 100kΩ, ±1%, 0.063W, 0402"
+			(at 350.52 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-07100KL"
+			(at 366.014 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 368.554 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 371.094 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 373.634 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11386,7 +14738,7 @@
 			)
 		)
 		(property "Val" "100kΩ"
-			(at 43.18 175.2599 90)
+			(at 353.06 179.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11411,7 +14763,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_220R_1pct_0402_RC0402FR-07220RL")
-		(at 22.86 184.15 270)
+		(at 332.74 187.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11420,7 +14772,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc99a85f-df7d-460d-aa91-795a0d1ad2d9")
 		(property "Reference" "R9"
-			(at 25.4 182.88 90)
+			(at 335.28 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11430,7 +14782,7 @@
 			)
 		)
 		(property "Value" "R_220R_1pct_0402_RC0402FR-07220RL"
-			(at 14.986 184.15 0)
+			(at 324.866 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11441,7 +14793,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 12.446 184.15 0)
+			(at 322.326 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11452,7 +14804,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 9.906 184.15 0)
+			(at 319.786 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11463,7 +14815,7 @@
 			)
 		)
 		(property "Description" "SMD Thick Film Resistor, 220Ω, ±1%, 0.063W, 0402"
-			(at 22.86 184.15 0)
+			(at 332.74 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11472,7 +14824,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-07220RL"
-			(at 7.366 184.15 0)
+			(at 317.246 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11483,7 +14835,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 4.826 184.15 0)
+			(at 314.706 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11494,7 +14846,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 2.286 184.15 0)
+			(at 312.166 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11504,7 +14856,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at -0.254 184.15 0)
+			(at 309.626 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11514,7 +14866,7 @@
 			)
 		)
 		(property "Val" "220Ω"
-			(at 25.4 185.4199 90)
+			(at 335.28 189.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11539,7 +14891,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 53.34 91.44 0)
+		(at 290.83 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11548,7 +14900,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcdac52d-2505-4679-94dd-2c4db1f94983")
 		(property "Reference" "#PWR08"
-			(at 53.34 95.25 0)
+			(at 290.83 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11557,7 +14909,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 53.34 86.36 0)
+			(at 290.83 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11565,7 +14917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 91.44 0)
+			(at 290.83 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11574,7 +14926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 91.44 0)
+			(at 290.83 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11583,7 +14935,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 53.34 91.44 0)
+			(at 290.83 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11605,7 +14957,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:Q_NMOS_SOT-23_IRLML6344")
-		(at 50.8 168.91 0)
+		(at 360.68 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11614,7 +14966,7 @@
 		(fields_autoplaced yes)
 		(uuid "fefb5a1f-f327-4966-9f54-c42cb07c61f4")
 		(property "Reference" "Q2"
-			(at 57.15 167.64 0)
+			(at 367.03 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11624,7 +14976,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_SOT-23_IRLML6344"
-			(at 50.8 176.784 0)
+			(at 360.68 180.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11635,7 +14987,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:Q_SOT23"
-			(at 50.8 179.324 0)
+			(at 360.68 183.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11646,7 +14998,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.pl/pl/products/detail/infineon-technologies/IRLML6344TRPBF/2538152"
-			(at 50.8 181.864 0)
+			(at 360.68 185.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11657,7 +15009,7 @@
 			)
 		)
 		(property "Description" "N-Channel MOSFET, 30V, 5.7A, RDS(on) 29mΩ, SOT-23"
-			(at 50.8 168.91 0)
+			(at 360.68 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11666,7 +15018,7 @@
 			)
 		)
 		(property "MPN" "IRLML6344"
-			(at 50.8 184.404 0)
+			(at 360.68 188.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11677,7 +15029,7 @@
 			)
 		)
 		(property "Manufacturer" "Infineon Technologies"
-			(at 50.8 186.944 0)
+			(at 360.68 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11688,7 +15040,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 50.8 189.484 0)
+			(at 360.68 193.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11698,7 +15050,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 50.8 192.024 0)
+			(at 360.68 195.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11708,7 +15060,7 @@
 			)
 		)
 		(property "Val" "NMOS"
-			(at 57.15 170.1799 0)
+			(at 367.03 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
