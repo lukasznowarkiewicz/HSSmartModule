@@ -5704,6 +5704,306 @@
 				)
 			)
 		)
+		(symbol "HSSM-HVPCB:X_4.096MHz_ABLS2-4.096MHZ-D4Y-T"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 0.254 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "X_4.096MHz_ABLS2-4.096MHZ-D4Y-T"
+				(at 0 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-HVPCB:X_HC49US"
+				(at 0 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://abracon.com/Resonators/ABLS2.pdf"
+				(at 0 -18.542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quartz Crystal, 4.096 MHz, ±30ppm, 18pF, HC-49/US, Abracon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ABLS2-4.096MHZ-D4Y-T"
+				(at 0 -21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Abracon"
+				(at 0 -23.622 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0 -26.162 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Lukasz Nowarkiewicz"
+				(at 0 -28.702 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "4.096MHz"
+				(at 0 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "Crystal, Quartz, 4.096MHz, HC-49/US, Abracon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "X_4.096MHz_ABLS2-4.096MHZ-D4Y-T_0_0"
+				(rectangle
+					(start -5.08 -6.35)
+					(end 5.08 6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.3368 3.81) (xy -2.3368 -1.27)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 3.81) (xy -1.397 -1.27)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 3.81) (xy 1.397 3.81)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -1.27) (xy -1.397 -1.27)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 3.81) (xy 1.397 -1.27)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.3368 3.81) (xy 2.3368 -1.27)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HSSM-HVPCB:power_meter_CS5480-INZ"
 			(pin_names
 				(offset 0.254)
@@ -7433,6 +7733,10 @@
 		(at 100.33 62.23)
 		(uuid "43fd2feb-06b0-4472-8e8c-2fbb59036a3a")
 	)
+	(no_connect
+		(at 140.97 78.74)
+		(uuid "7da14b97-9583-47f8-bf35-6adc8a492a03")
+	)
 	(wire
 		(pts
 			(xy 71.12 152.4) (xy 71.12 154.94)
@@ -7705,6 +8009,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 86.36) (xy 149.86 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cde2c8c-8268-4685-8982-cb4f5d7146b5")
+	)
+	(wire
+		(pts
 			(xy 358.14 110.49) (xy 363.22 110.49)
 		)
 		(stroke
@@ -7762,16 +8076,6 @@
 			(type default)
 		)
 		(uuid "242024b6-c1a7-4ae4-9f1b-d8d04630fb1c")
-	)
-	(wire
-		(pts
-			(xy 93.98 58.42) (xy 106.68 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2424d938-f8d8-4088-a514-67e28dece2e8")
 	)
 	(wire
 		(pts
@@ -8065,6 +8369,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 49.53) (xy 86.36 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429baf64-bb02-4e4d-a06d-f95648563150")
+	)
+	(wire
+		(pts
 			(xy 300.99 229.87) (xy 300.99 228.6)
 		)
 		(stroke
@@ -8112,6 +8426,16 @@
 			(type default)
 		)
 		(uuid "461c4116-fc76-4e02-bd4b-6d0400ee3a11")
+	)
+	(wire
+		(pts
+			(xy 140.97 82.55) (xy 149.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a7e95c-f538-4f0c-b684-80ff8b4910ab")
 	)
 	(wire
 		(pts
@@ -8335,6 +8659,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 54.61) (xy 102.87 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63bb7e2c-b886-4aa8-9cdb-edc2f9eb5cbc")
+	)
+	(wire
+		(pts
 			(xy 289.56 71.12) (xy 334.01 71.12)
 		)
 		(stroke
@@ -8442,6 +8776,16 @@
 			(type default)
 		)
 		(uuid "6e03f708-835e-4423-99e2-4624526d2180")
+	)
+	(wire
+		(pts
+			(xy 140.97 97.79) (xy 149.86 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e6a4442-8f40-4097-b9ef-b8ab941e0d92")
 	)
 	(wire
 		(pts
@@ -8935,7 +9279,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 58.42) (xy 106.68 62.23)
+			(xy 106.68 49.53) (xy 106.68 62.23)
 		)
 		(stroke
 			(width 0)
@@ -9072,6 +9416,16 @@
 			(type default)
 		)
 		(uuid "b1cf443c-ce82-4639-b3d8-c3f6665344f2")
+	)
+	(wire
+		(pts
+			(xy 101.6 49.53) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b5b8c6-f946-47a5-94cd-dff0f0649168")
 	)
 	(wire
 		(pts
@@ -9245,7 +9599,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 78.74) (xy 90.17 78.74)
+			(xy 85.09 78.74) (xy 90.17 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9402,6 +9756,16 @@
 			(type default)
 		)
 		(uuid "cf8ecac8-0824-4d0c-938b-55e2fc97e18b")
+	)
+	(wire
+		(pts
+			(xy 140.97 90.17) (xy 149.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a514a6-e9a7-4f1a-8b82-ce6895815dac")
 	)
 	(wire
 		(pts
@@ -9572,6 +9936,16 @@
 			(type default)
 		)
 		(uuid "e080230a-434c-4bc3-9bb5-e433d9d63617")
+	)
+	(wire
+		(pts
+			(xy 102.87 54.61) (xy 102.87 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e42b7f48-b981-4adc-8732-cd64a3198498")
 	)
 	(wire
 		(pts
@@ -9765,7 +10139,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 59.69) (xy 86.36 78.74)
+			(xy 85.09 49.53) (xy 85.09 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9852,6 +10226,16 @@
 			(type default)
 		)
 		(uuid "fa56962f-8bb6-40dc-9ee3-ab6fd87ee021")
+	)
+	(wire
+		(pts
+			(xy 140.97 93.98) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6393aa-a307-40fa-9bdf-dda2976dedaa")
 	)
 	(wire
 		(pts
@@ -10052,6 +10436,50 @@
 		)
 		(uuid "0c347411-115f-43d8-93d3-d49eabab3cd9")
 	)
+	(label "DEV_TX"
+		(at 149.86 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16c1f8bc-a9e5-4ca1-a285-48fa7d834f7a")
+	)
+	(label "DO1"
+		(at 149.86 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24566483-c2f3-4cf6-9d6a-7b951a233245")
+	)
+	(label "DO3"
+		(at 149.86 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ce28f9e-2355-4103-b3b8-2cf43e7b8636")
+	)
+	(label "DO2"
+		(at 149.86 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e3531d1-34f1-4669-9afd-5417f39dd05d")
+	)
 	(label "GPIO_S2"
 		(at 402.59 110.49 180)
 		(fields_autoplaced yes)
@@ -10095,6 +10523,17 @@
 			(justify right bottom)
 		)
 		(uuid "dc3590fb-1786-49c0-8cd3-05f5bcdba691")
+	)
+	(label "DEV_RX"
+		(at 149.86 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed3b90ff-33b5-4c86-ae10-9dfe4873cb80")
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:power_meter_CS5480-INZ")
@@ -10246,6 +10685,72 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "044f5dd1-63a6-453d-bef4-591a3451d146")
+		(property "Reference" "#PWR058"
+			(at 102.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e05cc8c-5773-4a8b-a6e8-074ca427cab5")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -12020,7 +12525,7 @@
 		(dnp no)
 		(uuid "2d5ac380-2887-47c4-b765-d301a36e1a4b")
 		(property "Reference" "C14"
-			(at 104.648 56.388 90)
+			(at 112.268 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12114,7 +12619,7 @@
 			)
 		)
 		(property "Val" "0.1µF"
-			(at 103.378 53.848 90)
+			(at 108.966 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18967,6 +19472,138 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:X_4.096MHz_ABLS2-4.096MHZ-D4Y-T")
+		(at 93.98 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf6721dd-9342-478a-a978-2de15212c9ef")
+		(property "Reference" "X1"
+			(at 93.98 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "X_4.096MHz_ABLS2-4.096MHZ-D4Y-T"
+			(at 93.98 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:X_HC49US"
+			(at 93.98 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/Resonators/ABLS2.pdf"
+			(at 93.98 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quartz Crystal, 4.096 MHz, ±30ppm, 18pF, HC-49/US, Abracon"
+			(at 93.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ABLS2-4.096MHZ-D4Y-T"
+			(at 93.98 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Abracon"
+			(at 93.98 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 93.98 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 93.98 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "4.096MHz"
+			(at 93.98 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5586cb20-c48c-4a20-ae52-5b2ed0b59ab7")
+		)
+		(pin "4"
+			(uuid "9c046a7d-6385-425b-bc10-0aa407a10c90")
+		)
+		(pin "2"
+			(uuid "ff066cba-f127-44bd-b354-7483e5c9314d")
+		)
+		(pin "1"
+			(uuid "901c74fe-af1c-425f-a232-32cf5356f66e")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "X1")
 					(unit 1)
 				)
 			)
