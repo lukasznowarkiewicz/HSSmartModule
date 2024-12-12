@@ -486,6 +486,189 @@
 				)
 			)
 		)
+		(symbol "HSSM-HVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_0u1_10pct_50V_0402_GRM155R71H104KE14D"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-HVPCB:C_0402"
+				(at 0 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
+				(at 0 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 50V, X7R, 0402, GRM155R71H104KE14D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM155R71H104KE14D"
+				(at 0 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 0 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Lukasz Nowarkiewicz"
+				(at 0 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "0.1µF"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "capacitor SMD 0.1uF 50V X7R 0402 GRM155"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0u1_10pct_50V_0402_GRM155R71H104KE14D_0_1"
+				(polyline
+					(pts
+						(xy -0.508 -1.524) (xy -0.508 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.524) (xy 0.508 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0u1_10pct_50V_0402_GRM155R71H104KE14D_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HSSM-HVPCB:C_100uF_20pct_16V_5mm_WCAP-ATG5_860020372006"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -7133,6 +7316,12 @@
 		(uuid "81149d60-7d57-49bb-a3dd-c030e5cd199f")
 	)
 	(junction
+		(at 114.3 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83db889f-2bc7-4aba-aa13-c167369b474c")
+	)
+	(junction
 		(at 322.58 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7229,6 +7418,12 @@
 		(uuid "f176c598-d13c-4f84-bf43-7e8443996bf3")
 	)
 	(junction
+		(at 125.73 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4f32493-6201-4cb6-bf61-1d51d6ac9447")
+	)
+	(junction
 		(at 334.01 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7247,6 +7442,16 @@
 			(type default)
 		)
 		(uuid "004ad2ab-9708-4de0-8e31-e18351aadcbc")
+	)
+	(wire
+		(pts
+			(xy 114.3 50.8) (xy 125.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016817e8-6bf6-4a40-be7b-98c8371874ed")
 	)
 	(wire
 		(pts
@@ -7440,6 +7645,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 50.8) (xy 110.49 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a60941-c9fa-43e5-9a6a-4cf1d20d9312")
+	)
+	(wire
+		(pts
 			(xy 322.58 48.26) (xy 320.04 48.26)
 		)
 		(stroke
@@ -7510,6 +7725,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 50.8) (xy 129.54 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d994af-b1a6-4c19-ab87-76ae80048b30")
+	)
+	(wire
+		(pts
 			(xy 275.59 171.45) (xy 278.13 171.45)
 		)
 		(stroke
@@ -7537,6 +7762,16 @@
 			(type default)
 		)
 		(uuid "242024b6-c1a7-4ae4-9f1b-d8d04630fb1c")
+	)
+	(wire
+		(pts
+			(xy 93.98 58.42) (xy 106.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2424d938-f8d8-4088-a514-67e28dece2e8")
 	)
 	(wire
 		(pts
@@ -7657,6 +7892,16 @@
 			(type default)
 		)
 		(uuid "2e277f8c-f39b-4861-bc47-2af3423d7621")
+	)
+	(wire
+		(pts
+			(xy 121.92 59.69) (xy 121.92 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e991caa-4804-497d-b67b-3dcb1d729a79")
 	)
 	(wire
 		(pts
@@ -8000,6 +8245,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 82.55) (xy 90.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59150c93-60ca-402e-adf7-0135c0a540c5")
+	)
+	(wire
+		(pts
 			(xy 49.53 82.55) (xy 49.53 83.82)
 		)
 		(stroke
@@ -8107,6 +8362,16 @@
 			(type default)
 		)
 		(uuid "68c5bae9-d6e7-4043-9968-778d04ff5d62")
+	)
+	(wire
+		(pts
+			(xy 125.73 113.03) (xy 125.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6928ffe3-8aae-425f-813b-c8671823e9e7")
 	)
 	(wire
 		(pts
@@ -8250,6 +8515,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 50.8) (xy 114.3 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77260eef-14d8-476f-9509-3c01452f0074")
+	)
+	(wire
+		(pts
 			(xy 49.53 82.55) (xy 60.96 82.55)
 		)
 		(stroke
@@ -8257,6 +8532,16 @@
 			(type default)
 		)
 		(uuid "776d5647-60ef-49f8-8aed-ef1772eb1e09")
+	)
+	(wire
+		(pts
+			(xy 118.11 59.69) (xy 118.11 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77eb5385-7479-49db-a08c-2dd9d32e4c4e")
 	)
 	(wire
 		(pts
@@ -8280,6 +8565,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 50.8) (xy 129.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79fd4523-3e4e-45ad-90bd-20a90140ddb2")
+	)
+	(wire
+		(pts
 			(xy 46.99 62.23) (xy 55.88 62.23)
 		)
 		(stroke
@@ -8287,6 +8582,16 @@
 			(type default)
 		)
 		(uuid "7abb8215-a7b7-42ea-b3c9-a01804f7618f")
+	)
+	(wire
+		(pts
+			(xy 110.49 50.8) (xy 114.3 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5fb553-8296-4f8b-b7c2-63df7ad0dc0e")
 	)
 	(wire
 		(pts
@@ -8427,6 +8732,16 @@
 			(type default)
 		)
 		(uuid "897a582d-c03d-4066-bdff-fa46315c64ea")
+	)
+	(wire
+		(pts
+			(xy 118.11 113.03) (xy 118.11 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ced30e5-96e9-4c8d-b4bb-55c4102c0b8c")
 	)
 	(wire
 		(pts
@@ -8620,6 +8935,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 58.42) (xy 106.68 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e3fea5-f90a-460f-a83c-79fd1369f883")
+	)
+	(wire
+		(pts
 			(xy 363.22 177.8) (xy 363.22 182.88)
 		)
 		(stroke
@@ -8727,6 +9052,16 @@
 			(type default)
 		)
 		(uuid "ad207f7f-88ac-40eb-9bbb-5a2752f50c2d")
+	)
+	(wire
+		(pts
+			(xy 114.3 132.08) (xy 118.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1494b37-3aee-439d-920e-36c5dd446786")
 	)
 	(wire
 		(pts
@@ -8910,6 +9245,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 78.74) (xy 90.17 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2255b0-1fbc-451e-8133-f283377a37ab")
+	)
+	(wire
+		(pts
 			(xy 261.62 189.23) (xy 261.62 190.5)
 		)
 		(stroke
@@ -9020,6 +9365,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 113.03) (xy 129.54 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc475a4b-4c0b-483a-8b57-82d4cc52cca5")
+	)
+	(wire
+		(pts
 			(xy 262.89 110.49) (xy 269.24 110.49)
 		)
 		(stroke
@@ -9027,6 +9382,26 @@
 			(type default)
 		)
 		(uuid "cc63ad6e-8ffc-4941-8d5f-df4b4b57aad7")
+	)
+	(wire
+		(pts
+			(xy 125.73 50.8) (xy 125.73 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1a2d86-637c-492a-bd2b-6dde89cfa664")
+	)
+	(wire
+		(pts
+			(xy 125.73 115.57) (xy 129.54 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8ecac8-0824-4d0c-938b-55e2fc97e18b")
 	)
 	(wire
 		(pts
@@ -9057,6 +9432,16 @@
 			(type default)
 		)
 		(uuid "d63cefd3-2ac9-485e-8450-791435fa3e17")
+	)
+	(wire
+		(pts
+			(xy 121.92 113.03) (xy 121.92 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66fe0f7-fc0b-4b9e-8ad1-2aeda7160503")
 	)
 	(wire
 		(pts
@@ -9157,6 +9542,16 @@
 			(type default)
 		)
 		(uuid "de7c1c33-d1e2-43d9-94f9-ce443ae2206f")
+	)
+	(wire
+		(pts
+			(xy 110.49 58.42) (xy 110.49 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded44987-782d-4a6a-ad7c-fea400ece6b3")
 	)
 	(wire
 		(pts
@@ -9330,6 +9725,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 128.27) (xy 118.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07fa688-cefc-41b9-9a81-3aefca8a28c6")
+	)
+	(wire
+		(pts
 			(xy 278.13 171.45) (xy 278.13 173.99)
 		)
 		(stroke
@@ -9360,6 +9765,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 59.69) (xy 86.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35da4de-d7db-4c4c-ae04-ee19bdea0f9e")
+	)
+	(wire
+		(pts
 			(xy 322.58 59.69) (xy 322.58 55.88)
 		)
 		(stroke
@@ -9387,6 +9802,16 @@
 			(type default)
 		)
 		(uuid "f597f3f2-857b-4a87-bbd4-44b9f4582eb2")
+	)
+	(wire
+		(pts
+			(xy 114.3 113.03) (xy 114.3 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5edf34b-5045-4bbe-8f13-6d44fe20a4a7")
 	)
 	(wire
 		(pts
@@ -9648,6 +10073,17 @@
 			(justify left bottom)
 		)
 		(uuid "a287c18e-5cb5-4d72-b6c8-9e86b0d0fb8f")
+	)
+	(label "P_MEAS_RST"
+		(at 81.28 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7d7a261-481f-4dad-9675-f7811ce6452c")
 	)
 	(label "GPIO_S1"
 		(at 318.77 110.49 180)
@@ -11569,6 +12005,133 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D")
+		(at 110.49 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d5ac380-2887-47c4-b765-d301a36e1a4b")
+		(property "Reference" "C14"
+			(at 104.648 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_0u1_10pct_50V_0402_GRM155R71H104KE14D"
+			(at 118.364 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:C_0402"
+			(at 120.904 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
+			(at 123.444 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 50V, X7R, 0402, GRM155R71H104KE14D"
+			(at 110.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 125.984 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 128.524 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 131.064 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 133.604 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0.1µF"
+			(at 103.378 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "78f15ad4-e07b-45ef-8212-855dff45ecb0")
+		)
+		(pin "2"
+			(uuid "5849eab2-3c37-4fd3-a953-e5bdf8785e43")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -15653,6 +16216,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 118.11 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94b1a084-2cf9-49a8-98c0-6993dbe58844")
+		(property "Reference" "#PWR057"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 117.094 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92cfd4ce-0d1b-46c1-ba1f-77b55a374df9")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:AC")
 		(at 43.18 62.23 90)
 		(unit 1)
@@ -17268,6 +17896,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 129.54 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad2dc0db-fadc-4146-9daf-bf404b706683")
+		(property "Reference" "#PWR055"
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea06c4f1-a611-4fb0-b930-baca002ec97e")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:AC")
 		(at 252.73 110.49 90)
 		(unit 1)
@@ -17658,6 +18352,72 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 129.54 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b461f581-fcfc-4c76-9fcd-1ce994602f98")
+		(property "Reference" "#PWR054"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbeecfb4-35f6-40aa-8623-c55b79137050")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -18207,6 +18967,72 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2340095-573b-4b97-9e96-0d01329d0654")
+		(property "Reference" "#PWR053"
+			(at 121.92 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a947b6b-8cf3-4cd6-b6b4-39da8de5a4df")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -19004,6 +19830,134 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D")
+		(at 118.11 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbb18eaf-fb80-4a36-aa21-fcd5b20ec2b1")
+		(property "Reference" "C13"
+			(at 120.65 124.4536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_0u1_10pct_50V_0402_GRM155R71H104KE14D"
+			(at 125.984 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:C_0402"
+			(at 128.524 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
+			(at 131.064 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 50V, X7R, 0402, GRM155R71H104KE14D"
+			(at 118.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 133.604 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 136.144 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 138.684 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 141.224 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0.1µF"
+			(at 120.65 126.9935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "c4699f68-a0ad-4b89-90a5-465343eed019")
+		)
+		(pin "2"
+			(uuid "4a155da4-85f5-406c-aef1-80700fdc56a4")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -20427,6 +21381,71 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 121.92 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "faef86a0-e8d1-4ab7-b1c7-d866b17eb525")
+		(property "Reference" "#PWR056"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 122.428 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12e2f774-da6a-4e1d-9341-d4f4ddfca024")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
