@@ -1679,7 +1679,7 @@
 			)
 		)
 		(property "Val" "33pF"
-			(at 0 -5.588 0)
+			(at 0.254 -5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
