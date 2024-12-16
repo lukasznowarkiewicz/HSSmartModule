@@ -8,108 +8,6 @@
 		(title "HSSM-HVPCB")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "HSSM-HVPCB:ACDC_converter_LNK3204D-TL_power_intergrations"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1320,189 +1218,6 @@
 				)
 			)
 		)
-		(symbol "HSSM-HVPCB:C_15nF_10pct_16V_0402_C0402C153K4RACTU"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_15nF_10pct_16V_0402_C0402C153K4RACTU"
-				(at 0 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "HSSM-HVPCB:C_0402"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C153K4RAC7867"
-				(at 0 -12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Ceramic Capacitor, 15nF, ±10%, 16V, X7R, 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "C0402C153K4RACTU"
-				(at 0 -15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "KEMET"
-				(at 0 -18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 0 -20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Lukasz Nowarkiewicz"
-				(at 0 -23.114 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "15nF"
-				(at 0 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "Capacitor, Ceramic, SMD, 15nF, 16V, X7R, 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_15nF_10pct_16V_0402_C0402C153K4RACTU_0_1"
-				(polyline
-					(pts
-						(xy -0.508 -1.524) (xy -0.508 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.524) (xy 0.508 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_15nF_10pct_16V_0402_C0402C153K4RACTU_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "HSSM-HVPCB:C_1uF_10pct_16V_0603_GCM188R71C105KA64D"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -1831,189 +1546,6 @@
 				)
 			)
 			(symbol "C_33nF_10pct_50V_0402_CC0402KRX7R9BB333_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "HSSM-HVPCB:C_33pF_5pct_50V_0402_C0402C330J5GAC"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_33pF_5pct_50V_0402_C0402C330J5GAC"
-				(at 0 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "HSSM-HVPCB:C_0402"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C330J5GAC7867"
-				(at 0 -12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Ceramic Capacitor, 33pF, ±5%, 50V, C0G, 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "C0402C330J5GAC"
-				(at 0 -15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "KEMET"
-				(at 0 -18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 0 -20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Lukasz Nowarkiewicz"
-				(at 0 -23.114 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "33pF"
-				(at 0.254 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "Capacitor, Ceramic, SMD, 33pF, 50V, C0G, 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_33pF_5pct_50V_0402_C0402C330J5GAC_0_1"
-				(polyline
-					(pts
-						(xy -0.508 -1.524) (xy -0.508 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.524) (xy 0.508 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_33pF_5pct_50V_0402_C0402C330J5GAC_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 2.032)
@@ -3206,189 +2738,6 @@
 				)
 			)
 		)
-		(symbol "HSSM-HVPCB:D_schottky_5A_25V_DPAK_STPS5L25B-TR"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "D_schottky_5A_25V_DPAK_STPS5L25B-TR"
-				(at 0 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "HSSM-HVPCB:D_DPAK"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/68/39/58/a7/fe/b4/45/ac/CD00000845.pdf/files/CD00000845.pdf/jcr:content/translations/en.CD00000845.pdf"
-				(at 0 -12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky Diode, 5A, 25V, DPAK, STMicroelectronics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "STPS5L25B-TR"
-				(at 0 -15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "STMicroelectronics"
-				(at 0 -18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 0 -20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Lukasz Nowarkiewicz"
-				(at 0 -23.114 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "5A 25V"
-				(at 0 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "Schottky Diode, 5A, 25V, DPAK, STMicroelectronics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_schottky_5A_25V_DPAK_STPS5L25B-TR_0_1"
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_schottky_5A_25V_DPAK_STPS5L25B-TR_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "HSSM-HVPCB:F_4A_SlowBlow_Holder_UMZ250_3404.2422.11"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -4302,6 +3651,213 @@
 				)
 			)
 		)
+		(symbol "HSSM-HVPCB:L_10uH_20pct_1A_SDCL1V3012-100M-R"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "L_10uH_20pct_1A_SDCL1V3012-100M-R"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-HVPCB:L_3012"
+				(at 0 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-sdcl1v30-semi-shielded-smt-power-inductor-data-sheet-elx1031-en.pdf"
+				(at 0 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Semi-Shielded SMT Power Inductor, 10µH, ±20%, 1.0A, 3.0x3.0x1.2mm, SDCL1V3012-100M-R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SDCL1V3012-100M-R"
+				(at 0 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Eaton"
+				(at 0 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Lukasz Nowarkiewicz"
+				(at 0 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "10µH"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "Inductor SMT Semi-Shielded Power SDCL1V3012 Eaton 10µH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_10uH_20pct_1A_SDCL1V3012-100M-R_0_1"
+				(arc
+					(start -1.016 0)
+					(mid -1.524 0.5058)
+					(end -2.032 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid -0.508 0.5058)
+					(end -1.016 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 0)
+					(mid 0.508 0.5058)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 0)
+					(mid 1.524 0.5058)
+					(end 1.016 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_10uH_20pct_1A_SDCL1V3012-100M-R_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HSSM-HVPCB:L_1mH_10pct_SDR0503-102KL"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -4471,213 +4027,6 @@
 				)
 			)
 			(symbol "L_1mH_10pct_SDR0503-102KL_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "HSSM-HVPCB:L_68uH_20pct_1.1A_SRN6045-680M"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "L_68uH_20pct_1.1A_SRN6045-680M"
-				(at 0 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "HSSM-HVPCB:L_6.7x6.7x4.5"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRN6045.pdf"
-				(at 0 -12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Shielded SMD Power Inductor, 68µH, ±20%, 1.1A, 6.7x6.7x4.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "SRN6045-680M"
-				(at 0 -15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Bourns"
-				(at 0 -18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 0 -20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Lukasz Nowarkiewicz"
-				(at 0 -23.114 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "68µH"
-				(at 0 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "Inductor, SMD, Shielded, 68µH, 1.1A, SRN6045"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_68uH_20pct_1.1A_SRN6045-680M_0_1"
-				(arc
-					(start -1.016 0)
-					(mid -1.524 0.5058)
-					(end -2.032 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid -0.508 0.5058)
-					(end -1.016 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 0)
-					(mid 0.508 0.5058)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.032 0)
-					(mid 1.524 0.5058)
-					(end 1.016 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_68uH_20pct_1.1A_SRN6045-680M_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 0.508)
@@ -5568,176 +4917,6 @@
 				)
 			)
 		)
-		(symbol "HSSM-HVPCB:R_169mR_0.1pct_0805_RLC73N2AR169FTD"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_169mR_0.1pct_0805_RLC73N2AR169FTD"
-				(at 0 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "HSSM-HVPCB:R_0805"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.te.com/usa-en/product-2176576-7.datasheet.pdf"
-				(at 0 -12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Thin Film Resistor, 169 mΩ, ±0.1%, 0805"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "RLC73N2AR169FTD"
-				(at 0 -15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TE Connectivity"
-				(at 0 -18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 0 -20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Lukasz Nowarkiewicz"
-				(at 0 -23.114 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "169mΩ"
-				(at 0 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "Resistor 169mR 0.1pct Thin Film 0805 TE Connectivity RLC73"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_169mR_0.1pct_0805_RLC73N2AR169FTD_0_1"
-				(rectangle
-					(start -1.905 0.889)
-					(end 1.905 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_169mR_0.1pct_0805_RLC73N2AR169FTD_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "HSSM-HVPCB:R_1k_1pct_0402_CRCW04021K00FKED"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -6040,6 +5219,176 @@
 				)
 			)
 			(symbol "R_200k_0.1pct_1206_VT1206BRD07200KL_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HSSM-HVPCB:R_20k_1pct_0402_RC0402FR-0720KL"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_20k_1pct_0402_RC0402FR-0720KL"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-HVPCB:R_0402"
+				(at 0 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+				(at 0 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Resistor, 20 kΩ, ±1%, 1/16W, 0402, RC0402FR-0720KL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RC0402FR-0720KL"
+				(at 0 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Lukasz Nowarkiewicz"
+				(at 0 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "20kΩ"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "Resistor SMD 0402 20kΩ 1% RC0402FR-0720KL Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_20k_1pct_0402_RC0402FR-0720KL_0_1"
+				(rectangle
+					(start -1.905 0.889)
+					(end 1.905 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_20k_1pct_0402_RC0402FR-0720KL_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 0.635)
@@ -6928,7 +6277,7 @@
 				)
 			)
 		)
-		(symbol "HSSM-HVPCB:R_4k3_1pct_0402_CRCW04024K30FKED"
+		(symbol "HSSM-HVPCB:R_61k9_1pct_0402_RC0402FR-0761K9L"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -6944,7 +6293,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "R_4k3_1pct_0402_CRCW04024K30FKED"
+			(property "Value" "R_61k9_1pct_0402_RC0402FR-0761K9L"
 				(at 0 -7.874 0)
 				(effects
 					(font
@@ -6966,7 +6315,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 				(at 0 -12.954 0)
 				(effects
 					(font
@@ -6977,7 +6326,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Resistor, 4.3kΩ, ±1%, 1/16W, 0402"
+			(property "Description" "SMD Resistor, 61.9 kΩ, ±1%, 1/16W, 0402, RC0402FR-0761K9L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6986,7 +6335,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CRCW04024K30FKED"
+			(property "MPN" "RC0402FR-0761K9L"
 				(at 0 -15.494 0)
 				(effects
 					(font
@@ -6997,7 +6346,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Vishay"
+			(property "Manufacturer" "Yageo"
 				(at 0 -18.034 0)
 				(effects
 					(font
@@ -7028,7 +6377,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "4.3kΩ"
+			(property "Val" "61.9kΩ"
 				(at 0 -5.588 0)
 				(effects
 					(font
@@ -7037,7 +6386,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "Resistor, SMD, 4.3kΩ, 1%, 0402"
+			(property "ki_keywords" "Resistor SMD 0402 61.9kΩ 1% RC0402FR-0761K9L Yageo"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7046,7 +6395,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_4k3_1pct_0402_CRCW04024K30FKED_0_1"
+			(symbol "R_61k9_1pct_0402_RC0402FR-0761K9L_0_1"
 				(rectangle
 					(start -1.905 0.889)
 					(end 1.905 -0.889)
@@ -7059,347 +6408,7 @@
 					)
 				)
 			)
-			(symbol "R_4k3_1pct_0402_CRCW04024K30FKED_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "HSSM-HVPCB:R_5k6_1pct_0402_CRCW04025K60FKED"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_5k6_1pct_0402_CRCW04025K60FKED"
-				(at 0 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "HSSM-HVPCB:R_0402"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-				(at 0 -12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Resistor, 5.6kΩ, ±1%, 1/16W, 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CRCW04025K60FKED"
-				(at 0 -15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 -18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 0 -20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Lukasz Nowarkiewicz"
-				(at 0 -23.114 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "5.6kΩ"
-				(at 0 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "Resistor, SMD, 5.6kΩ, 1%, 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_5k6_1pct_0402_CRCW04025K60FKED_0_1"
-				(rectangle
-					(start -1.905 0.889)
-					(end 1.905 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_5k6_1pct_0402_CRCW04025K60FKED_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "HSSM-HVPCB:R_7k15_1pct_0402_CRCW04027K15FKED"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_7k15_1pct_0402_CRCW04027K15FKED"
-				(at 0 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "HSSM-HVPCB:R_0402"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-				(at 0 -12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Resistor, 7.15kΩ, ±1%, 1/16W, 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CRCW04027K15FKED"
-				(at 0 -15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 -18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 0 -20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Lukasz Nowarkiewicz"
-				(at 0 -23.114 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "7.15kΩ"
-				(at 0 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "Resistor, SMD, 7.15kΩ, 1%, 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_7k15_1pct_0402_CRCW04027K15FKED_0_1"
-				(rectangle
-					(start -1.905 0.889)
-					(end 1.905 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_7k15_1pct_0402_CRCW04027K15FKED_1_1"
+			(symbol "R_61k9_1pct_0402_RC0402FR-0761K9L_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 0.635)
@@ -7608,12 +6617,12 @@
 				)
 			)
 		)
-		(symbol "HSSM-HVPCB:U_DC-DC_L6902D"
+		(symbol "HSSM-HVPCB:TPS560200DBVR_SOIC_6_TI"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0.254 -11.43 0)
+				(at 0.254 -8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7622,19 +6631,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "U_DC-DC_L6902D"
-				(at 0.254 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "HSSM-HVPCB:SOIC-8"
-				(at 0.254 -18.796 0)
+			(property "Value" "TPS560200DBVR_SOIC_6_TI"
+				(at 0.254 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7644,8 +6642,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.pl/datasheet/2/389/l6902-1849448.pdf"
-				(at 0.254 -21.336 0)
+			(property "Footprint" "HSSM-HVPCB:SOIC_6"
+				(at 0.254 -15.748 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7655,7 +6653,18 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DC-DC Step-Down Regulator, 2A, 8V-36V Input, SO-8"
+			(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps560200"
+				(at 0.254 -18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC-DC Buck Converter, 4.5V to 17V input, 0.5A output, SOIC-6 package"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7664,8 +6673,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "L6902D"
-				(at 0.254 -23.876 0)
+			(property "MPN" "TPS560200DBVR"
+				(at 0.254 -20.828 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7675,8 +6684,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "STMicroelectronics"
-				(at 0.254 -26.416 0)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0.254 -23.368 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7687,7 +6696,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 0.254 -28.956 0)
+				(at 0.254 -25.908 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7697,7 +6706,7 @@
 				)
 			)
 			(property "Author" "Lukasz Nowarkiewicz"
-				(at 0.254 -31.496 0)
+				(at 0.254 -28.448 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7706,8 +6715,8 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "U_DC-DC_L6902D"
-				(at 0.254 -13.97 0)
+			(property "Val" "DC-DC Buck"
+				(at 0.254 -10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7715,7 +6724,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "DC-DC, Step-Down, Regulator, 2A, 8V-36V, SO-8"
+			(property "ki_keywords" "DC-DC converter, Buck, 0.5A, SOIC-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7724,10 +6733,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "U_DC-DC_L6902D_0_1"
+			(symbol "TPS560200DBVR_SOIC_6_TI_0_1"
 				(rectangle
-					(start -10.16 8.89)
-					(end 10.16 -7.62)
+					(start -6.35 5.588)
+					(end 6.35 -5.842)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -7737,11 +6746,11 @@
 					)
 				)
 			)
-			(symbol "U_DC-DC_L6902D_1_1"
+			(symbol "TPS560200DBVR_SOIC_6_TI_1_1"
 				(pin bidirectional line
-					(at -12.7 6.35 0)
+					(at -8.89 3.81 0)
 					(length 2.54)
-					(name "OUT"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7757,9 +6766,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 2.54 0)
+					(at -8.89 0 0)
 					(length 2.54)
-					(name "CS+"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7775,16 +6784,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 -1.27 0)
+					(at -8.89 -3.81 0)
 					(length 2.54)
-					(name "CS-"
+					(name "PH"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7793,9 +6802,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 -5.08 0)
+					(at 8.89 -3.81 180)
 					(length 2.54)
-					(name "COMP"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7811,9 +6820,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 -5.08 180)
+					(at 8.89 3.81 180)
 					(length 2.54)
-					(name "FB"
+					(name "VSENSE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7821,60 +6830,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -1.27 180)
-					(length 2.54)
-					(name "VREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 6.35 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10258,10 +9213,10 @@
 		)
 	)
 	(junction
-		(at 186.69 243.84)
+		(at 176.53 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "02059bba-cfd6-4ed2-bdfb-a76c76f489fd")
+		(uuid "037ed39a-0a56-46b7-9c45-890dd03aa09f")
 	)
 	(junction
 		(at 369.57 71.12)
@@ -10330,7 +9285,7 @@
 		(uuid "28e02c9f-e03c-41ff-88a2-c1547012771a")
 	)
 	(junction
-		(at 199.39 233.68)
+		(at 151.13 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2feeb839-a7e0-43e7-a3ad-bac83372b87f")
@@ -10340,12 +9295,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "366b4cce-d785-45b9-8600-6975b9ecadbb")
-	)
-	(junction
-		(at 179.07 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41c8d2e4-f144-4d1d-b4a5-4b4d61d01377")
 	)
 	(junction
 		(at 124.46 100.33)
@@ -10402,22 +9351,10 @@
 		(uuid "73598f38-a56d-4c89-8bc2-be68747b51e6")
 	)
 	(junction
-		(at 156.21 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73c67386-1f6b-42bd-8654-9bb3d6179454")
-	)
-	(junction
 		(at 128.27 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73f9d692-1788-4923-8638-6b9ff2548ae7")
-	)
-	(junction
-		(at 139.7 248.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74efd584-c52a-42dc-8d87-86853454bab8")
 	)
 	(junction
 		(at 101.6 74.93)
@@ -10438,7 +9375,7 @@
 		(uuid "83db889f-2bc7-4aba-aa13-c167369b474c")
 	)
 	(junction
-		(at 85.09 233.68)
+		(at 100.33 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86362b62-09aa-4394-9283-fa72afe7cfd0")
@@ -10468,6 +9405,12 @@
 		(uuid "9721be20-9af6-4c15-b7ef-37839c52509f")
 	)
 	(junction
+		(at 176.53 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e510a0a-4213-4c6e-ab87-2c30b9b6fe19")
+	)
+	(junction
 		(at 322.58 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10480,28 +9423,16 @@
 		(uuid "aabee05c-8bc0-47aa-8cdd-52c7e8681533")
 	)
 	(junction
-		(at 186.69 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "abc554a9-0f1f-4264-b9da-44d325999994")
-	)
-	(junction
 		(at 292.1 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad2ec8c0-0a36-41f7-8b80-925fbea625a1")
 	)
 	(junction
-		(at 209.55 233.68)
+		(at 161.29 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb08c648-6018-4bb5-8923-6ea249fd0334")
-	)
-	(junction
-		(at 168.91 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcf0ede3-f4c0-4f07-8e11-99de7e3af6e6")
 	)
 	(junction
 		(at 123.19 35.56)
@@ -10576,6 +9507,10 @@
 	(no_connect
 		(at 193.04 63.5)
 		(uuid "7da14b97-9583-47f8-bf35-6adc8a492a03")
+	)
+	(no_connect
+		(at 133.35 241.3)
+		(uuid "a2816020-3933-40d8-bf5d-e900ed38121c")
 	)
 	(wire
 		(pts
@@ -10779,23 +9714,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 245.11) (xy 139.7 245.11)
+			(xy 176.53 247.65) (xy 176.53 248.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f76eb27-cab8-4d3e-ad85-2e4fda377d01")
-	)
-	(wire
-		(pts
-			(xy 139.7 259.08) (xy 139.7 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f8cdcac-422a-4320-95ce-26e7b56568f4")
+		(uuid "0f3112f1-7e68-4293-9809-5268a2815a26")
 	)
 	(wire
 		(pts
@@ -10829,16 +9754,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 241.3) (xy 186.69 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "135295fd-3372-49bf-8324-74e6a2079e43")
-	)
-	(wire
-		(pts
 			(xy 162.56 35.56) (xy 162.56 38.1)
 		)
 		(stroke
@@ -10849,13 +9764,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 242.57) (xy 156.21 243.84)
+			(xy 133.35 237.49) (xy 138.43 237.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15104786-11da-420d-a60a-2abb5627b8da")
+		(uuid "14a71a4e-63e0-4698-8293-f20c1e97db96")
 	)
 	(wire
 		(pts
@@ -10889,7 +9804,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 240.03) (xy 85.09 241.3)
+			(xy 100.33 240.03) (xy 100.33 241.3)
 		)
 		(stroke
 			(width 0)
@@ -10919,6 +9834,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 237.49) (xy 138.43 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6d3ae3-dc73-45af-b97a-4ec0fa7700bb")
+	)
+	(wire
+		(pts
 			(xy 193.04 71.12) (xy 201.93 71.12)
 		)
 		(stroke
@@ -10926,16 +9851,6 @@
 			(type default)
 		)
 		(uuid "1cde2c8c-8268-4685-8982-cb4f5d7146b5")
-	)
-	(wire
-		(pts
-			(xy 181.61 243.84) (xy 186.69 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cdf767b-64c2-454b-a2ab-7d4303573514")
 	)
 	(wire
 		(pts
@@ -10956,6 +9871,16 @@
 			(type default)
 		)
 		(uuid "1eafdb65-7e56-476f-b347-8ff77dfc7c6c")
+	)
+	(wire
+		(pts
+			(xy 176.53 233.68) (xy 179.07 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efb767e-48d5-44f1-b10a-e00a67a3edfc")
 	)
 	(wire
 		(pts
@@ -11069,16 +9994,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 233.68) (xy 179.07 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a3af2e2-2438-43b3-b8b4-093bea7949ef")
-	)
-	(wire
-		(pts
 			(xy 293.37 229.87) (xy 293.37 224.79)
 		)
 		(stroke
@@ -11169,16 +10084,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 248.92) (xy 129.54 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e9775e8-344c-42f4-98c4-573929efe558")
-	)
-	(wire
-		(pts
 			(xy 173.99 44.45) (xy 173.99 46.99)
 		)
 		(stroke
@@ -11186,6 +10091,16 @@
 			(type default)
 		)
 		(uuid "2e991caa-4804-497d-b67b-3dcb1d729a79")
+	)
+	(wire
+		(pts
+			(xy 176.53 233.68) (xy 176.53 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f749b8e-dff3-4557-9d22-8c32fcc49dc6")
 	)
 	(wire
 		(pts
@@ -11219,16 +10134,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 248.92) (xy 139.7 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31390269-7a6b-4b3f-b282-b43dda7f7c42")
-	)
-	(wire
-		(pts
 			(xy 373.38 170.18) (xy 373.38 173.99)
 		)
 		(stroke
@@ -11239,23 +10144,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 233.68) (xy 85.09 234.95)
+			(xy 100.33 233.68) (xy 100.33 234.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3498aaf2-8f8a-45e8-9956-7a5395d0e597")
-	)
-	(wire
-		(pts
-			(xy 139.7 245.11) (xy 139.7 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3573fac0-2405-4212-b4cc-e03a9e0e9fea")
 	)
 	(wire
 		(pts
@@ -11296,16 +10191,6 @@
 			(type default)
 		)
 		(uuid "397897bf-a10a-403b-a053-6c9c1955df4a")
-	)
-	(wire
-		(pts
-			(xy 156.21 233.68) (xy 160.02 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "399f2cad-609c-42a4-a48a-7d3323067a62")
 	)
 	(wire
 		(pts
@@ -11359,6 +10244,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 240.03) (xy 176.53 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b41cb53-1405-49c8-b167-9938ac4e807a")
+	)
+	(wire
+		(pts
 			(xy 285.75 59.69) (xy 289.56 59.69)
 		)
 		(stroke
@@ -11366,16 +10261,6 @@
 			(type default)
 		)
 		(uuid "3c61d3eb-22e6-4942-904c-de94c00c2916")
-	)
-	(wire
-		(pts
-			(xy 147.32 254) (xy 179.07 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dc0a271-2d22-4006-8cbb-3da72b7252e7")
 	)
 	(wire
 		(pts
@@ -11399,16 +10284,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 245.11) (xy 111.76 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41350ae3-156f-42a9-873a-5147f8d6eb65")
-	)
-	(wire
-		(pts
 			(xy 104.14 142.24) (xy 104.14 148.59)
 		)
 		(stroke
@@ -11426,16 +10301,6 @@
 			(type default)
 		)
 		(uuid "41d74861-0c83-4dea-b5af-3d5efec043c4")
-	)
-	(wire
-		(pts
-			(xy 137.16 241.3) (xy 147.32 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "422a0063-50f4-4fab-86e7-25593b02edc9")
 	)
 	(wire
 		(pts
@@ -11479,16 +10344,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 251.46) (xy 186.69 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45bd560d-19ed-4eb7-bcc3-f1007a9db140")
-	)
-	(wire
-		(pts
 			(xy 354.33 166.37) (xy 354.33 171.45)
 		)
 		(stroke
@@ -11509,7 +10364,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 233.68) (xy 209.55 233.68)
+			(xy 151.13 233.68) (xy 161.29 233.68)
 		)
 		(stroke
 			(width 0)
@@ -11539,7 +10394,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 233.68) (xy 199.39 236.22)
+			(xy 151.13 233.68) (xy 151.13 236.22)
 		)
 		(stroke
 			(width 0)
@@ -11629,7 +10484,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 241.3) (xy 199.39 243.84)
+			(xy 151.13 241.3) (xy 151.13 243.84)
 		)
 		(stroke
 			(width 0)
@@ -11666,16 +10521,6 @@
 			(type default)
 		)
 		(uuid "57c995e4-b2d7-415a-97f0-f73b741b9750")
-	)
-	(wire
-		(pts
-			(xy 151.13 237.49) (xy 151.13 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57e7d904-2a7f-4eca-a18c-e822c0bf707d")
 	)
 	(wire
 		(pts
@@ -11739,6 +10584,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 241.3) (xy 176.53 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4cc734-2ce4-409b-8179-fdb369effee0")
+	)
+	(wire
+		(pts
 			(xy 262.89 71.12) (xy 289.56 71.12)
 		)
 		(stroke
@@ -11759,16 +10614,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 233.68) (xy 179.07 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e421b88-4efb-4473-8062-07132611f917")
-	)
-	(wire
-		(pts
 			(xy 298.45 227.33) (xy 307.34 227.33)
 		)
 		(stroke
@@ -11776,6 +10621,16 @@
 			(type default)
 		)
 		(uuid "5ea67d98-cadf-4357-9b35-0aac0b3fbb10")
+	)
+	(wire
+		(pts
+			(xy 133.35 233.68) (xy 142.24 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed286bf-f4a1-468d-a93c-06c51bfb3326")
 	)
 	(wire
 		(pts
@@ -11919,16 +10774,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 233.68) (xy 171.45 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "702d2eef-bc35-441d-b1f8-469a9be4c07a")
-	)
-	(wire
-		(pts
 			(xy 158.75 97.79) (xy 158.75 128.27)
 		)
 		(stroke
@@ -11956,26 +10801,6 @@
 			(type default)
 		)
 		(uuid "7294dac4-3b00-45f8-8372-bd5ceb2e8949")
-	)
-	(wire
-		(pts
-			(xy 156.21 233.68) (xy 156.21 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73f8d23a-0a68-4344-be8f-1cce5de6c0fd")
-	)
-	(wire
-		(pts
-			(xy 129.54 255.27) (xy 129.54 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74b69639-fd02-4fd1-9447-ed90734015f9")
 	)
 	(wire
 		(pts
@@ -12019,16 +10844,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 241.3) (xy 147.32 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "775a0e1d-c314-4478-b490-c568eb6680df")
-	)
-	(wire
-		(pts
 			(xy 101.6 67.31) (xy 113.03 67.31)
 		)
 		(stroke
@@ -12039,7 +10854,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 233.68) (xy 215.9 233.68)
+			(xy 161.29 233.68) (xy 176.53 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12109,7 +10924,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 241.3) (xy 209.55 243.84)
+			(xy 161.29 241.3) (xy 161.29 243.84)
 		)
 		(stroke
 			(width 0)
@@ -12126,6 +10941,16 @@
 			(type default)
 		)
 		(uuid "7c5f0730-6ae4-4e3c-aada-5556377525b7")
+	)
+	(wire
+		(pts
+			(xy 171.45 241.3) (xy 171.45 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc60f54-83ea-4969-811a-a575335d5fc8")
 	)
 	(wire
 		(pts
@@ -12189,7 +11014,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 233.68) (xy 111.76 233.68)
+			(xy 100.33 233.68) (xy 115.57 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12239,6 +11064,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 241.3) (xy 115.57 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828c7ff7-6967-40ae-bfd3-b662d4385483")
+	)
+	(wire
+		(pts
 			(xy 118.11 128.27) (xy 128.27 128.27)
 		)
 		(stroke
@@ -12256,26 +11091,6 @@
 			(type default)
 		)
 		(uuid "83b7d6ae-ee1b-436f-bd8f-85b7cc8a5cf1")
-	)
-	(wire
-		(pts
-			(xy 110.49 237.49) (xy 111.76 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "845b2d31-aad1-430d-bf9a-18987aa6d497")
-	)
-	(wire
-		(pts
-			(xy 129.54 248.92) (xy 139.7 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84d8f8e8-770b-47f0-a4bb-b66871ce6582")
 	)
 	(wire
 		(pts
@@ -12319,7 +11134,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 231.14) (xy 215.9 233.68)
+			(xy 179.07 231.14) (xy 179.07 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12339,7 +11154,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 233.68) (xy 209.55 236.22)
+			(xy 161.29 233.68) (xy 161.29 236.22)
 		)
 		(stroke
 			(width 0)
@@ -12359,7 +11174,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 233.68) (xy 199.39 233.68)
+			(xy 147.32 233.68) (xy 151.13 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12376,16 +11191,6 @@
 			(type default)
 		)
 		(uuid "918198b9-34fe-4b0a-8986-27df85e773cd")
-	)
-	(wire
-		(pts
-			(xy 151.13 251.46) (xy 168.91 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9276805e-1082-4382-b1c3-570b3b2a2d62")
 	)
 	(wire
 		(pts
@@ -12406,16 +11211,6 @@
 			(type default)
 		)
 		(uuid "9326e021-1c83-4a0d-b946-54476e97eff0")
-	)
-	(wire
-		(pts
-			(xy 186.69 243.84) (xy 186.69 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94f94748-46c1-48aa-b448-f389252cad1c")
 	)
 	(wire
 		(pts
@@ -12789,16 +11584,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 237.49) (xy 151.13 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b643ec3a-9f43-4c95-8d43-d2a58f5fd19a")
-	)
-	(wire
-		(pts
 			(xy 74.93 185.42) (xy 59.69 185.42)
 		)
 		(stroke
@@ -12889,7 +11674,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 231.14) (xy 85.09 233.68)
+			(xy 100.33 231.14) (xy 100.33 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12939,6 +11724,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 241.3) (xy 110.49 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8c3198-1af3-481f-a89d-b15e207b7faf")
+	)
+	(wire
+		(pts
 			(xy 259.08 191.77) (xy 259.08 193.04)
 		)
 		(stroke
@@ -12966,16 +11761,6 @@
 			(type default)
 		)
 		(uuid "c09799fb-3329-4d7d-9df6-7745d490da22")
-	)
-	(wire
-		(pts
-			(xy 165.1 233.68) (xy 168.91 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0b8a1ff-ec66-422e-9547-8559f215f8c7")
 	)
 	(wire
 		(pts
@@ -13109,16 +11894,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 233.68) (xy 168.91 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cca7a099-0bcd-4781-9ca8-a3b53b134ce7")
-	)
-	(wire
-		(pts
 			(xy 177.8 35.56) (xy 177.8 46.99)
 		)
 		(stroke
@@ -13136,16 +11911,6 @@
 			(type default)
 		)
 		(uuid "cf8ecac8-0824-4d0c-938b-55e2fc97e18b")
-	)
-	(wire
-		(pts
-			(xy 129.54 261.62) (xy 129.54 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d142ebad-f37b-435d-99f6-302f4e8e76d0")
 	)
 	(wire
 		(pts
@@ -13359,6 +12124,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 251.46) (xy 171.45 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2523ce6-0c46-4004-9e76-6030aed2b287")
+	)
+	(wire
+		(pts
 			(xy 298.45 146.05) (xy 300.99 146.05)
 		)
 		(stroke
@@ -13376,16 +12151,6 @@
 			(type default)
 		)
 		(uuid "e42b7f48-b981-4adc-8732-cd64a3198498")
-	)
-	(wire
-		(pts
-			(xy 179.07 233.68) (xy 186.69 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4bb0747-3719-4460-ae11-b1dfecf7db7d")
 	)
 	(wire
 		(pts
@@ -13436,16 +12201,6 @@
 			(type default)
 		)
 		(uuid "e79b103d-c174-4774-888d-5f44d519ac10")
-	)
-	(wire
-		(pts
-			(xy 186.69 233.68) (xy 186.69 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7c29e27-b735-4490-a69a-278d1f411d99")
 	)
 	(wire
 		(pts
@@ -13526,6 +12281,16 @@
 			(type default)
 		)
 		(uuid "ec6e3201-6bec-440f-bf95-7725cf5c4ec3")
+	)
+	(wire
+		(pts
+			(xy 171.45 241.3) (xy 176.53 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5f3042-0207-4222-b9d3-84f20f69e7e8")
 	)
 	(wire
 		(pts
@@ -13756,16 +12521,6 @@
 			(type default)
 		)
 		(uuid "fead197c-6af5-4991-9073-0358ee48fe23")
-	)
-	(wire
-		(pts
-			(xy 137.16 233.68) (xy 156.21 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff6adaf0-9ce7-43c2-b31f-226288bb6096")
 	)
 	(wire
 		(pts
@@ -14116,17 +12871,6 @@
 		)
 		(uuid "a287c18e-5cb5-4d72-b6c8-9e86b0d0fb8f")
 	)
-	(label "FB"
-		(at 181.61 243.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae894c71-ce06-466e-9dae-8c26099143bc")
-	)
 	(label "DO1"
 		(at 59.69 185.42 0)
 		(fields_autoplaced yes)
@@ -14148,17 +12892,6 @@
 			(justify left bottom)
 		)
 		(uuid "c7d7a261-481f-4dad-9675-f7811ce6452c")
-	)
-	(label "FB"
-		(at 106.68 245.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc5236fc-f007-4944-aff1-fa6a148d5700")
 	)
 	(label "GPIO_S1"
 		(at 318.77 110.49 180)
@@ -14184,7 +12917,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:C_10uF_10pct_25V_1206_CC1206KKX7R8BB106")
-		(at 199.39 238.76 90)
+		(at 151.13 238.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14193,7 +12926,7 @@
 		(fields_autoplaced yes)
 		(uuid "00d956bd-6e8c-48b8-a10f-6f117d8ccf07")
 		(property "Reference" "C18"
-			(at 201.93 237.4836 90)
+			(at 153.67 237.4836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14203,7 +12936,7 @@
 			)
 		)
 		(property "Value" "C_10uF_10pct_25V_1206_CC1206KKX7R8BB106"
-			(at 207.264 238.76 0)
+			(at 159.004 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14214,7 +12947,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:C_1206"
-			(at 209.804 238.76 0)
+			(at 161.544 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14225,7 +12958,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 212.344 238.76 0)
+			(at 164.084 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14236,7 +12969,7 @@
 			)
 		)
 		(property "Description" "SMD Ceramic Capacitor, 10µF, ±10%, 25V, X7R, 1206"
-			(at 199.39 238.76 0)
+			(at 151.13 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14245,7 +12978,7 @@
 			)
 		)
 		(property "MPN" "CC1206KKX7R8BB106"
-			(at 214.884 238.76 0)
+			(at 166.624 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14256,7 +12989,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 217.424 238.76 0)
+			(at 169.164 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14267,7 +13000,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 219.964 238.76 0)
+			(at 171.704 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14277,7 +13010,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 222.504 238.76 0)
+			(at 174.244 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14287,7 +13020,7 @@
 			)
 		)
 		(property "Val" "10µF"
-			(at 201.93 240.0235 90)
+			(at 153.67 240.0235 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14532,6 +13265,141 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-HVPCB:TPS560200DBVR_SOIC_6_TI")
+		(at 124.46 237.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e171af6-9a01-422e-be14-c15e29b269ab")
+		(property "Reference" "U6"
+			(at 124.46 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TPS560200DBVR_SOIC_6_TI"
+			(at 124.206 224.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:SOIC_6"
+			(at 124.206 221.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps560200"
+			(at 124.206 219.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC-DC Buck Converter, 4.5V to 17V input, 0.5A output, SOIC-6 package"
+			(at 124.46 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS560200DBVR"
+			(at 124.206 216.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 124.206 214.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 124.206 211.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 124.206 209.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "DC-DC Buck"
+			(at 124.46 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "99ad0970-5da3-4f9c-bd87-6ee6fa415c57")
+		)
+		(pin "3"
+			(uuid "5986abf7-1b66-45a0-badf-3b5803c72f4c")
+		)
+		(pin "5"
+			(uuid "77cd5f4e-7f1a-47d8-b17c-fb8fd52ced3a")
+		)
+		(pin "1"
+			(uuid "b5b57f00-6419-4f9b-9351-8ee13fd48ca3")
+		)
+		(pin "2"
+			(uuid "961a0efb-00c9-429b-a11f-10bfa9cdbfeb")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:C_6u8_20pct_400V_8mm_WCAP-ATG5_860021374009")
 		(at 289.56 64.77 270)
 		(unit 1)
@@ -14660,72 +13528,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 156.21 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e6d29e5-57ba-4cce-8c32-7c1eee218ee9")
-		(property "Reference" "#PWR067"
-			(at 156.21 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06561ef0-67be-45b4-abd3-d049d26614a1")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HSSM-HVPCB:R_1k_1pct_0402_CRCW04021K00FKED")
 		(at 110.49 26.67 0)
 		(unit 1)
@@ -14846,134 +13648,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-HVPCB:D_schottky_5A_25V_DPAK_STPS5L25B-TR")
-		(at 156.21 238.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19b58010-6ab0-41f7-880f-5439f4f054f4")
-		(property "Reference" "D9"
-			(at 158.75 237.1725 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_schottky_5A_25V_DPAK_STPS5L25B-TR"
-			(at 148.336 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:D_DPAK"
-			(at 145.796 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/68/39/58/a7/fe/b4/45/ac/CD00000845.pdf/files/CD00000845.pdf/jcr:content/translations/en.CD00000845.pdf"
-			(at 143.256 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky Diode, 5A, 25V, DPAK, STMicroelectronics"
-			(at 156.21 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "STPS5L25B-TR"
-			(at 140.716 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 138.176 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 135.636 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 133.096 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "5A 25V"
-			(at 158.75 239.7124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "afe1f5e5-c43e-416c-b07d-20623ba32570")
-		)
-		(pin "2"
-			(uuid "cc8e289e-1cb5-428f-80d3-9b92ed938f40")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -15519,134 +14193,6 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-HVPCB:C_15nF_10pct_16V_0402_C0402C153K4RACTU")
-		(at 129.54 252.73 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24eed5d9-9aaa-4b0d-9d89-92f31b45ca83")
-		(property "Reference" "C17"
-			(at 132.08 251.4536 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_15nF_10pct_16V_0402_C0402C153K4RACTU"
-			(at 137.414 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:C_0402"
-			(at 139.954 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C153K4RAC7867"
-			(at 142.494 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Ceramic Capacitor, 15nF, ±10%, 16V, X7R, 0402"
-			(at 129.54 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0402C153K4RACTU"
-			(at 145.034 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 147.574 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 150.114 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 152.654 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "15nF"
-			(at 132.08 253.9935 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "fe0a2050-c031-4b4f-bd0e-8d0af0dbaedc")
-		)
-		(pin "1"
-			(uuid "c12a2ec1-5776-45b7-8ec0-5d24e4196224")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -16741,7 +15287,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 241.3 0)
+		(at 100.33 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16750,7 +15296,7 @@
 		(fields_autoplaced yes)
 		(uuid "31cc19fd-79b5-49b3-ae07-0128be26148b")
 		(property "Reference" "#PWR065"
-			(at 85.09 247.65 0)
+			(at 100.33 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16759,7 +15305,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 246.38 0)
+			(at 100.33 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16767,7 +15313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 241.3 0)
+			(at 100.33 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16776,7 +15322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 241.3 0)
+			(at 100.33 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16785,7 +15331,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 241.3 0)
+			(at 100.33 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17516,6 +16062,134 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-HVPCB:R_20k_1pct_0402_RC0402FR-0720KL")
+		(at 176.53 245.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d3ffa1b-c593-4f08-b0bf-2e410856bdd5")
+		(property "Reference" "R34"
+			(at 179.07 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_20k_1pct_0402_RC0402FR-0720KL"
+			(at 184.404 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 186.944 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 189.484 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor, 20 kΩ, ±1%, 1/16W, 0402, RC0402FR-0720KL"
+			(at 176.53 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0720KL"
+			(at 192.024 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 194.564 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 197.104 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 199.644 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "20kΩ"
+			(at 179.07 246.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "62aa755d-e40a-4e06-a4f0-67621d984a7e")
+		)
+		(pin "1"
+			(uuid "2b56634e-8823-4650-8d8b-83a667fa1943")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:AC")
 		(at 373.38 185.42 180)
 		(unit 1)
@@ -17647,132 +16321,6 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:L_68uH_20pct_1.1A_SRN6045-680M")
-		(at 162.56 233.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40f50928-ee65-433f-ac85-b231aac44d8d")
-		(property "Reference" "L3"
-			(at 162.56 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "L_68uH_20pct_1.1A_SRN6045-680M"
-			(at 162.56 241.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:L_6.7x6.7x4.5"
-			(at 162.56 244.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRN6045.pdf"
-			(at 162.56 246.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shielded SMD Power Inductor, 68µH, ±20%, 1.1A, 6.7x6.7x4.5mm"
-			(at 162.56 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SRN6045-680M"
-			(at 162.56 249.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 162.56 251.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 162.56 254.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 162.56 256.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "68µH"
-			(at 162.56 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fd34d822-fd69-4f11-b847-16518602b9c4")
-		)
-		(pin "1"
-			(uuid "dbec08c8-874c-4c54-82fd-ba7a106cbe13")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 386.08 73.66 0)
 		(unit 1)
@@ -17839,8 +16387,134 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-HVPCB:L_10uH_20pct_1A_SDCL1V3012-100M-R")
+		(at 144.78 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42c50d21-ae7a-47ce-a392-f02639676b53")
+		(property "Reference" "L4"
+			(at 144.78 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L_10uH_20pct_1A_SDCL1V3012-100M-R"
+			(at 144.78 241.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:L_3012"
+			(at 144.78 244.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-sdcl1v30-semi-shielded-smt-power-inductor-data-sheet-elx1031-en.pdf"
+			(at 144.78 246.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Semi-Shielded SMT Power Inductor, 10µH, ±20%, 1.0A, 3.0x3.0x1.2mm, SDCL1V3012-100M-R"
+			(at 144.78 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SDCL1V3012-100M-R"
+			(at 144.78 249.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Eaton"
+			(at 144.78 251.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 144.78 254.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 144.78 256.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10µH"
+			(at 144.78 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38fdaebd-72c6-443d-b660-2a2aae7e2ff6")
+		)
+		(pin "2"
+			(uuid "53016e0c-93da-4bcc-b01b-fb9bf1e14a1f")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
-		(at 85.09 231.14 0)
+		(at 100.33 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17849,7 +16523,7 @@
 		(fields_autoplaced yes)
 		(uuid "4980c300-0e28-43a0-9d0f-71551b2d8b32")
 		(property "Reference" "#PWR064"
-			(at 85.09 234.95 0)
+			(at 100.33 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17858,7 +16532,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 85.09 226.06 0)
+			(at 100.33 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17866,7 +16540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 231.14 0)
+			(at 100.33 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17875,7 +16549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 231.14 0)
+			(at 100.33 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17884,7 +16558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 85.09 231.14 0)
+			(at 100.33 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18663,7 +17337,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:C_4u7_20pct_50V_1206_EMK316BJ475ML")
-		(at 85.09 237.49 90)
+		(at 100.33 237.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18672,7 +17346,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a38b758-9a5a-4c50-a37e-985030195153")
 		(property "Reference" "C15"
-			(at 87.63 236.2136 90)
+			(at 102.87 236.2136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18682,7 +17356,7 @@
 			)
 		)
 		(property "Value" "C_4u7_20pct_50V_1206_EMK316BJ475ML"
-			(at 92.964 237.49 0)
+			(at 108.204 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18693,7 +17367,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:C_1206"
-			(at 95.504 237.49 0)
+			(at 110.744 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18704,7 +17378,7 @@
 			)
 		)
 		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=EMK316BJ475ML-T%20%20&u=M"
-			(at 98.044 237.49 0)
+			(at 113.284 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18715,7 +17389,7 @@
 			)
 		)
 		(property "Description" "SMD Ceramic Capacitor, 4.7µF, ±20%, 50V, X7R, 1206"
-			(at 85.09 237.49 0)
+			(at 100.33 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18724,7 +17398,7 @@
 			)
 		)
 		(property "MPN" "EMK316BJ475ML"
-			(at 100.584 237.49 0)
+			(at 115.824 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18735,7 +17409,7 @@
 			)
 		)
 		(property "Manufacturer" "Taiyo Yuden"
-			(at 103.124 237.49 0)
+			(at 118.364 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18746,7 +17420,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 105.664 237.49 0)
+			(at 120.904 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18756,7 +17430,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 108.204 237.49 0)
+			(at 123.444 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18766,7 +17440,7 @@
 			)
 		)
 		(property "Val" "4.7µF"
-			(at 87.63 238.7535 90)
+			(at 102.87 238.7535 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20041,7 +18715,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 243.84 0)
+		(at 161.29 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20050,7 +18724,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f5dc71e-c4b3-4ded-b4ce-9f25ac82624e")
 		(property "Reference" "#PWR070"
-			(at 209.55 250.19 0)
+			(at 161.29 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20059,7 +18733,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 248.92 0)
+			(at 161.29 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20067,7 +18741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 243.84 0)
+			(at 161.29 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20076,7 +18750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 243.84 0)
+			(at 161.29 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20085,7 +18759,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 243.84 0)
+			(at 161.29 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20232,134 +18906,6 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-HVPCB:R_4k3_1pct_0402_CRCW04024K30FKED")
-		(at 186.69 248.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74a220a9-1dde-449d-b553-ae4bb86e0e8f")
-		(property "Reference" "R31"
-			(at 189.23 247.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_4k3_1pct_0402_CRCW04024K30FKED"
-			(at 194.564 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 197.104 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 199.644 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Resistor, 4.3kΩ, ±1%, 1/16W, 0402"
-			(at 186.69 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW04024K30FKED"
-			(at 202.184 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 204.724 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 207.264 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 209.804 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4.3kΩ"
-			(at 189.23 250.1899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "14f3f6f7-fd3a-4731-b62d-ad32222fe938")
-		)
-		(pin "2"
-			(uuid "ce934429-044e-47fc-a735-946266dafc8b")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -20880,72 +19426,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 129.54 262.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85582d2a-8fb8-4285-877c-377bc8a0e298")
-		(property "Reference" "#PWR072"
-			(at 129.54 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd0f9bab-39e7-4067-8cd3-ee181a990690")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:AC")
 		(at 300.99 152.4 270)
 		(unit 1)
@@ -21140,7 +19620,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 243.84 0)
+		(at 151.13 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21149,7 +19629,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a5ee68f-0442-4cb0-9250-ab8fc346fb86")
 		(property "Reference" "#PWR069"
-			(at 199.39 250.19 0)
+			(at 151.13 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21158,7 +19638,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 248.92 0)
+			(at 151.13 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21166,7 +19646,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 243.84 0)
+			(at 151.13 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21175,7 +19655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 243.84 0)
+			(at 151.13 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21184,7 +19664,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 243.84 0)
+			(at 151.13 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21655,70 +20135,6 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 111.76 241.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "925b2230-54b8-4212-a342-74c301a40a0d")
-		(property "Reference" "TP1"
-			(at 96.266 241.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 102.87 241.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e88d2884-1b88-4375-8547-6695d0286e5e")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -22461,7 +20877,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:C_10uF_10pct_25V_1206_CC1206KKX7R8BB106")
-		(at 209.55 238.76 90)
+		(at 161.29 238.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22470,7 +20886,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c2027b9-ad6d-47bb-9f27-72a4d19b8469")
 		(property "Reference" "C19"
-			(at 212.09 237.4836 90)
+			(at 163.83 237.4836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22480,7 +20896,7 @@
 			)
 		)
 		(property "Value" "C_10uF_10pct_25V_1206_CC1206KKX7R8BB106"
-			(at 217.424 238.76 0)
+			(at 169.164 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22491,7 +20907,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:C_1206"
-			(at 219.964 238.76 0)
+			(at 171.704 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22502,7 +20918,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 222.504 238.76 0)
+			(at 174.244 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22513,7 +20929,7 @@
 			)
 		)
 		(property "Description" "SMD Ceramic Capacitor, 10µF, ±10%, 25V, X7R, 1206"
-			(at 209.55 238.76 0)
+			(at 161.29 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22522,7 +20938,7 @@
 			)
 		)
 		(property "MPN" "CC1206KKX7R8BB106"
-			(at 225.044 238.76 0)
+			(at 176.784 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22533,7 +20949,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 227.584 238.76 0)
+			(at 179.324 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22544,7 +20960,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 230.124 238.76 0)
+			(at 181.864 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22554,7 +20970,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 232.664 238.76 0)
+			(at 184.404 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22564,7 +20980,7 @@
 			)
 		)
 		(property "Val" "10µF"
-			(at 212.09 240.0235 90)
+			(at 163.83 240.0235 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23104,278 +21520,6 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:R_7k15_1pct_0402_CRCW04027K15FKED")
-		(at 186.69 238.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1a88f8b-8271-48d9-8367-e43e3f100c3f")
-		(property "Reference" "R30"
-			(at 189.23 237.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_7k15_1pct_0402_CRCW04027K15FKED"
-			(at 194.564 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 197.104 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 199.644 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Resistor, 7.15kΩ, ±1%, 1/16W, 0402"
-			(at 186.69 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW04027K15FKED"
-			(at 202.184 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 204.724 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 207.264 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 209.804 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "7.15kΩ"
-			(at 189.23 240.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "6cda7d30-b9b2-484b-9e51-8ff9082a2e5c")
-		)
-		(pin "2"
-			(uuid "79ad36ca-0f05-4719-b16d-048702688add")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-HVPCB:U_DC-DC_L6902D")
-		(at 124.46 240.03 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2001f96-91e2-4b43-8020-33af15bc8c40")
-		(property "Reference" "U5"
-			(at 124.46 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "U_DC-DC_L6902D"
-			(at 124.206 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:SOIC-8"
-			(at 124.206 258.826 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/389/l6902-1849448.pdf"
-			(at 124.206 261.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC-DC Step-Down Regulator, 2A, 8V-36V Input, SO-8"
-			(at 124.46 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "L6902D"
-			(at 124.206 263.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 124.206 266.446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 124.206 268.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 124.206 271.526 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "U_DC-DC_L6902D"
-			(at 124.46 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "032e06fc-40f1-4412-92fb-0a91f8fd5776")
-		)
-		(pin "1"
-			(uuid "58a78c14-20bb-4e56-91ec-70291af751ed")
-		)
-		(pin "2"
-			(uuid "02602f11-f863-4499-95cc-f3a434c61b1b")
-		)
-		(pin "4"
-			(uuid "194b6510-541d-4bbf-9858-5a6668477054")
-		)
-		(pin "5"
-			(uuid "79b2fda8-4e4d-4778-acf0-2e94ad069ec5")
-		)
-		(pin "7"
-			(uuid "f0599b6f-3677-42de-b9e0-bc2faf003fd0")
-		)
-		(pin "8"
-			(uuid "12a16cc9-5274-4475-ae3f-4f0cf304b454")
-		)
-		(pin "2"
-			(uuid "30c9ba3f-3eee-4a25-b86f-6696d1afc36f")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HSSM-HVPCB:R_499k_1pct_1206_KTR18EZPF4993")
 		(at 101.6 86.36 90)
 		(unit 1)
@@ -23504,73 +21648,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 110.49 237.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4b52f44-105c-4f18-8f50-9b8828175b7a")
-		(property "Reference" "#PWR066"
-			(at 104.14 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.68 237.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc7b0ff5-4a21-42c7-b4f0-097a0adc8f88")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:AC")
 		(at 276.86 222.25 0)
 		(unit 1)
@@ -23630,132 +21707,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-HVPCB:R_169mR_0.1pct_0805_RLC73N2AR169FTD")
-		(at 173.99 233.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5dce76b-c0e3-481d-bdb3-3414fba08f82")
-		(property "Reference" "R32"
-			(at 173.99 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_169mR_0.1pct_0805_RLC73N2AR169FTD"
-			(at 173.99 241.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:R_0805"
-			(at 173.99 244.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/usa-en/product-2176576-7.datasheet.pdf"
-			(at 173.99 246.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thin Film Resistor, 169 mΩ, ±0.1%, 0805"
-			(at 173.99 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RLC73N2AR169FTD"
-			(at 173.99 249.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity"
-			(at 173.99 251.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 173.99 254.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 173.99 256.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "169mΩ"
-			(at 173.99 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ff1e58c8-8b66-4c69-97cb-442258b967e5")
-		)
-		(pin "1"
-			(uuid "a3af124e-8c0a-49c2-86e4-0f7c0914c4a5")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -23884,72 +21835,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7639080-39cd-4804-b8ab-62517bbb1fd6")
-		(property "Reference" "#PWR068"
-			(at 186.69 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f3b3bf2e-ace5-4fbb-a360-15bf28409881")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -24405,6 +22290,134 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:R_61k9_1pct_0402_RC0402FR-0761K9L")
+		(at 176.53 237.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "accb27ab-34f2-425f-95d8-3e6343baaf0b")
+		(property "Reference" "R33"
+			(at 179.07 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_61k9_1pct_0402_RC0402FR-0761K9L"
+			(at 184.404 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 186.944 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 189.484 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor, 61.9 kΩ, ±1%, 1/16W, 0402, RC0402FR-0761K9L"
+			(at 176.53 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0761K9L"
+			(at 192.024 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 194.564 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 197.104 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 199.644 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "61.9kΩ"
+			(at 179.07 238.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "5ede41bd-7e08-4049-a320-438f171e325a")
+		)
+		(pin "1"
+			(uuid "cc31ad3e-7950-43b6-b2c8-a99779051ba7")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -25390,7 +23403,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 215.9 231.14 0)
+		(at 179.07 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25399,7 +23412,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba95a99a-bea3-4cb5-b30b-792d746bcbd2")
 		(property "Reference" "#PWR073"
-			(at 215.9 234.95 0)
+			(at 179.07 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25408,7 +23421,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 215.9 226.06 0)
+			(at 179.07 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25416,7 +23429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 231.14 0)
+			(at 179.07 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25425,7 +23438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 231.14 0)
+			(at 179.07 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25434,7 +23447,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 215.9 231.14 0)
+			(at 179.07 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25548,6 +23561,72 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcbb148e-0550-489b-b8b6-b4d9f736e32d")
+		(property "Reference" "#PWR066"
+			(at 176.53 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df4c8c4d-3fab-4e5e-8a6a-4ac0b84c93d0")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -27258,72 +25337,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 139.7 262.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0100055-cfc8-45a7-8b58-b0bfda9ef975")
-		(property "Reference" "#PWR071"
-			(at 139.7 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49e7f0f4-26a9-4714-9c9a-b441e0160840")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:AC")
 		(at 262.89 71.12 90)
 		(unit 1)
@@ -27582,134 +25595,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-HVPCB:R_5k6_1pct_0402_CRCW04025K60FKED")
-		(at 129.54 259.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eab8e204-75ed-4136-aebc-35454e7d857e")
-		(property "Reference" "R29"
-			(at 132.08 257.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_5k6_1pct_0402_CRCW04025K60FKED"
-			(at 137.414 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 139.954 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 142.494 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Resistor, 5.6kΩ, ±1%, 1/16W, 0402"
-			(at 129.54 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW04025K60FKED"
-			(at 145.034 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 147.574 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 150.114 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 152.654 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "5.6kΩ"
-			(at 132.08 260.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "10c2f448-e249-48eb-a525-52959ef0e288")
-		)
-		(pin "1"
-			(uuid "55df7276-80ba-4389-9dd4-96615a0a4340")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -28172,134 +26057,6 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:C_33pF_5pct_50V_0402_C0402C330J5GAC")
-		(at 139.7 256.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3e6ccdd-843b-4564-8a2c-0a632455fdee")
-		(property "Reference" "C16"
-			(at 142.24 255.2636 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_33pF_5pct_50V_0402_C0402C330J5GAC"
-			(at 147.574 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:C_0402"
-			(at 150.114 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C330J5GAC7867"
-			(at 152.654 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Ceramic Capacitor, 33pF, ±5%, 50V, C0G, 0402"
-			(at 139.7 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0402C330J5GAC"
-			(at 155.194 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KEMET"
-			(at 157.734 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 160.274 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 162.814 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "33pF"
-			(at 142.24 257.8035 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "21482efe-3617-415d-9475-3318b12d0929")
-		)
-		(pin "2"
-			(uuid "b991d3b0-d0b0-4789-a180-db54ddd69382")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HSSM-HVPCB:R_100k_1pct_0402_RC0402FR-07100KL")
 		(at 350.52 182.88 90)
 		(unit 1)
@@ -28422,6 +26179,72 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f939a991-fd12-44da-8183-dd874504329f")
+		(property "Reference" "#PWR067"
+			(at 138.43 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b938a24e-879b-4e61-88e6-9d88082ec552")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
