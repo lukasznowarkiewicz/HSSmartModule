@@ -2221,6 +2221,176 @@
 				)
 			)
 		)
+		(symbol "HSSM-LVPCB:R_0R_5pct_0402_RC0402JR-070RL"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_0R_5pct_0402_RC0402JR-070RL"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-HVPCB:R_0402"
+				(at 0 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+				(at 0 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Yageo Thick Film Chip Resistor, 0 Ω, ±5%, 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RC0402JR-070RL"
+				(at 0 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Lukasz Nowarkiewicz"
+				(at 0 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "0Ω"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "Resistor Chip Thick_Film 0_ohm 5pct 0402 Yageo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0R_5pct_0402_RC0402JR-070RL_0_1"
+				(rectangle
+					(start -1.905 0.889)
+					(end 1.905 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0R_5pct_0402_RC0402JR-070RL_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HSSM-LVPCB:UFL_R_SMT_1_10"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -2813,6 +2983,12 @@
 		(color 0 0 0 0)
 		(uuid "c1dd935d-7039-4f3c-8328-482b4018e480")
 	)
+	(junction
+		(at 180.34 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f768b747-b650-4079-8f86-4264cdf5b9bf")
+	)
 	(wire
 		(pts
 			(xy 31.75 83.82) (xy 33.02 83.82)
@@ -2845,6 +3021,26 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 165.1) (xy 147.32 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c51da7-4024-4802-beaa-0b0f91877fe4")
+	)
+	(wire
+		(pts
+			(xy 193.04 148.59) (xy 193.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1292d087-fc15-4b8c-8970-d1bf7e97ce8c")
+	)
+	(wire
+		(pts
 			(xy 93.98 111.76) (xy 104.14 111.76)
 		)
 		(stroke
@@ -2852,6 +3048,16 @@
 			(type default)
 		)
 		(uuid "17c25319-57ff-4e8f-b478-ee9ae394bf82")
+	)
+	(wire
+		(pts
+			(xy 137.16 165.1) (xy 137.16 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e87000d-3dfc-426a-b253-617a377300d7")
 	)
 	(wire
 		(pts
@@ -2865,6 +3071,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 153.67) (xy 180.34 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc4927b-8860-4ee9-a8aa-e1dca514d4c8")
+	)
+	(wire
+		(pts
 			(xy 50.8 81.28) (xy 55.88 81.28)
 		)
 		(stroke
@@ -2872,6 +3088,16 @@
 			(type default)
 		)
 		(uuid "28ad816e-a5fc-4685-9c3f-4507a3255be1")
+	)
+	(wire
+		(pts
+			(xy 193.04 146.05) (xy 180.34 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b3f7798-24d0-49d6-a6c7-fbc01bfe9623")
 	)
 	(wire
 		(pts
@@ -2925,6 +3151,36 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 148.59) (xy 180.34 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e620882-0a92-4434-ab35-ee258a3c8a0f")
+	)
+	(wire
+		(pts
+			(xy 175.26 137.16) (xy 184.15 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f188d58-aeb3-4fc9-aa1d-e7f379fab34d")
+	)
+	(wire
+		(pts
+			(xy 132.08 165.1) (xy 132.08 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fdfd479-ccda-4645-94fc-b3a8320a473b")
+	)
+	(wire
+		(pts
 			(xy 104.14 101.6) (xy 97.79 101.6)
 		)
 		(stroke
@@ -2942,6 +3198,26 @@
 			(type default)
 		)
 		(uuid "49fbb6a8-5d33-4f0b-a52f-f624746c341d")
+	)
+	(wire
+		(pts
+			(xy 175.26 121.92) (xy 191.77 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b903377-9feb-4304-9045-0ea038f02d6d")
+	)
+	(wire
+		(pts
+			(xy 127 165.1) (xy 127 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5de75c-ebbf-43f9-bc2b-33f46e776767")
 	)
 	(wire
 		(pts
@@ -2985,6 +3261,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 146.05) (xy 180.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c056238-1661-4a7c-a923-3a196196ba2f")
+	)
+	(wire
+		(pts
+			(xy 196.85 142.24) (xy 204.47 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6306895c-5941-47ea-b5cf-7545c9928f79")
+	)
+	(wire
+		(pts
 			(xy 66.04 106.68) (xy 66.04 110.49)
 		)
 		(stroke
@@ -3015,6 +3311,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 165.1) (xy 116.84 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa10012-a25a-465a-a849-dd82af97b386")
+	)
+	(wire
+		(pts
+			(xy 162.56 165.1) (xy 162.56 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712cb744-2a74-4148-ad37-cbb5f61643e3")
+	)
+	(wire
+		(pts
 			(xy 20.32 104.14) (xy 20.32 106.68)
 		)
 		(stroke
@@ -3032,6 +3348,36 @@
 			(type default)
 		)
 		(uuid "7f99234d-3e66-40fc-a64b-c6cbc1bd32aa")
+	)
+	(wire
+		(pts
+			(xy 121.92 165.1) (xy 121.92 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d15f04-114f-4349-a3ab-7aa919cbf8e9")
+	)
+	(wire
+		(pts
+			(xy 175.26 116.84) (xy 184.15 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b57d20-b5c2-4f79-bd12-4204c44f660b")
+	)
+	(wire
+		(pts
+			(xy 189.23 116.84) (xy 204.47 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c817f6-dfcf-4878-8590-d5f6e61c8baa")
 	)
 	(wire
 		(pts
@@ -3055,6 +3401,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 127) (xy 184.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95912fd2-fcae-4df3-9ee4-99568692905c")
+	)
+	(wire
+		(pts
 			(xy 39.37 81.28) (xy 39.37 82.55)
 		)
 		(stroke
@@ -3062,6 +3418,46 @@
 			(type default)
 		)
 		(uuid "a2a5b890-c09f-4cef-9f3b-af20cfa7577c")
+	)
+	(wire
+		(pts
+			(xy 189.23 137.16) (xy 204.47 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31f56ac-5a4f-4662-b8f9-e1ed99493127")
+	)
+	(wire
+		(pts
+			(xy 196.85 121.92) (xy 204.47 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76eb900-145d-4793-bc09-2bd364e84513")
+	)
+	(wire
+		(pts
+			(xy 193.04 153.67) (xy 193.04 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad127c70-2eef-4e78-9b6d-c36d299c58d5")
+	)
+	(wire
+		(pts
+			(xy 152.4 165.1) (xy 152.4 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad925b2d-2ddd-4132-aefb-0ada9cab97aa")
 	)
 	(wire
 		(pts
@@ -3125,6 +3521,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 132.08) (xy 175.26 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4c3976-2859-4210-a487-f82804697454")
+	)
+	(wire
+		(pts
 			(xy 93.98 121.92) (xy 104.14 121.92)
 		)
 		(stroke
@@ -3132,6 +3538,26 @@
 			(type default)
 		)
 		(uuid "c41e93ff-a582-41e7-9bae-cd0cec3e4074")
+	)
+	(wire
+		(pts
+			(xy 142.24 165.1) (xy 142.24 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5709578-0336-4f26-bcca-79fa34c3eef9")
+	)
+	(wire
+		(pts
+			(xy 175.26 142.24) (xy 191.77 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d809e926-9c79-48f5-a6e6-f5bcbb01bff7")
 	)
 	(wire
 		(pts
@@ -3155,6 +3581,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 127) (xy 204.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33b8e25-98a0-424a-8244-62f13287ea07")
+	)
+	(wire
+		(pts
 			(xy 97.79 101.6) (xy 97.79 106.68)
 		)
 		(stroke
@@ -3172,6 +3608,16 @@
 			(type default)
 		)
 		(uuid "e80e94d8-19e8-4677-8309-e81e0bf52cb4")
+	)
+	(wire
+		(pts
+			(xy 157.48 165.1) (xy 157.48 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea99f116-2b96-456a-99a4-6ea1eb416e4a")
 	)
 	(wire
 		(pts
@@ -3203,6 +3649,28 @@
 		)
 		(uuid "f5b7271a-441e-42e0-8666-4a8511900d0e")
 	)
+	(label "SPIQ"
+		(at 204.47 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e23c5c2-ad79-4c52-a407-928940ca82f3")
+	)
+	(label "GPIO9"
+		(at 137.16 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13bb3270-de4a-4543-83f9-504f3021f390")
+	)
 	(label "GPIO4"
 		(at 93.98 142.24 0)
 		(fields_autoplaced yes)
@@ -3213,6 +3681,17 @@
 			(justify left bottom)
 		)
 		(uuid "17cf784d-f85f-42af-a2e3-070412aae644")
+	)
+	(label "GPIO13"
+		(at 157.48 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ecdafcc-b9a2-4dc8-9340-0052281d9ad7")
 	)
 	(label "GPIO0"
 		(at 93.98 121.92 0)
@@ -3225,6 +3704,28 @@
 		)
 		(uuid "20bd14e8-f110-4eb0-9d08-2ddac486b063")
 	)
+	(label "SPID"
+		(at 204.47 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32a17a81-fb11-4764-8ea3-acc43ea2b364")
+	)
+	(label "SPICLK"
+		(at 204.47 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4560752b-b913-43da-bb99-cdd05eb5327a")
+	)
 	(label "GPIO3"
 		(at 93.98 137.16 0)
 		(fields_autoplaced yes)
@@ -3236,6 +3737,39 @@
 		)
 		(uuid "48d13bd2-7ade-4862-befb-b1f6ab554441")
 	)
+	(label "GPIO8"
+		(at 132.08 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e5f71b9-28ca-4f64-bff1-23a95c7fb0c8")
+	)
+	(label "GPIO7"
+		(at 127 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ef2fcd1-f0f6-4271-b139-ce61ddf4f62c")
+	)
+	(label "GPIO12"
+		(at 152.4 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c97771e-4517-48c9-a4a2-1612ddc9468d")
+	)
 	(label "CHIP_EN"
 		(at 93.98 111.76 0)
 		(fields_autoplaced yes)
@@ -3246,6 +3780,39 @@
 			(justify left bottom)
 		)
 		(uuid "7687ada1-d11e-4b14-85b5-4a2397e133d8")
+	)
+	(label "SPICS0"
+		(at 162.56 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d27bb62-117c-404b-9fc6-14af0e492697")
+	)
+	(label "SPIHD"
+		(at 204.47 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91a56567-e0fa-484b-aaae-caf202d2047f")
+	)
+	(label "SPIWP"
+		(at 204.47 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ddb7c49-0742-4e9c-a6cd-6dc6aa4cb545")
 	)
 	(label "GPIO1"
 		(at 93.98 127 0)
@@ -3268,6 +3835,428 @@
 			(justify left bottom)
 		)
 		(uuid "a55771e9-0cd4-496f-9fc2-47a680944f8a")
+	)
+	(label "GPIO11"
+		(at 147.32 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da13e7b0-0353-4dee-add2-4a43eb818cae")
+	)
+	(label "GPIO5"
+		(at 116.84 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db52a2a3-5645-40d7-91f9-7767afe13d02")
+	)
+	(label "GPIO10"
+		(at 142.24 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eba8d4fc-4bb5-4b8f-b271-a422c1c36565")
+	)
+	(label "GPIO6"
+		(at 121.92 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8202e17-a623-428f-98c7-3524486ac02d")
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:C_1uF_10pct_16V_0603_GCM188R71C105KA64D")
+		(at 193.04 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05d19832-f53b-4000-97ee-5bdb187bbab9")
+		(property "Reference" "C9"
+			(at 195.58 149.8536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_1uF_10pct_16V_0603_GCM188R71C105KA64D"
+			(at 200.914 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:C_0603"
+			(at 203.454 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf"
+			(at 205.994 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic Capacitor, 1µF, ±10%, 16V, X7R, 0603, Murata"
+			(at 193.04 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCM188R71C105KA64D"
+			(at 208.534 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 211.074 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 213.614 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 216.154 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1µF"
+			(at 195.58 152.3935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "9ff52f34-6fdf-4ca7-9728-4ccbdbf4d76f")
+		)
+		(pin "2"
+			(uuid "f138db14-d709-4fe6-9838-a6c405fcb3c1")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:R_0R_5pct_0402_RC0402JR-070RL")
+		(at 186.69 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1857d066-c884-4bfa-8a17-1af2e2993222")
+		(property "Reference" "R2"
+			(at 184.404 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_5pct_0402_RC0402JR-070RL"
+			(at 186.69 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 186.69 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 186.69 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yageo Thick Film Chip Resistor, 0 Ω, ±5%, 0402"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 186.69 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 186.69 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 186.69 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 186.69 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0Ω"
+			(at 187.96 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5723f2a-59e9-49e2-948f-29db44cce1a7")
+		)
+		(pin "2"
+			(uuid "acc65d4f-cf49-424d-b97c-decd42a19166")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:R_0R_5pct_0402_RC0402JR-070RL")
+		(at 186.69 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ccccd45-1517-4b6b-ba7c-59cf56997606")
+		(property "Reference" "R5"
+			(at 184.912 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_5pct_0402_RC0402JR-070RL"
+			(at 186.69 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 186.69 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 186.69 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yageo Thick Film Chip Resistor, 0 Ω, ±5%, 0402"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 186.69 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 186.69 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 186.69 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 186.69 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0Ω"
+			(at 188.214 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5723f2a-59e9-49e2-948f-29db44cce1a7")
+		)
+		(pin "2"
+			(uuid "acc65d4f-cf49-424d-b97c-decd42a19166")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "HSSM-LVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D")
@@ -3458,6 +4447,197 @@
 			(project "HSSM-LVPCB"
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b35685a-0884-4504-a858-b44d53b5137a")
+		(property "Reference" "#PWR010"
+			(at 180.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e654553-fc65-4887-8c84-daeca8ffaf2b")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:R_0R_5pct_0402_RC0402JR-070RL")
+		(at 194.31 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "465e1022-2884-48e2-b51a-119474caad16")
+		(property "Reference" "R1"
+			(at 192.532 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_5pct_0402_RC0402JR-070RL"
+			(at 194.31 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 194.31 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 194.31 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yageo Thick Film Chip Resistor, 0 Ω, ±5%, 0402"
+			(at 194.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 194.31 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 194.31 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 194.31 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 194.31 165.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0Ω"
+			(at 195.834 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5723f2a-59e9-49e2-948f-29db44cce1a7")
+		)
+		(pin "2"
+			(uuid "acc65d4f-cf49-424d-b97c-decd42a19166")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3786,6 +4966,325 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D")
+		(at 180.34 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e7d0478-e7c0-4d19-a23b-03a6e634bc21")
+		(property "Reference" "C8"
+			(at 182.88 149.8536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_0u1_10pct_50V_0402_GRM155R71H104KE14D"
+			(at 188.214 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:C_0402"
+			(at 190.754 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
+			(at 193.294 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 50V, X7R, 0402, GRM155R71H104KE14D"
+			(at 180.34 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 195.834 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 198.374 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 200.914 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 203.454 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0.1µF"
+			(at 182.88 152.3935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "eaf94af0-29d4-405a-bbc4-a07dc5286bd3")
+		)
+		(pin "2"
+			(uuid "72d82d63-7595-4d8c-affe-5d197cbf8d74")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fb219f1-6839-4fe4-ac6e-cc6b93e836ec")
+		(property "Reference" "#PWR011"
+			(at 193.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e654553-fc65-4887-8c84-daeca8ffaf2b")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:R_0R_5pct_0402_RC0402JR-070RL")
+		(at 194.31 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a7a16c7-9415-4bb3-9536-69e66a4e6d14")
+		(property "Reference" "R4"
+			(at 192.532 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_5pct_0402_RC0402JR-070RL"
+			(at 194.31 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 194.31 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 194.31 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yageo Thick Film Chip Resistor, 0 Ω, ±5%, 0402"
+			(at 194.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 194.31 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 194.31 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 194.31 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 194.31 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0Ω"
+			(at 195.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5723f2a-59e9-49e2-948f-29db44cce1a7")
+		)
+		(pin "2"
+			(uuid "acc65d4f-cf49-424d-b97c-decd42a19166")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4935,6 +6434,131 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:R_0R_5pct_0402_RC0402JR-070RL")
+		(at 186.69 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d74e4225-7419-49ba-91d6-f99aae952452")
+		(property "Reference" "R3"
+			(at 185.166 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_5pct_0402_RC0402JR-070RL"
+			(at 186.69 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 186.69 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 186.69 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Yageo Thick Film Chip Resistor, 0 Ω, ±5%, 0402"
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 186.69 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 186.69 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 186.69 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 186.69 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0Ω"
+			(at 188.214 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5723f2a-59e9-49e2-948f-29db44cce1a7")
+		)
+		(pin "2"
+			(uuid "acc65d4f-cf49-424d-b97c-decd42a19166")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "R3")
 					(unit 1)
 				)
 			)
