@@ -3428,13 +3428,11 @@
 		)
 	)
 	(symbol "W25Q64JVSSIQ_SOIC-8"
-		(pin_numbers hide)
-		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 -3.048 0)
+			(at 0 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3444,7 +3442,7 @@
 			)
 		)
 		(property "Value" "W25Q64JVSSIQ_SOIC-8"
-			(at 0 -10.414 0)
+			(at 0 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,7 +3453,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-LVPCB:SOIC-8"
-			(at 0 -12.954 0)
+			(at 0 -20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,7 +3464,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.winbond.com/resource-files/w25q64jv%20revj%2003272018%20plus.pdf"
-			(at 0 -15.494 0)
+			(at 0 -23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3484,7 @@
 			)
 		)
 		(property "MPN" "W25Q64JVSSIQ"
-			(at 0 -18.034 0)
+			(at 0 -25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +3495,7 @@
 			)
 		)
 		(property "Manufacturer" "Winbond"
-			(at 0 -20.574 0)
+			(at 0 -28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +3506,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 0 -23.114 0)
+			(at 0 -30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +3516,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 0 -25.654 0)
+			(at 0 -33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3526,7 @@
 			)
 		)
 		(property "Val" "64Mb"
-			(at 0 -7.62 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,8 +3545,8 @@
 		)
 		(symbol "W25Q64JVSSIQ_SOIC-8_0_1"
 			(rectangle
-				(start -5 3)
-				(end 5 -5.08)
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
 				(stroke
 					(width 0.2)
 					(type solid)
@@ -3557,146 +3555,148 @@
 					(type none)
 				)
 			)
-			(pin passive line
-				(at -6 2 0)
-				(length 2)
-				(name "CS#"
+		)
+		(symbol "W25Q64JVSSIQ_SOIC-8_1_1"
+			(pin bidirectional line
+				(at 12.7 -2.54 180)
+				(length 2.54)
+				(name "CLK"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin passive line
-				(at -6 0 0)
-				(length 2)
-				(name "DO"
+			(pin bidirectional line
+				(at 12.7 -6.35 180)
+				(length 2.54)
+				(name "DI"
 					(effects
 						(font
-							(size 1 1)
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -6.35 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 6.35 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 6.35 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 2.54 180)
+				(length 2.54)
+				(name "~{HOLD}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "~{WP}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "D0"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -6 -2 0)
-				(length 2)
-				(name "WP#"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -6 -4 0)
-				(length 2)
-				(name "VSS"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6 -4 180)
-				(length 2)
-				(name "SI"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6 -2 180)
-				(length 2)
-				(name "SCK"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6 0 180)
-				(length 2)
-				(name "HOLD#"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6 2 180)
-				(length 2)
-				(name "VCC"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1 1)
+							(size 1.27 1.27)
 						)
 					)
 				)
