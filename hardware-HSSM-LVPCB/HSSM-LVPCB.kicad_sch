@@ -3523,14 +3523,14 @@
 				)
 			)
 		)
-		(symbol "HSSM-LVPCB:X_40MHz_ABM8-40.000MHZ-B2-T"
+		(symbol "HSSM-LVPCB:X_40MHz_SMD_ECS-2520SMV-400-FN-TR"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "X"
-				(at 0 -9.398 0)
+				(at 0 -11.938 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3539,18 +3539,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "X_40MHz_ABM8-40.000MHZ-B2-T"
-				(at 0 -14.224 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "HSSM-LVPCB:Crystal_ABM8"
+			(property "Value" "X_40MHz_SMD_ECS-2520SMV-400-FN-TR"
 				(at 0 -16.764 0)
 				(effects
 					(font
@@ -3561,7 +3550,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://abracon.com/Resonators/abm8.pdf"
+			(property "Footprint" "HSSM-LVPCB:X_2520"
 				(at 0 -19.304 0)
 				(effects
 					(font
@@ -3572,16 +3561,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "40 MHz Quartz Crystal, ABM8 package, ±20ppm stability, -40°C to +85°C, Abracon ABM8-40.000MHZ-B2-T"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "ABM8-40.000MHZ-B2-T"
+			(property "Datasheet" "https://www.mouser.pl/datasheet/2/122/ECS_2520SMV-1628252.pdf"
 				(at 0 -21.844 0)
 				(effects
 					(font
@@ -3592,7 +3572,16 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Abracon"
+			(property "Description" "SMD Quartz Crystal Oscillator, 40 MHz, ECS-2520SMV series, ±10 ppm, 2.5x2.0mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ECS-2520SMV-400-FN-TR"
 				(at 0 -24.384 0)
 				(effects
 					(font
@@ -3603,17 +3592,18 @@
 					(hide yes)
 				)
 			)
-			(property "License" "Apache-2.0"
+			(property "Manufacturer" "ECS Inc."
 				(at 0 -26.924 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
 					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Author" "Lukasz Nowarkiewicz"
+			(property "License" "Apache-2.0"
 				(at 0 -29.464 0)
 				(effects
 					(font
@@ -3623,8 +3613,18 @@
 					(hide yes)
 				)
 			)
+			(property "Author" "Łukasz Nowarkiewicz"
+				(at 0 -32.004 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
 			(property "Val" "40MHz"
-				(at 0 -11.938 0)
+				(at 0 -14.478 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3632,7 +3632,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "Quartz Crystal 40MHz ABM8 Abracon B2-T"
+			(property "ki_keywords" "Quartz Crystal, Oscillator, 40MHz, SMD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3641,10 +3641,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "X_40MHz_ABM8-40.000MHZ-B2-T_0_0"
+			(symbol "X_40MHz_SMD_ECS-2520SMV-400-FN-TR_0_0"
 				(rectangle
-					(start -5.08 6.35)
-					(end 5.08 -6.35)
+					(start -5.08 5.08)
+					(end 5.08 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3655,7 +3655,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 1.27) (xy -2.54 1.27)
+						(xy -5.08 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -3667,7 +3667,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.3368 3.81) (xy -2.3368 -1.27)
+						(xy -2.3368 2.54) (xy -2.3368 -2.54)
 					)
 					(stroke
 						(width 0.4064)
@@ -3679,7 +3679,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.397 3.81) (xy -1.397 -1.27)
+						(xy -1.397 2.54) (xy -1.397 -2.54)
 					)
 					(stroke
 						(width 0.4064)
@@ -3691,7 +3691,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.397 3.81) (xy 1.397 3.81)
+						(xy -1.397 2.54) (xy 1.397 2.54)
 					)
 					(stroke
 						(width 0.4064)
@@ -3703,7 +3703,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.397 -1.27) (xy -1.397 -1.27)
+						(xy 1.397 -2.54) (xy -1.397 -2.54)
 					)
 					(stroke
 						(width 0.4064)
@@ -3715,7 +3715,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.397 3.81) (xy 1.397 -1.27)
+						(xy 1.397 2.54) (xy 1.397 -2.54)
 					)
 					(stroke
 						(width 0.4064)
@@ -3727,7 +3727,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.3368 3.81) (xy 2.3368 -1.27)
+						(xy 2.3368 2.54) (xy 2.3368 -2.54)
 					)
 					(stroke
 						(width 0.4064)
@@ -3739,7 +3739,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy 5.08 1.27)
+						(xy 2.54 0) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -3750,7 +3750,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 1.27 0)
+					(at -7.62 0 0)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -3768,7 +3768,7 @@
 					)
 				)
 				(pin power_in line
-					(at 7.62 -5.08 180)
+					(at 7.62 -6.35 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -3786,7 +3786,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 1.27 180)
+					(at 7.62 0 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -3804,7 +3804,7 @@
 					)
 				)
 				(pin power_in line
-					(at 7.62 -5.08 180)
+					(at 7.62 -6.35 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -5344,15 +5344,15 @@
 		)
 		(uuid "fe429162-4a8a-490d-8595-bdb9860e2960")
 	)
-	(text "replace with 10ppm version\n"
+	(text "recalculate capacitors"
 		(exclude_from_sim no)
-		(at 96.52 37.084 0)
+		(at 119.634 45.974 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "b9bf1d66-8b13-40e9-9f36-ed6f361a6f7b")
+		(uuid "5edce1a1-e5c7-4086-83b7-522e3e0fb328")
 	)
 	(label "SPIQ"
 		(at 204.47 142.24 180)
@@ -6134,138 +6134,6 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-LVPCB:X_40MHz_ABM8-40.000MHZ-B2-T")
-		(at 96.52 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c74f9f0-8bfd-4eca-a935-ff43444c20ba")
-		(property "Reference" "X1"
-			(at 96.52 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "X_40MHz_ABM8-40.000MHZ-B2-T"
-			(at 96.52 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-LVPCB:Crystal_ABM8"
-			(at 96.52 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://abracon.com/Resonators/abm8.pdf"
-			(at 96.52 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "40 MHz Quartz Crystal, ABM8 package, ±20ppm stability, -40°C to +85°C, Abracon ABM8-40.000MHZ-B2-T"
-			(at 96.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ABM8-40.000MHZ-B2-T"
-			(at 96.52 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Abracon"
-			(at 96.52 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 96.52 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 96.52 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "40MHz"
-			(at 96.52 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "b966cf87-59a7-4007-8904-a05c08db00f1")
-		)
-		(pin "1"
-			(uuid "17a5805b-5d5a-438d-8747-2672a1425be7")
-		)
-		(pin "2"
-			(uuid "6842b79d-cbb9-410b-b127-21f17b3d83ac")
-		)
-		(pin "3"
-			(uuid "39441fd9-a8c5-4ca1-830e-66f31bcb0ad5")
-		)
-		(instances
-			(project ""
-				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
-					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -8275,6 +8143,138 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:X_40MHz_SMD_ECS-2520SMV-400-FN-TR")
+		(at 96.52 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e13e043-c40e-4844-a1ac-7f03c75fb7f2")
+		(property "Reference" "X1"
+			(at 96.52 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "X_40MHz_SMD_ECS-2520SMV-400-FN-TR"
+			(at 96.52 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:X_2520"
+			(at 96.52 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/122/ECS_2520SMV-1628252.pdf"
+			(at 96.52 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Quartz Crystal Oscillator, 40 MHz, ECS-2520SMV series, ±10 ppm, 2.5x2.0mm"
+			(at 96.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ECS-2520SMV-400-FN-TR"
+			(at 96.52 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ECS Inc."
+			(at 96.52 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 96.52 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Łukasz Nowarkiewicz"
+			(at 96.52 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "40MHz"
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "af3908de-3953-4f7b-86db-14b303816675")
+		)
+		(pin "1"
+			(uuid "b9182176-b971-4fee-92e0-2ff18600461e")
+		)
+		(pin "3"
+			(uuid "d8a073bd-667c-4054-a109-b27c6ce9b13e")
+		)
+		(pin "2"
+			(uuid "df52d31a-4ba0-414f-a2a1-30aa2f2d00f1")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "X1")
 					(unit 1)
 				)
 			)
