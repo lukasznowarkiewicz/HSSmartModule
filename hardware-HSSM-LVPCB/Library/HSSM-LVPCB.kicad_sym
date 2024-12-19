@@ -2598,36 +2598,21 @@
 				(hide yes)
 			)
 		)
-		(symbol "LED_RGB_WL-SFTW_150505M173300_0_0"
-			(text "B"
-				(at -1.905 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "G"
-				(at -1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "R"
-				(at -1.905 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-		)
 		(symbol "LED_RGB_WL-SFTW_150505M173300_0_1"
+			(rectangle
+				(start -5.08 8.382)
+				(end 5.08 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
-					(xy -1.27 -5.08) (xy -2.54 -5.08)
+					(xy -1.27 -5.08) (xy -5.08 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -2639,7 +2624,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -5.08) (xy 1.27 -5.08)
+					(xy -1.27 -5.08) (xy 5.08 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -2663,7 +2648,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -2.54 0)
+					(xy -1.27 0) (xy -5.08 0)
 				)
 				(stroke
 					(width 0)
@@ -2687,7 +2672,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 5.08) (xy -2.54 5.08)
+					(xy -1.27 5.08) (xy -5.08 5.08)
 				)
 				(stroke
 					(width 0)
@@ -2699,7 +2684,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 5.08) (xy 1.27 5.08)
+					(xy -1.27 5.08) (xy 5.08 5.08)
 				)
 				(stroke
 					(width 0)
@@ -2735,7 +2720,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0) (xy 2.54 0)
+					(xy 1.27 0) (xy 5.08 0)
 				)
 				(stroke
 					(width 0)
@@ -2760,18 +2745,6 @@
 			(polyline
 				(pts
 					(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
 				)
 				(stroke
 					(width 0)
@@ -2933,34 +2906,38 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 2.032 0)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
+		)
+		(symbol "LED_RGB_WL-SFTW_150505M173300_1_0"
+			(text "B\n"
+				(at -1.905 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
-			(rectangle
-				(start 2.794 8.382)
-				(end -2.794 -7.62)
-				(stroke
-					(width 0.254)
-					(type default)
+			(text "G"
+				(at -1.905 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
-				(fill
-					(type background)
+			)
+			(text "R"
+				(at -1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 		)
 		(symbol "LED_RGB_WL-SFTW_150505M173300_1_1"
 			(pin passive line
-				(at -5.08 5.08 0)
+				(at -7.62 5.08 0)
 				(length 2.54)
-				(name "RK"
+				(name "BK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2976,9 +2953,9 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 0 0)
+				(at 7.62 5.08 180)
 				(length 2.54)
-				(name "GK"
+				(name "BA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2994,9 +2971,9 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -5.08 0)
+				(at -7.62 0 0)
 				(length 2.54)
-				(name "BK"
+				(name "RK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3012,9 +2989,9 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
+				(at 7.62 0 180)
 				(length 2.54)
-				(name "A"
+				(name "RA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3022,6 +2999,42 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name "GK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -5.08 180)
+				(length 2.54)
+				(name "GA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
