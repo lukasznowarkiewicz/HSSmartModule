@@ -1990,6 +1990,532 @@
 				)
 			)
 		)
+		(symbol "HSSM-LVPCB:LED_RGB_WL-SFTW_155124M173200"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0.254 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LED_RGB_WL-SFTW_155124M173200"
+				(at 0.508 -13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-LVPCB:LED_1515"
+				(at 0.508 -16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/katalog/datasheet/155124M173200.pdf"
+				(at 0.508 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD RGB LED, Common Cathode, 1515 Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "155124M173200"
+				(at 0.508 -21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Würth Elektronik"
+				(at 0.508 -23.876 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0.508 -26.416 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Łukasz Nowarkiewicz"
+				(at 0.508 -28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "RGB LED"
+				(at 0.254 -11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "RGB LED, SMD, 1515, Common Cathode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_RGB_WL-SFTW_155124M173200_0_1"
+				(rectangle
+					(start -5.08 8.382)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_RGB_WL-SFTW_155124M173200_1_0"
+				(text "B\n"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "R"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_RGB_WL-SFTW_155124M173200_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "GK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HSSM-LVPCB:L_2n1_2000mA_0201_LQP03HQ2N1B02D"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -3119,6 +3645,346 @@
 				)
 			)
 		)
+		(symbol "HSSM-LVPCB:R_133R_1pct_0402_CRCW0402133RFKED"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_133R_1pct_0402_CRCW0402133RFKED"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-LVPCB:R_0402"
+				(at 0 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.com/en/models/1177906"
+				(at 0 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Resistor, 133 Ω, ±1%, 63 mW, 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CRCW0402133RFKED"
+				(at 0 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay/Dale"
+				(at 0 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Lukasz Nowarkiewicz"
+				(at 0 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "133Ω"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "Resistor,SMD,133Ω,1%,0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_133R_1pct_0402_CRCW0402133RFKED_0_1"
+				(rectangle
+					(start -1.905 0.889)
+					(end 1.905 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_133R_1pct_0402_CRCW0402133RFKED_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HSSM-LVPCB:R_29R4_1pct_0402_CRCW040229R4FKED"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_29R4_1pct_0402_CRCW040229R4FKED"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-LVPCB:R_0402"
+				(at 0 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+				(at 0 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Resistor, 29.4 Ω, ±1%, 63 mW, 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CRCW040229R4FKED"
+				(at 0 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay/Dale"
+				(at 0 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Lukasz Nowarkiewicz"
+				(at 0 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "29.4Ω"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "Resistor,SMD,29.4Ω,1%,0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_29R4_1pct_0402_CRCW040229R4FKED_0_1"
+				(rectangle
+					(start -1.905 0.889)
+					(end 1.905 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_29R4_1pct_0402_CRCW040229R4FKED_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HSSM-LVPCB:R_499R_1pct_0402_RC0402FR-07499RL"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -3251,6 +4117,176 @@
 				)
 			)
 			(symbol "R_499R_1pct_0402_RC0402FR-07499RL_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "HSSM-LVPCB:R_49R9_1pct_0402_CRCW040249R9FKED"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_49R9_1pct_0402_CRCW040249R9FKED"
+				(at 0 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-LVPCB:R_0402"
+				(at 0 -10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+				(at 0 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Resistor, 49.9 Ω, ±1%, 63 mW, 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CRCW040249R9FKED"
+				(at 0 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay/Dale"
+				(at 0 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Lukasz Nowarkiewicz"
+				(at 0 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "49.9Ω"
+				(at 0 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "Resistor,SMD,49.9Ω,1%,0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_49R9_1pct_0402_CRCW040249R9FKED_0_1"
+				(rectangle
+					(start -1.905 0.889)
+					(end 1.905 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_49R9_1pct_0402_CRCW040249R9FKED_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 0.635)
@@ -5426,6 +6462,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 214.63) (xy 223.52 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3b291d-8b83-48fe-94cd-f841017b2b7b")
+	)
+	(wire
+		(pts
 			(xy 110.49 199.39) (xy 110.49 193.04)
 		)
 		(stroke
@@ -5616,6 +6662,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 214.63) (xy 228.6 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d7943b8-abff-4f39-96bc-a36af28d6288")
+	)
+	(wire
+		(pts
 			(xy 180.34 148.59) (xy 180.34 146.05)
 		)
 		(stroke
@@ -5653,6 +6709,16 @@
 			(type default)
 		)
 		(uuid "42f156c2-d662-4739-8971-b8491ec1af65")
+	)
+	(wire
+		(pts
+			(xy 228.6 226.06) (xy 228.6 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435a27a8-ee6b-4a9f-8c43-42fb57af0a7b")
 	)
 	(wire
 		(pts
@@ -5793,6 +6859,16 @@
 			(type default)
 		)
 		(uuid "51afe0df-53d3-4947-9824-3e59a7d81455")
+	)
+	(wire
+		(pts
+			(xy 228.6 198.12) (xy 228.6 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ef25fa-4790-4e38-aab9-b8e9d3b0825d")
 	)
 	(wire
 		(pts
@@ -5946,6 +7022,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 214.63) (xy 233.68 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f11d55b-983c-4ebe-a97a-be8b03366208")
+	)
+	(wire
+		(pts
 			(xy 116.84 165.1) (xy 116.84 154.94)
 		)
 		(stroke
@@ -5963,6 +7049,16 @@
 			(type default)
 		)
 		(uuid "712cb744-2a74-4148-ad37-cbb5f61643e3")
+	)
+	(wire
+		(pts
+			(xy 228.6 229.87) (xy 234.95 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776a22fc-da12-49f8-9879-487d9ed08dde")
 	)
 	(wire
 		(pts
@@ -5993,6 +7089,16 @@
 			(type default)
 		)
 		(uuid "7b16429d-aa36-487f-a4ae-30d97023d7ff")
+	)
+	(wire
+		(pts
+			(xy 233.68 217.17) (xy 238.76 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c933491-dce6-4868-9485-2ce17f093ef7")
 	)
 	(wire
 		(pts
@@ -6146,6 +7252,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 229.87) (xy 223.52 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "941a7be7-df5d-4e08-b600-9d7ad3a07735")
+	)
+	(wire
+		(pts
 			(xy 175.26 127) (xy 184.15 127)
 		)
 		(stroke
@@ -6213,6 +7329,16 @@
 			(type default)
 		)
 		(uuid "a76eb900-145d-4793-bc09-2bd364e84513")
+	)
+	(wire
+		(pts
+			(xy 238.76 217.17) (xy 238.76 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83fb32a-dbe9-4baa-870d-35fa00614742")
 	)
 	(wire
 		(pts
@@ -6516,6 +7642,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 217.17) (xy 217.17 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4264ff7-1716-42e2-a93b-b220d86ad323")
+	)
+	(wire
+		(pts
 			(xy 157.48 59.69) (xy 157.48 69.85)
 		)
 		(stroke
@@ -6666,6 +7802,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 217.17) (xy 217.17 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea74d927-4126-403d-a6cf-d0121cfc8730")
+	)
+	(wire
+		(pts
 			(xy 157.48 165.1) (xy 157.48 154.94)
 		)
 		(stroke
@@ -6676,6 +7822,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 226.06) (xy 217.17 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc85b6d-459d-4361-aba3-8bbf45bd382f")
+	)
+	(wire
+		(pts
 			(xy 93.98 69.85) (xy 86.36 69.85)
 		)
 		(stroke
@@ -6683,6 +7839,16 @@
 			(type default)
 		)
 		(uuid "ec487d0c-9c3a-439c-8581-64ad35d779db")
+	)
+	(wire
+		(pts
+			(xy 238.76 226.06) (xy 238.76 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd927c5-3431-4b60-b02a-cebacb3f0c24")
 	)
 	(wire
 		(pts
@@ -6733,6 +7899,16 @@
 			(type default)
 		)
 		(uuid "f1ff8074-9d21-4b2f-923c-90a294d5c8fc")
+	)
+	(wire
+		(pts
+			(xy 238.76 229.87) (xy 245.11 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2dfb23d-5738-43f7-b4e8-df5ab576769c")
 	)
 	(wire
 		(pts
@@ -6804,6 +7980,16 @@
 		)
 		(uuid "5edce1a1-e5c7-4086-83b7-522e3e0fb328")
 	)
+	(text "correct sensing pin for USB presence\n"
+		(exclude_from_sim no)
+		(at 85.598 259.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "911a9e6f-ee3d-40d1-b687-64e78b5c74f8")
+	)
 	(label "SPIQ"
 		(at 204.47 142.24 180)
 		(fields_autoplaced yes)
@@ -6814,6 +8000,17 @@
 			(justify right bottom)
 		)
 		(uuid "0e23c5c2-ad79-4c52-a407-928940ca82f3")
+	)
+	(label "GPIO?"
+		(at 245.11 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "138c4f99-e31b-49ed-9786-db0970d011f0")
 	)
 	(label "GPIO9"
 		(at 137.16 165.1 90)
@@ -7046,6 +8243,17 @@
 		)
 		(uuid "7357fc61-6d41-4671-8a9f-6246afc4284d")
 	)
+	(label "GPIO?"
+		(at 223.52 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "735ee6da-d831-4ff4-a01c-22ff175e802e")
+	)
 	(label "SPICS0"
 		(at 162.56 165.1 90)
 		(fields_autoplaced yes)
@@ -7155,6 +8363,17 @@
 			(justify right bottom)
 		)
 		(uuid "94310e0f-90a3-4b22-9aac-da27d76f0abe")
+	)
+	(label "GPIO?"
+		(at 234.95 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9503feff-82b7-4b06-80e8-a93152f37bfe")
 	)
 	(label "RTS"
 		(at 153.67 243.84 0)
@@ -7850,6 +9069,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 228.6 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13d975c8-4fcc-41f2-8b3d-e18541fdd1d1")
+		(property "Reference" "#PWR028"
+			(at 228.6 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 228.6 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 228.6 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c3e5a55-4954-4fad-a1e5-0c8fd53c57c6")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-LVPCB:R_0R_5pct_0402_RC0402JR-070RL")
 		(at 186.69 137.16 0)
 		(unit 1)
@@ -8213,15 +9498,143 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5723f2a-59e9-49e2-948f-29db44cce1a7")
+			(uuid "c5723f2a-59e9-49e2-948f-29db44cce1a8")
 		)
 		(pin "2"
-			(uuid "acc65d4f-cf49-424d-b97c-decd42a19166")
+			(uuid "acc65d4f-cf49-424d-b97c-decd42a19167")
 		)
 		(instances
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:R_29R4_1pct_0402_CRCW040229R4FKED")
+		(at 217.17 223.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1db8d882-38be-4eee-956f-cc0120e53df9")
+		(property "Reference" "R13"
+			(at 219.71 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_29R4_1pct_0402_CRCW040229R4FKED"
+			(at 225.044 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:R_0402"
+			(at 227.584 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 230.124 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor, 29.4 Ω, ±1%, 63 mW, 0402"
+			(at 217.17 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW040229R4FKED"
+			(at 232.664 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay/Dale"
+			(at 235.204 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 237.744 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 240.284 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "29.4Ω"
+			(at 219.71 224.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "e6c7114e-a2ef-4393-a80e-31ed38329eef")
+		)
+		(pin "1"
+			(uuid "0951555f-703d-4475-988e-dcf6a3f808d9")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8348,6 +9761,134 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:R_133R_1pct_0402_CRCW0402133RFKED")
+		(at 228.6 223.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3161a7fb-ba0a-4015-a6e7-eefd40e89614")
+		(property "Reference" "R11"
+			(at 231.14 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_133R_1pct_0402_CRCW0402133RFKED"
+			(at 236.474 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:R_0402"
+			(at 239.014 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/models/1177906"
+			(at 241.554 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor, 133 Ω, ±1%, 63 mW, 0402"
+			(at 228.6 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW0402133RFKED"
+			(at 244.094 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay/Dale"
+			(at 246.634 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 249.174 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 251.714 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "133Ω"
+			(at 231.14 224.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "829e349e-72a8-4074-a728-b7466f4144ef")
+		)
+		(pin "1"
+			(uuid "849873e0-cf76-4e13-bce9-4e95ed3c492a")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9059,10 +10600,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5723f2a-59e9-49e2-948f-29db44cce1a7")
+			(uuid "c5723f2a-59e9-49e2-948f-29db44cce1a9")
 		)
 		(pin "2"
-			(uuid "acc65d4f-cf49-424d-b97c-decd42a19166")
+			(uuid "acc65d4f-cf49-424d-b97c-decd42a19168")
 		)
 		(instances
 			(project ""
@@ -10123,7 +11664,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a95330e6-0b5c-4b73-8607-470d38bd84ee")
+			(uuid "a95330e6-0b5c-4b73-8607-470d38bd84ef")
 		)
 		(instances
 			(project ""
@@ -10189,7 +11730,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e654553-fc65-4887-8c84-daeca8ffaf2b")
+			(uuid "7e654553-fc65-4887-8c84-daeca8ffaf2c")
 		)
 		(instances
 			(project ""
@@ -10767,10 +12308,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "96d3eda2-a5dc-4ce1-acb9-c33698c8c900")
+			(uuid "96d3eda2-a5dc-4ce1-acb9-c33698c8c901")
 		)
 		(pin "2"
-			(uuid "340ed268-7f85-42c0-933e-63feced1e9f9")
+			(uuid "340ed268-7f85-42c0-933e-63feced1e9fa")
 		)
 		(instances
 			(project ""
@@ -10958,10 +12499,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5723f2a-59e9-49e2-948f-29db44cce1a7")
+			(uuid "c5723f2a-59e9-49e2-948f-29db44cce1aa")
 		)
 		(pin "2"
-			(uuid "acc65d4f-cf49-424d-b97c-decd42a19166")
+			(uuid "acc65d4f-cf49-424d-b97c-decd42a19169")
 		)
 		(instances
 			(project ""
@@ -11155,7 +12696,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2326f16c-cd89-43bb-8845-ce84c8837818")
+			(uuid "2326f16c-cd89-43bb-8845-ce84c8837819")
 		)
 		(instances
 			(project ""
@@ -11221,7 +12762,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2326f16c-cd89-43bb-8845-ce84c8837818")
+			(uuid "2326f16c-cd89-43bb-8845-ce84c883781a")
 		)
 		(instances
 			(project ""
@@ -11413,7 +12954,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2dbc91cd-0210-498f-b15e-250ee60c2216")
+			(uuid "2dbc91cd-0210-498f-b15e-250ee60c2217")
 		)
 		(instances
 			(project ""
@@ -11547,6 +13088,140 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:LED_RGB_WL-SFTW_155124M173200")
+		(at 228.6 207.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8ad982b-1cfc-4af8-bbef-1e32840a12c8")
+		(property "Reference" "D1"
+			(at 237.49 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_RGB_WL-SFTW_155124M173200"
+			(at 242.316 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:LED_1515"
+			(at 244.856 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/155124M173200.pdf"
+			(at 247.396 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD RGB LED, Common Cathode, 1515 Package"
+			(at 228.6 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "155124M173200"
+			(at 249.936 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 252.476 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 255.016 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Łukasz Nowarkiewicz"
+			(at 257.556 206.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "RGB LED"
+			(at 237.49 208.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4"
+			(uuid "e347439a-6513-4095-b199-effecc439006")
+		)
+		(pin "1"
+			(uuid "dc72b3f1-d854-479e-9eab-160053388534")
+		)
+		(pin "3"
+			(uuid "bd3584d2-2915-4244-bf6a-63ae8e76be58")
+		)
+		(pin "2"
+			(uuid "d0f0ed69-bc9a-4cf0-8de9-53f4f253532f")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12116,6 +13791,134 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-LVPCB:R_49R9_1pct_0402_CRCW040249R9FKED")
+		(at 238.76 223.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc2c0133-4090-496a-b539-dc43c41330b7")
+		(property "Reference" "R12"
+			(at 241.3 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_49R9_1pct_0402_CRCW040249R9FKED"
+			(at 246.634 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:R_0402"
+			(at 249.174 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 251.714 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Resistor, 49.9 Ω, ±1%, 63 mW, 0402"
+			(at 238.76 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW040249R9FKED"
+			(at 254.254 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay/Dale"
+			(at 256.794 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 259.334 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 261.874 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "49.9Ω"
+			(at 241.3 224.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "51001c78-989f-4851-98f8-91e4ae5d59e9")
+		)
+		(pin "1"
+			(uuid "958eaa29-5528-4965-88cb-0615f254813f")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 77.47 59.69 0)
 		(unit 1)
@@ -12170,7 +13973,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2dbc91cd-0210-498f-b15e-250ee60c2216")
+			(uuid "2dbc91cd-0210-498f-b15e-250ee60c2218")
 		)
 		(instances
 			(project ""
@@ -12434,7 +14237,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e35b2c0-89e2-45a4-8967-4aa658616513")
+			(uuid "3e35b2c0-89e2-45a4-8967-4aa658616514")
 		)
 		(instances
 			(project ""
@@ -12750,10 +14553,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5723f2a-59e9-49e2-948f-29db44cce1a7")
+			(uuid "c5723f2a-59e9-49e2-948f-29db44cce1ab")
 		)
 		(pin "2"
-			(uuid "acc65d4f-cf49-424d-b97c-decd42a19166")
+			(uuid "acc65d4f-cf49-424d-b97c-decd42a1916a")
 		)
 		(instances
 			(project ""
@@ -12878,10 +14681,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3c0e14cf-b816-4a9d-8d85-f9702b582f40")
+			(uuid "3c0e14cf-b816-4a9d-8d85-f9702b582f41")
 		)
 		(pin "1"
-			(uuid "4693c253-12b9-4d6e-a3ec-2e5db655edd7")
+			(uuid "4693c253-12b9-4d6e-a3ec-2e5db655edd8")
 		)
 		(instances
 			(project ""
@@ -13457,13 +15260,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "7952f458-e1a7-4158-82cb-12dc85ad2be8")
+			(uuid "7952f458-e1a7-4158-82cb-12dc85ad2be9")
 		)
 		(pin "2"
-			(uuid "8d4d237d-098a-452b-bd1d-3d7124f86467")
+			(uuid "8d4d237d-098a-452b-bd1d-3d7124f86468")
 		)
 		(pin "1"
-			(uuid "a0d3c2e3-4b61-4ced-bdca-26cbad009990")
+			(uuid "a0d3c2e3-4b61-4ced-bdca-26cbad009991")
 		)
 		(instances
 			(project ""
