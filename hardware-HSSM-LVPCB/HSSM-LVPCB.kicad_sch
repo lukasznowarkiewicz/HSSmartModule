@@ -4325,6 +4325,353 @@
 				)
 			)
 		)
+		(symbol "HSSM-LVPCB:SW_TACT_SKRPACE010"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SW_TACT_SKRPACE010"
+				(at 0 -9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-LVPCB:SW_TACT_SKRPACE010"
+				(at 0 -12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRP-1370722.pdf"
+				(at 0 -14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Surface Mount Tactile Switch, SPST, 50mA, 12V, 6.2x6.2mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SKRPACE010"
+				(at 0 -17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ALPS Alpine"
+				(at 0 -20.066 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0 -22.606 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Łukasz Nowarkiewicz"
+				(at 0 -25.146 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "TACT_SW"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "Switch, Tactile, SPST, Surface Mount, SKRPACE010"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_TACT_SKRPACE010_0_0"
+				(circle
+					(center 0 -1.016)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0.762)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HSSM-LVPCB:UFL_R_SMT_1_10"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -6153,6 +6500,12 @@
 		(uuid "1ee4d128-ede1-463f-8888-89ebd07320ff")
 	)
 	(junction
+		(at 227.33 255.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27bb8d05-54a0-4103-a1fd-936e8d776af1")
+	)
+	(junction
 		(at 72.39 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6183,10 +6536,22 @@
 		(uuid "66c7cbdd-945c-496a-a4e2-2085b57a174b")
 	)
 	(junction
+		(at 209.55 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73d17385-c0d3-48c9-aa9d-1cfd2c5f515e")
+	)
+	(junction
 		(at 86.36 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8597b29d-8d14-456a-8efa-96183ca7b929")
+	)
+	(junction
+		(at 219.71 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98fb7d2e-f48d-406f-97b9-83e9690ca0e8")
 	)
 	(junction
 		(at 111.76 49.53)
@@ -6432,6 +6797,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 246.38) (xy 234.95 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1331bd22-e4a9-4171-85bb-5ad1cc8ff612")
+	)
+	(wire
+		(pts
 			(xy 175.26 96.52) (xy 207.01 96.52)
 		)
 		(stroke
@@ -6449,6 +6824,16 @@
 			(type default)
 		)
 		(uuid "17c25319-57ff-4e8f-b478-ee9ae394bf82")
+	)
+	(wire
+		(pts
+			(xy 209.55 246.38) (xy 219.71 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19095a6f-7969-4392-a2f9-cf86bb3ee0bf")
 	)
 	(wire
 		(pts
@@ -6512,6 +6897,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 238.76) (xy 219.71 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22cc71ca-9ea5-4f73-8fbc-bdc64a9a6659")
+	)
+	(wire
+		(pts
 			(xy 50.8 81.28) (xy 55.88 81.28)
 		)
 		(stroke
@@ -6569,6 +6964,16 @@
 			(type default)
 		)
 		(uuid "2fcbd650-65ed-40d6-89e6-0369dceb3e64")
+	)
+	(wire
+		(pts
+			(xy 234.95 255.27) (xy 234.95 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fde04f2-084a-41d8-969d-fd4fcc4f0886")
 	)
 	(wire
 		(pts
@@ -6912,6 +7317,26 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 246.38) (xy 209.55 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58867715-27be-4cbb-8069-cebda87aab03")
+	)
+	(wire
+		(pts
+			(xy 219.71 246.38) (xy 222.25 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a492c9-5511-479f-8c8e-8649d32d22a6")
+	)
+	(wire
+		(pts
 			(xy 127 49.53) (xy 127 83.82)
 		)
 		(stroke
@@ -6952,6 +7377,26 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 251.46) (xy 232.41 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "657d4467-c787-4737-abc1-704d23e7351d")
+	)
+	(wire
+		(pts
+			(xy 222.25 251.46) (xy 219.71 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666c9f4c-e8cb-43ac-899a-bf34d5af90d1")
+	)
+	(wire
+		(pts
 			(xy 66.04 106.68) (xy 66.04 110.49)
 		)
 		(stroke
@@ -6959,6 +7404,16 @@
 			(type default)
 		)
 		(uuid "66fd9f9c-bc0e-45c7-a4ab-ceda86ee314a")
+	)
+	(wire
+		(pts
+			(xy 200.66 246.38) (xy 209.55 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67743de6-c94c-476a-92c2-2914af05c682")
 	)
 	(wire
 		(pts
@@ -7089,6 +7544,16 @@
 			(type default)
 		)
 		(uuid "7b16429d-aa36-487f-a4ae-30d97023d7ff")
+	)
+	(wire
+		(pts
+			(xy 209.55 242.57) (xy 209.55 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bbe1116-fe43-41a3-a586-ae29ee9f4e07")
 	)
 	(wire
 		(pts
@@ -7442,6 +7907,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 254) (xy 209.55 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59d7d5d-c29e-423d-b004-28d4010a9b44")
+	)
+	(wire
+		(pts
 			(xy 60.96 106.68) (xy 66.04 106.68)
 		)
 		(stroke
@@ -7572,6 +8047,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 255.27) (xy 234.95 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c487ab25-02d4-4c08-aa77-2e4cab9b7b59")
+	)
+	(wire
+		(pts
 			(xy 86.36 69.85) (xy 86.36 49.53)
 		)
 		(stroke
@@ -7632,6 +8117,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 238.76) (xy 219.71 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6debfb-1190-4a1e-8344-68e989f24fac")
+	)
+	(wire
+		(pts
 			(xy 72.39 240.03) (xy 77.47 240.03)
 		)
 		(stroke
@@ -7662,6 +8157,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 255.27) (xy 227.33 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d513ff4e-415f-4194-a79b-3220d52f77c6")
+	)
+	(wire
+		(pts
 			(xy 175.26 142.24) (xy 191.77 142.24)
 		)
 		(stroke
@@ -7669,6 +8174,16 @@
 			(type default)
 		)
 		(uuid "d809e926-9c79-48f5-a6e6-f5bcbb01bff7")
+	)
+	(wire
+		(pts
+			(xy 227.33 255.27) (xy 227.33 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87c191c-55c2-4ab6-b592-e8b0cc8d5522")
 	)
 	(wire
 		(pts
@@ -7719,6 +8234,16 @@
 			(type default)
 		)
 		(uuid "dc05ab14-9b85-4679-8cd0-4e534302cdc5")
+	)
+	(wire
+		(pts
+			(xy 209.55 234.95) (xy 209.55 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcafeafc-9096-4cc5-9811-768b12ade52b")
 	)
 	(wire
 		(pts
@@ -7872,6 +8397,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 251.46) (xy 219.71 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f11f1b58-70fa-4068-ad9d-6a798da4902d")
+	)
+	(wire
+		(pts
 			(xy 151.13 45.72) (xy 151.13 48.26)
 		)
 		(stroke
@@ -7929,6 +8464,16 @@
 			(type default)
 		)
 		(uuid "f634411b-1507-4ad3-9e31-9ee0168238bb")
+	)
+	(wire
+		(pts
+			(xy 234.95 246.38) (xy 234.95 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f728f30f-f450-488d-9a72-f1c637de8883")
 	)
 	(wire
 		(pts
@@ -8485,6 +9030,17 @@
 		)
 		(uuid "db52a2a3-5645-40d7-91f9-7767afe13d02")
 	)
+	(label "GPIO?"
+		(at 200.66 246.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e114821f-b1af-4e78-bfb7-5851a0fe3b8a")
+	)
 	(label "SPIHD"
 		(at 231.14 45.72 180)
 		(fields_autoplaced yes)
@@ -8935,6 +9491,72 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bfbcdd0-a2b5-4ec6-922e-cb2c5c14fd30")
+		(property "Reference" "#PWR030"
+			(at 209.55 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "631b22c0-9db7-4b10-a87f-e821de866f3f")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11742,6 +12364,138 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-LVPCB:SW_TACT_SKRPACE010")
+		(at 227.33 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8057ccb6-d745-424a-8d44-9b5f060e6dbe")
+		(property "Reference" "SW1"
+			(at 227.33 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_TACT_SKRPACE010"
+			(at 227.33 258.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:SW_TACT_SKRPACE010"
+			(at 227.33 261.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRP-1370722.pdf"
+			(at 227.33 263.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface Mount Tactile Switch, SPST, 50mA, 12V, 6.2x6.2mm"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SKRPACE010"
+			(at 227.33 266.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ALPS Alpine"
+			(at 227.33 268.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 227.33 271.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Łukasz Nowarkiewicz"
+			(at 227.33 274.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "TACT_SW"
+			(at 227.33 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5a81060d-a569-429a-983b-361a0e3f6e61")
+		)
+		(pin "1"
+			(uuid "3f56c229-2636-42c0-81d9-0896dacb3d89")
+		)
+		(pin "2"
+			(uuid "043a6c53-08e0-44e9-a93a-0ef68c0c7d5b")
+		)
+		(pin "4"
+			(uuid "13c2682c-2e28-4c1c-9f82-79329eb951b8")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-LVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D")
 		(at 72.39 245.11 90)
 		(unit 1)
@@ -12189,6 +12943,72 @@
 			(project "HSSM-LVPCB"
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 209.55 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93ba6909-fb40-445a-a925-d1e61489cd58")
+		(property "Reference" "#PWR029"
+			(at 209.55 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 209.55 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 209.55 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc05624b-e830-4747-b2f9-62fbacf556f5")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12768,6 +13588,134 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:R_10k_1pct_0402_RC0402FR-0710KL")
+		(at 209.55 240.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b536c402-8086-488d-821b-c0449d555bac")
+		(property "Reference" "R14"
+			(at 212.09 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_10k_1pct_0402_RC0402FR-0710KL"
+			(at 217.424 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 219.964 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 222.504 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Thick Film Resistor, 10kΩ, ±1%, 0.063W, 0402"
+			(at 209.55 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 225.044 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 227.584 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 230.124 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 232.664 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10kΩ"
+			(at 212.09 241.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "0f6f1ef2-9cf3-4b5a-a9fb-41a5c1c5a8e6")
+		)
+		(pin "1"
+			(uuid "2219030b-db39-46aa-b003-2f3a1f09314f")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -13542,6 +14490,72 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 227.33 257.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c86cb17f-eeeb-40e7-ba99-82199c05fc05")
+		(property "Reference" "#PWR031"
+			(at 227.33 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "219f53e2-6309-4163-b603-44d58babb62c")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14690,6 +15704,134 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D")
+		(at 209.55 251.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e797698b-d544-4be1-bd35-16172cf7df77")
+		(property "Reference" "C16"
+			(at 212.09 250.1836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_0u1_10pct_50V_0402_GRM155R71H104KE14D"
+			(at 217.424 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:C_0402"
+			(at 219.964 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
+			(at 222.504 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 50V, X7R, 0402, GRM155R71H104KE14D"
+			(at 209.55 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 225.044 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 227.584 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 230.124 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 232.664 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0.1µF"
+			(at 212.09 252.7235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "13d949f8-2526-441d-94f3-cfe93c92af8b")
+		)
+		(pin "1"
+			(uuid "36784fa1-656d-42cc-8ef3-f04a9fae8881")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "C16")
 					(unit 1)
 				)
 			)
