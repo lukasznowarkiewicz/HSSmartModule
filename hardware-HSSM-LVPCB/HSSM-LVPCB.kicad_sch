@@ -5,6 +5,318 @@
 	(uuid "77e28373-c8b2-479f-b36e-df59d529ffba")
 	(paper "A3")
 	(lib_symbols
+		(symbol "HSSM-LVPCB:CONN_MINITEK127_10P_20021112-00010T1LF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CONN_MINITEK127_10P_20021112-00010T1LF"
+				(at 0 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-LVPCB:MINITEK127_10P"
+				(at 0 -15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_minitek127_btb.pdf"
+				(at 0 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Minitek 127, Board-to-Board Connector, 10 Positions, 1.27mm Pitch, SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "20021112-00010T1LF"
+				(at 0 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Amphenol ICC"
+				(at 0 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 0 -25.654 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Łukasz Nowarkiewicz"
+				(at 0 -28.194 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "CONN_10P"
+				(at 0 -10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "Connector, Board-to-Board, Minitek, 1.27mm, 10-pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_MINITEK127_10P_20021112-00010T1LF_0_1"
+				(rectangle
+					(start -3.81 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CONN_MINITEK127_10P_20021112-00010T1LF_1_1"
+				(pin passive line
+					(at -6.35 5.08 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 5.08 180)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -5.08 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -5.08 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HSSM-LVPCB:C_0p9_0.05pct_50V_0201_GRM0335C1HR90WA01D"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -6252,6 +6564,126 @@
 				)
 			)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -6907,6 +7339,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 156.21) (xy 262.89 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f35639-a52e-454f-9a9c-9fa5e808cc78")
+	)
+	(wire
+		(pts
 			(xy 50.8 81.28) (xy 55.88 81.28)
 		)
 		(stroke
@@ -7097,6 +7539,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 156.21) (xy 238.76 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5daaeb-8404-4b70-80fc-0433e836bd8c")
+	)
+	(wire
+		(pts
 			(xy 132.08 165.1) (xy 132.08 154.94)
 		)
 		(stroke
@@ -7147,6 +7599,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 161.29) (xy 262.89 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47346a8d-9c64-4a00-93a9-a4a90091fa82")
+	)
+	(wire
+		(pts
 			(xy 31.75 81.28) (xy 39.37 81.28)
 		)
 		(stroke
@@ -7167,6 +7629,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 166.37) (xy 256.54 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c2fe30a-5b19-4b4e-8e8a-cb02db54d1f3")
+	)
+	(wire
+		(pts
 			(xy 217.17 115.57) (xy 217.17 118.11)
 		)
 		(stroke
@@ -7174,6 +7646,16 @@
 			(type default)
 		)
 		(uuid "4cf37827-e5b0-4651-bc91-b315bf09b692")
+	)
+	(wire
+		(pts
+			(xy 254 163.83) (xy 262.89 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dcf9217-0cb3-45f7-8253-2ee719e30c8f")
 	)
 	(wire
 		(pts
@@ -7354,6 +7836,16 @@
 			(type default)
 		)
 		(uuid "5c056238-1661-4a7c-a923-3a196196ba2f")
+	)
+	(wire
+		(pts
+			(xy 254 158.75) (xy 262.89 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db8f315-d28a-4ada-9b0f-c77aa49fc06e")
 	)
 	(wire
 		(pts
@@ -7737,6 +8229,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 161.29) (xy 241.3 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970ee352-ff1b-4e9a-99e9-0656db180b2f")
+	)
+	(wire
+		(pts
 			(xy 105.41 199.39) (xy 105.41 189.23)
 		)
 		(stroke
@@ -7967,6 +8469,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 156.21) (xy 238.76 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba08fda-0c1a-448e-8d17-fa047194ac13")
+	)
+	(wire
+		(pts
 			(xy 90.17 250.19) (xy 90.17 256.54)
 		)
 		(stroke
@@ -8147,6 +8659,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 166.37) (xy 256.54 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d452d03a-7acd-4ca9-bc3d-64ae2192a38d")
+	)
+	(wire
+		(pts
 			(xy 157.48 59.69) (xy 157.48 69.85)
 		)
 		(stroke
@@ -8197,6 +8719,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 158.75) (xy 233.68 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d971ad2b-be86-424b-970a-775bbc1e8d50")
+	)
+	(wire
+		(pts
 			(xy 66.04 115.57) (xy 66.04 119.38)
 		)
 		(stroke
@@ -8244,6 +8776,16 @@
 			(type default)
 		)
 		(uuid "dcafeafc-9096-4cc5-9811-768b12ade52b")
+	)
+	(wire
+		(pts
+			(xy 233.68 158.75) (xy 241.3 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd28400-cbac-4330-bc62-523a7086597f")
 	)
 	(wire
 		(pts
@@ -8374,6 +8916,26 @@
 			(type default)
 		)
 		(uuid "ecd927c5-3431-4b60-b02a-cebacb3f0c24")
+	)
+	(wire
+		(pts
+			(xy 231.14 166.37) (xy 241.3 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8a67b6-9ed5-43da-b27d-429ac352db33")
+	)
+	(wire
+		(pts
+			(xy 231.14 163.83) (xy 241.3 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef529bd1-111f-4a89-be21-cfbb4e51b6ce")
 	)
 	(wire
 		(pts
@@ -8515,6 +9077,16 @@
 		)
 		(uuid "fe429162-4a8a-490d-8595-bdb9860e2960")
 	)
+	(text "Verify pin-pin compatibility"
+		(exclude_from_sim no)
+		(at 240.538 171.196 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0034b5ab-a770-4718-8176-c73fb08ef7c7")
+	)
 	(text "recalculate capacitors"
 		(exclude_from_sim no)
 		(at 119.634 45.974 0)
@@ -8545,6 +9117,17 @@
 			(justify right bottom)
 		)
 		(uuid "0e23c5c2-ad79-4c52-a407-928940ca82f3")
+	)
+	(label "DEV_RX"
+		(at 262.89 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1289102e-2f0e-4a37-add5-ea890760b59f")
 	)
 	(label "GPIO?"
 		(at 245.11 229.87 180)
@@ -8733,6 +9316,17 @@
 		)
 		(uuid "5c97771e-4517-48c9-a4a2-1612ddc9468d")
 	)
+	(label "DO1"
+		(at 231.14 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ca95d31-ca0b-4261-8431-330f356b9431")
+	)
 	(label "GPIO20"
 		(at 152.4 73.66 270)
 		(fields_autoplaced yes)
@@ -8754,6 +9348,17 @@
 			(justify left bottom)
 		)
 		(uuid "64f12028-69bc-4ac8-83ad-c7744d5838be")
+	)
+	(label "DEV_TX"
+		(at 262.89 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65770a24-65e6-480d-bb21-aa5dc0629aaa")
 	)
 	(label "GPIO19"
 		(at 157.48 59.69 270)
@@ -8920,6 +9525,17 @@
 		)
 		(uuid "9503feff-82b7-4b06-80e8-a93152f37bfe")
 	)
+	(label "GPIO_S2"
+		(at 262.89 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96cdfb1b-a9a4-4b46-beb9-3b5ee84131a7")
+	)
 	(label "RTS"
 		(at 153.67 243.84 0)
 		(fields_autoplaced yes)
@@ -8964,6 +9580,17 @@
 		)
 		(uuid "a55771e9-0cd4-496f-9fc2-47a680944f8a")
 	)
+	(label "GPIO_Q2"
+		(at 231.14 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae937e49-16d4-4eb7-ac1e-d62b5606711f")
+	)
 	(label "GPIO15"
 		(at 204.47 111.76 180)
 		(fields_autoplaced yes)
@@ -8974,6 +9601,17 @@
 			(justify right bottom)
 		)
 		(uuid "b6e34991-b166-4437-9def-75483dcf8170")
+	)
+	(label "GPIO_S1"
+		(at 262.89 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6eb1a82-f0ec-4222-9136-04e389fd84ae")
 	)
 	(label "DTR"
 		(at 175.26 251.46 0)
@@ -9040,6 +9678,17 @@
 			(justify left bottom)
 		)
 		(uuid "e114821f-b1af-4e78-bfb7-5851a0fe3b8a")
+	)
+	(label "GPIO_Q1"
+		(at 231.14 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e74c76a4-37b1-40d1-86ab-f369d4eada13")
 	)
 	(label "SPIHD"
 		(at 231.14 45.72 180)
@@ -10974,6 +11623,222 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 233.68 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36990fd1-661d-4e24-a5d1-bd94f07c4c31")
+		(property "Reference" "#PWR033"
+			(at 233.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 233.68 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 233.68 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01f7b137-4990-4cbf-ac2f-64c26b58949a")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:CONN_MINITEK127_10P_20021112-00010T1LF")
+		(at 247.65 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38e977d7-78ae-4f2f-8c04-7cb49f34c847")
+		(property "Reference" "J2"
+			(at 247.65 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "CONN_MINITEK127_10P_20021112-00010T1LF"
+			(at 247.65 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:MINITEK127_10P"
+			(at 247.65 176.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_minitek127_btb.pdf"
+			(at 247.65 179.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Minitek 127, Board-to-Board Connector, 10 Positions, 1.27mm Pitch, SMD"
+			(at 247.65 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "20021112-00010T1LF"
+			(at 247.65 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol ICC"
+			(at 247.65 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 247.65 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Łukasz Nowarkiewicz"
+			(at 247.65 189.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "CONN_10P"
+			(at 247.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffa417e0-37b0-456a-acd8-c8a90547b9f4")
+		)
+		(pin "5"
+			(uuid "7bf94584-4761-4b4c-94a0-c60ba36d0c2b")
+		)
+		(pin "6"
+			(uuid "7bf76f1a-20b2-41d9-bf9b-4a7a67de3ddc")
+		)
+		(pin "9"
+			(uuid "7006d074-9930-43ac-8b1d-0d829e0b6f88")
+		)
+		(pin "7"
+			(uuid "7577aff0-80eb-46e0-a07f-21be6479a9b3")
+		)
+		(pin "8"
+			(uuid "d858ec8f-ad68-4968-8be2-7109534a24b0")
+		)
+		(pin "2"
+			(uuid "1bd7d18e-3686-473b-b645-3d11c5b966cd")
+		)
+		(pin "3"
+			(uuid "c2652074-e0cb-4dd3-a450-b7dc3a352ff9")
+		)
+		(pin "4"
+			(uuid "0506c9ec-aeb1-4edd-9845-61132151180d")
+		)
+		(pin "10"
+			(uuid "a99c0be6-c151-40a2-abea-a58fb131476b")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -13328,6 +14193,72 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ac2e33c-20a8-49e4-861f-23b436b56c02")
+		(property "Reference" "#PWR034"
+			(at 256.54 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8a37bf8-f4e1-4e28-961f-741157ff888d")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15704,6 +16635,72 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 238.76 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e39ccb41-cd83-4ee6-9ccd-b3f4dc2876fe")
+		(property "Reference" "#PWR032"
+			(at 238.76 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 238.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 238.76 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5272d57-077e-4424-a36a-34d067a7f325")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
