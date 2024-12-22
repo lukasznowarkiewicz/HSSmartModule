@@ -6358,7 +6358,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 -3.048 0)
+			(at 0.254 -13.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,7 +6368,7 @@
 			)
 		)
 		(property "Value" "U_EnvSensor_BME280_LGA_Bosch"
-			(at 0 -9.906 0)
+			(at 0.254 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6379,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-LVPCB:U_LGA_2.5x2.5"
-			(at 0 -12.446 0)
+			(at 0.254 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +6390,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf"
-			(at 0 -14.986 0)
+			(at 0.254 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,7 +6410,7 @@
 			)
 		)
 		(property "MPN" "BME280"
-			(at 0 -17.526 0)
+			(at 0.254 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +6421,7 @@
 			)
 		)
 		(property "Manufacturer" "Bosch Sensortec"
-			(at 0 -20.066 0)
+			(at 0.254 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,7 +6432,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 0 -22.606 0)
+			(at 0.254 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,7 +6442,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 0 -25.146 0)
+			(at 0.254 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,7 +6452,7 @@
 			)
 		)
 		(property "Val" "BME280"
-			(at 0 -7.62 0)
+			(at 0.254 -15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6471,8 +6471,8 @@
 		)
 		(symbol "U_EnvSensor_BME280_LGA_Bosch_0_1"
 			(rectangle
-				(start -5.08 5.08)
-				(end 5.08 -5.08)
+				(start -11.43 11.43)
+				(end 11.43 -11.43)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -6481,10 +6481,12 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "U_EnvSensor_BME280_LGA_Bosch_1_1"
 			(pin passive line
-				(at -6.35 2.54 0)
-				(length 1.27)
-				(name "VDD"
+				(at 13.97 7.62 180)
+				(length 2.54)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6500,9 +6502,9 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -2.54 0)
-				(length 1.27)
-				(name "VSS"
+				(at 13.97 2.54 180)
+				(length 2.54)
+				(name "CSB"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6518,9 +6520,9 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 2.54 180)
-				(length 1.27)
-				(name "SDA"
+				(at 13.97 -2.54 180)
+				(length 2.54)
+				(name "SDI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6536,9 +6538,9 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -2.54 180)
-				(length 1.27)
-				(name "SCL"
+				(at 13.97 -7.62 180)
+				(length 2.54)
+				(name "SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6546,6 +6548,78 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -7.62 0)
+				(length 2.54)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -2.54 0)
+				(length 2.54)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 7.62 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
