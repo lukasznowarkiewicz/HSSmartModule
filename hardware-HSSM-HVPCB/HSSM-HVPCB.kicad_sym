@@ -9268,7 +9268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:U_SOP4"
+		(property "Footprint" "HSSM-HVPCB:LTV-354T"
 			(at 0 -10.414 0)
 			(effects
 				(font
