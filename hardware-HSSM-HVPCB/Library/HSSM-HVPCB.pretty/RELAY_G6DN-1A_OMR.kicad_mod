@@ -307,4 +307,15 @@
 		(remove_unused_layers no)
 		(uuid "66acfb2d-31f6-446a-b1a1-dccf6f24059e")
 	)
+	(model "${KIPRJMOD}/Library/HSSM-HVPCB.pretty/step/G6DN-1A-L DC12.step"
+		(offset
+			(xyz 0 -17.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )
