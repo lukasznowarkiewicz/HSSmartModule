@@ -326,4 +326,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "08f830c8-0d9a-46e2-b565-75c460165e01")
 	)
+	(model "${KIPRJMOD}/Library/HSSM-HVPCB.pretty/step/2086-1103.stp"
+		(offset
+			(xyz 5.5 -2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )
