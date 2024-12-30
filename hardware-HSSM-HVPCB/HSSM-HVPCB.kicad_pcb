@@ -15494,6 +15494,385 @@
 			)
 		)
 	)
+	(footprint "HSSM-HVPCB:LPS4012"
+		(layer "F.Cu")
+		(uuid "98e8913f-0112-4d69-bc6d-47eac9cbcef4")
+		(at 117.435 115.9)
+		(property "Reference" "L1"
+			(at 0.635 -3.175 0)
+			(layer "F.SilkS")
+			(uuid "ae86a9c3-a5c9-4f91-9bb3-2375b0d57749")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L_1.5mH_20pct_1500uH_LPS4012-155MRC"
+			(at 8.89 3.175 0)
+			(layer "F.Fab")
+			(uuid "e4a12f50-3aca-4a8b-9e90-9e2b317da477")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:LPS4012"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e9bafee-f75b-491d-b5db-943e1f317a3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.coilcraft.com/en-us/files/datasheet/LPS4012"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cd2adda-43fd-4db6-bf8a-4a7f6c37a897")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "SMD Inductor, 1.5 mH, ±20%, 115 mA, 30 Ohms DCR, LPS4012 Series"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afbc3b42-9463-4d40-ba24-67f537037b5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LPS4012-155MRC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c7e90ec-8d06-4f44-a31f-8771272581aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Coilcraft"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daf224ca-6206-40f9-8ba1-d08777d05c03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ea9dbc4-4974-437a-a6b8-f0270deb4270")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca3e2a48-554f-42d1-a6a9-f07e7498cf56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Val" "1.5mH"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2898e71-2d64-45ed-b4ff-7151a464b99d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/abed13db-cb3a-498f-8cc4-863beb0fea1d")
+		(sheetname "Root")
+		(sheetfile "HSSM-HVPCB.kicad_sch")
+		(attr smd)
+		(fp_poly
+			(pts
+				(xy -2.2 -1.395) (xy -1.65 -1.945) (xy -0.75 -1.945) (xy -0.75 -1.155) (xy -1.33 -0.575) (xy -1.33 0.59)
+				(xy -0.75 1.17) (xy -0.75 1.945) (xy -1.65 1.945) (xy -2.2 1.395)
+			)
+			(stroke
+				(width 0.0001)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Paste")
+			(uuid "a1a247d9-6e77-4926-b946-2e08b68529ef")
+		)
+		(fp_poly
+			(pts
+				(xy 2.2 -1.395) (xy 1.65 -1.945) (xy 0.75 -1.945) (xy 0.75 -1.155) (xy 1.33 -0.575) (xy 1.33 0.59)
+				(xy 0.75 1.17) (xy 0.75 1.945) (xy 1.65 1.945) (xy 2.2 1.395)
+			)
+			(stroke
+				(width 0.0001)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Paste")
+			(uuid "88d69b5a-21d7-481a-8ed0-63b3902bbc01")
+		)
+		(fp_line
+			(start -0.4 -1.95)
+			(end 0.4 -1.95)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d68f865b-8fcc-48b4-bcd3-69efecf47a4a")
+		)
+		(fp_line
+			(start -0.4 1.95)
+			(end 0.4 1.95)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3eae1e42-643b-4384-b7dc-1c6016aca0d3")
+		)
+		(fp_poly
+			(pts
+				(xy 0.65 -2.05) (xy 1.7 -2.05) (xy 2.3 -1.45) (xy 2.3 1.45) (xy 1.7 2.05) (xy 0.65 2.05) (xy 0.65 1.1)
+				(xy 1.2 0.55) (xy 1.2 -0.55) (xy 0.65 -1.1)
+			)
+			(stroke
+				(width 0.0001)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "1218b611-d907-4c2b-86ca-6760f25093fe")
+		)
+		(fp_poly
+			(pts
+				(xy -0.65 -2.05) (xy -1.65 -2.05) (xy -1.7 -2.05) (xy -2.3 -1.45) (xy -2.3 1.45) (xy -1.7 2.05)
+				(xy -0.65 2.05) (xy -0.65 1.1) (xy -1.2 0.55) (xy -1.2 -0.55) (xy -0.65 -1.1)
+			)
+			(stroke
+				(width 0.0001)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "8b7b3c6b-c51e-44d1-97ab-49370f57b83d")
+		)
+		(fp_line
+			(start -2.45 -2.2)
+			(end 2.45 -2.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fb3a4313-51bb-4c50-a986-5292f16a610e")
+		)
+		(fp_line
+			(start -2.45 2.2)
+			(end -2.45 -2.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "49fd442c-9406-477c-a87e-e71082a0d62e")
+		)
+		(fp_line
+			(start 2.45 -2.2)
+			(end 2.45 2.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2a8d2e3b-d22a-4502-87dd-adaffaa7bf60")
+		)
+		(fp_line
+			(start 2.45 2.2)
+			(end -2.45 2.2)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "25e9f87b-8bb5-4326-9a40-488eda0a8feb")
+		)
+		(fp_line
+			(start -1.95 -1.45)
+			(end -1.95 1.45)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "594c8989-c86f-47b6-9371-6083cbd846d9")
+		)
+		(fp_line
+			(start -1.95 -1.45)
+			(end -1.45 -1.95)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "36589533-51ee-4e38-ba99-a9506e61ea21")
+		)
+		(fp_line
+			(start -1.45 -1.95)
+			(end 1.45 -1.95)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c38fed7f-8ce0-4122-8df5-af010007429d")
+		)
+		(fp_line
+			(start -1.45 1.95)
+			(end -1.95 1.45)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d3e69dc7-4442-458a-a7ec-4d5472088973")
+		)
+		(fp_line
+			(start -1.45 1.95)
+			(end 1.45 1.95)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8b11f5d2-254b-4e37-ba6a-7971a56c1e6e")
+		)
+		(fp_line
+			(start 1.45 -1.95)
+			(end 1.95 -1.45)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "807a923a-3cac-4883-8d96-a7f3e4117309")
+		)
+		(fp_line
+			(start 1.45 1.95)
+			(end 1.95 1.45)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "efe53e33-d6e0-41e4-9d9a-11001611b2a7")
+		)
+		(fp_line
+			(start 1.95 -1.45)
+			(end 1.95 1.45)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6abc487d-a8fd-4d86-a4ee-7ae3c07230b7")
+		)
+		(pad "1" smd custom
+			(at -1.765 0)
+			(size 0.87 1.15)
+			(layers "F.Cu")
+			(net 19 "Net-(D2-K)")
+			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.435 -1.395) (xy 0.115 -1.945) (xy 1.015 -1.945) (xy 1.015 -1.17) (xy 0.435 -0.575) (xy 0.435 0.575)
+						(xy 1.015 1.17) (xy 1.015 1.945) (xy 0.125 1.945) (xy -0.435 1.395)
+					)
+					(width 0.0001)
+					(fill yes)
+				)
+			)
+			(uuid "ad170c8d-3bcc-45b8-b56a-34c5044a6f73")
+		)
+		(pad "2" smd custom
+			(at 1.765 0)
+			(size 0.87 1.15)
+			(layers "F.Cu")
+			(net 4 "Net-(U1-D)")
+			(pintype "passive")
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.435 -1.395) (xy -0.115 -1.945) (xy -1.015 -1.945) (xy -1.015 -1.17) (xy -0.435 -0.575) (xy -0.435 0.575)
+						(xy -1.015 1.17) (xy -1.015 1.945) (xy -0.125 1.945) (xy 0.435 1.395)
+					)
+					(width 0.0001)
+					(fill yes)
+				)
+			)
+			(uuid "f4b7c846-ae51-492e-8d9b-7fa7c6bc6ea2")
+		)
+		(model "${KIPRJMOD}/Library/HSSM-HVPCB.pretty/step/Coilcraft-LPS4012.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "HSSM-HVPCB:C_0603"
 		(layer "F.Cu")
 		(uuid "a183cc7f-37cd-4d94-b3ec-7f28f354045b")
@@ -17623,374 +18002,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "HSSM-HVPCB:LPS4012"
-		(layer "F.Cu")
-		(uuid "b64a7f1c-8490-4e10-bb51-51e8fd3ce100")
-		(at 117.41 116.27)
-		(property "Reference" "L1"
-			(at 0.635 -3.175 0)
-			(layer "F.SilkS")
-			(uuid "4b080960-9d97-4767-8137-b092aa15ea22")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "L_1.5mH_20pct_1500uH_LPS4012-155MRC"
-			(at 8.89 3.175 0)
-			(layer "F.Fab")
-			(uuid "e977da60-8563-4912-9217-5dd0f7ba65d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:LPS4012"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f70f71f2-7d1b-4b22-ab85-3dc92c7f6c9a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.coilcraft.com/en-us/files/datasheet/LPS4012"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23074874-65d6-483d-9438-9c265a9693cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "SMD Inductor, 1.5 mH, ±20%, 115 mA, 30 Ohms DCR, LPS4012 Series"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "880952fe-86f7-4f61-a2be-3faeb9ab5b5d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "LPS4012-155MRC"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2c18275a-d5b3-452a-9bf0-34d19011574c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Coilcraft"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd2d7ac5-6b03-49e0-876d-085d726b32fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "73f1940c-d47b-43c0-9e24-79cc11df446c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2de1d3e0-fb3c-4803-8ee0-766621552d2a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Val" "1.5mH"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "25cca4c0-fc49-4112-82d5-d27068345861")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/abed13db-cb3a-498f-8cc4-863beb0fea1d")
-		(sheetname "Root")
-		(sheetfile "HSSM-HVPCB.kicad_sch")
-		(attr smd)
-		(fp_poly
-			(pts
-				(xy -2.2 -1.395) (xy -1.65 -1.945) (xy -0.75 -1.945) (xy -0.75 -1.155) (xy -1.33 -0.575) (xy -1.33 0.59)
-				(xy -0.75 1.17) (xy -0.75 1.945) (xy -1.65 1.945) (xy -2.2 1.395)
-			)
-			(stroke
-				(width 0.0001)
-				(type solid)
-			)
-			(fill solid)
-			(layer "F.Paste")
-			(uuid "fbe40813-0127-42b6-90a0-3b120087c98f")
-		)
-		(fp_poly
-			(pts
-				(xy 2.2 -1.395) (xy 1.65 -1.945) (xy 0.75 -1.945) (xy 0.75 -1.155) (xy 1.33 -0.575) (xy 1.33 0.59)
-				(xy 0.75 1.17) (xy 0.75 1.945) (xy 1.65 1.945) (xy 2.2 1.395)
-			)
-			(stroke
-				(width 0.0001)
-				(type solid)
-			)
-			(fill solid)
-			(layer "F.Paste")
-			(uuid "273bd406-b0f0-4252-ab42-84c425e030c9")
-		)
-		(fp_line
-			(start -0.4 -1.95)
-			(end 0.4 -1.95)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8d15a1ce-b233-4b2c-8a5a-bbdc155eaa96")
-		)
-		(fp_line
-			(start -0.4 1.95)
-			(end 0.4 1.95)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e6b10e90-bed9-4a1d-9a4b-2c4ea68ff0d5")
-		)
-		(fp_poly
-			(pts
-				(xy 0.65 -2.05) (xy 1.7 -2.05) (xy 2.3 -1.45) (xy 2.3 1.45) (xy 1.7 2.05) (xy 0.65 2.05) (xy 0.65 1.1)
-				(xy 1.2 0.55) (xy 1.2 -0.55) (xy 0.65 -1.1)
-			)
-			(stroke
-				(width 0.0001)
-				(type solid)
-			)
-			(fill solid)
-			(layer "F.Mask")
-			(uuid "9890f828-81e0-468a-bc6e-9de8428b17d7")
-		)
-		(fp_poly
-			(pts
-				(xy -0.65 -2.05) (xy -1.65 -2.05) (xy -1.7 -2.05) (xy -2.3 -1.45) (xy -2.3 1.45) (xy -1.7 2.05)
-				(xy -0.65 2.05) (xy -0.65 1.1) (xy -1.2 0.55) (xy -1.2 -0.55) (xy -0.65 -1.1)
-			)
-			(stroke
-				(width 0.0001)
-				(type solid)
-			)
-			(fill solid)
-			(layer "F.Mask")
-			(uuid "07144deb-0dc8-4ae0-9833-9341291ed64b")
-		)
-		(fp_line
-			(start -2.45 -2.2)
-			(end 2.45 -2.2)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "cdef01e5-6a5c-46f9-8e47-566388704c4e")
-		)
-		(fp_line
-			(start -2.45 2.2)
-			(end -2.45 -2.2)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "db569eac-0661-4cf6-9a3b-5bb0e8035434")
-		)
-		(fp_line
-			(start 2.45 -2.2)
-			(end 2.45 2.2)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a544ae4d-71af-4c30-b9af-03cfc61977b9")
-		)
-		(fp_line
-			(start 2.45 2.2)
-			(end -2.45 2.2)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "13c09fd1-4099-4ef1-b0de-ef2166c2bfbb")
-		)
-		(fp_line
-			(start -1.95 -1.45)
-			(end -1.95 1.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5102a5db-980f-4aff-ae9e-66cc5316c15e")
-		)
-		(fp_line
-			(start -1.95 -1.45)
-			(end -1.45 -1.95)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "431d1b8e-8acb-4737-98e5-17b7c52c54e7")
-		)
-		(fp_line
-			(start -1.45 -1.95)
-			(end 1.45 -1.95)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "762946b7-f967-4f7e-a9d7-42ecd0daa4da")
-		)
-		(fp_line
-			(start -1.45 1.95)
-			(end -1.95 1.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "00c72959-11e0-4701-961d-c6af6095810c")
-		)
-		(fp_line
-			(start -1.45 1.95)
-			(end 1.45 1.95)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "feb2b03a-e2d9-441b-a190-004459db49f9")
-		)
-		(fp_line
-			(start 1.45 -1.95)
-			(end 1.95 -1.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "78e12f27-3885-42f2-8d38-ec80907181f3")
-		)
-		(fp_line
-			(start 1.45 1.95)
-			(end 1.95 1.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d09a3a5b-5e10-438f-86ae-19adde2000a7")
-		)
-		(fp_line
-			(start 1.95 -1.45)
-			(end 1.95 1.45)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2dfa2ecd-1579-4bc6-a893-29422b01aa6a")
-		)
-		(pad "1" smd custom
-			(at -1.765 0)
-			(size 0.87 1.15)
-			(layers "F.Cu")
-			(net 19 "Net-(D2-K)")
-			(pintype "passive")
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy -0.435 -1.395) (xy 0.115 -1.945) (xy 1.015 -1.945) (xy 1.015 -1.17) (xy 0.435 -0.575) (xy 0.435 0.575)
-						(xy 1.015 1.17) (xy 1.015 1.945) (xy 0.125 1.945) (xy -0.435 1.395)
-					)
-					(width 0.0001)
-					(fill yes)
-				)
-			)
-			(uuid "54717813-5e6c-43ab-bb62-ff23ffeb2686")
-		)
-		(pad "2" smd custom
-			(at 1.765 0)
-			(size 0.87 1.15)
-			(layers "F.Cu")
-			(net 4 "Net-(U1-D)")
-			(pintype "passive")
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.435 -1.395) (xy -0.115 -1.945) (xy -1.015 -1.945) (xy -1.015 -1.17) (xy -0.435 -0.575) (xy -0.435 0.575)
-						(xy -1.015 1.17) (xy -1.015 1.945) (xy -0.125 1.945) (xy 0.435 1.395)
-					)
-					(width 0.0001)
-					(fill yes)
-				)
-			)
-			(uuid "6975734a-20fa-468f-94b7-f87eadcd30b3")
 		)
 	)
 	(footprint "HSSM-HVPCB:C_0402"

@@ -294,4 +294,15 @@
 		)
 		(uuid "ad4401ea-13a4-4d1f-aca9-0fa8b8d9e1a8")
 	)
+	(model "${KIPRJMOD}/Library/HSSM-HVPCB.pretty/step/Coilcraft-LPS4012.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
