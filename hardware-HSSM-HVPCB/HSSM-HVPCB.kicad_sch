@@ -8,506 +8,6 @@
 		(title "HSSM-HVPCB")
 	)
 	(lib_symbols
-		(symbol "Device:LED_RGBA"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_RGBA"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RGB LED, red/green/blue/anode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED RGB diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_RGBA_0_0"
-				(text "B"
-					(at -1.905 -6.35 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "G"
-					(at -1.905 -1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "R"
-					(at -1.905 3.81 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "LED_RGBA_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 -1.27)
-					(end 1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 1.27)
-					(end 1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 3.81)
-					(end 1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 6.35)
-					(end 1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 2.794 8.382)
-					(end -2.794 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LED_RGBA_1_1"
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "RK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "GK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "BK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "HSSM-HVPCB:ACDC_converter_LNK3204D-TL_power_intergrations"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8814,157 +8314,6 @@
 				)
 			)
 		)
-		(symbol "HSSM-HVPCB:terminal_1x10_2086-1103_wago"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2086-1103"
-				(at 0.508 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "HSSM-HVPCB:2086-1103"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2669/2086-1103.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "terminal_1x03_2086-1103_wago"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "2086-1103"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "WAGO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "terminal wago 1x03"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "terminal_1x10_2086-1103_wago_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "HSSM-HVPCB:terminal_1x10_2601-1110_wago"
 			(pin_names
 				(offset 1.016) hide)
@@ -10301,16 +9650,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 226.06) (xy 347.98 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17919213-095d-4c3b-a020-c64df7509485")
-	)
-	(wire
-		(pts
 			(xy 100.33 240.03) (xy 100.33 241.3)
 		)
 		(stroke
@@ -10328,16 +9667,6 @@
 			(type default)
 		)
 		(uuid "185dbf96-9fd4-46e6-814d-f1ad0fb6c3b8")
-	)
-	(wire
-		(pts
-			(xy 346.71 223.52) (xy 347.98 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a12e343-b486-448d-acb2-982b5d2367cf")
 	)
 	(wire
 		(pts
@@ -10418,16 +9747,6 @@
 			(type default)
 		)
 		(uuid "22a9a777-af6d-44b1-bde8-efec8fea72f9")
-	)
-	(wire
-		(pts
-			(xy 346.71 220.98) (xy 346.71 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "242024b6-c1a7-4ae4-9f1b-d8d04630fb1c")
 	)
 	(wire
 		(pts
@@ -10938,16 +10257,6 @@
 			(type default)
 		)
 		(uuid "4ebd0248-e9f6-4f9c-907d-16bbcc564093")
-	)
-	(wire
-		(pts
-			(xy 347.98 228.6) (xy 346.71 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53554bed-d14c-488a-9b24-8fb99b976398")
 	)
 	(wire
 		(pts
@@ -11591,16 +10900,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 220.98) (xy 346.71 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83b7d6ae-ee1b-436f-bd8f-85b7cc8a5cf1")
-	)
-	(wire
-		(pts
 			(xy 285.75 229.87) (xy 285.75 224.79)
 		)
 		(stroke
@@ -11668,16 +10967,6 @@
 			(type default)
 		)
 		(uuid "8f411458-7f6b-433b-abba-8da3d6786659")
-	)
-	(wire
-		(pts
-			(xy 346.71 231.14) (xy 345.44 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f5c4d54-c8c6-4fe2-8b43-262711a6ea90")
 	)
 	(wire
 		(pts
@@ -12528,16 +11817,6 @@
 			(type default)
 		)
 		(uuid "da07680d-14fa-4ffb-b83c-5828072e339a")
-	)
-	(wire
-		(pts
-			(xy 346.71 228.6) (xy 346.71 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da345127-ac40-4c49-9f1e-24814fc803cc")
 	)
 	(wire
 		(pts
@@ -17520,71 +16799,6 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 302.26 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "504cc996-8b2e-4bad-96b8-70a720aa365f")
-		(property "Reference" "#PWR034"
-			(at 302.26 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AC_?"
-			(at 302.26 214.122 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 302.26 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 302.26 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 302.26 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c83290c-6a32-460b-af19-97e02d419ee5")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:AC")
 		(at 266.7 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20846,71 +20060,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:AC")
-		(at 307.34 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9582f2c5-28ef-47e5-8233-09cd404d98c3")
-		(property "Reference" "#PWR035"
-			(at 307.34 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AC_?"
-			(at 307.34 214.122 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 307.34 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb42f4cd-bcac-4a24-8654-98d1b6b0858c")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 350.52 187.96 0)
 		(unit 1)
@@ -23065,7 +22214,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 345.44 220.98 90)
+		(at 302.26 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23074,7 +22223,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0afdb9e-b021-43b4-a9f9-f24ecc8ef32a")
 		(property "Reference" "#PWR029"
-			(at 347.98 220.98 0)
+			(at 302.26 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23083,7 +22232,7 @@
 			)
 		)
 		(property "Value" "AC_S2"
-			(at 339.09 220.9799 90)
+			(at 302.2601 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23092,7 +22241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 345.44 220.98 0)
+			(at 302.26 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23101,7 +22250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 220.98 0)
+			(at 302.26 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23110,7 +22259,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 345.44 220.98 0)
+			(at 302.26 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24590,97 +23739,6 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:terminal_1x10_2086-1103_wago")
-		(at 353.06 226.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c833d9e5-0e53-45cd-a112-5fe3febd8847")
-		(property "Reference" "J1"
-			(at 355.6 222.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2086-1103"
-			(at 355.6 224.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:2086-1103"
-			(at 353.06 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2669/2086-1103.pdf"
-			(at 353.06 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "terminal_1x03_2086-1103_wago"
-			(at 353.06 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "2086-1103"
-			(at 355.6 227.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "WAGO"
-			(at 355.6 229.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "3"
-			(uuid "ada4765a-4d52-4fc8-a94a-9dfe640b4a5f")
-		)
-		(pin "2"
-			(uuid "58695738-7d3f-4625-af38-69fbd11b78d8")
-		)
-		(pin "1"
-			(uuid "cf7f44ff-46aa-45f4-b8f2-b77fd2e51af2")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 386.08 100.33 0)
 		(unit 1)
@@ -25329,7 +24387,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 345.44 226.06 90)
+		(at 297.18 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25338,7 +24396,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc02ed76-b632-4208-bb00-4875a9096de0")
 		(property "Reference" "#PWR028"
-			(at 347.98 226.06 0)
+			(at 297.18 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25347,7 +24405,7 @@
 			)
 		)
 		(property "Value" "AC_S1"
-			(at 339.09 226.0599 90)
+			(at 297.1801 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25356,7 +24414,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 345.44 226.06 0)
+			(at 297.18 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25365,7 +24423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 226.06 0)
+			(at 297.18 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25374,7 +24432,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 345.44 226.06 0)
+			(at 297.18 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26174,73 +25232,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:AC")
-		(at 345.44 231.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ece708c9-fb58-4cca-b451-66b9ac23aa5d")
-		(property "Reference" "#PWR030"
-			(at 347.98 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AC_IN"
-			(at 339.09 231.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 345.44 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7571044f-0b9f-4189-a698-29cfc7d05aff")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HSSM-HVPCB:U_Optocoupler_LTV-354T")
 		(at 287.02 113.03 0)
 		(unit 1)
@@ -26493,145 +25484,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:AC")
-		(at 297.18 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1f25bde-0fd1-4a3b-a52d-b11f164358ee")
-		(property "Reference" "#PWR033"
-			(at 297.18 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AC_?"
-			(at 297.18 214.122 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 297.18 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc753ed8-d5bd-4e66-9193-1cf64267831d")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_RGBA")
-		(at 195.58 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f575792b-54cd-4a84-88ba-4b78fe20fd6c")
-		(property "Reference" "D3"
-			(at 195.58 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_RGBA"
-			(at 195.58 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED, red/green/blue/anode"
-			(at 195.58 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e577b55-972d-4d02-913c-513507de4244")
-		)
-		(pin "2"
-			(uuid "5ae3d9f5-d129-4e5f-9032-6655c148bd4e")
-		)
-		(pin "4"
-			(uuid "095c693f-d259-4b5e-a1e5-1c9df7de6e20")
-		)
-		(pin "3"
-			(uuid "4f50d3f0-67f7-4a98-be96-62db896c0a44")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -26954,71 +25806,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:AC")
-		(at 312.42 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fa70e23c-af6c-4974-9a41-94c019b8132d")
-		(property "Reference" "#PWR036"
-			(at 312.42 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AC_?"
-			(at 312.42 214.122 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 312.42 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0691b385-cd59-4ac4-bbea-cc0e0b616b3c")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
