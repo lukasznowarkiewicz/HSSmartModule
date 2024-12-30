@@ -2154,7 +2154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:C_Radial_D8_L14_P3.5"
+		(property "Footprint" "HSSM-HVPCB:860021374009"
 			(at 0 -10.414 0)
 			(effects
 				(font

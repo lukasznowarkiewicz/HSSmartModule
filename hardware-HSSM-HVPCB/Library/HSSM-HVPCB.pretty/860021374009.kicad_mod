@@ -1,4 +1,4 @@
-(footprint "C_Radial_D8_L14_P3.5"
+(footprint "860021374009"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "CP_Radial_D8.0mm_P3.50mm"
+	(property "Value" "860021374009"
 		(at 1.75 5.25 0)
 		(layer "F.Fab")
 		(uuid "46f3fdce-2486-4415-91d2-94e33bdeb753")
@@ -1716,5 +1716,16 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "c605e50c-0020-44b7-9271-6776795f5350")
+	)
+	(model "${KIPRJMOD}/Library/HSSM-HVPCB.pretty/step/860021374009.stp"
+		(offset
+			(xyz 1.8 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
