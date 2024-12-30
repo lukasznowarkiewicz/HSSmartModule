@@ -4012,7 +4012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:L_4.0x4.0mm"
+		(property "Footprint" "HSSM-HVPCB:LPS4012"
 			(at 0 -10.414 0)
 			(effects
 				(font
