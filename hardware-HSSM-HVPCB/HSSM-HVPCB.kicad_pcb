@@ -2882,7 +2882,7 @@
 	(footprint "HSSM-HVPCB:RELAY_G6DN-1A_OMR"
 		(layer "F.Cu")
 		(uuid "1f784ee9-4265-46dd-9763-a647dc99d28a")
-		(at 155.080001 112.7 -90)
+		(at 161.16 113 -90)
 		(tags "G6DN-1A-L DC12 ")
 		(property "Reference" "K2"
 			(at -1.244999 9.115001 -90)
@@ -4555,7 +4555,7 @@
 	(footprint "HSSM-HVPCB:860021374009"
 		(layer "F.Cu")
 		(uuid "392b64a2-23b6-4d26-8074-c4bc552a3a8e")
-		(at 129.147349 107.4)
+		(at 135.347349 110)
 		(descr "CP, Radial series, Radial, pin pitch=3.50mm, , diameter=8mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 3.50mm  diameter 8mm Electrolytic Capacitor")
 		(property "Reference" "C2"
@@ -16688,7 +16688,7 @@
 	(footprint "HSSM-HVPCB:R_2512"
 		(layer "F.Cu")
 		(uuid "ad92a43c-f545-41ae-98a7-096fce812204")
-		(at 119 123.7)
+		(at 130 119)
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R25"
@@ -23787,7 +23787,7 @@
 	(footprint "HSSM-HVPCB:RELAY_G6DN-1A_OMR"
 		(layer "F.Cu")
 		(uuid "fd6c8f75-a4c5-4a2e-9b80-38e538c62f9c")
-		(at 155.08 105.9896 -90)
+		(at 165.115001 107.244999 -90)
 		(tags "G6DN-1A-L DC12 ")
 		(property "Reference" "K1"
 			(at -1.244999 9.115001 -90)
