@@ -9690,7 +9690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:Varistor_Generic"
+		(property "Footprint" "HSSM-HVPCB:MOV-14D431K"
 			(at 0 -10.414 0)
 			(effects
 				(font
