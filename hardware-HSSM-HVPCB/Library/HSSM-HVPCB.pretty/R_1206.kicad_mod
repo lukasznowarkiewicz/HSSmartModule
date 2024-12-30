@@ -1,4 +1,4 @@
-(footprint "C_1206"
+(footprint "R_1206"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -189,7 +192,7 @@
 		(roundrect_rratio 0.217391)
 		(uuid "9774dcc9-5357-4a7d-8e93-370dc1237420")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+	(model "${KIPRJMOD}/Library/HSSM-HVPCB.pretty/step/R_1206.stp"
 		(offset
 			(xyz 0 0 0)
 		)
