@@ -4814,8 +4814,6 @@
 		)
 	)
 	(symbol "Q_NMOS_SOT-23_IRLML6344"
-		(pin_numbers hide)
-		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4840,7 +4838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:Q_SOT23"
+		(property "Footprint" "HSSM-HVPCB:SOT-23"
 			(at 0 -10.414 0)
 			(effects
 				(font
@@ -5099,10 +5097,10 @@
 			)
 		)
 		(symbol "Q_NMOS_SOT-23_IRLML6344_1_1"
-			(pin passive line
-				(at 2.54 5.08 270)
+			(pin input line
+				(at -5.08 0 0)
 				(length 2.54)
-				(name "D"
+				(name "G"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5117,10 +5115,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -5.08 0 0)
+			(pin passive line
+				(at 2.54 -5.08 90)
 				(length 2.54)
-				(name "G"
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5136,9 +5134,9 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -5.08 90)
+				(at 2.54 5.08 270)
 				(length 2.54)
-				(name "S"
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
