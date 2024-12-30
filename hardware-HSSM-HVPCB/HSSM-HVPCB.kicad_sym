@@ -5350,7 +5350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:R_axial_vertical_4mm"
+		(property "Footprint" "HSSM-HVPCB:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 0 -10.414 0)
 			(effects
 				(font
