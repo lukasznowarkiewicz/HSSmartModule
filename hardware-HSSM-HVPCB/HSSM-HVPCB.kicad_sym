@@ -10888,7 +10888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HSSM-HVPCB:2086-1103"
 			(at 0 0 0)
 			(effects
 				(font
