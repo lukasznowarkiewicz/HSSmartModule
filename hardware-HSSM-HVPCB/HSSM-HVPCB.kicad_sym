@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HSSM-HVPCB:PowerIntegrations_SO-8C"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -3099,8 +3099,6 @@
 		)
 	)
 	(symbol "D_schottky_5A_25V_DPAK_STPS5L25B-TR"
-		(pin_numbers hide)
-		(pin_names hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3485,7 +3483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HSSM-HVPCB:RELAY_G6DN-1A_OMR"
 			(at 8.89 -1.27 0)
 			(effects
 				(font
@@ -3707,7 +3705,7 @@
 		)
 		(symbol "G6DN-1A-L DC12_1_1"
 			(pin passive line
-				(at 5.08 -7.62 90)
+				(at -5.08 -7.62 90)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -3725,7 +3723,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 7.62 270)
+				(at -5.08 7.62 270)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -3743,7 +3741,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -7.62 90)
+				(at 5.08 -7.62 90)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -3752,7 +3750,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3761,7 +3759,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 7.62 270)
+				(at 5.08 7.62 270)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -3770,7 +3768,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
