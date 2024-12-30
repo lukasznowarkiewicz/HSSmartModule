@@ -690,7 +690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:C_Radial_D5_L11_P2"
+		(property "Footprint" "HSSM-HVPCB:860020372006"
 			(at 0 -10.414 0)
 			(effects
 				(font
