@@ -10320,7 +10320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CIR-QFN-24"
+		(property "Footprint" "HSSM-HVPCB:CIR-QFN-24"
 			(at -2.794 0.508 0)
 			(effects
 				(font
