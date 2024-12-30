@@ -8,6 +8,506 @@
 		(title "HSSM-HVPCB")
 	)
 	(lib_symbols
+		(symbol "Device:LED_RGBA"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_RGBA"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED, red/green/blue/anode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED RGB diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_RGBA_0_0"
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_RGBA_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.794 8.382)
+					(end -2.794 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_RGBA_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HSSM-HVPCB:ACDC_converter_LNK3204D-TL_power_intergrations"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -28,7 +528,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "HSSM-HVPCB:PowerIntegrations_SO-8C"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -2942,7 +3442,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "HSSM-HVPCB:RELAY_G6DN-1A_OMR"
 				(at 8.89 -1.27 0)
 				(effects
 					(font
@@ -3164,7 +3664,7 @@
 			)
 			(symbol "G6DN-1A-L DC12_1_1"
 				(pin passive line
-					(at 5.08 -7.62 90)
+					(at -5.08 -7.62 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -3182,7 +3682,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 7.62 270)
+					(at -5.08 7.62 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -3200,7 +3700,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 90)
+					(at 5.08 -7.62 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -3209,7 +3709,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3218,7 +3718,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 270)
+					(at 5.08 7.62 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -3227,7 +3727,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3471,7 +3971,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "HSSM-HVPCB:L_4.0x4.0mm"
+			(property "Footprint" "HSSM-HVPCB:LPS4012"
 				(at 0 -10.414 0)
 				(effects
 					(font
@@ -3885,7 +4385,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "HSSM-HVPCB:L_SMD_5x5mm"
+			(property "Footprint" "HSSM-HVPCB:SDR0503"
 				(at 0 -10.414 0)
 				(effects
 					(font
@@ -4066,8 +4566,6 @@
 			)
 		)
 		(symbol "HSSM-HVPCB:Q_NMOS_SOT-23_IRLML6344"
-			(pin_numbers hide)
-			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4092,7 +4590,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "HSSM-HVPCB:Q_SOT23"
+			(property "Footprint" "HSSM-HVPCB:SOT-23"
 				(at 0 -10.414 0)
 				(effects
 					(font
@@ -4351,10 +4849,10 @@
 				)
 			)
 			(symbol "Q_NMOS_SOT-23_IRLML6344_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4369,10 +4867,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4388,9 +4886,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6866,7 +7364,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "HSSM-HVPCB:U_SOP4"
+			(property "Footprint" "HSSM-HVPCB:LTV-354T"
 				(at 0 -10.414 0)
 				(effects
 					(font
@@ -7288,7 +7786,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "HSSM-HVPCB:Varistor_Generic"
+			(property "Footprint" "HSSM-HVPCB:MOV-14D431K"
 				(at 0 -10.414 0)
 				(effects
 					(font
@@ -7565,8 +8063,8 @@
 			)
 			(symbol "X_4.096MHz_ABLS2-4.096MHZ-D4Y-T_0_0"
 				(rectangle
-					(start -5.08 -6.35)
-					(end 5.08 6.35)
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -7768,7 +8266,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CIR-QFN-24"
+			(property "Footprint" "HSSM-HVPCB:CIR-QFN-24"
 				(at -2.794 0.508 0)
 				(effects
 					(font
@@ -8338,7 +8836,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "HSSM-HVPCB:2086-1103"
 				(at 0 0 0)
 				(effects
 					(font
@@ -8489,7 +8987,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "HSSM-HVPCB:2601-1110"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9511,6 +10009,15 @@
 	(no_connect
 		(at 133.35 241.3)
 		(uuid "a2816020-3933-40d8-bf5d-e900ed38121c")
+	)
+	(bus_entry
+		(at 195.58 176.53)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3f86e6-17e8-4799-a0b8-e3500b597642")
 	)
 	(wire
 		(pts
@@ -13035,7 +13542,7 @@
 			(uuid "3efd4665-a14c-40a3-aa7f-ae563b81094c")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C18")
 					(unit 1)
@@ -13069,7 +13576,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CIR-QFN-24"
+		(property "Footprint" "HSSM-HVPCB:CIR-QFN-24"
 			(at 164.846 71.882 0)
 			(effects
 				(font
@@ -13190,7 +13697,7 @@
 			(uuid "93678140-38d2-4857-94e2-f91690c4c147")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "U2")
 					(unit 1)
@@ -13256,7 +13763,7 @@
 			(uuid "9e05cc8c-5773-4a8b-a6e8-074ca427cab5")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR058")
 					(unit 1)
@@ -13391,7 +13898,7 @@
 			(uuid "961a0efb-00c9-429b-a11f-10bfa9cdbfeb")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "U6")
 					(unit 1)
@@ -13519,7 +14026,7 @@
 			(uuid "300c35ef-8ed4-4811-97ad-caa5588d19c6")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C2")
 					(unit 1)
@@ -13681,7 +14188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HSSM-HVPCB:RELAY_G6DN-1A_OMR"
 			(at 302.26 162.56 0)
 			(effects
 				(font
@@ -13727,20 +14234,20 @@
 				(justify left)
 			)
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "184d4a1c-5f14-4aa8-8409-b3b9b105c7b8")
 		)
 		(pin "2"
 			(uuid "51f716c9-c61f-4d1e-b4aa-69c84f5c4b9c")
 		)
-		(pin "4"
+		(pin "8"
 			(uuid "40e3adb4-4a4c-42b9-ab60-a3f6bb2ca0ca")
 		)
 		(pin "1"
 			(uuid "f5b48f02-033f-4b08-a9ad-a8e32c43c007")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "K1")
 					(unit 1)
@@ -13969,7 +14476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:U_SOP4"
+		(property "Footprint" "HSSM-HVPCB:LTV-354T"
 			(at 370.84 123.444 0)
 			(effects
 				(font
@@ -14190,7 +14697,7 @@
 			(uuid "dbb3789a-9b7d-4ac2-b433-b5da2dfef23a")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "D1")
 					(unit 1)
@@ -14316,7 +14823,7 @@
 			(uuid "1c654c5e-f2b9-4529-b752-57176df41282")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R17")
 					(unit 1)
@@ -14505,13 +15012,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "6aa5a48b-58a2-4ccc-a539-d469a68d3b6c")
+			(uuid "6aa5a48b-58a2-4ccc-a539-d469a68d3b6d")
 		)
 		(pin "2"
-			(uuid "1c654c5e-f2b9-4529-b752-57176df41282")
+			(uuid "1c654c5e-f2b9-4529-b752-57176df41283")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R18")
 					(unit 1)
@@ -14769,7 +15276,7 @@
 			(uuid "509f13a3-03ab-4b02-b1ee-e4fc74ffc548")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR04")
 					(unit 1)
@@ -14897,7 +15404,7 @@
 			(uuid "5e932d09-5f24-43f4-a796-92ebe4bac550")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R13")
 					(unit 1)
@@ -15024,7 +15531,7 @@
 			(uuid "1f78cf42-e87d-45c0-8ea1-c6fe1825ca10")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "D5")
 					(unit 1)
@@ -15189,7 +15696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:Varistor_Generic"
+		(property "Footprint" "HSSM-HVPCB:MOV-14D431K"
 			(at 140.97 189.484 0)
 			(effects
 				(font
@@ -15277,7 +15784,7 @@
 			(uuid "0c9d8ff5-8dda-49b8-ba51-a11c9210eaf1")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "RV1")
 					(unit 1)
@@ -15343,7 +15850,7 @@
 			(uuid "4654cfab-9413-483c-aae0-d264164b8d6d")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR065")
 					(unit 1)
@@ -15471,7 +15978,7 @@
 			(uuid "d9c81753-f059-4da4-ba4b-8d99837d2ac9")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "F3")
 					(unit 1)
@@ -15599,7 +16106,7 @@
 			(uuid "c8c3683e-fd5c-4a9c-bbc6-fdffbd56cb04")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "D4")
 					(unit 1)
@@ -15849,13 +16356,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "808904e4-5d75-41e2-bb61-510a4ed4114a")
+			(uuid "808904e4-5d75-41e2-bb61-510a4ed4114b")
 		)
 		(pin "2"
-			(uuid "d9c81753-f059-4da4-ba4b-8d99837d2ac9")
+			(uuid "d9c81753-f059-4da4-ba4b-8d99837d2aca")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "F4")
 					(unit 1)
@@ -16053,7 +16560,7 @@
 			(uuid "b81df7db-b60e-4f9e-8188-5b0afbeb411d")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR022")
 					(unit 1)
@@ -16181,7 +16688,7 @@
 			(uuid "2b56634e-8823-4650-8d8b-83a667fa1943")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R34")
 					(unit 1)
@@ -16504,7 +17011,7 @@
 			(uuid "53016e0c-93da-4bcc-b01b-fb9bf1e14a1f")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "L4")
 					(unit 1)
@@ -16764,7 +17271,7 @@
 			(uuid "0f1d365e-e4dc-4f83-8b33-91e6af5737e3")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C4")
 					(unit 1)
@@ -16929,7 +17436,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HSSM-HVPCB:2601-1110"
 			(at 288.29 234.95 0)
 			(effects
 				(font
@@ -17003,7 +17510,7 @@
 			(uuid "051ed471-b355-4212-85b9-9db93ea8466d")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "J2")
 					(unit 1)
@@ -17455,7 +17962,7 @@
 			(uuid "a49ee9a1-024c-4d6a-9df1-57f18a1a2240")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C15")
 					(unit 1)
@@ -17648,7 +18155,7 @@
 			(uuid "546140b5-d7fa-432c-b92e-219a3d50446d")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R5")
 					(unit 1)
@@ -17776,7 +18283,7 @@
 			(uuid "09f42481-21b9-47cd-945f-b349a1aac51f")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R6")
 					(unit 1)
@@ -17842,7 +18349,7 @@
 			(uuid "a6358a69-42e7-4d8d-a3f8-ddd0c554ffaa")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR020")
 					(unit 1)
@@ -17970,7 +18477,7 @@
 			(uuid "8478ea59-f794-45f7-95e1-9c9e95db7137")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R22")
 					(unit 1)
@@ -18006,7 +18513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HSSM-HVPCB:RELAY_G6DN-1A_OMR"
 			(at 377.19 163.83 0)
 			(effects
 				(font
@@ -18052,13 +18559,13 @@
 				(justify left)
 			)
 		)
-		(pin "3"
+		(pin "5"
 			(uuid "e7e05f21-10bf-42b3-b230-aea13d471912")
 		)
 		(pin "2"
 			(uuid "3698e899-7495-469c-a6b7-c61537f7c258")
 		)
-		(pin "4"
+		(pin "8"
 			(uuid "a698f077-7337-4e03-bd25-3dd25cb18882")
 		)
 		(pin "1"
@@ -18297,7 +18804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:L_SMD_5x5mm"
+		(property "Footprint" "HSSM-HVPCB:SDR0503"
 			(at 361.95 62.484 0)
 			(effects
 				(font
@@ -18385,7 +18892,7 @@
 			(uuid "cf2f9a82-c44f-4340-bd92-bfed907b5c83")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "L2")
 					(unit 1)
@@ -18639,7 +19146,7 @@
 			(uuid "38a03a12-d0e9-455b-bb69-9eb838fbca67")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R4")
 					(unit 1)
@@ -18771,7 +19278,7 @@
 			(uuid "891e0f40-f9e7-457b-a544-85f20c6c3021")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR070")
 					(unit 1)
@@ -18900,10 +19407,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6358a69-42e7-4d8d-a3f8-ddd0c554ffaa")
+			(uuid "a6358a69-42e7-4d8d-a3f8-ddd0c554ffab")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR021")
 					(unit 1)
@@ -19411,13 +19918,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "96c62067-9b61-401b-8f70-80dcc4fdfe36")
+			(uuid "96c62067-9b61-401b-8f70-80dcc4fdfe37")
 		)
 		(pin "1"
-			(uuid "c8c3683e-fd5c-4a9c-bbc6-fdffbd56cb04")
+			(uuid "c8c3683e-fd5c-4a9c-bbc6-fdffbd56cb05")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "D2")
 					(unit 1)
@@ -19610,7 +20117,7 @@
 			(uuid "747df0ca-37bd-4cfe-93a7-67863ccde75a")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R11")
 					(unit 1)
@@ -19673,10 +20180,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "891e0f40-f9e7-457b-a544-85f20c6c3021")
+			(uuid "891e0f40-f9e7-457b-a544-85f20c6c3022")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR069")
 					(unit 1)
@@ -20066,7 +20573,7 @@
 			(uuid "bd7b1bcd-34bc-4d69-acac-790487c99fa0")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C3")
 					(unit 1)
@@ -20132,7 +20639,7 @@
 			(uuid "eadbf5c1-5a29-48d7-8a67-54c4babe6fbe")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR011")
 					(unit 1)
@@ -20198,7 +20705,7 @@
 			(uuid "0255e23c-df8c-4d14-91e1-43151177020f")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR059")
 					(unit 1)
@@ -20263,7 +20770,7 @@
 			(uuid "92cfd4ce-0d1b-46c1-ba1f-77b55a374df9")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR057")
 					(unit 1)
@@ -20717,7 +21224,7 @@
 			(uuid "d1a330c5-cb4e-4df7-89ac-ea55fd707a93")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C1")
 					(unit 1)
@@ -20867,7 +21374,7 @@
 			(uuid "9c18d2f7-02d3-485b-9ac0-48b43fedc787")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "J3")
 					(unit 1)
@@ -20989,13 +21496,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "3f449630-bf15-408d-b9b8-dd6086066d70")
+			(uuid "3f449630-bf15-408d-b9b8-dd6086066d71")
 		)
 		(pin "1"
-			(uuid "3efd4665-a14c-40a3-aa7f-ae563b81094c")
+			(uuid "3efd4665-a14c-40a3-aa7f-ae563b81094d")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C19")
 					(unit 1)
@@ -21315,7 +21822,7 @@
 			(uuid "9a661992-88f6-46dd-bfb6-553c94de830b")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C8")
 					(unit 1)
@@ -21419,7 +21926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:Q_SOT23"
+		(property "Footprint" "HSSM-HVPCB:SOT-23"
 			(at 285.75 186.944 0)
 			(effects
 				(font
@@ -21511,7 +22018,7 @@
 			(uuid "094e7626-bf06-462e-a968-1d894de6af1a")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "Q1")
 					(unit 1)
@@ -21633,13 +22140,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "695c5890-8153-4f31-8544-87338d6a4b9e")
+			(uuid "695c5890-8153-4f31-8544-87338d6a4b9f")
 		)
 		(pin "2"
-			(uuid "8478ea59-f794-45f7-95e1-9c9e95db7137")
+			(uuid "8478ea59-f794-45f7-95e1-9c9e95db7138")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R20")
 					(unit 1)
@@ -22133,7 +22640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:L_4.0x4.0mm"
+		(property "Footprint" "HSSM-HVPCB:LPS4012"
 			(at 283.21 70.104 0)
 			(effects
 				(font
@@ -22221,7 +22728,7 @@
 			(uuid "93938cba-f940-48ae-9896-082d6ea0c09d")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "L1")
 					(unit 1)
@@ -22415,7 +22922,7 @@
 			(uuid "cc31ad3e-7950-43b6-b2c8-a99779051ba7")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R33")
 					(unit 1)
@@ -22877,7 +23384,7 @@
 			(uuid "8311399c-cabd-46cc-bc67-60cc9340e420")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R25")
 					(unit 1)
@@ -22943,7 +23450,7 @@
 			(uuid "fbeecfb4-35f6-40aa-8623-c55b79137050")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR054")
 					(unit 1)
@@ -23065,13 +23572,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "695c5890-8153-4f31-8544-87338d6a4b9e")
+			(uuid "695c5890-8153-4f31-8544-87338d6a4ba0")
 		)
 		(pin "2"
-			(uuid "8478ea59-f794-45f7-95e1-9c9e95db7137")
+			(uuid "8478ea59-f794-45f7-95e1-9c9e95db7139")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R19")
 					(unit 1)
@@ -23327,7 +23834,7 @@
 			(uuid "5ce0904e-ab11-498e-a1ca-f154e3290599")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C5")
 					(unit 1)
@@ -23459,7 +23966,7 @@
 			(uuid "59c81f1d-aebe-4e6a-98a8-4c7a5cc59c0b")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR073")
 					(unit 1)
@@ -23493,7 +24000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HSSM-HVPCB:PowerIntegrations_SO-8C"
 			(at 307.34 63.5 0)
 			(effects
 				(font
@@ -23558,7 +24065,7 @@
 			(uuid "162500d4-2197-4f6a-809a-fe1c18f734d3")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "U1")
 					(unit 1)
@@ -23756,7 +24263,7 @@
 			(uuid "901c74fe-af1c-425f-a232-32cf5356f66e")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "X1")
 					(unit 1)
@@ -23822,7 +24329,7 @@
 			(uuid "9a947b6b-8cf3-4cd6-b6b4-39da8de5a4df")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR053")
 					(unit 1)
@@ -24074,7 +24581,7 @@
 			(uuid "bd12f92e-26b1-4b0b-af4d-b538b13714b6")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R3")
 					(unit 1)
@@ -24110,7 +24617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HSSM-HVPCB:2086-1103"
 			(at 353.06 226.06 0)
 			(effects
 				(font
@@ -24165,7 +24672,7 @@
 			(uuid "cf7f44ff-46aa-45f4-b8f2-b77fd2e51af2")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "J1")
 					(unit 1)
@@ -24357,7 +24864,7 @@
 			(uuid "14fa3783-7a03-4e6f-9c06-6e626e07e496")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R2")
 					(unit 1)
@@ -24612,13 +25119,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "695c5890-8153-4f31-8544-87338d6a4b9e")
+			(uuid "695c5890-8153-4f31-8544-87338d6a4ba1")
 		)
 		(pin "2"
-			(uuid "8478ea59-f794-45f7-95e1-9c9e95db7137")
+			(uuid "8478ea59-f794-45f7-95e1-9c9e95db713a")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R21")
 					(unit 1)
@@ -24812,7 +25319,7 @@
 			(uuid "4a155da4-85f5-406c-aef1-80700fdc56a4")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C13")
 					(unit 1)
@@ -25133,7 +25640,7 @@
 			(uuid "bd386546-8f00-44af-aed7-8d98335713b0")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "D7")
 					(unit 1)
@@ -25328,7 +25835,7 @@
 			(uuid "de8197f7-18bc-45d4-b06e-aec4e4bf1fb8")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R1")
 					(unit 1)
@@ -25763,7 +26270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:U_SOP4"
+		(property "Footprint" "HSSM-HVPCB:LTV-354T"
 			(at 287.02 123.444 0)
 			(effects
 				(font
@@ -25857,7 +26364,7 @@
 			(uuid "ed9be35c-9e4a-4c53-817b-7bfae5f10663")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "U3")
 					(unit 1)
@@ -25977,13 +26484,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9813b84-ceb0-47c1-8c63-de1c800593e5")
+			(uuid "e9813b84-ceb0-47c1-8c63-de1c800593e6")
 		)
 		(pin "1"
-			(uuid "747df0ca-37bd-4cfe-93a7-67863ccde75a")
+			(uuid "747df0ca-37bd-4cfe-93a7-67863ccde75b")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R12")
 					(unit 1)
@@ -26051,6 +26558,80 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGBA")
+		(at 195.58 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f575792b-54cd-4a84-88ba-4b78fe20fd6c")
+		(property "Reference" "D3"
+			(at 195.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGBA"
+			(at 195.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/blue/anode"
+			(at 195.58 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e577b55-972d-4d02-913c-513507de4244")
+		)
+		(pin "2"
+			(uuid "5ae3d9f5-d129-4e5f-9032-6655c148bd4e")
+		)
+		(pin "4"
+			(uuid "095c693f-d259-4b5e-a1e5-1c9df7de6e20")
+		)
+		(pin "3"
+			(uuid "4f50d3f0-67f7-4a98-be96-62db896c0a44")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -26364,13 +26945,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "25b49309-f465-4689-b056-a116383713a1")
+			(uuid "25b49309-f465-4689-b056-a116383713a2")
 		)
 		(pin "1"
-			(uuid "9a661992-88f6-46dd-bfb6-553c94de830b")
+			(uuid "9a661992-88f6-46dd-bfb6-553c94de830c")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C7")
 					(unit 1)
@@ -26694,7 +27275,7 @@
 			(uuid "610d4a01-7401-47aa-bef5-bbab0af3373f")
 		)
 		(instances
-			(project ""
+			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR08")
 					(unit 1)
@@ -26861,7 +27442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:Q_SOT23"
+		(property "Footprint" "HSSM-HVPCB:SOT-23"
 			(at 360.68 188.214 0)
 			(effects
 				(font
