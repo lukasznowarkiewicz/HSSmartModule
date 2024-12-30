@@ -8130,21 +8130,21 @@
 				)
 			)
 		)
-		(symbol "HSSM-HVPCB:terminal_1x10_2601-1110_wago"
+		(symbol "HSSM-HVPCB:terminal_1x8_2601-1108_wago"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 12.7 0)
+				(at 0 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "2601-1110"
+			(property "Value" "2601-1108"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -8152,8 +8152,8 @@
 					)
 				)
 			)
-			(property "Footprint" "HSSM-HVPCB:2601-1110"
-				(at 0 0 0)
+			(property "Footprint" "HSSM-HVPCB:2601-1108"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8161,8 +8161,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.farnell.com/datasheets/3775116.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://source.z2data.com/2022/11/30/3/26/12/266816/8679706/WAGO26011108enUS.pdf"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8170,8 +8170,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "terminal_1x10_2601-1110_wago"
-				(at 0 0 0)
+			(property "Description" "terminal_1x10_2601-1108_wago"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8179,8 +8179,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "2601-1110"
-				(at 0 0 0)
+			(property "MPN" "2601-1108"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8188,7 +8188,7 @@
 				)
 			)
 			(property "Manufacturer" "WAGO"
-				(at 0 0 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8213,10 +8213,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "terminal_1x10_2601-1110_wago_1_1"
+			(symbol "terminal_1x8_2601-1108_wago_1_1"
 				(rectangle
-					(start -1.27 11.43)
-					(end 1.27 -13.97)
+					(start -1.27 10.16)
+					(end 1.27 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -8226,7 +8226,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at -5.08 8.89 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -8244,25 +8244,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 6.35 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -8280,7 +8262,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 3.81 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -8298,7 +8280,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 1.27 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -8316,7 +8298,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -1.27 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -8334,7 +8316,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -3.81 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -8352,7 +8334,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -6.35 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -8370,7 +8352,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -8.89 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -8380,24 +8362,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9337,16 +9301,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 229.87) (xy 278.13 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0de6126e-1259-4263-b7e8-91954766e23d")
-	)
-	(wire
-		(pts
 			(xy 381 63.5) (xy 381 71.12)
 		)
 		(stroke
@@ -9947,16 +9901,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 229.87) (xy 300.99 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43d758bd-7908-441f-a1ac-7164ba8687f6")
-	)
-	(wire
-		(pts
 			(xy 386.08 71.12) (xy 386.08 73.66)
 		)
 		(stroke
@@ -10414,16 +10358,6 @@
 			(type default)
 		)
 		(uuid "711a09ac-66e5-4521-becd-a08f969e1d70")
-	)
-	(wire
-		(pts
-			(xy 266.7 228.6) (xy 266.7 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7294dac4-3b00-45f8-8372-bd5ceb2e8949")
 	)
 	(wire
 		(pts
@@ -10894,16 +10828,6 @@
 			(type default)
 		)
 		(uuid "a089f7c1-a7ee-42da-814f-a0af4872f718")
-	)
-	(wire
-		(pts
-			(xy 278.13 228.6) (xy 266.7 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0e1bc14-3ec6-4865-87a9-448431e8da7f")
 	)
 	(wire
 		(pts
@@ -11424,26 +11348,6 @@
 			(type default)
 		)
 		(uuid "c73e0d34-91ad-44b4-a080-1a57cc0d6284")
-	)
-	(wire
-		(pts
-			(xy 312.42 228.6) (xy 312.42 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7a629dc-f57b-4a7c-aa4b-6e94efa889e6")
-	)
-	(wire
-		(pts
-			(xy 300.99 228.6) (xy 312.42 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9ffc8ee-9730-4990-b76b-c8ddd71d53d9")
 	)
 	(wire
 		(pts
@@ -12790,6 +12694,71 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 307.34 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d3cf8b2-593e-407d-a10e-f79196b2787a")
+		(property "Reference" "#PWR030"
+			(at 307.34 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_S3"
+			(at 307.34 213.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 307.34 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fb34eb8-8c1e-48c3-acf9-6193aa3f7b67")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -16178,6 +16147,108 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-HVPCB:terminal_1x8_2601-1108_wago")
+		(at 289.56 234.95 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b7f9aa4-34fe-4f16-9bbd-7a66fbc3a3ae")
+		(property "Reference" "J1"
+			(at 289.56 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2601-1108"
+			(at 289.56 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:2601-1108"
+			(at 290.83 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://source.z2data.com/2022/11/30/3/26/12/266816/8679706/WAGO26011108enUS.pdf"
+			(at 290.83 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "terminal_1x10_2601-1108_wago"
+			(at 290.83 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2601-1108"
+			(at 289.56 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "WAGO"
+			(at 289.56 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "fd1c43c0-ddc5-4524-8d1f-981b5c743e72")
+		)
+		(pin "2"
+			(uuid "8d29195e-37f2-491e-a737-fce019143338")
+		)
+		(pin "1"
+			(uuid "5c871cac-599f-4bea-bf85-5f6aecc2d2c7")
+		)
+		(pin "7"
+			(uuid "c5a6f112-95a3-41e3-bc97-3b68c850c5ab")
+		)
+		(pin "4"
+			(uuid "e3773336-9914-4b5c-a88d-62d70674e382")
+		)
+		(pin "5"
+			(uuid "36308a33-38c7-405e-a0de-8fcbda29ce37")
+		)
+		(pin "6"
+			(uuid "f2427c69-1ebb-470b-9a05-236fc0b258f1")
+		)
+		(pin "8"
+			(uuid "5258cbee-e8b6-4df4-8470-4deea62396a3")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:AC")
 		(at 101.6 64.77 0)
 		(unit 1)
@@ -16237,179 +16308,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-HVPCB:terminal_1x10_2601-1110_wago")
-		(at 288.29 234.95 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "500b14e1-0265-4644-99f8-755bca1c5f36")
-		(property "Reference" "J2"
-			(at 289.56 238.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2601-1110"
-			(at 289.56 241.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:2601-1110"
-			(at 288.29 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/3775116.pdf"
-			(at 288.29 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "terminal_1x10_2601-1110_wago"
-			(at 288.29 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "2601-1110"
-			(at 289.56 243.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "WAGO"
-			(at 289.56 246.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "eb043349-5df6-4421-96a1-b5d6cd2f071b")
-		)
-		(pin "2"
-			(uuid "a6061bd8-bfa0-488e-aafa-e4478b5c54be")
-		)
-		(pin "3"
-			(uuid "916103fa-985b-4c41-a702-9d6b9d84d3bf")
-		)
-		(pin "1"
-			(uuid "e3b08f9a-e16f-45ae-810e-e5db21c971ae")
-		)
-		(pin "4"
-			(uuid "04d50324-d7e5-47d6-a462-68b3d10449ea")
-		)
-		(pin "5"
-			(uuid "c8ee6554-bc35-4ed6-84b1-0154447a3048")
-		)
-		(pin "6"
-			(uuid "21afbfde-56dd-4c2a-af9b-eb05aa79f3f2")
-		)
-		(pin "7"
-			(uuid "f179ba5c-bd1c-480d-ad55-981ba7b67026")
-		)
-		(pin "8"
-			(uuid "5263f2bd-7456-4c4a-9907-bebfb2cd1581")
-		)
-		(pin "9"
-			(uuid "051ed471-b355-4212-85b9-9db93ea8466d")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:AC")
-		(at 266.7 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50a21355-e89b-42b8-a846-1559f2bbc695")
-		(property "Reference" "#PWR040"
-			(at 266.7 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AC_N"
-			(at 266.7 213.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 266.7 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "213909a2-a52c-434f-a58c-134040dba653")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -21708,7 +21606,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b0afdb9e-b021-43b4-a9f9-f24ecc8ef32a")
 		(property "Reference" "#PWR029"
 			(at 302.26 224.79 0)
@@ -21720,7 +21617,7 @@
 			)
 		)
 		(property "Value" "AC_S2"
-			(at 302.2601 215.9 90)
+			(at 302.26 216.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23881,7 +23778,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dc02ed76-b632-4208-bb00-4875a9096de0")
 		(property "Reference" "#PWR028"
 			(at 297.18 224.79 0)
@@ -23893,7 +23789,7 @@
 			)
 		)
 		(property "Value" "AC_S1"
-			(at 297.1801 215.9 90)
+			(at 297.18 216.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
