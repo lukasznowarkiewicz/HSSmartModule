@@ -9359,15 +9359,6 @@
 		(at 133.35 241.3)
 		(uuid "a2816020-3933-40d8-bf5d-e900ed38121c")
 	)
-	(bus_entry
-		(at 195.58 176.53)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b3f86e6-17e8-4799-a0b8-e3500b597642")
-	)
 	(wire
 		(pts
 			(xy 123.19 137.16) (xy 123.19 139.7)
