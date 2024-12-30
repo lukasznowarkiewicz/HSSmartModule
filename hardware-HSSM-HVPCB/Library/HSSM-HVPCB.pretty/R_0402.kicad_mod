@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -156,7 +159,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "96f82251-c78d-474f-9f90-49ad0193ed70")
 	)
-	(model "${KIPRJMOD}/Library/step/0402WGJ0000TCE.STEP"
+	(model "${KIPRJMOD}/Library/HSSM-HVPCB.pretty/step/R_0402.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
