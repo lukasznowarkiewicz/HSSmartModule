@@ -4426,7 +4426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:L_SMD_5x5mm"
+		(property "Footprint" "HSSM-HVPCB:SDR0503"
 			(at 0 -10.414 0)
 			(effects
 				(font
