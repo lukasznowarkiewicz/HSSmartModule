@@ -2080,9 +2080,9 @@
 	(footprint "HSSM-HVPCB:R_0402"
 		(layer "F.Cu")
 		(uuid "173dc91d-80f1-4686-8aa5-dfc9394b2353")
-		(at 167.865 89.8)
+		(at 165.9 87.9)
 		(property "Reference" "R33"
-			(at 1.032 -1.1564 0)
+			(at 1.032 -1.1564 360)
 			(layer "F.SilkS")
 			(uuid "d33194db-d1e1-4a47-b211-de726d9d300f")
 			(effects
@@ -2093,7 +2093,7 @@
 			)
 		)
 		(property "Value" "R_61k9_1pct_0402_RC0402FR-0761K9L"
-			(at 3.8768 1.0936 0)
+			(at 3.876801 1.0936 360)
 			(layer "F.Fab")
 			(uuid "9c53e92b-51d2-405c-b1d3-bbd00df1969f")
 			(effects
@@ -2292,7 +2292,7 @@
 			(uuid "0700174e-2656-4667-b844-9b96cde6a57d")
 		)
 		(pad "1" smd rect
-			(at -0.435 0)
+			(at -0.434999 0)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 28 "Net-(U6-VSENSE)")
@@ -2301,7 +2301,7 @@
 			(uuid "f88d784d-b285-4b27-b9fc-808029773d95")
 		)
 		(pad "2" smd rect
-			(at 0.435 0)
+			(at 0.434999 0)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 18 "+3V3")
@@ -5704,7 +5704,7 @@
 	(footprint "HSSM-HVPCB:R_0402"
 		(layer "F.Cu")
 		(uuid "49758109-7bfe-4cb3-ab08-cac90fb12766")
-		(at 168.965 92.4)
+		(at 163.8 87.9)
 		(property "Reference" "R34"
 			(at 1.032 -1.1564 0)
 			(layer "F.SilkS")
@@ -5717,7 +5717,7 @@
 			)
 		)
 		(property "Value" "R_20k_1pct_0402_RC0402FR-0720KL"
-			(at 3.8768 1.0936 0)
+			(at 3.876801 1.0936 0)
 			(layer "F.Fab")
 			(uuid "9b7d6f98-bbf0-4598-8c1c-cacd6a6fdfcb")
 			(effects
@@ -5916,7 +5916,7 @@
 			(uuid "3a502cff-dd63-4a8d-9428-9b7cede4ed28")
 		)
 		(pad "1" smd rect
-			(at -0.435 0)
+			(at -0.434999 0)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 3 "AC_L")
@@ -5925,7 +5925,7 @@
 			(uuid "d0fbebde-61da-49ae-943b-6377e8f9a8f2")
 		)
 		(pad "2" smd rect
-			(at 0.435 0)
+			(at 0.434999 0)
 			(size 0.56 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 28 "Net-(U6-VSENSE)")
