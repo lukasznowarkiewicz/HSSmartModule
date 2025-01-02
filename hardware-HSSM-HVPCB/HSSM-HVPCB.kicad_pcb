@@ -10238,6 +10238,360 @@
 			)
 		)
 	)
+	(footprint "HSSM-HVPCB:L_3012"
+		(layer "F.Cu")
+		(uuid "9c2238a9-552c-48cb-a185-0f466ae9482b")
+		(at 142.15 89.2)
+		(tags "L_3012")
+		(property "Reference" "L4"
+			(at 0 2.6 0)
+			(layer "F.SilkS")
+			(uuid "20896445-25cc-47a6-a2ff-764b07aea112")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L_10uH_20pct_1A_SDCL1V3012-100M-R"
+			(at 0 -2.7 0)
+			(layer "F.Fab")
+			(uuid "630ed26e-c31f-4caa-9654-aad4950d519e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:L_3012"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ad65388-5d37-442e-90cb-f6274f9f2ead")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-sdcl1v30-semi-shielded-smt-power-inductor-data-sheet-elx1031-en.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cd12abc-9591-44fd-8607-a89c84cea27a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Semi-Shielded SMT Power Inductor, 10µH, ±20%, 1.0A, 3.0x3.0x1.2mm, SDCL1V3012-100M-R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13b0ad6c-7e2d-4355-beb0-8fa26fad1284")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SDCL1V3012-100M-R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1102d6c5-2103-469f-a48a-ef9b28f0d9cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Eaton"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "199cb356-fe79-4c00-98b3-57003c56aa1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c392f0c1-48a8-4635-9e36-976441ecd17e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4996ba59-001f-4358-b443-fe565bf8df56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Val" "10µH"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4eb28d04-2472-4875-8d46-4dda0c0db2c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/42c50d21-ae7a-47ce-a392-f02639676b53")
+		(sheetname "Root")
+		(sheetfile "HSSM-HVPCB.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.8 -1.6)
+			(end 0.8 -1.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5520b743-7579-40be-a735-7408e689a6d1")
+		)
+		(fp_line
+			(start -0.8 1.6)
+			(end 0.8 1.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4d73f1e1-e778-4b8b-bcbc-3ca29c7b86b8")
+		)
+		(fp_line
+			(start -2 -1.8)
+			(end -2 1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f9b6b56b-9d3e-41b5-b277-5c4ceb39b618")
+		)
+		(fp_line
+			(start -2 1.8)
+			(end 2 1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d0e0c623-460c-47dd-a3a1-36f48a471174")
+		)
+		(fp_line
+			(start 2 -1.8)
+			(end -2 -1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "efad91e5-4d67-4198-ae7e-007f8b3eb7ba")
+		)
+		(fp_line
+			(start 2 1.8)
+			(end 2 -1.8)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e7600e39-8592-44df-b954-50d06c778bf1")
+		)
+		(fp_line
+			(start -1.5 -1.3)
+			(end -1.5 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "60da0f8c-e09a-4b89-99a6-4286b100fae2")
+		)
+		(fp_line
+			(start -1.5 1.3)
+			(end -1 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8769da79-e21d-43d9-8c63-1b3f43361731")
+		)
+		(fp_line
+			(start -1 -1.3)
+			(end -1.5 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "800d856a-5040-4bc4-9ff3-5acd4f804045")
+		)
+		(fp_line
+			(start -1 1.3)
+			(end -0.8 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "47cc28e0-7458-4a93-be25-97ea3e7c9988")
+		)
+		(fp_line
+			(start -0.8 -1.5)
+			(end -1 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0a2a5488-ed87-4b5b-9ec5-36ae4eb92e6d")
+		)
+		(fp_line
+			(start -0.8 1.5)
+			(end 0.8 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "df14fa59-1556-4d4e-beb2-ead3c583a39f")
+		)
+		(fp_line
+			(start 0.8 -1.5)
+			(end -0.8 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b424dc92-3eda-4587-830d-d586a86c4fdd")
+		)
+		(fp_line
+			(start 0.8 1.5)
+			(end 1 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "393d0cef-6c36-49b7-92e7-7e12d6c4ee5b")
+		)
+		(fp_line
+			(start 1 -1.3)
+			(end 0.8 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f6ba026e-071b-42fc-a2fd-aa99b91960d8")
+		)
+		(fp_line
+			(start 1 1.3)
+			(end 1.5 1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4a952d11-972d-4b01-9635-afb5cd622511")
+		)
+		(fp_line
+			(start 1.5 -1.3)
+			(end 1 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "392e1f8f-8294-40e1-955c-cf0c4220d95f")
+		)
+		(fp_line
+			(start 1.5 1.3)
+			(end 1.5 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "94f096cd-697c-4c5e-b9c6-e1eec7c82613")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a7c28073-93b5-4115-a94b-367a1ef27049")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.105)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.15 0)
+			(size 1 2.75)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 54 "Net-(U6-PH)")
+			(pintype "passive")
+			(uuid "efc45566-f9a7-4076-86f2-eed9aeb53f0d")
+		)
+		(pad "2" smd rect
+			(at 1.15 0)
+			(size 1 2.75)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 18 "+3V3")
+			(pintype "passive")
+			(uuid "5e89dec7-96a5-47cc-9ac8-39f349af3ef6")
+		)
+		(model "${KIPRJMOD}/Library/HSSM-HVPCB.pretty/step/L_3012.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "HSSM-HVPCB:C_0603"
 		(layer "F.Cu")
 		(uuid "a183cc7f-37cd-4d94-b3ec-7f28f354045b")
