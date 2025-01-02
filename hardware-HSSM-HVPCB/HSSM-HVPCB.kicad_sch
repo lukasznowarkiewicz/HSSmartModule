@@ -2738,188 +2738,6 @@
 				)
 			)
 		)
-		(symbol "HSSM-HVPCB:F_4A_SlowBlow_Holder_UMZ250_3404.2422.11"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 0 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "F_4A_SlowBlow_Holder_UMZ250_3404.2422.11"
-				(at 0 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "HSSM-HVPCB:F_Holder_UMZ250"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://us.schurter.com/en/datasheet/typ_UMZ_250.pdf"
-				(at 0 -12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "4A Slow Blow Fuse, Holder, UMZ 250 Series, Schurter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "3404.2422.11"
-				(at 0 -15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Schurter"
-				(at 0 -18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 0 -20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Lukasz Nowarkiewicz"
-				(at 0 -23.114 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "4A Slow Blow"
-				(at 0 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "Fuse, 4A, Slow Blow, Holder, UMZ 250, Schurter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "F_4A_SlowBlow_Holder_UMZ250_3404.2422.11_0_1"
-				(rectangle
-					(start -1.27 0.508)
-					(end 1.27 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "F_4A_SlowBlow_Holder_UMZ250_3404.2422.11_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "HSSM-HVPCB:G6DN-1A-L DC12"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9480,16 +9298,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 170.18) (xy 373.38 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3436d5f5-b35b-44e8-a710-7b975ae29b1c")
-	)
-	(wire
-		(pts
 			(xy 100.33 233.68) (xy 100.33 234.95)
 		)
 		(stroke
@@ -9850,6 +9658,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 168.91) (xy 298.45 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5897e8ab-6b3e-401a-903e-931ef424caa8")
+	)
+	(wire
+		(pts
 			(xy 302.26 100.33) (xy 302.26 102.87)
 		)
 		(stroke
@@ -9887,16 +9705,6 @@
 			(type default)
 		)
 		(uuid "5a4e94df-b0a1-4716-8969-e9bcf0a56bc8")
-	)
-	(wire
-		(pts
-			(xy 298.45 177.8) (xy 298.45 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b3a8c4d-63d3-4c2c-afaf-145dc82f6ee1")
 	)
 	(wire
 		(pts
@@ -10010,23 +9818,13 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 185.42) (xy 373.38 179.07)
+			(xy 373.38 170.18) (xy 373.38 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "697938fe-f343-4944-ab9f-151aea132b25")
-	)
-	(wire
-		(pts
-			(xy 298.45 168.91) (xy 298.45 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69a2a344-abfe-4bdd-b171-9a9d7c57143f")
 	)
 	(wire
 		(pts
@@ -14425,134 +14223,6 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:F_4A_SlowBlow_Holder_UMZ250_3404.2422.11")
-		(at 373.38 176.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31f2737c-acfb-4df1-857a-7ef58d8be639")
-		(property "Reference" "F3"
-			(at 374.65 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "F_4A_SlowBlow_Holder_UMZ250_3404.2422.11"
-			(at 381.254 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:F_Holder_UMZ250"
-			(at 383.794 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://us.schurter.com/en/datasheet/typ_UMZ_250.pdf"
-			(at 386.334 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "4A Slow Blow Fuse, Holder, UMZ 250 Series, Schurter"
-			(at 373.38 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "3404.2422.11"
-			(at 388.874 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Schurter"
-			(at 391.414 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 393.954 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 396.494 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4A Slow Blow"
-			(at 374.65 177.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "808904e4-5d75-41e2-bb61-510a4ed4114a")
-		)
-		(pin "2"
-			(uuid "d9c81753-f059-4da4-ba4b-8d99837d2ac9")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "F3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HSSM-HVPCB:D_rect_1A_1000V_SOD123_1N4007W")
 		(at 369.57 44.45 270)
 		(unit 1)
@@ -14803,134 +14473,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-HVPCB:F_4A_SlowBlow_Holder_UMZ250_3404.2422.11")
-		(at 298.45 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38fceee9-0653-45e3-a95b-c66401a7e6e5")
-		(property "Reference" "F4"
-			(at 299.72 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "F_4A_SlowBlow_Holder_UMZ250_3404.2422.11"
-			(at 306.324 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:F_Holder_UMZ250"
-			(at 308.864 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://us.schurter.com/en/datasheet/typ_UMZ_250.pdf"
-			(at 311.404 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "4A Slow Blow Fuse, Holder, UMZ 250 Series, Schurter"
-			(at 298.45 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "3404.2422.11"
-			(at 313.944 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Schurter"
-			(at 316.484 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 319.024 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 321.564 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4A Slow Blow"
-			(at 299.72 176.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "808904e4-5d75-41e2-bb61-510a4ed4114b")
-		)
-		(pin "2"
-			(uuid "d9c81753-f059-4da4-ba4b-8d99837d2aca")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "F4")
 					(unit 1)
 				)
 			)
