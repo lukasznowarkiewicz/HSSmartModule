@@ -11157,6 +11157,16 @@
 		)
 		(uuid "33fc070f-0e49-4ae5-a1b5-b9d39aa9f540")
 	)
+	(text "missing pull up to boot\n"
+		(exclude_from_sim no)
+		(at 151.13 170.942 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c6a12b9-9d31-4129-875d-54b6edf66014")
+	)
 	(text "S1 button"
 		(exclude_from_sim no)
 		(at 290.576 239.014 0)
@@ -11393,7 +11403,7 @@
 		)
 		(uuid "48d13bd2-7ade-4862-befb-b1f6ab554441")
 	)
-	(label "GPIO0"
+	(label "GPIO?"
 		(at 175.26 232.41 0)
 		(fields_autoplaced yes)
 		(effects
