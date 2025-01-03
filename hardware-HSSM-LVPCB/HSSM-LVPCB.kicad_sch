@@ -8539,16 +8539,6 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 85.09) (xy 373.38 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29b8f178-cdbd-4615-a6aa-7ec6d669ea57")
-	)
-	(wire
-		(pts
 			(xy 193.04 146.05) (xy 180.34 146.05)
 		)
 		(stroke
@@ -9196,16 +9186,6 @@
 			(type default)
 		)
 		(uuid "5b06144c-f5bb-4458-824b-8140c971c6eb")
-	)
-	(wire
-		(pts
-			(xy 373.38 83.82) (xy 373.38 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bf8d4d5-d572-4cca-9ce0-d93aff9270e5")
 	)
 	(wire
 		(pts
@@ -11226,6 +11206,16 @@
 			)
 		)
 		(uuid "d1405a02-4f29-45ed-b0f7-a5e0c0769182")
+	)
+	(text "MAX 1.98 V!"
+		(exclude_from_sim no)
+		(at 371.602 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff044f7c-fcd5-4e25-83b9-0ec2c9444c25")
 	)
 	(label "SPIQ"
 		(at 204.47 142.24 180)
