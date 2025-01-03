@@ -5693,6 +5693,300 @@
 				)
 			)
 		)
+		(symbol "HSSM-LVPCB:U_AirQualitySensor_ENS160_BGLM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 -16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "U_AirQualitySensor_ENS160_BGLM"
+				(at 3.81 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "HSSM-LVPCB:U_LGA_3.3x3.3"
+				(at 3.81 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sciosense.com/wp-content/uploads/2023/12/ENS160-Datasheet.pdf"
+				(at 3.81 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Digital MOX Gas Sensor, Air Quality, LGA 3.3x3.3 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ENS160-BGLM"
+				(at 3.81 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ScioSense"
+				(at 3.81 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 3.81 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Lukasz Nowarkiewicz"
+				(at 3.81 -35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "ENS160"
+				(at 3.81 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "Sensor,AirQuality,ENS160,MOX,Gas,VOC,CO2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "U_AirQualitySensor_ENS160_BGLM_0_1"
+				(rectangle
+					(start -11.43 11.43)
+					(end 11.43 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "U_AirQualitySensor_ENS160_BGLM_1_1"
+				(pin passive line
+					(at -13.97 5.08 0)
+					(length 2.54)
+					(name "MOSI/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 0 0)
+					(length 2.54)
+					(name "SCLK/SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -5.08 0)
+					(length 2.54)
+					(name "MISO/ADDR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -13.97 90)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 -5.08 180)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 0 180)
+					(length 2.54)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 13.97 5.08 180)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 13.97 270)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 13.97 270)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HSSM-LVPCB:U_EnvSensor_BME280_LGA_Bosch"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7644,6 +7938,12 @@
 		(uuid "503798fe-1de8-42b6-bdda-5b64e3b5eef6")
 	)
 	(junction
+		(at 365.76 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "540aa2be-4f8e-4205-8270-aa1194c2934d")
+	)
+	(junction
 		(at 367.03 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7949,6 +8249,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 64.77) (xy 359.41 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f290cee-2ecd-4d72-a2c5-75b7c1a6c313")
+	)
+	(wire
+		(pts
 			(xy 175.26 246.38) (xy 175.26 251.46)
 		)
 		(stroke
@@ -8226,6 +8536,16 @@
 			(type default)
 		)
 		(uuid "28ad816e-a5fc-4685-9c3f-4507a3255be1")
+	)
+	(wire
+		(pts
+			(xy 370.84 85.09) (xy 373.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b8f178-cdbd-4615-a6aa-7ec6d669ea57")
 	)
 	(wire
 		(pts
@@ -8589,6 +8909,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 54.61) (xy 358.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8dbcf7-5028-4307-afdc-1486027f924e")
+	)
+	(wire
+		(pts
 			(xy 175.26 121.92) (xy 191.77 121.92)
 		)
 		(stroke
@@ -8839,6 +9169,16 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 64.77) (xy 389.89 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59cc2cf8-34dd-4f4a-a178-97f3ab58282e")
+	)
+	(wire
+		(pts
 			(xy 327.66 147.32) (xy 327.66 149.86)
 		)
 		(stroke
@@ -8856,6 +9196,16 @@
 			(type default)
 		)
 		(uuid "5b06144c-f5bb-4458-824b-8140c971c6eb")
+	)
+	(wire
+		(pts
+			(xy 373.38 83.82) (xy 373.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf8d4d5-d572-4cca-9ce0-d93aff9270e5")
 	)
 	(wire
 		(pts
@@ -8886,6 +9236,26 @@
 			(type default)
 		)
 		(uuid "5f3f9107-05ee-4413-a938-57f85cfea8dc")
+	)
+	(wire
+		(pts
+			(xy 365.76 53.34) (xy 373.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6043d830-0436-4085-9d99-506fb8beb58c")
+	)
+	(wire
+		(pts
+			(xy 389.89 64.77) (xy 389.89 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623d6d15-967a-42b6-b9f9-0408950e4555")
 	)
 	(wire
 		(pts
@@ -9089,6 +9459,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 53.34) (xy 365.76 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7174f377-234e-4c04-b502-05449a0aadbc")
+	)
+	(wire
+		(pts
 			(xy 326.39 227.33) (xy 326.39 229.87)
 		)
 		(stroke
@@ -9186,6 +9566,16 @@
 			(type default)
 		)
 		(uuid "7d60c49a-3705-4de9-bf7c-4f30a2f020f2")
+	)
+	(wire
+		(pts
+			(xy 387.35 74.93) (xy 388.62 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2899be-97a3-42e1-878d-0e29ae7d6590")
 	)
 	(wire
 		(pts
@@ -9359,6 +9749,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 53.34) (xy 373.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c89eb03-e36c-4d14-84f2-1cf953a3a79f")
+	)
+	(wire
+		(pts
 			(xy 104.14 116.84) (xy 80.01 116.84)
 		)
 		(stroke
@@ -9529,6 +9929,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 74.93) (xy 356.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09d0f04-11c7-4035-87aa-9f93487c60d9")
+	)
+	(wire
+		(pts
 			(xy 367.03 227.33) (xy 367.03 229.87)
 		)
 		(stroke
@@ -9566,6 +9976,16 @@
 			(type default)
 		)
 		(uuid "a31f56ac-5a4f-4662-b8f9-e1ed99493127")
+	)
+	(wire
+		(pts
+			(xy 351.79 69.85) (xy 359.41 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33cd60c-ea66-46ad-bb36-c52c1bb33b1a")
 	)
 	(wire
 		(pts
@@ -9696,6 +10116,16 @@
 			(type default)
 		)
 		(uuid "af91c446-742e-47ea-a6b1-caa65cf0cc51")
+	)
+	(wire
+		(pts
+			(xy 356.87 74.93) (xy 356.87 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0de5ecc-6d55-46c9-8c98-8d26be267bdb")
 	)
 	(wire
 		(pts
@@ -10509,6 +10939,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 69.85) (xy 387.35 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2e2366-cb3a-46bd-856a-093d3e156f53")
+	)
+	(wire
+		(pts
 			(xy 231.14 166.37) (xy 241.3 166.37)
 		)
 		(stroke
@@ -10696,6 +11136,16 @@
 			(type default)
 		)
 		(uuid "fe429162-4a8a-490d-8595-bdb9860e2960")
+	)
+	(wire
+		(pts
+			(xy 365.76 53.34) (xy 365.76 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe78cabe-571a-4185-a98f-f431559159c5")
 	)
 	(wire
 		(pts
@@ -11360,6 +11810,28 @@
 		)
 		(uuid "ae937e49-16d4-4eb7-ac1e-d62b5606711f")
 	)
+	(label "GPIO?"
+		(at 351.79 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1857a10-aa52-43e3-bfa4-3a9508b62b52")
+	)
+	(label "GPIO?"
+		(at 351.79 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b340c4c7-f32c-49c5-85a1-472c2f9a86f6")
+	)
 	(label "GPIO15"
 		(at 204.47 111.76 180)
 		(fields_autoplaced yes)
@@ -11524,6 +11996,17 @@
 			(justify left bottom)
 		)
 		(uuid "f8202e17-a623-428f-98c7-3524486ac02d")
+	)
+	(label "GPIO?"
+		(at 394.97 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe963af1-c11e-464a-95fb-34b20669fbc2")
 	)
 	(label "U0RXD"
 		(at 207.01 96.52 180)
@@ -13750,6 +14233,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 356.87 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28f73b5a-48de-4aee-a772-e1b0642f02bc")
+		(property "Reference" "#PWR059"
+			(at 356.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 356.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 356.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 356.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3e09ee2-b3fb-426e-8b91-18b4d5471e31")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 280.67 208.28 0)
 		(unit 1)
@@ -14027,6 +14576,73 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 388.62 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f639e6d-5b56-44d2-980b-12094f9135fd")
+		(property "Reference" "#PWR061"
+			(at 384.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 392.43 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 388.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53e1d5c2-52a7-4978-b649-11d9a01162ac")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -15623,6 +16239,73 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 370.84 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4edafde1-9a72-4667-aa3e-928fa50d5671")
+		(property "Reference" "#PWR062"
+			(at 374.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 367.03 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 370.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 370.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53e1d5c2-52a7-4978-b649-11d9a01162ac")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 72.39 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16026,6 +16709,72 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 389.89 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a4d16df-71be-422e-a134-e00938ebcd31")
+		(property "Reference" "#PWR063"
+			(at 389.89 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 389.89 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 389.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 389.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69272c49-6565-4892-802a-38251efe22bf")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -17009,6 +17758,155 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-LVPCB:U_AirQualitySensor_ENS160_BGLM")
+		(at 373.38 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bd72e15-64d6-4695-8728-7de2df4b553d")
+		(property "Reference" "U5"
+			(at 375.5741 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "U_AirQualitySensor_ENS160_BGLM"
+			(at 377.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:U_LGA_3.3x3.3"
+			(at 377.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sciosense.com/wp-content/uploads/2023/12/ENS160-Datasheet.pdf"
+			(at 377.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital MOX Gas Sensor, Air Quality, LGA 3.3x3.3 mm"
+			(at 373.38 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ENS160-BGLM"
+			(at 377.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ScioSense"
+			(at 377.19 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 377.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 377.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "ENS160"
+			(at 375.5741 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "b4a2e24e-f78d-45d5-9511-276ddebdf7f2")
+		)
+		(pin "3"
+			(uuid "c6d69a23-8994-41d4-a279-4bb62625bc20")
+		)
+		(pin "4"
+			(uuid "167d7a0b-561e-4902-8eb0-b7d7a0451efe")
+		)
+		(pin "1"
+			(uuid "01eee4a1-890c-4121-bda5-da4ace2d99e9")
+		)
+		(pin "5"
+			(uuid "805d603b-7bd0-4357-90ce-1bf71505bd44")
+		)
+		(pin "6"
+			(uuid "6c5ff3e8-0c5c-4857-8bf4-8a8cfb879b9b")
+		)
+		(pin "7"
+			(uuid "073ccf76-86eb-4b87-bf16-a1116de2f056")
+		)
+		(pin "8"
+			(uuid "18395732-b7d5-4958-8916-ab3ec1e35a63")
+		)
+		(pin "9"
+			(uuid "aff8f818-3804-4887-bcc9-763313c62d82")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 312.42 63.5 0)
 		(unit 1)
@@ -17395,6 +18293,72 @@
 			(project "HSSM-LVPCB"
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 358.14 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85ab65fb-cfd9-4373-9bb4-2399988f3355")
+		(property "Reference" "#PWR060"
+			(at 358.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 358.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 358.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a86d9bf7-081e-4114-9c7b-19b0ca23b10d")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
