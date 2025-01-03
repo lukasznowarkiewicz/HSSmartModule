@@ -11081,7 +11081,7 @@
 	(footprint "HSSM-HVPCB:2601-1108"
 		(layer "F.Cu")
 		(uuid "c260c8e9-13ee-42f4-a5f0-7c8f79d87dc7")
-		(at 140.499998 119)
+		(at 140.604899 119)
 		(tags "2601-1108 ")
 		(property "Reference" "J1"
 			(at 12.300001 2.5 0)
@@ -14670,11 +14670,11 @@
 	(footprint "HSSM-HVPCB:R_1206"
 		(layer "B.Cu")
 		(uuid "240119bd-200b-4f07-a41d-924afa2b6a1f")
-		(at 151.8 106.6 90)
+		(at 144.2 135 180)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "R19"
-			(at 0 1.850001 90)
+			(at 0 1.850001 360)
 			(layer "B.SilkS")
 			(uuid "927012bc-8d2d-4496-8b77-7009538d3cc5")
 			(effects
@@ -14686,7 +14686,7 @@
 			)
 		)
 		(property "Value" "R_499k_1pct_1206_KTR18EZPF4993"
-			(at 0 -1.850001 90)
+			(at 0 -1.850001 360)
 			(layer "B.Fab")
 			(uuid "f05f0958-d0fd-4a9f-84cd-b82a9ee0d18b")
 			(effects
@@ -14698,7 +14698,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_1206"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -14712,7 +14712,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr-e.pdf"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -14726,7 +14726,7 @@
 			)
 		)
 		(property "Description" "SMD Thick Film Resistor, 499kΩ, ±1%, 0.25W, 1206, ROHM"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -14740,7 +14740,7 @@
 			)
 		)
 		(property "MPN" "KTR18EZPF4993"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -14754,7 +14754,7 @@
 			)
 		)
 		(property "Manufacturer" "ROHM"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -14768,7 +14768,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -14782,7 +14782,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -14796,7 +14796,7 @@
 			)
 		)
 		(property "Val" "499kΩ"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -14814,16 +14814,6 @@
 		(sheetfile "HSSM-HVPCB.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 0.711252 -0.91)
-			(end -0.711252 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "82045d1a-5020-453e-bbbe-e9bcb14cabf8")
-		)
-		(fp_line
 			(start 0.711252 0.91)
 			(end -0.711252 0.91)
 			(stroke
@@ -14834,24 +14824,14 @@
 			(uuid "b68b846b-5597-4038-ab3a-ff9032c2dc0f")
 		)
 		(fp_line
-			(start 2.3 -1.15)
-			(end 2.3 1.15)
+			(start 0.711252 -0.91)
+			(end -0.711252 -0.91)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "be8e10a1-1ed4-4a96-8b2b-7dc2caa764f7")
-		)
-		(fp_line
-			(start -2.3 -1.15)
-			(end 2.3 -1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "c18c56c8-fa6f-4b9b-99bb-759a41e1868c")
+			(layer "B.SilkS")
+			(uuid "82045d1a-5020-453e-bbbe-e9bcb14cabf8")
 		)
 		(fp_line
 			(start 2.3 1.15)
@@ -14864,6 +14844,16 @@
 			(uuid "2d65e567-bda4-4451-8740-70cc79e79e6a")
 		)
 		(fp_line
+			(start 2.3 -1.15)
+			(end 2.3 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "be8e10a1-1ed4-4a96-8b2b-7dc2caa764f7")
+		)
+		(fp_line
 			(start -2.3 1.15)
 			(end -2.3 -1.15)
 			(stroke
@@ -14874,24 +14864,14 @@
 			(uuid "c8b17d92-ef74-48c2-856d-e22e320f67d9")
 		)
 		(fp_line
-			(start 1.6 -0.8)
-			(end 1.6 0.8)
+			(start -2.3 -1.15)
+			(end 2.3 -1.15)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "f46ffcb3-30e1-4f16-b67e-dae96a436228")
-		)
-		(fp_line
-			(start -1.6 -0.8)
-			(end 1.6 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "4de6cefd-22a4-4430-8fe9-4d0aa201e5d5")
+			(layer "B.CrtYd")
+			(uuid "c18c56c8-fa6f-4b9b-99bb-759a41e1868c")
 		)
 		(fp_line
 			(start 1.6 0.8)
@@ -14904,6 +14884,16 @@
 			(uuid "ae9fbdaa-49dc-4954-a609-1b2efbef47a3")
 		)
 		(fp_line
+			(start 1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "f46ffcb3-30e1-4f16-b67e-dae96a436228")
+		)
+		(fp_line
 			(start -1.6 0.8)
 			(end -1.6 -0.8)
 			(stroke
@@ -14913,8 +14903,18 @@
 			(layer "B.Fab")
 			(uuid "b01d7338-43b8-4a0c-b803-630f458af55e")
 		)
+		(fp_line
+			(start -1.6 -0.8)
+			(end 1.6 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "4de6cefd-22a4-4430-8fe9-4d0aa201e5d5")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 360)
 			(layer "B.Fab")
 			(uuid "edce03dd-8f3c-41c6-a547-528e169d1497")
 			(effects
@@ -14926,7 +14926,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.475001 0 90)
+			(at -1.475001 0 180)
 			(size 1.15 1.8)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.217391)
@@ -14935,7 +14935,7 @@
 			(uuid "d2194e9c-d25d-4bd1-aa64-5222e645eb9e")
 		)
 		(pad "2" smd roundrect
-			(at 1.475001 0 90)
+			(at 1.475001 0 180)
 			(size 1.15 1.8)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.217391)
@@ -18626,9 +18626,9 @@
 	(footprint "HSSM-HVPCB:R_0402"
 		(layer "B.Cu")
 		(uuid "8ce6397d-4674-4697-9986-2f8453cea4d8")
-		(at 154.9 103.2 180)
+		(at 140.2 135 180)
 		(property "Reference" "R18"
-			(at 1.032 1.1564 0)
+			(at 1.032 1.1564 360)
 			(layer "B.SilkS")
 			(uuid "7d2c63e1-b13e-4aa6-a27c-8837759a2e69")
 			(effects
@@ -18640,7 +18640,7 @@
 			)
 		)
 		(property "Value" "R_1k_1pct_0402_CRCW04021K00FKED"
-			(at 3.8768 -1.0936 0)
+			(at 3.876801 -1.0936 360)
 			(layer "B.Fab")
 			(uuid "a6759759-b1f7-4f4e-922f-a1045f29e88f")
 			(effects
@@ -18848,7 +18848,7 @@
 			(uuid "d95d7e6b-7df9-4702-96b8-ed50f9686613")
 		)
 		(pad "1" smd rect
-			(at -0.435 0 180)
+			(at -0.434999 0 180)
 			(size 0.56 0.6)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 10 "Net-(U2-VIN-)")
@@ -18857,7 +18857,7 @@
 			(uuid "014972ce-308b-4f46-b894-d1a393bbe431")
 		)
 		(pad "2" smd rect
-			(at 0.435 0 180)
+			(at 0.434999 0 180)
 			(size 0.56 0.6)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 3 "AC_L")
@@ -21133,11 +21133,11 @@
 	(footprint "HSSM-HVPCB:R_1206"
 		(layer "B.Cu")
 		(uuid "cab5985d-3653-4f07-a8c9-65fe63eaf360")
-		(at 152.4 127.5 180)
+		(at 149.000001 135 180)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "R20"
-			(at 0 1.85 0)
+			(at 0 1.850001 360)
 			(layer "B.SilkS")
 			(uuid "e5e53950-29a4-4c93-8b30-815f598f90af")
 			(effects
@@ -21149,7 +21149,7 @@
 			)
 		)
 		(property "Value" "R_499k_1pct_1206_KTR18EZPF4993"
-			(at 0 -1.85 0)
+			(at 0 -1.850001 360)
 			(layer "B.Fab")
 			(uuid "73323ff5-b0c3-403c-8b78-c7a28e319e30")
 			(effects
@@ -21377,7 +21377,7 @@
 			(uuid "24822d1f-6955-4704-81b1-162e48ac4678")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "B.Fab")
 			(uuid "7d439a7e-4949-43ae-af57-36c25e0faeba")
 			(effects
@@ -21389,7 +21389,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.475 0 180)
+			(at -1.475001 0 180)
 			(size 1.15 1.8)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.217391)
@@ -21398,7 +21398,7 @@
 			(uuid "9aacfbd0-63b6-42a0-a648-b69bdbb461a5")
 		)
 		(pad "2" smd roundrect
-			(at 1.475 0 180)
+			(at 1.475001 0 180)
 			(size 1.15 1.8)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.217391)
@@ -22087,11 +22087,11 @@
 	(footprint "HSSM-HVPCB:R_1206"
 		(layer "B.Cu")
 		(uuid "e8903ab8-49f1-4b1e-af73-65285c8fbbed")
-		(at 177.525 127.4 180)
+		(at 158.6 135 180)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "R22"
-			(at 0 1.85 0)
+			(at 0 1.850001 360)
 			(layer "B.SilkS")
 			(uuid "e8db4f8c-bc3f-4cf9-9859-af084ba158e4")
 			(effects
@@ -22103,7 +22103,7 @@
 			)
 		)
 		(property "Value" "R_499k_1pct_1206_KTR18EZPF4993"
-			(at 0 -1.85 0)
+			(at 0 -1.850001 360)
 			(layer "B.Fab")
 			(uuid "bc15a218-e784-4be9-98c1-337bef227277")
 			(effects
@@ -22331,7 +22331,7 @@
 			(uuid "cbda07a8-559e-469d-979e-f2248d89afcc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "B.Fab")
 			(uuid "91e46bf8-fc5b-475b-a0e5-9423f4a56917")
 			(effects
@@ -22343,7 +22343,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.475 0 180)
+			(at -1.475001 0 180)
 			(size 1.15 1.8)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.217391)
@@ -22352,7 +22352,7 @@
 			(uuid "38589f86-dd1c-48fc-bd4b-b75f5cdc7967")
 		)
 		(pad "2" smd roundrect
-			(at 1.475 0 180)
+			(at 1.475001 0 180)
 			(size 1.15 1.8)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.217391)
@@ -24071,11 +24071,11 @@
 	(footprint "HSSM-HVPCB:R_1206"
 		(layer "B.Cu")
 		(uuid "efa09065-2bb2-4c66-8032-e3257bf2b9ee")
-		(at 177.525 124.05 180)
+		(at 153.8 135 180)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "R21"
-			(at 0 1.85 0)
+			(at 0 1.850001 360)
 			(layer "B.SilkS")
 			(uuid "9d337427-c61b-40fe-8ac3-a0f7ead372f5")
 			(effects
@@ -24087,7 +24087,7 @@
 			)
 		)
 		(property "Value" "R_499k_1pct_1206_KTR18EZPF4993"
-			(at 0 -1.85 0)
+			(at 0 -1.850001 360)
 			(layer "B.Fab")
 			(uuid "2281d34d-5b81-4a50-b8a0-90d3cb76de47")
 			(effects
@@ -24315,7 +24315,7 @@
 			(uuid "eec8ea2b-2622-44e2-9594-1e1e655afde3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "B.Fab")
 			(uuid "0c4f3877-53ec-4b8c-a9cf-98535a9fb916")
 			(effects
@@ -24327,7 +24327,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.475 0 180)
+			(at -1.475001 0 180)
 			(size 1.15 1.8)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.217391)
@@ -24336,7 +24336,7 @@
 			(uuid "3749700d-aa1b-4ec5-9c18-a07c85b4aab3")
 		)
 		(pad "2" smd roundrect
-			(at 1.475 0 180)
+			(at 1.475001 0 180)
 			(size 1.15 1.8)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.217391)
