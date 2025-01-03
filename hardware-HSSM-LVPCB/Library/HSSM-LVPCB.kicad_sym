@@ -5562,7 +5562,7 @@
 			)
 		)
 	)
-	(symbol "R_500R_0402"
+	(symbol "R_4k7_0402"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -5578,7 +5578,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R_500R_0402"
+		(property "Value" "R_4k7_0402"
 			(at 20.32 -12.7 0)
 			(effects
 				(font
@@ -5589,7 +5589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "M2SmartHomeFootprints:R_0402"
+		(property "Footprint" "HSSM-LVPCB:R_0402"
 			(at 20.32 -15.24 0)
 			(effects
 				(font
@@ -5611,7 +5611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Thick Film Resistor, 500 Ω, ±1%, 1/16 W, 0402 [1005 Metric], CRCW Series"
+		(property "Description" "SMD Thick Film Resistor, 4.7 kΩ, ±1%, 1/16 W, 0402 [1005 Metric], CRCW Series"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5620,7 +5620,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW0402500RFKED"
+		(property "MPN" "CRCW04024K70FKED"
 			(at 20.32 -20.32 0)
 			(effects
 				(font
@@ -5653,7 +5653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "Your Name"
+		(property "Author" "Lukasz Nowarkiewicz"
 			(at 20.32 -27.94 0)
 			(effects
 				(font
@@ -5664,7 +5664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "500R"
+		(property "Val" "4k7"
 			(at 20.32 -7.62 0)
 			(effects
 				(font
@@ -5703,7 +5703,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "R_500R_0402_0_1"
+		(symbol "R_4k7_0402_0_1"
 			(rectangle
 				(start 0.635 0.889)
 				(end 4.445 -0.889)
@@ -5716,7 +5716,7 @@
 				)
 			)
 		)
-		(symbol "R_500R_0402_1_1"
+		(symbol "R_4k7_0402_1_1"
 			(pin passive line
 				(at 0 0 0)
 				(length 0.635)
