@@ -12131,6 +12131,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 276.86 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "042e1350-0245-44f8-9b27-d3cdc2505608")
+		(property "Reference" "#PWR014"
+			(at 276.86 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_S1"
+			(at 276.86 216.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 276.86 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3acbb416-4e33-44b9-877a-d939c6510213")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 154.94 40.64 0)
 		(unit 1)
@@ -12191,71 +12257,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:AC")
-		(at 307.34 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d3cf8b2-593e-407d-a10e-f79196b2787a")
-		(property "Reference" "#PWR030"
-			(at 307.34 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AC_S3"
-			(at 307.34 213.868 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 307.34 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fb34eb8-8c1e-48c3-acf9-6193aa3f7b67")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -12740,71 +12741,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:AC")
-		(at 292.1 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1cafae2a-4e62-4ca5-87b4-c5ef0b954d2c")
-		(property "Reference" "#PWR032"
-			(at 292.1 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AC_Q2"
-			(at 292.1 214.122 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 292.1 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 292.1 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 292.1 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "187a7b83-d0b6-417b-92ae-ea195cd6370f")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -14872,15 +14808,15 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 287.02 222.25 0)
+		(at 292.1 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "403d3e8b-9379-4eb0-bba7-e59acdf75669")
-		(property "Reference" "#PWR031"
-			(at 287.02 224.79 0)
+		(uuid "42523b8f-47ff-4b61-9a76-093f25958ab2")
+		(property "Reference" "#PWR033"
+			(at 292.1 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14888,8 +14824,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AC_Q1"
-			(at 287.02 214.122 90)
+		(property "Value" "AC_L"
+			(at 292.1 214.122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14897,7 +14833,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 222.25 0)
+			(at 292.1 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14906,7 +14842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 222.25 0)
+			(at 292.1 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14915,7 +14851,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 287.02 222.25 0)
+			(at 292.1 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14924,12 +14860,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0620f7b-a2c8-4ef7-865e-c4568dc49850")
+			(uuid "3ecc005d-e01d-4163-867d-0e1648461ff2")
 		)
 		(instances
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -16258,6 +16194,71 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 287.02 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "624ddc8e-0841-4028-b1ec-696b0c9f5b8e")
+		(property "Reference" "#PWR031"
+			(at 287.02 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_L"
+			(at 287.02 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 287.02 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eb92d2f-319f-47c9-803d-3863fda3bb8f")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -17966,6 +17967,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 297.18 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88e369a1-2c88-4f88-b391-b0b129304ad3")
+		(property "Reference" "#PWR034"
+			(at 297.18 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_S3"
+			(at 297.18 213.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 297.18 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84295347-c940-405d-8d37-d307e36b7c9d")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:OSC_2520_4.096MHz_25ppm_ECS-2520MVLC-041-BN-TR")
 		(at 146.05 35.56 0)
 		(unit 1)
@@ -18225,6 +18291,71 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:AC")
+		(at 281.94 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d03ed2b-67f6-4a02-81be-2799a3e70a26")
+		(property "Reference" "#PWR028"
+			(at 281.94 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_N"
+			(at 281.94 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 281.94 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fe86401-5759-4cdb-8785-bc3f37f02e54")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -19544,71 +19675,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:AC")
-		(at 281.94 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9cf484c4-3d93-44de-b74a-7acd62c45f1d")
-		(property "Reference" "#PWR037"
-			(at 281.94 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AC_L"
-			(at 281.94 214.122 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 281.94 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fbcc604-979c-4c4d-bb20-bcc6c7434e17")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HSSM-HVPCB:Q_NMOS_SOT-23_IRLML6344")
 		(at 285.75 176.53 0)
 		(unit 1)
@@ -19740,6 +19806,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 271.78 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3bd23c8-f2db-48c7-a3f5-c488d6460025")
+		(property "Reference" "#PWR013"
+			(at 271.78 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_Q1"
+			(at 271.78 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 271.78 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "608bf2cf-2dd0-4848-8807-337e1cb679f8")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:R_499k_1pct_1206_KTR18EZPF4993")
 		(at 101.6 86.36 90)
 		(unit 1)
@@ -19862,71 +19993,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:AC")
-		(at 276.86 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4df3833-624e-4e15-95ea-0c2e53b2ad1f")
-		(property "Reference" "#PWR038"
-			(at 276.86 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AC_L"
-			(at 276.86 214.122 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 276.86 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f3e1fec-a065-403d-9426-0e23a63a225e")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -22169,6 +22235,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:AC")
+		(at 307.34 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc0acb88-1831-4fa5-bf03-126f8de87ea7")
+		(property "Reference" "#PWR030"
+			(at 307.34 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AC_Q2"
+			(at 307.34 214.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AC\""
+			(at 307.34 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcee34c8-382d-4c32-a0da-15a293269b35")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 151.13 0)
 		(unit 1)
@@ -22624,72 +22755,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:AC")
-		(at 297.18 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc02ed76-b632-4208-bb00-4875a9096de0")
-		(property "Reference" "#PWR028"
-			(at 297.18 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AC_S1"
-			(at 297.18 216.662 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 297.18 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1cafb890-1126-4486-9182-b7557ff7b318")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HSSM-HVPCB:R_200k_0.1pct_1206_VT1206BRD07200KL")
 		(at 344.17 110.49 0)
 		(unit 1)
@@ -23072,71 +23137,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:AC")
-		(at 271.78 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e60bdac4-7e62-41fa-98bf-f829309f5a7f")
-		(property "Reference" "#PWR039"
-			(at 271.78 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AC_N"
-			(at 271.78 214.122 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 271.78 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "116796fb-4bd1-40d4-a0b2-a5d37ea0845f")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
