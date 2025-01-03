@@ -6902,6 +6902,12 @@
 		)
 	)
 	(junction
+		(at 384.81 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1259fafc-0a0b-4034-b1c7-8c11a5192ed1")
+	)
+	(junction
 		(at 190.5 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6950,6 +6956,18 @@
 		(uuid "3da4d9db-a7b2-492e-b830-8a397ccdc1ab")
 	)
 	(junction
+		(at 326.39 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dd39ea0-1ed6-4528-b7c0-37c8d3c7dda7")
+	)
+	(junction
+		(at 280.67 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "403c7900-5146-4344-8b5b-427fee198bb4")
+	)
+	(junction
 		(at 137.16 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6960,6 +6978,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45b2a59f-4da5-4fa4-80ad-2712a23a32e4")
+	)
+	(junction
+		(at 367.03 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58a10217-1849-4a9d-8e30-799dd14db7ae")
 	)
 	(junction
 		(at 39.37 81.28)
@@ -6980,10 +7004,22 @@
 		(uuid "8597b29d-8d14-456a-8efa-96183ca7b929")
 	)
 	(junction
+		(at 344.17 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "931dff38-82ab-48d2-bcab-22746f181ef8")
+	)
+	(junction
 		(at 219.71 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98fb7d2e-f48d-406f-97b9-83e9690ca0e8")
+	)
+	(junction
+		(at 336.55 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d9db78a-c24a-4e4b-9190-c08fe7eecc6e")
 	)
 	(junction
 		(at 111.76 49.53)
@@ -7004,6 +7040,18 @@
 		(uuid "c1dd935d-7039-4f3c-8328-482b4018e480")
 	)
 	(junction
+		(at 377.19 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df8d10b2-6143-4871-950f-8d777db51705")
+	)
+	(junction
+		(at 298.45 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eefd4c6c-ee4d-4f98-b263-1b1904107b89")
+	)
+	(junction
 		(at 77.47 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7014,6 +7062,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f768b747-b650-4079-8f86-4264cdf5b9bf")
+	)
+	(junction
+		(at 290.83 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd8392f6-d57b-471b-8d55-4f7467a585e8")
 	)
 	(no_connect
 		(at 120.65 199.39)
@@ -7099,6 +7153,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 224.79) (xy 349.25 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b39993-3cb2-4780-867d-5a7ed9001ce2")
+	)
+	(wire
+		(pts
 			(xy 31.75 83.82) (xy 33.02 83.82)
 		)
 		(stroke
@@ -7119,6 +7183,26 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 224.79) (xy 336.55 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a3a55b-e7d7-4b70-8dbb-4ed86b95a84f")
+	)
+	(wire
+		(pts
+			(xy 377.19 224.79) (xy 377.19 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f5c0c0-b092-4a05-95f6-0eb04e17794d")
+	)
+	(wire
+		(pts
 			(xy 77.47 234.95) (xy 77.47 240.03)
 		)
 		(stroke
@@ -7126,6 +7210,26 @@
 			(type default)
 		)
 		(uuid "081c7296-b10e-4ca9-bbe9-a31ec406531e")
+	)
+	(wire
+		(pts
+			(xy 280.67 208.28) (xy 280.67 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09fb0c8b-1ee2-4291-bbcd-a8d741db30b6")
+	)
+	(wire
+		(pts
+			(xy 367.03 208.28) (xy 367.03 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a191145-7cd1-4d3c-b824-180528db22d9")
 	)
 	(wire
 		(pts
@@ -7219,6 +7323,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 208.28) (xy 326.39 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1277f956-6727-4dcf-aa67-d9af90a2b3b2")
+	)
+	(wire
+		(pts
 			(xy 193.04 148.59) (xy 193.04 146.05)
 		)
 		(stroke
@@ -7256,6 +7370,26 @@
 			(type default)
 		)
 		(uuid "17c25319-57ff-4e8f-b478-ee9ae394bf82")
+	)
+	(wire
+		(pts
+			(xy 326.39 215.9) (xy 326.39 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18956fb1-09a3-4646-ae71-6d5b10378f0e")
+	)
+	(wire
+		(pts
+			(xy 293.37 224.79) (xy 290.83 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e05e96-29c6-4481-995c-d00b61b87561")
 	)
 	(wire
 		(pts
@@ -7339,6 +7473,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 228.6) (xy 392.43 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277c5dae-4582-494e-977f-294495842f39")
+	)
+	(wire
+		(pts
 			(xy 254 156.21) (xy 262.89 156.21)
 		)
 		(stroke
@@ -7419,6 +7563,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 227.33) (xy 280.67 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320eada2-e7fb-485a-ba3d-561ac1c090f9")
+	)
+	(wire
+		(pts
 			(xy 40.64 106.68) (xy 50.8 106.68)
 		)
 		(stroke
@@ -7426,6 +7580,16 @@
 			(type default)
 		)
 		(uuid "3233ad56-e771-40a6-88fe-53c57603870a")
+	)
+	(wire
+		(pts
+			(xy 339.09 224.79) (xy 336.55 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f6aea0-77a0-4338-80ed-788fc6a79a95")
 	)
 	(wire
 		(pts
@@ -7559,6 +7723,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 212.09) (xy 336.55 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426cac91-274c-456d-8369-cbf9b5490f6d")
+	)
+	(wire
+		(pts
 			(xy 85.09 198.12) (xy 80.01 198.12)
 		)
 		(stroke
@@ -7599,6 +7773,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 219.71) (xy 351.79 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a96ff8-fee2-4e28-8bf2-7fa8ae8d04d9")
+	)
+	(wire
+		(pts
 			(xy 254 161.29) (xy 262.89 161.29)
 		)
 		(stroke
@@ -7616,6 +7800,16 @@
 			(type default)
 		)
 		(uuid "49fbb6a8-5d33-4f0b-a52f-f624746c341d")
+	)
+	(wire
+		(pts
+			(xy 358.14 219.71) (xy 367.03 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af7d78a-4abc-4043-bdd9-ae3f66fb9451")
 	)
 	(wire
 		(pts
@@ -7789,6 +7983,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 212.09) (xy 290.83 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5509a433-b973-4af4-be2a-659117b7cd53")
+	)
+	(wire
+		(pts
 			(xy 100.33 96.52) (xy 104.14 96.52)
 		)
 		(stroke
@@ -7796,6 +8000,16 @@
 			(type default)
 		)
 		(uuid "55c8fd57-bcbd-40d6-a6f7-a255193ca1f2")
+	)
+	(wire
+		(pts
+			(xy 392.43 212.09) (xy 377.19 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "585d4d51-4050-4acc-9fea-b91c2161c106")
 	)
 	(wire
 		(pts
@@ -7869,6 +8083,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 219.71) (xy 367.03 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f46163-5053-4b36-9d5a-6c34306db3d0")
+	)
+	(wire
+		(pts
 			(xy 234.95 251.46) (xy 232.41 251.46)
 		)
 		(stroke
@@ -7909,6 +8133,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 219.71) (xy 336.55 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b3096c-17a7-4067-b838-da4ccfc0de8e")
+	)
+	(wire
+		(pts
 			(xy 175.26 222.25) (xy 175.26 227.33)
 		)
 		(stroke
@@ -7926,6 +8160,36 @@
 			(type default)
 		)
 		(uuid "691276e1-7ee7-42c3-8720-afd480e49aa4")
+	)
+	(wire
+		(pts
+			(xy 306.07 212.09) (xy 290.83 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "692c1abf-7d7b-49b2-86df-e251a7a590f0")
+	)
+	(wire
+		(pts
+			(xy 336.55 212.09) (xy 336.55 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6862b2-22bf-4fcb-a9e4-70b27ec91b65")
+	)
+	(wire
+		(pts
+			(xy 392.43 219.71) (xy 392.43 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b694796-9cf6-4491-b6d8-e4638a0dfa08")
 	)
 	(wire
 		(pts
@@ -7989,6 +8253,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 219.71) (xy 306.07 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703a5989-b711-4f44-9b9c-faa77f06793d")
+	)
+	(wire
+		(pts
 			(xy 162.56 165.1) (xy 162.56 154.94)
 		)
 		(stroke
@@ -7996,6 +8270,16 @@
 			(type default)
 		)
 		(uuid "712cb744-2a74-4148-ad37-cbb5f61643e3")
+	)
+	(wire
+		(pts
+			(xy 326.39 227.33) (xy 326.39 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b5a2a5-c463-4305-b0e9-0ea1e0c5d334")
 	)
 	(wire
 		(pts
@@ -8139,6 +8423,26 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 228.6) (xy 384.81 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841a8da6-8577-4365-88d8-e38fd038e4b9")
+	)
+	(wire
+		(pts
+			(xy 336.55 228.6) (xy 344.17 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84576dc2-3707-4051-9460-c4bdc20200c6")
+	)
+	(wire
+		(pts
 			(xy 162.56 73.66) (xy 162.56 83.82)
 		)
 		(stroke
@@ -8169,6 +8473,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 219.71) (xy 379.73 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8abf3379-87c7-434b-950f-f07609309cdc")
+	)
+	(wire
+		(pts
 			(xy 116.84 73.66) (xy 132.08 73.66)
 		)
 		(stroke
@@ -8179,6 +8493,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 228.6) (xy 351.79 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc878f0-5f0f-44f5-8e4a-51cf38a94593")
+	)
+	(wire
+		(pts
 			(xy 104.14 116.84) (xy 80.01 116.84)
 		)
 		(stroke
@@ -8186,6 +8510,16 @@
 			(type default)
 		)
 		(uuid "8d9f3961-8cbd-438a-900a-eb038736ed95")
+	)
+	(wire
+		(pts
+			(xy 280.67 219.71) (xy 280.67 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904ebdb0-cbc3-4158-b977-1e51433545aa")
 	)
 	(wire
 		(pts
@@ -8229,6 +8563,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 228.6) (xy 298.45 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95bb1296-5cb2-46e1-b32e-1443aeaf9289")
+	)
+	(wire
+		(pts
 			(xy 231.14 161.29) (xy 241.3 161.29)
 		)
 		(stroke
@@ -8259,6 +8603,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 212.09) (xy 377.19 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c50bff2-d291-49db-9f3c-2e360ac217a0")
+	)
+	(wire
+		(pts
 			(xy 132.08 73.66) (xy 132.08 83.82)
 		)
 		(stroke
@@ -8266,6 +8620,36 @@
 			(type default)
 		)
 		(uuid "9ee9b24a-c73d-4783-a627-8be71932a4b9")
+	)
+	(wire
+		(pts
+			(xy 280.67 215.9) (xy 280.67 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a098d0d7-452f-499d-b062-6ef28d37bc39")
+	)
+	(wire
+		(pts
+			(xy 367.03 227.33) (xy 367.03 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18e9f55-91dd-4fab-a998-16634ab3e905")
+	)
+	(wire
+		(pts
+			(xy 389.89 219.71) (xy 392.43 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a25bc230-81f9-4bf6-968d-fd39960dd62c")
 	)
 	(wire
 		(pts
@@ -8359,6 +8743,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 228.6) (xy 384.81 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5e06dd-a97f-41b9-a2a9-15c8068fd22c")
+	)
+	(wire
+		(pts
 			(xy 90.17 180.34) (xy 121.92 180.34)
 		)
 		(stroke
@@ -8366,6 +8760,16 @@
 			(type default)
 		)
 		(uuid "af1b8410-416e-4bfe-bd4f-c90eba48c622")
+	)
+	(wire
+		(pts
+			(xy 290.83 219.71) (xy 293.37 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af87442f-3a51-412d-905e-d2bf1040b585")
 	)
 	(wire
 		(pts
@@ -8399,6 +8803,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 228.6) (xy 351.79 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39f768c-79ad-401f-88de-6409339bdc5f")
+	)
+	(wire
+		(pts
 			(xy 218.44 54.61) (xy 231.14 54.61)
 		)
 		(stroke
@@ -8409,6 +8823,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 228.6) (xy 298.45 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b477b11d-8730-4576-a3e6-a115bb868f1a")
+	)
+	(wire
+		(pts
 			(xy 209.55 254) (xy 209.55 256.54)
 		)
 		(stroke
@@ -8416,6 +8840,16 @@
 			(type default)
 		)
 		(uuid "b59d7d5d-c29e-423d-b004-28d4010a9b44")
+	)
+	(wire
+		(pts
+			(xy 367.03 215.9) (xy 367.03 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b63af631-d766-4353-b115-3c68cbe934a4")
 	)
 	(wire
 		(pts
@@ -8459,6 +8893,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 224.79) (xy 290.83 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb576a51-ed9e-4966-98ff-d8f449d49fd4")
+	)
+	(wire
+		(pts
 			(xy 148.59 59.69) (xy 148.59 57.15)
 		)
 		(stroke
@@ -8489,6 +8933,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 219.71) (xy 326.39 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2aeda8-5b14-4586-90e9-7bf33309cbd0")
+	)
+	(wire
+		(pts
 			(xy 180.34 132.08) (xy 175.26 132.08)
 		)
 		(stroke
@@ -8516,6 +8970,16 @@
 			(type default)
 		)
 		(uuid "c1cb5d09-85a8-4307-b90a-87f2f93a840d")
+	)
+	(wire
+		(pts
+			(xy 336.55 219.71) (xy 339.09 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f483d4-254f-4665-b09d-10f1eae029bc")
 	)
 	(wire
 		(pts
@@ -8599,6 +9063,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 219.71) (xy 351.79 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d85ae0-7681-4f6c-a55b-26b600595054")
+	)
+	(wire
+		(pts
 			(xy 142.24 73.66) (xy 142.24 83.82)
 		)
 		(stroke
@@ -8619,6 +9093,26 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 219.71) (xy 280.67 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6752a0-3e6d-465b-8c36-537672f62dd9")
+	)
+	(wire
+		(pts
+			(xy 344.17 228.6) (xy 344.17 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6e740c-82fe-4c3b-8807-f67afc56d7c9")
+	)
+	(wire
+		(pts
 			(xy 219.71 41.91) (xy 219.71 40.64)
 		)
 		(stroke
@@ -8636,6 +9130,26 @@
 			(type default)
 		)
 		(uuid "cd6debfb-1190-4a1e-8344-68e989f24fac")
+	)
+	(wire
+		(pts
+			(xy 306.07 224.79) (xy 303.53 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd784531-1d13-48e3-8042-507955eb4acb")
+	)
+	(wire
+		(pts
+			(xy 280.67 219.71) (xy 290.83 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb81689-204f-4b27-9f1a-b4a49f134daa")
 	)
 	(wire
 		(pts
@@ -8689,6 +9203,26 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 228.6) (xy 306.07 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d571bf66-1711-485f-a97f-0721effb86df")
+	)
+	(wire
+		(pts
+			(xy 392.43 228.6) (xy 392.43 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a66bb8-6591-4a4a-b4d0-6be2c3315b4e")
+	)
+	(wire
+		(pts
 			(xy 175.26 142.24) (xy 191.77 142.24)
 		)
 		(stroke
@@ -8726,6 +9260,16 @@
 			(type default)
 		)
 		(uuid "d971ad2b-be86-424b-970a-775bbc1e8d50")
+	)
+	(wire
+		(pts
+			(xy 392.43 224.79) (xy 389.89 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d982b820-6195-4f1f-9fe9-814603c692f9")
 	)
 	(wire
 		(pts
@@ -8789,6 +9333,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 219.71) (xy 377.19 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6204da-b745-42f9-9c75-e00abda325e4")
+	)
+	(wire
+		(pts
 			(xy 77.47 240.03) (xy 80.01 240.03)
 		)
 		(stroke
@@ -8806,6 +9360,16 @@
 			(type default)
 		)
 		(uuid "df5c8bf1-ff09-428b-a530-0d38757486df")
+	)
+	(wire
+		(pts
+			(xy 306.07 228.6) (xy 306.07 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09889a7-e644-410f-9c77-f54b4afaf02a")
 	)
 	(wire
 		(pts
@@ -8836,6 +9400,16 @@
 			(type default)
 		)
 		(uuid "e33b8e25-98a0-424a-8244-62f13287ea07")
+	)
+	(wire
+		(pts
+			(xy 303.53 219.71) (xy 306.07 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33ca36b-60b9-47dd-a42a-6d2a0bef5c7b")
 	)
 	(wire
 		(pts
@@ -9049,6 +9623,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 219.71) (xy 326.39 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91654a6-6600-4f93-bf42-778191264150")
+	)
+	(wire
+		(pts
 			(xy 137.16 59.69) (xy 137.16 57.15)
 		)
 		(stroke
@@ -9077,6 +9661,16 @@
 		)
 		(uuid "fe429162-4a8a-490d-8595-bdb9860e2960")
 	)
+	(wire
+		(pts
+			(xy 379.73 224.79) (xy 377.19 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff038e04-d871-42c1-b8e6-af97d55e8fb6")
+	)
 	(text "Verify pin-pin compatibility"
 		(exclude_from_sim no)
 		(at 240.538 171.196 0)
@@ -9086,6 +9680,26 @@
 			)
 		)
 		(uuid "0034b5ab-a770-4718-8176-c73fb08ef7c7")
+	)
+	(text "Set button"
+		(exclude_from_sim no)
+		(at 217.678 264.922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33fc070f-0e49-4ae5-a1b5-b9d39aa9f540")
+	)
+	(text "S1 button"
+		(exclude_from_sim no)
+		(at 290.576 239.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "52eaf667-7a97-493a-aa38-b45d2bd83447")
 	)
 	(text "recalculate capacitors"
 		(exclude_from_sim no)
@@ -9106,6 +9720,26 @@
 			)
 		)
 		(uuid "911a9e6f-ee3d-40d1-b687-64e78b5c74f8")
+	)
+	(text "S2 button"
+		(exclude_from_sim no)
+		(at 337.312 240.284 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4a598c6-631b-459e-8086-ebcd9da52330")
+	)
+	(text "S3 button"
+		(exclude_from_sim no)
+		(at 377.952 240.284 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d1405a02-4f29-45ed-b0f7-a5e0c0769182")
 	)
 	(label "SPIQ"
 		(at 204.47 142.24 180)
@@ -9161,6 +9795,17 @@
 			(justify right bottom)
 		)
 		(uuid "160f733f-b565-4124-9314-b83d67abbdde")
+	)
+	(label "GPIO?"
+		(at 317.5 219.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "170b8917-54f7-41d2-9514-01b75d6a9e83")
 	)
 	(label "GPIO4"
 		(at 93.98 142.24 0)
@@ -9503,6 +10148,17 @@
 		)
 		(uuid "92544981-fa0b-45d7-b92d-02b3eab35803")
 	)
+	(label "GPIO?"
+		(at 271.78 219.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "941b6d24-43f3-4de1-9eb6-3eaaee6c9a18")
+	)
 	(label "UART_MASTER_RX"
 		(at 121.92 189.23 180)
 		(fields_autoplaced yes)
@@ -9645,6 +10301,17 @@
 			(justify left bottom)
 		)
 		(uuid "d02ab399-6bf3-4e54-be9d-ac2dafa2ed64")
+	)
+	(label "GPIO?"
+		(at 358.14 219.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d22ae2a3-f14d-4ab8-8073-9301618bf9a6")
 	)
 	(label "GPIO11"
 		(at 147.32 165.1 90)
@@ -9818,6 +10485,138 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:SW_TACT_SKRPACE010")
+		(at 344.17 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "050b57d4-5623-457e-bb59-2df6cb0dc572")
+		(property "Reference" "SW3"
+			(at 344.17 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_TACT_SKRPACE010"
+			(at 344.17 232.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:SW_TACT_SKRPACE010"
+			(at 344.17 234.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRP-1370722.pdf"
+			(at 344.17 237.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface Mount Tactile Switch, SPST, 50mA, 12V, 6.2x6.2mm"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SKRPACE010"
+			(at 344.17 239.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ALPS Alpine"
+			(at 344.17 242.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 344.17 244.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Łukasz Nowarkiewicz"
+			(at 344.17 247.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "TACT_SW"
+			(at 344.17 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "da6705ae-459b-4a5d-a2d4-a9bee8475507")
+		)
+		(pin "1"
+			(uuid "35c6f87c-f767-4449-8f1e-63e5ffd6a09c")
+		)
+		(pin "2"
+			(uuid "28ee4f73-628d-42df-8726-72811c1162cc")
+		)
+		(pin "4"
+			(uuid "c1b2f117-ddd7-4a1b-b72c-6f630c2511b7")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -10659,6 +11458,134 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-LVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D")
+		(at 280.67 224.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "192b8906-5393-4a66-8034-716c0cf45f5a")
+		(property "Reference" "C17"
+			(at 283.21 223.5136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_0u1_10pct_50V_0402_GRM155R71H104KE14D"
+			(at 288.544 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:C_0402"
+			(at 291.084 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
+			(at 293.624 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 50V, X7R, 0402, GRM155R71H104KE14D"
+			(at 280.67 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 296.164 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 298.704 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 301.244 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 303.784 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0.1µF"
+			(at 283.21 226.0535 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "e8a3db01-34f5-4543-b141-a3f19c95bede")
+		)
+		(pin "1"
+			(uuid "faa4fb34-020d-439b-874c-15f0b4466a4b")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-LVPCB:R_0R_5pct_0402_RC0402JR-070RL")
 		(at 186.69 116.84 0)
 		(unit 1)
@@ -10912,6 +11839,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 384.81 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "219a495f-56a7-40ef-bdcc-51300d2572bc")
+		(property "Reference" "#PWR043"
+			(at 384.81 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 384.81 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 384.81 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 384.81 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 384.81 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5272b225-fb60-4053-b2d4-0f55cc313d23")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-LVPCB:R_499R_1pct_0402_RC0402FR-07499RL")
 		(at 96.52 69.85 180)
 		(unit 1)
@@ -11032,6 +12025,138 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 367.03 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27f93c95-31dd-4514-8de4-664d479be48d")
+		(property "Reference" "#PWR042"
+			(at 367.03 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 367.03 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 367.03 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15f3a26e-7857-4924-95fe-2a5a4eadf068")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 280.67 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a377263-3842-4307-959c-c3c29442b0d4")
+		(property "Reference" "#PWR039"
+			(at 280.67 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 280.67 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 280.67 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5387dcba-f6c6-43ab-bbcf-ce2ccd79d7c8")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11911,6 +13036,138 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-LVPCB:SW_TACT_SKRPACE010")
+		(at 298.45 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ad9c06a-2e0c-44a3-a2b0-5934f8561584")
+		(property "Reference" "SW2"
+			(at 298.45 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_TACT_SKRPACE010"
+			(at 298.45 232.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:SW_TACT_SKRPACE010"
+			(at 298.45 234.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRP-1370722.pdf"
+			(at 298.45 237.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface Mount Tactile Switch, SPST, 50mA, 12V, 6.2x6.2mm"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SKRPACE010"
+			(at 298.45 239.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ALPS Alpine"
+			(at 298.45 242.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 298.45 244.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Łukasz Nowarkiewicz"
+			(at 298.45 247.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "TACT_SW"
+			(at 298.45 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "fd751678-c071-4d58-a92c-47de551f6ab5")
+		)
+		(pin "1"
+			(uuid "2ed78480-d5fb-4f69-9b71-c0ae5064897d")
+		)
+		(pin "2"
+			(uuid "f890610c-72d2-45b6-ad17-c37eb7996387")
+		)
+		(pin "4"
+			(uuid "f6c09e07-096c-45e0-8ff5-bcb40e3eccb2")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 180.34 156.21 0)
 		(unit 1)
@@ -11971,6 +13228,72 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 298.45 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41fd5b3e-0fba-48ef-bf76-d7ae419730ec")
+		(property "Reference" "#PWR036"
+			(at 298.45 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 298.45 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 298.45 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85587df5-bdde-4ed4-bebe-1eb0f6519361")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12096,6 +13419,72 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 326.39 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48be8897-0c22-47bc-947d-aa4a82613161")
+		(property "Reference" "#PWR040"
+			(at 326.39 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 326.39 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 326.39 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64a6021a-c872-49ad-81bb-37ac2ec54b16")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12771,6 +14160,134 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-LVPCB:R_10k_1pct_0402_RC0402FR-0710KL")
+		(at 280.67 213.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6297349e-21a9-4f58-bac6-73b8018bc623")
+		(property "Reference" "R15"
+			(at 283.21 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_10k_1pct_0402_RC0402FR-0710KL"
+			(at 288.544 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 291.084 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 293.624 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Thick Film Resistor, 10kΩ, ±1%, 0.063W, 0402"
+			(at 280.67 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 296.164 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 298.704 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 301.244 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 303.784 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10kΩ"
+			(at 283.21 214.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "a5f8094d-9268-4e98-9ffe-2729af57dc12")
+		)
+		(pin "1"
+			(uuid "81a0f386-69c4-4a64-ab4e-0e3e156bbd7e")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 119.38 0)
 		(unit 1)
@@ -13091,6 +14608,72 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 344.17 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7282d154-8da4-4950-aabd-23f16fd615ac")
+		(property "Reference" "#PWR038"
+			(at 344.17 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 344.17 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 344.17 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 344.17 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a459b4a3-8ad4-47f0-8274-e8a325b4e890")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -14525,6 +16108,204 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-LVPCB:SW_TACT_SKRPACE010")
+		(at 384.81 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a88b37ff-dba8-46ba-a06e-a4730739cff2")
+		(property "Reference" "SW4"
+			(at 384.81 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_TACT_SKRPACE010"
+			(at 384.81 232.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:SW_TACT_SKRPACE010"
+			(at 384.81 234.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRP-1370722.pdf"
+			(at 384.81 237.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface Mount Tactile Switch, SPST, 50mA, 12V, 6.2x6.2mm"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SKRPACE010"
+			(at 384.81 239.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ALPS Alpine"
+			(at 384.81 242.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 384.81 244.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Łukasz Nowarkiewicz"
+			(at 384.81 247.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "TACT_SW"
+			(at 384.81 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "528056ee-0eb7-44d5-81da-517c42734cad")
+		)
+		(pin "1"
+			(uuid "3bbb475c-5127-4c30-9596-e64f170b9e89")
+		)
+		(pin "2"
+			(uuid "a915d8f5-63c7-42b2-8c44-caa2c8782362")
+		)
+		(pin "4"
+			(uuid "72e6c07d-09f5-4d9c-bf77-dcc1e2775020")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 326.39 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b261ae1f-fefd-486d-9793-e5e1d8b688b6")
+		(property "Reference" "#PWR037"
+			(at 326.39 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 326.39 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 326.39 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b035fd0-49e0-48ac-96de-5c1dbb991806")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-LVPCB:R_10k_1pct_0402_RC0402FR-0710KL")
 		(at 209.55 240.03 90)
 		(unit 1)
@@ -14839,6 +16620,134 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D")
+		(at 367.03 224.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b74d0297-8111-4777-88d9-aabe4e469c34")
+		(property "Reference" "C19"
+			(at 369.57 223.5136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_0u1_10pct_50V_0402_GRM155R71H104KE14D"
+			(at 374.904 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:C_0402"
+			(at 377.444 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
+			(at 379.984 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 50V, X7R, 0402, GRM155R71H104KE14D"
+			(at 367.03 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 382.524 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 385.064 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 387.604 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 390.144 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0.1µF"
+			(at 369.57 226.0535 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "0dda5cab-77c2-4148-a583-a2fb25a696aa")
+		)
+		(pin "1"
+			(uuid "ebc959cb-56fe-49b4-9695-63395c9fe498")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -15235,6 +17144,134 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-LVPCB:R_10k_1pct_0402_RC0402FR-0710KL")
+		(at 326.39 213.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9a4e5bc-70bb-49f1-9c33-465c33f35a15")
+		(property "Reference" "R16"
+			(at 328.93 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_10k_1pct_0402_RC0402FR-0710KL"
+			(at 334.264 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 336.804 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 339.344 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Thick Film Resistor, 10kΩ, ±1%, 0.063W, 0402"
+			(at 326.39 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 341.884 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 344.424 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 346.964 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 349.504 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10kΩ"
+			(at 328.93 214.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "4a479a19-e8a0-4c4d-90dc-9b8817450b1a")
+		)
+		(pin "1"
+			(uuid "3ad9a826-c2fd-4550-ae91-eed07da4626c")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 80.01 124.46 0)
 		(unit 1)
@@ -15295,6 +17332,134 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:R_10k_1pct_0402_RC0402FR-0710KL")
+		(at 367.03 213.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4ec572b-f738-46b6-8faa-35b6a3ba78ec")
+		(property "Reference" "R17"
+			(at 369.57 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_10k_1pct_0402_RC0402FR-0710KL"
+			(at 374.904 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_0402"
+			(at 377.444 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 379.984 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Thick Film Resistor, 10kΩ, ±1%, 0.063W, 0402"
+			(at 367.03 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 382.524 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 385.064 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 387.604 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 390.144 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10kΩ"
+			(at 369.57 214.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "e014b8fe-66df-495d-a291-7fc64b8d8fea")
+		)
+		(pin "1"
+			(uuid "162d860a-7997-414d-835b-daddbd4bf897")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -16641,6 +18806,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 280.67 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e20850fc-a01c-414d-9a05-5caaa50dcc64")
+		(property "Reference" "#PWR035"
+			(at 280.67 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.67 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 280.67 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26f984a5-7c54-4f58-8555-3d8584fcc5ee")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 238.76 152.4 0)
 		(unit 1)
@@ -17220,6 +19451,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 367.03 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef35c09d-f059-4443-a3e8-a119de8ef05f")
+		(property "Reference" "#PWR041"
+			(at 367.03 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 367.03 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 367.03 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35de97c9-d1c1-4e25-b8e2-c3c05bf453ad")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 217.17 118.11 0)
 		(unit 1)
@@ -17603,6 +19900,134 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D")
+		(at 326.39 224.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fde59ecb-405c-41b6-a892-90edc7f4c8fb")
+		(property "Reference" "C18"
+			(at 328.93 223.5136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_0u1_10pct_50V_0402_GRM155R71H104KE14D"
+			(at 334.264 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:C_0402"
+			(at 336.804 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
+			(at 339.344 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 50V, X7R, 0402, GRM155R71H104KE14D"
+			(at 326.39 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 341.884 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 344.424 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 346.964 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 349.504 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0.1µF"
+			(at 328.93 226.0535 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "bdcec51f-073a-44ab-8481-15b25352f388")
+		)
+		(pin "1"
+			(uuid "9a156b70-e8dd-4697-9af8-041aa09bdd86")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "C18")
 					(unit 1)
 				)
 			)
