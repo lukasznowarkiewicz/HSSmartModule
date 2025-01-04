@@ -5426,7 +5426,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "HSSM-LVPCB:UFL_SMT_Footprint"
+			(property "Footprint" "HSSM-LVPCB:CONMHF1-SMD-T"
 				(at 0 -10.414 0)
 				(effects
 					(font
@@ -6327,7 +6327,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "HSSM-LVPCB:QFN-28-EP"
+			(property "Footprint" "HSSM-LVPCB:QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm"
 				(at 0 -45.212 0)
 				(effects
 					(font
@@ -7276,7 +7276,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "HSSM-LVPCB:X_2520"
+			(property "Footprint" "HSSM-LVPCB:ECS-2520SMV-400-FN-TR"
 				(at 0 -19.304 0)
 				(effects
 					(font
@@ -15276,7 +15276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-LVPCB:QFN-28-EP"
+		(property "Footprint" "HSSM-LVPCB:QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm"
 			(at 105.41 270.002 0)
 			(effects
 				(font
@@ -16599,7 +16599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-LVPCB:UFL_SMT_Footprint"
+		(property "Footprint" "HSSM-LVPCB:CONMHF1-SMD-T"
 			(at 29.21 92.964 0)
 			(effects
 				(font
@@ -18593,7 +18593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-LVPCB:X_2520"
+		(property "Footprint" "HSSM-LVPCB:ECS-2520SMV-400-FN-TR"
 			(at 96.52 68.834 0)
 			(effects
 				(font
