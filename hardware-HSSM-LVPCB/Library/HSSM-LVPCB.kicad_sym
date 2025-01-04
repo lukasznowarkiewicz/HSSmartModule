@@ -7105,7 +7105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-LVPCB:U_LGA_2.5x2.5"
+		(property "Footprint" "HSSM-LVPCB:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
 			(at 0.254 -20.32 0)
 			(effects
 				(font
