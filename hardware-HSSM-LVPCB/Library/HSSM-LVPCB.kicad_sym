@@ -7889,7 +7889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-LVPCB:QFN-28-EP"
+		(property "Footprint" "HSSM-LVPCB:QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm"
 			(at 0 -45.212 0)
 			(effects
 				(font
