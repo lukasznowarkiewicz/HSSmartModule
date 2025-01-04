@@ -1620,7 +1620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-LVPCB:ESP32-C6"
+		(property "Footprint" "HSSM-LVPCB:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm"
 			(at 0.065 -58.199 0)
 			(effects
 				(font
