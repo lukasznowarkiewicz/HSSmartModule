@@ -6811,7 +6811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-LVPCB:U_LGA_3.3x3.3"
+		(property "Footprint" "HSSM-LVPCB:XDCR_ENS160-BGLM"
 			(at 3.81 -22.86 0)
 			(effects
 				(font
