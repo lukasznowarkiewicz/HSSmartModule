@@ -2860,7 +2860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1608_0603Metric"
+		(property "Footprint" "HSSM-LVPCB:LED_0603_1608Metric"
 			(at 0 -10.414 0)
 			(effects
 				(font
