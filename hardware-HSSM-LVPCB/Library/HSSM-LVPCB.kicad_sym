@@ -8560,7 +8560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-LVPCB:SOIC-8"
+		(property "Footprint" "HSSM-LVPCB:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 0 -20.574 0)
 			(effects
 				(font
