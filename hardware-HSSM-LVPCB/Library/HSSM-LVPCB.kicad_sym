@@ -2529,6 +2529,19 @@
 				(hide yes)
 			)
 		)
+		(symbol "FFC_solder_connector_16pos_0_1"
+			(rectangle
+				(start 0 22.86)
+				(end 7.62 -22.86)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "FFC_solder_connector_16pos_1_1"
 			(pin bidirectional line
 				(at -2.54 19.05 0)
