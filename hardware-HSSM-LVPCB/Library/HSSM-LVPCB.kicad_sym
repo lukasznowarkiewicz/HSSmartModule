@@ -524,7 +524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:C_0402"
+		(property "Footprint" "HSSM-LVPCB:C_0402"
 			(at 0 -10.414 0)
 			(effects
 				(font
@@ -707,7 +707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:C_0402"
+		(property "Footprint" "HSSM-LVPCB:C_0402"
 			(at 0 -10.414 0)
 			(effects
 				(font
@@ -1256,7 +1256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:C_0603"
+		(property "Footprint" "HSSM-LVPCB:C_0603"
 			(at 0 -10.414 0)
 			(effects
 				(font
@@ -4338,7 +4338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:L_0402"
+		(property "Footprint" "HSSM-LVPCB:L_0402"
 			(at 0 -10.414 0)
 			(effects
 				(font
@@ -4920,7 +4920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:R_0402"
+		(property "Footprint" "HSSM-LVPCB:R_0402"
 			(at 0 -10.414 0)
 			(effects
 				(font
@@ -5090,7 +5090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:R_0402"
+		(property "Footprint" "HSSM-LVPCB:R_0402"
 			(at 0 -10.414 0)
 			(effects
 				(font
@@ -5600,7 +5600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:R_0402"
+		(property "Footprint" "HSSM-LVPCB:R_0402"
 			(at 0 -10.414 0)
 			(effects
 				(font
