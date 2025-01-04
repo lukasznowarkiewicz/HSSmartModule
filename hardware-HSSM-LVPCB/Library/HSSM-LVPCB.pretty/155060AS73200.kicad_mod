@@ -1,0 +1,224 @@
+(footprint "155060AS73200"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<B>WL-SMSW</B><BR> SMT Mono-color Side View Waterclear ,Size : 0603 Round,1.6X1.0X0.6mm(LXWXH)")
+	(property "Reference" "REF**"
+		(at 0 -1.6032 0)
+		(layer "F.SilkS")
+		(uuid "9b26c0a2-7ba1-4852-9714-0cfd68724dfd")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "WL-SMSW_0603_ROUND"
+		(at -0.1 0.9968 0)
+		(layer "F.Fab")
+		(uuid "ed280d24-b149-455f-b673-f1e21b53d0be")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d04013cb-1ab5-444f-bbcd-a1614ae1fc88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4be071ec-afcb-4fee-b584-1789fd9c1ef6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a40f19e-6307-46cf-914b-59e6d8c88624")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_arc
+		(start -0.55 -0.599999)
+		(mid 0 -0.926497)
+		(end 0.55 -0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86024286-f71b-46a0-ae87-a7da1a591fc3")
+	)
+	(fp_poly
+		(pts
+			(xy -1.2 -1.1) (xy 1.2 -1.1) (xy 1.2 0.65) (xy -1.2 0.65)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "4fc64e15-a53b-4259-a694-ba61fa054b03")
+	)
+	(fp_line
+		(start -0.8 -0.19)
+		(end -0.55 -0.19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fffe0305-b3dc-4f43-a7a2-f67e671a55b6")
+	)
+	(fp_line
+		(start -0.8 0.19)
+		(end -0.8 -0.19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ce6a06fb-d341-411c-827b-8086a16ee197")
+	)
+	(fp_line
+		(start -0.55 -0.37)
+		(end -0.55 -0.19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5dec70b7-10eb-47ae-8f2f-108d49b0dd77")
+	)
+	(fp_line
+		(start 0.55 -0.37)
+		(end 0.55 -0.19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f14a736f-a7df-4cc1-910d-9b62f1ea2628")
+	)
+	(fp_line
+		(start 0.8 -0.19)
+		(end 0.55 -0.19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e03ad9d-504d-4622-9480-c03e9597d71b")
+	)
+	(fp_line
+		(start 0.8 -0.19)
+		(end 0.8 0.19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4dd46679-6db8-4458-ab3d-07e08316e20a")
+	)
+	(fp_line
+		(start 0.8 0.19)
+		(end -0.8 0.19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c186d86f-acd0-4517-8e00-8d871783459b")
+	)
+	(fp_arc
+		(start -0.55 -0.37)
+		(mid 0 -0.809216)
+		(end 0.55 -0.37)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11e27bab-1fd5-4470-af5e-57304253ef71")
+	)
+	(fp_text user "+"
+		(at 1.536 0.061 0)
+		(layer "F.SilkS")
+		(uuid "102dc03c-2078-41fa-96ea-971e4a62b9cd")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 1.54 0.065 0)
+		(layer "F.Fab")
+		(uuid "0bbf5f3b-3ac9-4fd7-afd0-6b65a41741f9")
+		(effects
+			(font
+				(size 0.48 0.48)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "45f8598d-cd9c-4528-b87a-236551dc43ab")
+	)
+	(pad "2" smd rect
+		(at 0.7 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "b0fc9db3-5afb-4a24-97bb-a2bbcf312698")
+	)
+	(pad "3" smd rect
+		(at 0 0.3)
+		(size 0.4 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "79ffe1c8-6e5c-468e-b908-d3173d1de0a8")
+	)
+	(model "${KIPRJMOD}/Library/HSSM-LVPCB.pretty/step/155060AS73200.step"
+		(offset
+			(xyz 0 -0.15 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 90)
+		)
+	)
+)
