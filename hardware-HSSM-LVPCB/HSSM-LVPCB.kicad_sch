@@ -16586,7 +16586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-LVPCB:UFL_SMT_Footprint"
+		(property "Footprint" "HSSM-LVPCB:CONMHF1-SMD-T"
 			(at 29.21 92.964 0)
 			(effects
 				(font
