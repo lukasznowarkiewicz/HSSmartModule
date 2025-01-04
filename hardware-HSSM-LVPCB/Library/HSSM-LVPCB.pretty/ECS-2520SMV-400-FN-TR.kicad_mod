@@ -1,0 +1,226 @@
+(footprint "ECS-2520SMV-400-FN-TR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.762633 -1.807066 0)
+		(layer "F.SilkS")
+		(uuid "601a5324-2995-4b2f-9dbd-ad9ed26d6c7b")
+		(effects
+			(font
+				(size 0.320686 0.320686)
+				(thickness 0.080172)
+			)
+		)
+	)
+	(property "Value" "OSC_ECS-2520SMV-400-FN-TR"
+		(at 3.336563 1.91958 0)
+		(layer "F.Fab")
+		(uuid "dd8f7bb4-9f63-42f4-a387-22075874ffbb")
+		(effects
+			(font
+				(size 0.320631 0.320631)
+				(thickness 0.080158)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbe90051-a860-4294-9548-86a59d9d50e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ffdc85a-16d4-4e35-937c-0b0b4e62f4a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "542dec80-0622-4c38-92af-b51fceeaaa44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.221 -1)
+		(end 0.221 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fba77ae-7073-4a7d-97fa-5c0dc87dd8b4")
+	)
+	(fp_line
+		(start -0.221 1)
+		(end 0.221 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74de01b4-07a4-4eb3-b588-fe9e0248156b")
+	)
+	(fp_circle
+		(center -1.9 0.85)
+		(end -1.8 0.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fa08bb09-223e-4a87-ba84-dcd652dc78c9")
+	)
+	(fp_line
+		(start -1.625 -1.375)
+		(end 1.625 -1.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2a0f60e-57e4-4a2b-86d0-13528292bc7a")
+	)
+	(fp_line
+		(start -1.625 1.375)
+		(end -1.625 -1.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c432793-6295-4cff-8888-864a712d78af")
+	)
+	(fp_line
+		(start 1.625 -1.375)
+		(end 1.625 1.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bad33974-fe02-4508-890c-a32d08b8ea5f")
+	)
+	(fp_line
+		(start 1.625 1.375)
+		(end -1.625 1.375)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f30ef2d0-e223-4179-9fe3-71b3419d627e")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c741d407-f35c-4885-a87a-6d385c4f02d3")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21c5933b-5ff6-4335-ad8d-ba708c257600")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa3bca14-2c5f-4fef-ae85-c00fff27ab92")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end -1.25 1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de155117-ecd8-4b19-a101-532cd81240e3")
+	)
+	(fp_circle
+		(center -1.9 0.85)
+		(end -1.8 0.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "58cc9495-f228-4af7-8497-7ec5b9374864")
+	)
+	(pad "1" smd rect
+		(at -0.925 0.725)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "2e5c6f99-c661-4ae8-b327-131922700ce0")
+	)
+	(pad "2" smd rect
+		(at 0.925 0.725)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "432c1ee7-4a34-479c-bbe3-ef5e618354f7")
+	)
+	(pad "3" smd rect
+		(at 0.925 -0.725)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "f70d9189-9b0f-4686-8350-13c24eb006ba")
+	)
+	(pad "4" smd rect
+		(at -0.925 -0.725)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "093cf5ae-7f85-4b52-947e-75c915432445")
+	)
+	(model "${KIPRJMOD}/Library/HSSM-LVPCB.pretty/step/ECS-2520SMV-400-FN-TR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

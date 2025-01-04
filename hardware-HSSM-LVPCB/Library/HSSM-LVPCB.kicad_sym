@@ -6480,7 +6480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-LVPCB:UFL_SMT_Footprint"
+		(property "Footprint" "HSSM-LVPCB:CONMHF1-SMD-T"
 			(at 0 -10.414 0)
 			(effects
 				(font
@@ -9138,7 +9138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-LVPCB:X_2520"
+		(property "Footprint" "HSSM-LVPCB:ECS-2520SMV-400-FN-TR"
 			(at 0 -19.304 0)
 			(effects
 				(font
