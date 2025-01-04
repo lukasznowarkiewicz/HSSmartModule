@@ -8419,316 +8419,6 @@
 			)
 		)
 	)
-	(footprint "HSSM-LVPCB:SW_TACT_SKRPACE010"
-		(layer "F.Cu")
-		(uuid "2bf420db-d35f-4fcd-b268-da8b0c1ea269")
-		(at 126 117.7 90)
-		(property "Reference" "SW4"
-			(at 0.47575 -2.58912 90)
-			(layer "F.SilkS")
-			(uuid "1cfbdd18-a47b-4d4e-909c-2fa0c3e7e810")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SW_TACT_SKRPACE010"
-			(at 0.1 2.5 90)
-			(layer "F.Fab")
-			(uuid "52c32e6b-4317-413f-8f8b-a40b6606253d")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "HSSM-LVPCB:SW_TACT_SKRPACE010"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "97c970ea-41f4-43cb-a68f-08b477e83708")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRP-1370722.pdf"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a721418f-3aa1-440f-94ad-dec6a291e39b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Surface Mount Tactile Switch, SPST, 50mA, 12V, 6.2x6.2mm"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9de1b551-549e-468e-8049-9aab76194ca5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "SKRPACE010"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b99f7933-e4bd-45b5-8d84-a360f8c476db")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "ALPS Alpine"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2e36eb2a-5792-4e8b-9b24-bc155dc8dc5a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "152acec4-c6ed-41c8-824f-f43f728e99ba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Łukasz Nowarkiewicz"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "20de3909-6f8b-4f9e-95ab-07361e7df93d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Val" "TACT_SW"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "44f34d3b-ccb1-4009-8464-e379b8090934")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/a88b37ff-dba8-46ba-a06e-a4730739cff2")
-		(sheetname "Root")
-		(sheetfile "HSSM-LVPCB.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -1.25 -1.6)
-			(end 1.25 -1.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "97b845cb-7883-4873-9599-631d89d6bedb")
-		)
-		(fp_line
-			(start 2.1 -0.5)
-			(end 2.1 0.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "26756d30-b799-4f85-9769-cb9c86e90204")
-		)
-		(fp_line
-			(start -2.1 -0.5)
-			(end -2.1 0.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7eb73624-e03d-4464-b85d-1d5dfb7765ca")
-		)
-		(fp_line
-			(start -1.25 1.6)
-			(end 1.25 1.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ec33bc15-6942-4666-998d-33b06293f557")
-		)
-		(fp_circle
-			(center -2.85 -1.15)
-			(end -2.8 -1.15)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "55bee742-0911-4a53-b14d-d3f7ad21f232")
-		)
-		(fp_circle
-			(center -2.9 -1.15)
-			(end -2.788197 -1.15)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "7164409b-0969-4ae4-ad3e-154272733404")
-		)
-		(fp_line
-			(start 2.85 -1.85)
-			(end 2.85 1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5133cb4f-7c38-4db2-9521-08de3a274e97")
-		)
-		(fp_line
-			(start -2.85 -1.85)
-			(end 2.85 -1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4b4ba26f-ab4e-4493-8922-b45089fb8c51")
-		)
-		(fp_line
-			(start 2.85 1.85)
-			(end -2.85 1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0c7a12db-1dbd-4fae-9294-b7657a695074")
-		)
-		(fp_line
-			(start -2.85 1.85)
-			(end -2.85 -1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "176d5eb9-9aac-4b00-981e-44a718fb17cf")
-		)
-		(fp_line
-			(start 2.1 -1.6)
-			(end 2.1 1.6)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "99de3bf4-ed26-4e74-99d9-0512c65fd0a0")
-		)
-		(fp_line
-			(start -2.1 -1.6)
-			(end 2.1 -1.6)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "48b81911-82a6-407c-805d-74fffbb54311")
-		)
-		(fp_line
-			(start 2.1 1.6)
-			(end -2.1 1.6)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f69daad8-6b7b-45bd-b10b-f205267e3204")
-		)
-		(fp_line
-			(start -2.1 1.6)
-			(end -2.1 -1.6)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a18551e7-fd51-40d6-b88e-664974229f2e")
-		)
-		(pad "1" smd rect
-			(at -2.075 -1.075 90)
-			(size 1.05 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 11 "/GPIO?")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "fa06d24a-52e1-4ad5-ad90-d96d2a0fc983")
-		)
-		(pad "2" smd rect
-			(at 2.075 -1.075 90)
-			(size 1.05 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 11 "/GPIO?")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "450252d8-fb9b-47f6-8c76-bceac2753234")
-		)
-		(pad "3" smd rect
-			(at -2.075 1.075 90)
-			(size 1.05 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "a91f7fad-a208-4609-9fec-ff8d581016e2")
-		)
-		(pad "4" smd rect
-			(at 2.075 1.075 90)
-			(size 1.05 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "e28fb130-8368-443b-92c5-370cacadba72")
-		)
-	)
 	(footprint "HSSM-LVPCB:C_0603"
 		(layer "F.Cu")
 		(uuid "2bfa55ba-61a3-4c09-a7e1-b1d1132a43aa")
@@ -9275,316 +8965,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "HSSM-LVPCB:SW_TACT_SKRPACE010"
-		(layer "F.Cu")
-		(uuid "34303949-1fa8-469f-b63b-e40054dea76d")
-		(at 122.2 117.7 -90)
-		(property "Reference" "SW3"
-			(at 0.47575 -2.58912 90)
-			(layer "F.SilkS")
-			(uuid "89d0a275-c94e-4880-832f-7261846000b3")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SW_TACT_SKRPACE010"
-			(at 0.1 2.5 90)
-			(layer "F.Fab")
-			(uuid "e94322c0-e7e6-4197-8fbc-d2f2704764d4")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "HSSM-LVPCB:SW_TACT_SKRPACE010"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "20e3c926-e73c-4a2f-a0fa-3b11d09bfb5f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRP-1370722.pdf"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3777dbf4-f874-427d-b195-fe34b2b799c4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Surface Mount Tactile Switch, SPST, 50mA, 12V, 6.2x6.2mm"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d0d99e6b-d4d2-4131-a9c8-dbe4e928f853")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "SKRPACE010"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "10883b4f-6386-4615-bbf9-e47b724204e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "ALPS Alpine"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6b8a5989-f09d-4150-8ea7-c5dcbc3f74d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "48041da5-f90f-4079-8ad9-2c49323e1dc6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Łukasz Nowarkiewicz"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "52afefac-a3b4-499d-bc0e-f97d371abd8c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Val" "TACT_SW"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2aad4343-dc22-40ff-8cf6-ac788731ca93")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/050b57d4-5623-457e-bb59-2df6cb0dc572")
-		(sheetname "Root")
-		(sheetfile "HSSM-LVPCB.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -1.25 1.6)
-			(end 1.25 1.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9b6d2279-3733-4ae5-99cb-6a3ab60a1f98")
-		)
-		(fp_line
-			(start -2.1 -0.5)
-			(end -2.1 0.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "31c7dcb8-4059-42ac-9ff0-7c2ad5e15e63")
-		)
-		(fp_line
-			(start 2.1 -0.5)
-			(end 2.1 0.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8f15d4ab-3a48-4ebb-b3c7-af546c19cb5b")
-		)
-		(fp_line
-			(start -1.25 -1.6)
-			(end 1.25 -1.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1287a2b2-b056-4f5c-add0-d5aba9946c10")
-		)
-		(fp_circle
-			(center -2.9 -1.15)
-			(end -2.788197 -1.15)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "a2856455-d04c-4313-93ca-86bb59207ca7")
-		)
-		(fp_circle
-			(center -2.85 -1.15)
-			(end -2.8 -1.15)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "30ee6ea4-d1b6-4a80-b447-2597c1e358c1")
-		)
-		(fp_line
-			(start -2.85 1.85)
-			(end -2.85 -1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f1404d7d-c9e5-4730-b2e0-111b5ef32d7d")
-		)
-		(fp_line
-			(start 2.85 1.85)
-			(end -2.85 1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "86485183-8f0d-47db-9c30-0562ba4f8d0c")
-		)
-		(fp_line
-			(start -2.85 -1.85)
-			(end 2.85 -1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9f4843f6-c8c5-4925-a36a-db4751746f03")
-		)
-		(fp_line
-			(start 2.85 -1.85)
-			(end 2.85 1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0e770c9f-c531-4979-b610-e027ee1a05ae")
-		)
-		(fp_line
-			(start -2.1 1.6)
-			(end -2.1 -1.6)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "da8a466f-b1ab-46cb-bd40-637f4dc4a3fe")
-		)
-		(fp_line
-			(start 2.1 1.6)
-			(end -2.1 1.6)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "91615d0f-c3e3-43ae-b028-56e50360936a")
-		)
-		(fp_line
-			(start -2.1 -1.6)
-			(end 2.1 -1.6)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3e4076f1-03f1-433e-8fda-4c3289f5f5c5")
-		)
-		(fp_line
-			(start 2.1 -1.6)
-			(end 2.1 1.6)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e5704f9f-c9d3-4313-bd36-db8a02c75686")
-		)
-		(pad "1" smd rect
-			(at -2.075 -1.075 270)
-			(size 1.05 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 11 "/GPIO?")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "0a3a00a1-2ed9-472c-9a1b-f04d391cea08")
-		)
-		(pad "2" smd rect
-			(at 2.075 -1.075 270)
-			(size 1.05 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 11 "/GPIO?")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "d01339d3-230b-4e8c-a185-54f3f154f695")
-		)
-		(pad "3" smd rect
-			(at -2.075 1.075 270)
-			(size 1.05 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "4add911d-4e3c-4498-97dc-7db802d664c9")
-		)
-		(pad "4" smd rect
-			(at 2.075 1.075 270)
-			(size 1.05 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "2479754e-6ae5-4eac-ae9e-de6e8f603bab")
 		)
 	)
 	(footprint "HSSM-LVPCB:LED_0603_1608Metric"
@@ -11786,316 +11166,6 @@
 			)
 		)
 	)
-	(footprint "HSSM-LVPCB:SW_TACT_SKRPACE010"
-		(layer "F.Cu")
-		(uuid "8beb82d3-f995-47f5-83b6-f2b72f5df542")
-		(at 132.3 117.7 -90)
-		(property "Reference" "SW1"
-			(at 0.47575 -2.58912 90)
-			(layer "F.SilkS")
-			(uuid "7abde418-4e1b-4660-bae5-384a8f7bc5eb")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SW_TACT_SKRPACE010"
-			(at 0.1 2.5 90)
-			(layer "F.Fab")
-			(uuid "66e37d54-d376-4856-9ea3-1148ad3866b2")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "HSSM-LVPCB:SW_TACT_SKRPACE010"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "639bd5a2-f3db-423a-9a52-cbd0e729fe44")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRP-1370722.pdf"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e531b1c1-12b4-4c1a-b0e7-42ba78ebdab9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Surface Mount Tactile Switch, SPST, 50mA, 12V, 6.2x6.2mm"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fc5a7aa5-5bec-4b07-a978-98cf9211108b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "SKRPACE010"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c40538b8-5efc-4150-a0d4-a7a176fdcc93")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "ALPS Alpine"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "97946580-7f46-44a5-abbc-12e5d242a278")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6300875d-a390-433b-bd8c-eef75e25171f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Łukasz Nowarkiewicz"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "29bb6469-cf5d-4c40-8be5-da9dd45ed295")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Val" "TACT_SW"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ff0618c4-c5d5-4930-aeda-454b1c5c1b80")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/8057ccb6-d745-424a-8d44-9b5f060e6dbe")
-		(sheetname "Root")
-		(sheetfile "HSSM-LVPCB.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -1.25 1.6)
-			(end 1.25 1.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1d375124-2413-4f93-a179-ebd0ede0d474")
-		)
-		(fp_line
-			(start -2.1 -0.5)
-			(end -2.1 0.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8edf6bd0-d152-4c82-9530-b1b501f957e0")
-		)
-		(fp_line
-			(start 2.1 -0.5)
-			(end 2.1 0.5)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fa1278b7-c358-405a-a1a0-208b45efe014")
-		)
-		(fp_line
-			(start -1.25 -1.6)
-			(end 1.25 -1.6)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7ee76289-6cba-43c1-872c-d41ed429ff55")
-		)
-		(fp_circle
-			(center -2.9 -1.15)
-			(end -2.788197 -1.15)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "212819aa-9c23-4f31-bc1d-a49716a1e4d6")
-		)
-		(fp_circle
-			(center -2.85 -1.15)
-			(end -2.8 -1.15)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "56e53f3e-b827-4f62-8dd3-c54ea4c0d555")
-		)
-		(fp_line
-			(start -2.85 1.85)
-			(end -2.85 -1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "37447bfb-61a1-4920-8f0c-6ba10f87ca59")
-		)
-		(fp_line
-			(start 2.85 1.85)
-			(end -2.85 1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "082e91c4-9a92-4a2e-ac6c-8e1c3cfb4abf")
-		)
-		(fp_line
-			(start -2.85 -1.85)
-			(end 2.85 -1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "87a5cc48-8c2d-434e-9f5e-9bb0a5002666")
-		)
-		(fp_line
-			(start 2.85 -1.85)
-			(end 2.85 1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "635331b6-b762-4f39-9917-3f3d37fa377e")
-		)
-		(fp_line
-			(start -2.1 1.6)
-			(end -2.1 -1.6)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4621b3c7-1ca8-4b6b-b69a-76b373fd16ca")
-		)
-		(fp_line
-			(start 2.1 1.6)
-			(end -2.1 1.6)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0f745930-7d59-4426-8494-efb03029789d")
-		)
-		(fp_line
-			(start -2.1 -1.6)
-			(end 2.1 -1.6)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "592fa882-dcd1-4fb0-b73d-132d01bc800c")
-		)
-		(fp_line
-			(start 2.1 -1.6)
-			(end 2.1 1.6)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0f3a9222-1a83-4c64-8723-7dc1e734bad0")
-		)
-		(pad "1" smd rect
-			(at -2.075 -1.075 270)
-			(size 1.05 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 11 "/GPIO?")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "8c046a24-98ea-42b9-9837-474d0691a79e")
-		)
-		(pad "2" smd rect
-			(at 2.075 -1.075 270)
-			(size 1.05 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 11 "/GPIO?")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "8daa558f-0d57-47a9-9027-168457132b69")
-		)
-		(pad "3" smd rect
-			(at -2.075 1.075 270)
-			(size 1.05 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "58f3ef0b-64a2-435b-8fab-9e7266a5912d")
-		)
-		(pad "4" smd rect
-			(at 2.075 1.075 270)
-			(size 1.05 0.65)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pintype "bidirectional")
-			(solder_mask_margin 0.102)
-			(uuid "896c858c-e46b-4a73-a20f-20c5a850f095")
-		)
-	)
 	(footprint "HSSM-LVPCB:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "97b281d4-870c-4d9d-94d2-9bcccd327642")
@@ -13606,37 +12676,38 @@
 			)
 		)
 	)
-	(footprint "HSSM-LVPCB:SW_TACT_SKRPACE010"
+	(footprint "HSSM-LVPCB:434331045822"
 		(layer "F.Cu")
-		(uuid "e6c89d55-aa5d-4265-a891-6c9415697108")
-		(at 118.425 117.675 -90)
-		(property "Reference" "SW2"
-			(at 0.47575 -2.58912 90)
+		(uuid "b866a903-323f-453a-8acf-b088716af3e2")
+		(at 134.8 114.35 180)
+		(descr "<b>WS-TASU</b><br>3.5x4.7 mm side push SMD Tact Switch, 4 pins")
+		(property "Reference" "SW_USER1"
+			(at -0.2148 -3.0169 360)
 			(layer "F.SilkS")
-			(uuid "f7009d63-391c-4747-9a1c-c8036a07637c")
+			(uuid "9550587e-fa98-4169-9ee6-a86349cc5d73")
 			(effects
 				(font
-					(size 0.7 0.7)
+					(size 0.64 0.64)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Value" "SW_TACT_SKRPACE010"
-			(at 0.1 2.5 90)
+		(property "Value" "434331045822"
+			(at 2.562 3.5122 360)
 			(layer "F.Fab")
-			(uuid "65b2c148-c208-4436-b53e-f4b3978c9688")
+			(uuid "67936234-b1c9-48da-b953-553fdf960d90")
 			(effects
 				(font
-					(size 0.7 0.7)
+					(size 0.64 0.64)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property "Footprint" "HSSM-LVPCB:SW_TACT_SKRPACE010"
-			(at 0 0 90)
+		(property "Footprint" "HSSM-LVPCB:434331045822"
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14bf2be0-13ab-42dd-b618-1d0896a2fc44")
+			(uuid "1a1e4b4a-89a5-4bdf-bd40-79c55c7fd711")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13644,11 +12715,11 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRP-1370722.pdf"
-			(at 0 0 90)
+		(property "Datasheet" ""
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80047146-601d-49d2-8d56-c00413c9bf29")
+			(uuid "2487b655-4968-4d37-bc83-6b92013e7ccd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13656,11 +12727,11 @@
 				)
 			)
 		)
-		(property "Description" "Surface Mount Tactile Switch, SPST, 50mA, 12V, 6.2x6.2mm"
-			(at 0 0 90)
+		(property "Description" ""
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6bd4fd8f-4d19-4e2f-99af-5c9888539d87")
+			(uuid "75c96ee2-5c1f-44aa-9db9-4c25b258e694")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13668,12 +12739,12 @@
 				)
 			)
 		)
-		(property "MPN" "SKRPACE010"
-			(at 0 0 -90)
+		(property "Manufacturer" "Wurth Electronics"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c407e0e3-fae6-4642-98c9-1f6e0341b90c")
+			(uuid "3399ab72-beee-4773-bc25-1c506228ebe1")
 			(effects
 				(font
 					(size 1 1)
@@ -13681,12 +12752,12 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ALPS Alpine"
-			(at 0 0 -90)
+		(property "Description_1" "4.7*3.5mm side push type,SMT, height 1.65mm, black actuator, 220gf, T&R"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "210c365f-7df8-4113-b43a-5ae3c4ac9d50")
+			(uuid "729c7fa2-e5fd-420a-a9e0-a44e804b07d6")
 			(effects
 				(font
 					(size 1 1)
@@ -13694,12 +12765,12 @@
 				)
 			)
 		)
-		(property "License" "Apache-2.0"
-			(at 0 0 -90)
+		(property "Package" "None"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "281cc671-e8b8-41f7-ae58-b14ff76aeaf9")
+			(uuid "a076df87-cd25-4cf8-93da-fe62bae7ab0c")
 			(effects
 				(font
 					(size 1 1)
@@ -13707,12 +12778,12 @@
 				)
 			)
 		)
-		(property "Author" "Łukasz Nowarkiewicz"
-			(at 0 0 -90)
+		(property "H" "1.65mm"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fcbe8ebf-b9c8-42ec-8019-5e972b1850ee")
+			(uuid "9c33ec9f-16ec-43fd-bf42-3fd117d4a384")
 			(effects
 				(font
 					(size 1 1)
@@ -13720,12 +12791,12 @@
 				)
 			)
 		)
-		(property "Val" "TACT_SW"
-			(at 0 0 -90)
+		(property "Price" "None"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7308a47b-34fe-4a89-a183-14d1d057b667")
+			(uuid "a209d1a4-2be7-4e62-b7f8-a719a72dad5a")
 			(effects
 				(font
 					(size 1 1)
@@ -13733,187 +12804,313 @@
 				)
 			)
 		)
-		(path "/3ad9c06a-2e0c-44a3-a2b0-5934f8561584")
+		(property "QTY" "3300"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69106b9e-3ddb-415f-a7d1-47118f690de5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=snap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d808424f-03d7-48e6-b840-a1dac0ef7a15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/434331045822.pdf"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e485d166-ed80-4007-af7f-87c6f135aca0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "434331045822"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2370189a-9295-4428-997f-9f54288e64bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PART-NUMBER" "434331045822"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "943cc3d3-df45-4b4e-bb69-8ea2ef22208a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "OPERATION-FORCE" "220g"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f33ef747-9786-4b5a-a894-142d0752fe5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3367e23d-3bfb-4b37-b8b3-cb1dfdc93188")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=eda"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb60aee6-fc69-44da-bd4a-2db08846dfb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/547478a2-34b1-47ef-822a-47ac4bd28e8a")
 		(sheetname "Root")
 		(sheetfile "HSSM-LVPCB.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -1.25 1.6)
-			(end 1.25 1.6)
+			(start 2.45 1.85)
+			(end 2.45 1.7)
 			(stroke
-				(width 0.127)
+				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e797772d-68dd-4680-ba5e-4480edfcdf48")
+			(uuid "74a5fb06-1e28-4c4a-90f8-0c3c4ea88750")
 		)
 		(fp_line
-			(start -2.1 -0.5)
-			(end -2.1 0.5)
+			(start 2.45 -1.85)
+			(end 2.45 -1.7)
 			(stroke
-				(width 0.127)
+				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7ea3872e-8708-412d-9379-1afd81fb9798")
+			(uuid "844247ce-dffa-4d00-bbf3-15ac5e76336e")
 		)
 		(fp_line
-			(start 2.1 -0.5)
-			(end 2.1 0.5)
+			(start -2.45 1.85)
+			(end 2.45 1.85)
 			(stroke
-				(width 0.127)
+				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ed71af36-3b62-4d38-ac87-634cff165d1d")
+			(uuid "17da8f61-0062-4447-95e5-2836836ecd85")
 		)
 		(fp_line
-			(start -1.25 -1.6)
-			(end 1.25 -1.6)
+			(start -2.45 1.7)
+			(end -2.45 1.85)
 			(stroke
-				(width 0.127)
+				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ddace517-c993-40fb-9c5b-86d5822884f1")
+			(uuid "16929cc5-37fb-43e6-a932-0926cf2e8b6f")
+		)
+		(fp_line
+			(start -2.45 -1.7)
+			(end -2.45 -1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "04d98077-e758-48f6-9fae-3887d6ca49be")
+		)
+		(fp_line
+			(start -2.45 -1.85)
+			(end 2.45 -1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1570e2b4-1805-4aca-896a-64ce8c56ead7")
 		)
 		(fp_circle
-			(center -2.9 -1.15)
-			(end -2.788197 -1.15)
+			(center 1.7 -1.4)
+			(end 1.8 -1.4)
 			(stroke
-				(width 0.127)
+				(width 0.2)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "06bb2561-d186-47df-be01-9635b13321f2")
+			(uuid "98008519-18c7-4f12-a2ff-2ff2b60285a9")
 		)
-		(fp_circle
-			(center -2.85 -1.15)
-			(end -2.8 -1.15)
+		(fp_poly
+			(pts
+				(xy -3.61 -2.049999) (xy 3.61 -2.049999) (xy 3.61 2.049999) (xy -3.61 2.049999)
+			)
 			(stroke
-				(width 0.127)
+				(width 0.1)
 				(type solid)
 			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "c439bbad-85a6-4511-b13c-2a9a7182820b")
-		)
-		(fp_line
-			(start -2.85 1.85)
-			(end -2.85 -1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
+			(fill solid)
 			(layer "F.CrtYd")
-			(uuid "6013b185-04aa-4e75-930a-bda95c3d067b")
+			(uuid "8b3b7ff6-d77f-403a-9089-49d71edf930f")
 		)
 		(fp_line
-			(start 2.85 1.85)
-			(end -2.85 1.85)
+			(start 2.35 1.75)
+			(end 2.35 -1.75)
 			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b4e1dbeb-5040-4a7c-8239-b7157b70ea07")
-		)
-		(fp_line
-			(start -2.85 -1.85)
-			(end 2.85 -1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "415ce556-b08e-43a4-8ad9-c468fa109933")
-		)
-		(fp_line
-			(start 2.85 -1.85)
-			(end 2.85 1.85)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b01a02b6-1ccf-4ab2-a004-a25037169435")
-		)
-		(fp_line
-			(start -2.1 1.6)
-			(end -2.1 -1.6)
-			(stroke
-				(width 0.1524)
+				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "585f8842-9c08-485c-94fd-fbea61bd6ac0")
+			(uuid "90150f05-1b85-497e-9c11-bc7c9344e101")
 		)
 		(fp_line
-			(start 2.1 1.6)
-			(end -2.1 1.6)
+			(start 2.35 1.75)
+			(end -2.35 1.75)
 			(stroke
-				(width 0.1524)
+				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "72fcef7c-b01d-4481-81e6-ba97cb07dd7a")
+			(uuid "10f4a509-37dc-4b01-b71b-6434c3c04e63")
 		)
 		(fp_line
-			(start -2.1 -1.6)
-			(end 2.1 -1.6)
+			(start 2.35 -1.75)
+			(end -2.35 -1.75)
 			(stroke
-				(width 0.1524)
+				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e2d62ae0-5854-4470-bca2-949b93707f07")
+			(uuid "0887162e-6b5b-460c-baaa-4564cd3ea68e")
 		)
 		(fp_line
-			(start 2.1 -1.6)
-			(end 2.1 1.6)
+			(start 1.3 2.75)
+			(end 1.3 1.75)
 			(stroke
-				(width 0.1524)
+				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "14402d99-6560-4904-99cd-d6768a0666dd")
+			(uuid "9f3d470a-6b61-4f8a-82bc-1c9976b75e2e")
+		)
+		(fp_line
+			(start -1.3 2.75)
+			(end 1.3 2.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c7d28a68-5476-400e-be26-bd30ed14a006")
+		)
+		(fp_line
+			(start -1.3 1.75)
+			(end -1.3 2.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a87b804c-4fea-42ed-835f-ce6a045e1b50")
+		)
+		(fp_line
+			(start -2.35 -1.75)
+			(end -2.35 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ddca23cc-9a29-4163-b39a-31ca5b3eb7dd")
 		)
 		(pad "1" smd rect
-			(at -2.075 -1.075 270)
-			(size 1.05 0.65)
+			(at 2.8 -0.85 180)
+			(size 1.2 1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 11 "/GPIO?")
-			(pintype "bidirectional")
+			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "9fa1bcee-a722-4c50-b347-98ecc0e45fa6")
+			(uuid "90b39561-71f3-430e-8faf-68e3ad6f7e5b")
 		)
 		(pad "2" smd rect
-			(at 2.075 -1.075 270)
-			(size 1.05 0.65)
+			(at 2.8 0.85 180)
+			(size 1.2 1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 11 "/GPIO?")
-			(pintype "bidirectional")
+			(net 1 "GND")
+			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "581cc9f4-2736-4c06-b1a9-3d32c4e05806")
+			(uuid "5fd93f93-1ecb-422f-9802-5ffbe80a7983")
 		)
 		(pad "3" smd rect
-			(at -2.075 1.075 270)
-			(size 1.05 0.65)
+			(at -2.8 -0.85 180)
+			(size 1.2 1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 1 "GND")
-			(pintype "bidirectional")
+			(net 11 "/GPIO?")
+			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "d1cc0e46-4a8b-4b58-8509-196c685fc4b5")
+			(uuid "333091f8-5d1d-49ff-9901-287763268c45")
 		)
 		(pad "4" smd rect
-			(at 2.075 1.075 270)
-			(size 1.05 0.65)
+			(at -2.8 0.85 180)
+			(size 1.2 1)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "GND")
-			(pintype "bidirectional")
+			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "b904c91c-020e-41e1-99cd-0b653a3c401b")
+			(uuid "f8865919-07e2-44bd-ae49-9779d7c7765a")
+		)
+		(model "${KIPRJMOD}/Library/HSSM-LVPCB.pretty/step/434331045822.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
 		)
 	)
 	(footprint "HSSM-LVPCB:C_0603"
@@ -21253,6 +20450,916 @@
 			)
 		)
 	)
+	(footprint "HSSM-LVPCB:434331045822"
+		(layer "B.Cu")
+		(uuid "77351196-eb02-477b-b121-eee7e19482ca")
+		(at 119.9 114.4)
+		(descr "<b>WS-TASU</b><br>3.5x4.7 mm side push SMD Tact Switch, 4 pins")
+		(property "Reference" "S1"
+			(at -0.2148 3.0169 360)
+			(layer "B.SilkS")
+			(uuid "539891e9-7053-40fb-980e-c57b78d2f875")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "434331045822"
+			(at 2.562 -3.5122 360)
+			(layer "B.Fab")
+			(uuid "eb4d95bd-51a1-47fd-a189-c75a7e9ab142")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:434331045822"
+			(at 0 0 360)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "77a63ba9-74f7-4d9b-a1cf-6fc8bd3776e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 360)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9852c092-7bb1-4f4b-88d2-421cec1a47b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 360)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6d9c58c7-f888-445a-bd38-0397ed7936b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Wurth Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8c3d30cd-9e48-4b4e-bd68-1a4ae9620701")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description_1" "4.7*3.5mm side push type,SMT, height 1.65mm, black actuator, 220gf, T&R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b98c8e4e-25cb-483f-8e4c-815b18397803")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2bc1426c-b766-473e-8318-d1e18b6ed273")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "H" "1.65mm"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "52322a8f-6f5c-4945-9dba-69108171b7f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "df886e91-b4e7-4078-938e-c30c4067dcdd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "QTY" "3300"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a63bb640-fe23-4148-9a58-0e2faf90440a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=snap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7d6e6b29-e1c6-4d61-9669-4b5fa83ba7f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/434331045822.pdf"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bc272bd7-99f4-4f80-b0f2-f78ae84a124e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "434331045822"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3a25968a-07de-44cf-91fd-98631882f695")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PART-NUMBER" "434331045822"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fb872aef-5473-4dcb-bcad-f14fecdea888")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "OPERATION-FORCE" "220g"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "96bfcb30-a2f1-4ba6-99ef-b1dbfed28548")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8a68e042-7a04-4052-bddb-cc7d410334c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=eda"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "159102ad-eff9-4787-9844-1644ad5134d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/cb95cf48-f141-4f3d-ad79-5a59ac8df277")
+		(sheetname "Root")
+		(sheetfile "HSSM-LVPCB.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.45 -1.85)
+			(end -2.45 -1.7)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "6210c77c-555a-44d8-affd-14c78beef9a9")
+		)
+		(fp_line
+			(start -2.45 1.85)
+			(end -2.45 1.7)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "7515981b-6257-4ad1-8864-3401e2f5b32e")
+		)
+		(fp_line
+			(start 2.45 -1.85)
+			(end -2.45 -1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "03acbd37-3417-4ea5-aa62-b938b6906d03")
+		)
+		(fp_line
+			(start 2.45 -1.7)
+			(end 2.45 -1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "8365d891-6dba-4771-b25b-f48d97a22606")
+		)
+		(fp_line
+			(start 2.45 1.7)
+			(end 2.45 1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "2c8216ba-36fc-401a-b265-987c73d4e4f9")
+		)
+		(fp_line
+			(start 2.45 1.85)
+			(end -2.45 1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "4d50da41-7cda-4f8e-a281-36bf2953bb4a")
+		)
+		(fp_circle
+			(center 1.7 1.4)
+			(end 1.8 1.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.SilkS")
+			(uuid "3627facf-ac79-4f5a-bcce-10c4bd2df32b")
+		)
+		(fp_poly
+			(pts
+				(xy -3.61 2.049999) (xy 3.61 2.049999) (xy 3.61 -2.049999) (xy -3.61 -2.049999)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.CrtYd")
+			(uuid "ed367082-452a-4e0a-a767-16bc47bba1fe")
+		)
+		(fp_line
+			(start -2.35 -1.75)
+			(end -2.35 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "83e2d4bf-6520-4587-b2f9-467eefd316b5")
+		)
+		(fp_line
+			(start -2.35 -1.75)
+			(end 2.35 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "09fef065-0611-44c3-af23-a91c0461ef64")
+		)
+		(fp_line
+			(start -2.35 1.75)
+			(end 2.35 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "f3fe557e-8f0c-47eb-b066-a3d9c7023555")
+		)
+		(fp_line
+			(start -1.3 -2.75)
+			(end -1.3 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "288d16b1-f7d4-436a-ba69-1a03fe239a22")
+		)
+		(fp_line
+			(start 1.3 -2.75)
+			(end -1.3 -2.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "414cc87f-ead4-4dc3-8088-31269af1d1dc")
+		)
+		(fp_line
+			(start 1.3 -1.75)
+			(end 1.3 -2.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "5415be90-572d-4834-8b40-044711a5a847")
+		)
+		(fp_line
+			(start 2.35 1.75)
+			(end 2.35 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "fa266301-332f-4bf7-b584-71f8d40b7916")
+		)
+		(pad "1" smd rect
+			(at 2.8 0.85)
+			(size 1.2 1)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 11 "/GPIO?")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "9fa7e22b-dad1-4376-b7e8-4ae9190c9957")
+		)
+		(pad "2" smd rect
+			(at 2.8 -0.85)
+			(size 1.2 1)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "eea83af0-f48c-4f73-b8fa-e3feb88798a6")
+		)
+		(pad "3" smd rect
+			(at -2.8 0.85)
+			(size 1.2 1)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 11 "/GPIO?")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "0ee8c9db-fe1c-4fda-8b41-ff65f067ea6b")
+		)
+		(pad "4" smd rect
+			(at -2.8 -0.85)
+			(size 1.2 1)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "c4b83d8c-c0ac-4656-9853-217d954d8a28")
+		)
+		(model "${KIPRJMOD}/Library/HSSM-LVPCB.pretty/step/434331045822.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
+	)
+	(footprint "HSSM-LVPCB:434331045822"
+		(layer "B.Cu")
+		(uuid "7e2de30e-7cbd-4c99-ad45-3f10786bf6ef")
+		(at 127.3 114.3)
+		(descr "<b>WS-TASU</b><br>3.5x4.7 mm side push SMD Tact Switch, 4 pins")
+		(property "Reference" "S2"
+			(at -0.2148 3.0169 360)
+			(layer "B.SilkS")
+			(uuid "e4246949-e73e-46d5-9c86-d203a20bfd90")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "434331045822"
+			(at 2.562 -3.5122 360)
+			(layer "B.Fab")
+			(uuid "5e71f9a5-3ca1-43ed-87e5-6800777d02ab")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:434331045822"
+			(at 0 0 360)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "05b94b4b-c447-4fc7-8e3a-270423082f0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 360)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4e33bd4c-6f47-4898-8687-4b460274fa26")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 360)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c5eca8d8-ff87-41e5-bc05-69c814c1fca9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Wurth Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bf56839d-5c36-44c9-bb99-5f89dfb906c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description_1" "4.7*3.5mm side push type,SMT, height 1.65mm, black actuator, 220gf, T&R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e9efce92-7d6a-406d-a171-c96872b6be94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "77357a1a-e2a4-40c7-84ac-2ce2c41e0e80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "H" "1.65mm"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a839fa6c-e60c-4517-abbd-03772200ced8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "860dea27-5ee3-49c7-81c4-492fff7c3321")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "QTY" "3300"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "26930ada-aa3a-4cc9-b3e0-17468705c5df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=snap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "890b3d7d-bb23-4530-865a-6e341d148561")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/434331045822.pdf"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9ea6a9d8-79de-4c78-a23b-5f06b44572ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "434331045822"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "55da8ec6-ab42-4ec6-8051-9fb9be6ef17b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PART-NUMBER" "434331045822"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d2e4caf3-c7a0-4e2e-a433-7a4d3d9b4701")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "OPERATION-FORCE" "220g"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "04b82768-8668-41a9-b9e9-a1bc03fd258d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "18843c2b-a582-4689-9587-8ac31efa4de6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=eda"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "96814ce0-676a-481a-b360-070bcd31e046")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/7753e96b-b8c4-4ddc-966c-561ad8015684")
+		(sheetname "Root")
+		(sheetfile "HSSM-LVPCB.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.45 -1.85)
+			(end -2.45 -1.7)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "a1c8c2a0-a9ab-4625-a90f-0b39452991a2")
+		)
+		(fp_line
+			(start -2.45 1.85)
+			(end -2.45 1.7)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "d566d8cf-51c6-48c4-a94b-cd36b0ee342f")
+		)
+		(fp_line
+			(start 2.45 -1.85)
+			(end -2.45 -1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "ff4aea8f-ef27-4f36-8710-0c9a510e7cc1")
+		)
+		(fp_line
+			(start 2.45 -1.7)
+			(end 2.45 -1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "35c794ca-8357-4263-ac42-e0714288c9e2")
+		)
+		(fp_line
+			(start 2.45 1.7)
+			(end 2.45 1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "60bbd73e-fc6c-4787-a123-fa24a12c6474")
+		)
+		(fp_line
+			(start 2.45 1.85)
+			(end -2.45 1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "034b764e-1ff9-4a73-803e-4fb0a66d479c")
+		)
+		(fp_circle
+			(center 1.7 1.4)
+			(end 1.8 1.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.SilkS")
+			(uuid "54ca286b-8f56-4ba5-b7f6-eeb8c2439920")
+		)
+		(fp_poly
+			(pts
+				(xy -3.61 2.049999) (xy 3.61 2.049999) (xy 3.61 -2.049999) (xy -3.61 -2.049999)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.CrtYd")
+			(uuid "2faf276b-074a-44d3-b685-f8d76e73983b")
+		)
+		(fp_line
+			(start -2.35 -1.75)
+			(end -2.35 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "6ea62795-604c-4c21-b603-9298dd96d123")
+		)
+		(fp_line
+			(start -2.35 -1.75)
+			(end 2.35 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "b00fd67e-2c8f-4efb-9e53-a7b8ebab6a86")
+		)
+		(fp_line
+			(start -2.35 1.75)
+			(end 2.35 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "fbf15384-9237-4fe4-9c6f-d2eb26eccb84")
+		)
+		(fp_line
+			(start -1.3 -2.75)
+			(end -1.3 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "bad6b62d-66bf-4c9d-af88-2bbe48b0107f")
+		)
+		(fp_line
+			(start 1.3 -2.75)
+			(end -1.3 -2.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "8618585d-5fe8-4cda-b324-b17d9c5efd5a")
+		)
+		(fp_line
+			(start 1.3 -1.75)
+			(end 1.3 -2.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "ef6915a4-4630-4506-8a80-d575f2bb611f")
+		)
+		(fp_line
+			(start 2.35 1.75)
+			(end 2.35 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "76605449-bfa5-40ea-992c-c2f22826a47c")
+		)
+		(pad "1" smd rect
+			(at 2.8 0.85)
+			(size 1.2 1)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 11 "/GPIO?")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "36bb6225-4c54-40c2-a7f9-cee6e69d3a40")
+		)
+		(pad "2" smd rect
+			(at 2.8 -0.85)
+			(size 1.2 1)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "9a1e548f-43d5-4f08-8a58-0c74efc8b174")
+		)
+		(pad "3" smd rect
+			(at -2.8 0.85)
+			(size 1.2 1)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 11 "/GPIO?")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "59cb3718-1568-4a9f-a0e0-6be86707ebd5")
+		)
+		(pad "4" smd rect
+			(at -2.8 -0.85)
+			(size 1.2 1)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "5c762cef-a2b0-43a0-bfa6-47fcbecccc18")
+		)
+		(model "${KIPRJMOD}/Library/HSSM-LVPCB.pretty/step/434331045822.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
+	)
 	(footprint "HSSM-LVPCB:SOT-23"
 		(layer "B.Cu")
 		(uuid "7fe147c6-c04e-49ca-8a66-ab91db0eaec5")
@@ -22125,6 +22232,461 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "HSSM-LVPCB:434331045822"
+		(layer "B.Cu")
+		(uuid "95c7d26d-a9bf-406e-a97a-d2da57c81f07")
+		(at 134.9 114.25)
+		(descr "<b>WS-TASU</b><br>3.5x4.7 mm side push SMD Tact Switch, 4 pins")
+		(property "Reference" "S3"
+			(at -0.2148 3.0169 360)
+			(layer "B.SilkS")
+			(uuid "7d6282fb-2c32-481e-888a-54aa1e9c0f0b")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "434331045822"
+			(at 2.562 -3.5122 360)
+			(layer "B.Fab")
+			(uuid "9905dc51-1c21-4a7f-a989-a1e50f191e90")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:434331045822"
+			(at 0 0 360)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ddf304de-aa0d-49ee-bc56-1f4d86c784b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 360)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "817f685c-b0ba-4675-84d5-483ea869b1af")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 360)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e86592b0-ab0d-4b8f-98f1-519bb3b02636")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Wurth Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a18ad160-6063-4d28-9d5b-4e9ee1f1eb98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description_1" "4.7*3.5mm side push type,SMT, height 1.65mm, black actuator, 220gf, T&R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a8620d78-6cf7-47f9-afab-2a0de64771da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0372737d-cc71-41c0-b234-d4a00af9c926")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "H" "1.65mm"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9197c0fd-e111-4f81-b013-b6f7a95bdf33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "17b68d0d-029c-4974-ab48-d6f6149ae5d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "QTY" "3300"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "abc7cd5d-28d9-442f-b8e8-789e9a544521")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=snap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f5513f99-4ecb-4e0d-b322-c8ca0f4f217c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/434331045822.pdf"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4a0223b0-aebb-4ee4-9fed-765992c14e05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "434331045822"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "581957ec-51f5-4e59-9c41-c81d6cfa1725")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PART-NUMBER" "434331045822"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ee6b6337-124b-45cf-9072-c8ee089fba1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "OPERATION-FORCE" "220g"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ad20dfcf-7d0e-4a67-9645-ef4675e1a2c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "301a0864-abdd-4103-8bd6-bd7d298c182d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=eda"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c4b40db2-c48c-46c0-b827-aa73599a18bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/67ec97a3-020c-49bc-a7f6-28b124a36f58")
+		(sheetname "Root")
+		(sheetfile "HSSM-LVPCB.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.45 -1.85)
+			(end -2.45 -1.7)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "8c4f50d1-29d1-4743-b317-b14c2dce3c8f")
+		)
+		(fp_line
+			(start -2.45 1.85)
+			(end -2.45 1.7)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "ac3d5735-7063-4e80-bd3f-bc0531b24495")
+		)
+		(fp_line
+			(start 2.45 -1.85)
+			(end -2.45 -1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "62ea6b03-8b25-4184-a5ff-8e74216a9079")
+		)
+		(fp_line
+			(start 2.45 -1.7)
+			(end 2.45 -1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "948b97ec-62c4-408f-9297-3c195f26a1a7")
+		)
+		(fp_line
+			(start 2.45 1.7)
+			(end 2.45 1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "a0df894a-4096-4926-be76-b1149d63b8cc")
+		)
+		(fp_line
+			(start 2.45 1.85)
+			(end -2.45 1.85)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "9d900ddd-c5f8-4fac-8526-d16a917acbd1")
+		)
+		(fp_circle
+			(center 1.7 1.4)
+			(end 1.8 1.4)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.SilkS")
+			(uuid "71d38608-2b45-4b1a-907a-c012fb4051b9")
+		)
+		(fp_poly
+			(pts
+				(xy -3.61 2.049999) (xy 3.61 2.049999) (xy 3.61 -2.049999) (xy -3.61 -2.049999)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.CrtYd")
+			(uuid "69b1e21f-ec60-4f69-a6c6-5d99ebbe97fb")
+		)
+		(fp_line
+			(start -2.35 -1.75)
+			(end -2.35 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "a5f69818-f83c-4f2e-946b-1e667f350426")
+		)
+		(fp_line
+			(start -2.35 -1.75)
+			(end 2.35 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "e8fd106b-b1d9-4392-b303-d48ad58a8137")
+		)
+		(fp_line
+			(start -2.35 1.75)
+			(end 2.35 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "1b3b3dde-bd59-4b74-bc99-22604df073ab")
+		)
+		(fp_line
+			(start -1.3 -2.75)
+			(end -1.3 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "eef93978-9d48-40c7-a3ca-e816e041a3bd")
+		)
+		(fp_line
+			(start 1.3 -2.75)
+			(end -1.3 -2.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "150e7627-7f05-46d6-813b-656b10e73a87")
+		)
+		(fp_line
+			(start 1.3 -1.75)
+			(end 1.3 -2.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "053654c5-0656-4c00-95f7-5c8e66cd3bb0")
+		)
+		(fp_line
+			(start 2.35 1.75)
+			(end 2.35 -1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "69357f42-f733-4560-8a35-e0e1b41b9a55")
+		)
+		(pad "1" smd rect
+			(at 2.8 0.85)
+			(size 1.2 1)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 11 "/GPIO?")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "b6c6e20f-a80a-4fd9-8639-808fc7856b41")
+		)
+		(pad "2" smd rect
+			(at 2.8 -0.85)
+			(size 1.2 1)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "07559e46-951b-45c9-96b9-c99b8b2f1b48")
+		)
+		(pad "3" smd rect
+			(at -2.8 0.85)
+			(size 1.2 1)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 11 "/GPIO?")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "82839a8d-e538-4979-a784-3cc9946c0973")
+		)
+		(pad "4" smd rect
+			(at -2.8 -0.85)
+			(size 1.2 1)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 1 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "5b257d1e-fa5f-4986-81ef-9467c370aace")
+		)
+		(model "${KIPRJMOD}/Library/HSSM-LVPCB.pretty/step/434331045822.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -23499,7 +24061,7 @@
 	(footprint "HSSM-LVPCB:QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm"
 		(layer "B.Cu")
 		(uuid "b888a246-734d-4c87-a757-f2a87a3617a2")
-		(at 142.4 119.1625 180)
+		(at 148.1625 118.4 180)
 		(descr "QFN, 28 Pin (http://www.issi.com/WW/pdf/31FL3731.pdf#page=21), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U3"

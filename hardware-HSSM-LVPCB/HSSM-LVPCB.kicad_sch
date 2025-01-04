@@ -5052,56 +5052,43 @@
 				)
 			)
 		)
-		(symbol "HSSM-LVPCB:SW_TACT_SKRPACE010"
-			(pin_numbers hide)
-			(pin_names hide)
+		(symbol "HSSM-LVPCB:SW_angle_434331045822"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 -5.08 0)
+			(property "Reference" "S"
+				(at -0.13 7.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
-					(justify left bottom)
+					(justify bottom)
 				)
 			)
-			(property "Value" "SW_TACT_SKRPACE010"
-				(at 0 -9.906 0)
+			(property "Value" "434331045822"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
-					(justify left bottom)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Footprint" "HSSM-LVPCB:SW_TACT_SKRPACE010"
-				(at 0 -12.446 0)
+			(property "Footprint" "HSSM-LVPCB:434331045822"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
-					(justify left bottom)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRP-1370722.pdf"
-				(at 0 -14.986 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Surface Mount Tactile Switch, SPST, 50mA, 12V, 6.2x6.2mm"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5110,58 +5097,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SKRPACE010"
-				(at 0 -17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "ALPS Alpine"
-				(at 0 -20.066 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 0 -22.606 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Łukasz Nowarkiewicz"
-				(at 0 -25.146 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "TACT_SW"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "Switch, Tactile, SPST, Surface Mount, SKRPACE010"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5170,142 +5106,224 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_TACT_SKRPACE010_0_0"
+			(property "Manufacturer" "Wurth Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "4.7*3.5mm side push type,SMT, height 1.65mm, black actuator, 220gf, T&R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "H" "1.65mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "QTY" "3300"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/434331045822.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "434331045822"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PART-NUMBER" "434331045822"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OPERATION-FORCE" "220g"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SW_angle_434331045822_0_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.47 2.74) (xy 1.04 -0.07)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
-					(center 0 -1.016)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.016) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy -5.08 -2.54)
-					)
+					(center 0 0)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5315,8 +5333,8 @@
 					)
 				)
 				(circle
-					(center 0 0.762)
-					(radius 0.254)
+					(center 0 2.54)
+					(radius 0.508)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5325,8 +5343,8 @@
 						(type none)
 					)
 				)
-				(pin bidirectional line
-					(at -5.08 2.54 0)
+				(pin passive line
+					(at 5.08 5.08 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -5343,8 +5361,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 5.08 2.54 180)
+				(pin passive line
+					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -5361,8 +5379,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -5.08 -2.54 0)
+				(pin passive line
+					(at -5.08 5.08 0)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -5379,8 +5397,8 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 5.08 -2.54 180)
+				(pin passive line
+					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -7905,6 +7923,12 @@
 		(uuid "153cfe07-53ac-48c9-b139-083e2968fef7")
 	)
 	(junction
+		(at 336.55 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1557daef-a3e5-430f-a5b1-6e15085c9537")
+	)
+	(junction
 		(at 55.88 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7933,6 +7957,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b33675a-0198-4be5-a7df-ff89439b901e")
+	)
+	(junction
+		(at 377.19 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d092085-4646-40aa-adc6-d20ebf2069d6")
+	)
+	(junction
+		(at 219.71 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "385999dc-3cf1-4ec3-90e6-0e1107efdb94")
 	)
 	(junction
 		(at 40.64 106.68)
@@ -7989,6 +8025,12 @@
 		(uuid "58a10217-1849-4a9d-8e30-799dd14db7ae")
 	)
 	(junction
+		(at 290.83 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59929c5d-9558-424e-ac6a-e060545ed875")
+	)
+	(junction
 		(at 39.37 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8011,18 +8053,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "931dff38-82ab-48d2-bcab-22746f181ef8")
-	)
-	(junction
-		(at 219.71 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98fb7d2e-f48d-406f-97b9-83e9690ca0e8")
-	)
-	(junction
-		(at 336.55 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d9db78a-c24a-4e4b-9190-c08fe7eecc6e")
 	)
 	(junction
 		(at 111.76 49.53)
@@ -8049,12 +8079,6 @@
 		(uuid "dd7d4ea6-c413-4009-bb79-98e35a40435e")
 	)
 	(junction
-		(at 377.19 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df8d10b2-6143-4871-950f-8d777db51705")
-	)
-	(junction
 		(at 298.45 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8077,12 +8101,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb4fea98-dc4d-4a88-8365-36228e0acc17")
-	)
-	(junction
-		(at 290.83 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd8392f6-d57b-471b-8d55-4f7467a585e8")
 	)
 	(no_connect
 		(at 120.65 199.39)
@@ -8398,7 +8416,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 246.38) (xy 234.95 246.38)
+			(xy 232.41 243.84) (xy 234.95 243.84)
 		)
 		(stroke
 			(width 0)
@@ -8465,6 +8483,16 @@
 			(type default)
 		)
 		(uuid "193f9c3c-ec13-4f60-b6ca-bcf985525d68")
+	)
+	(wire
+		(pts
+			(xy 219.71 243.84) (xy 219.71 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1954539c-1025-43f6-a176-1a31b0e8803f")
 	)
 	(wire
 		(pts
@@ -8538,7 +8566,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 238.76) (xy 219.71 246.38)
+			(xy 219.71 238.76) (xy 219.71 243.84)
 		)
 		(stroke
 			(width 0)
@@ -8748,6 +8776,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 217.17) (xy 377.19 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3336676c-c4b8-4d10-8998-8c32c342f97a")
+	)
+	(wire
+		(pts
 			(xy 85.09 199.39) (xy 85.09 198.12)
 		)
 		(stroke
@@ -8948,7 +8986,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 219.71) (xy 351.79 219.71)
+			(xy 349.25 217.17) (xy 351.79 217.17)
 		)
 		(stroke
 			(width 0)
@@ -9178,7 +9216,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 212.09) (xy 290.83 219.71)
+			(xy 290.83 212.09) (xy 290.83 217.17)
 		)
 		(stroke
 			(width 0)
@@ -9228,7 +9266,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 246.38) (xy 222.25 246.38)
+			(xy 219.71 243.84) (xy 222.25 243.84)
 		)
 		(stroke
 			(width 0)
@@ -9418,7 +9456,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 212.09) (xy 336.55 219.71)
+			(xy 336.55 212.09) (xy 336.55 217.17)
 		)
 		(stroke
 			(width 0)
@@ -9428,7 +9466,7 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 219.71) (xy 392.43 212.09)
+			(xy 392.43 217.17) (xy 392.43 212.09)
 		)
 		(stroke
 			(width 0)
@@ -9498,7 +9536,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 219.71) (xy 306.07 212.09)
+			(xy 306.07 217.17) (xy 306.07 212.09)
 		)
 		(stroke
 			(width 0)
@@ -9778,7 +9816,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 219.71) (xy 379.73 219.71)
+			(xy 377.19 217.17) (xy 379.73 217.17)
 		)
 		(stroke
 			(width 0)
@@ -9948,7 +9986,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 212.09) (xy 377.19 219.71)
+			(xy 377.19 212.09) (xy 377.19 217.17)
 		)
 		(stroke
 			(width 0)
@@ -10018,7 +10056,7 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 219.71) (xy 392.43 219.71)
+			(xy 389.89 217.17) (xy 392.43 217.17)
 		)
 		(stroke
 			(width 0)
@@ -10178,7 +10216,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 219.71) (xy 293.37 219.71)
+			(xy 290.83 217.17) (xy 293.37 217.17)
 		)
 		(stroke
 			(width 0)
@@ -10408,7 +10446,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 219.71) (xy 339.09 219.71)
+			(xy 336.55 217.17) (xy 339.09 217.17)
 		)
 		(stroke
 			(width 0)
@@ -10518,7 +10556,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 219.71) (xy 351.79 212.09)
+			(xy 351.79 217.17) (xy 351.79 212.09)
 		)
 		(stroke
 			(width 0)
@@ -10728,6 +10766,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 217.17) (xy 290.83 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d83e467c-bca9-4e4b-ac8c-92fe7019a164")
+	)
+	(wire
+		(pts
 			(xy 227.33 255.27) (xy 227.33 257.81)
 		)
 		(stroke
@@ -10888,6 +10936,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 217.17) (xy 336.55 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a3f80d-de40-4362-bfec-32d5094753a5")
+	)
+	(wire
+		(pts
 			(xy 189.23 127) (xy 204.47 127)
 		)
 		(stroke
@@ -10898,7 +10956,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 219.71) (xy 306.07 219.71)
+			(xy 303.53 217.17) (xy 306.07 217.17)
 		)
 		(stroke
 			(width 0)
@@ -11108,7 +11166,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 246.38) (xy 234.95 238.76)
+			(xy 234.95 243.84) (xy 234.95 238.76)
 		)
 		(stroke
 			(width 0)
@@ -12294,138 +12352,6 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-LVPCB:SW_TACT_SKRPACE010")
-		(at 344.17 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "050b57d4-5623-457e-bb59-2df6cb0dc572")
-		(property "Reference" "SW3"
-			(at 344.17 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SW_TACT_SKRPACE010"
-			(at 344.17 232.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-LVPCB:SW_TACT_SKRPACE010"
-			(at 344.17 234.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRP-1370722.pdf"
-			(at 344.17 237.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Tactile Switch, SPST, 50mA, 12V, 6.2x6.2mm"
-			(at 344.17 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SKRPACE010"
-			(at 344.17 239.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ALPS Alpine"
-			(at 344.17 242.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 344.17 244.856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Łukasz Nowarkiewicz"
-			(at 344.17 247.396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "TACT_SW"
-			(at 344.17 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "da6705ae-459b-4a5d-a2d4-a9bee8475507")
-		)
-		(pin "1"
-			(uuid "35c6f87c-f767-4449-8f1e-63e5ffd6a09c")
-		)
-		(pin "2"
-			(uuid "28ee4f73-628d-42df-8726-72811c1162cc")
-		)
-		(pin "4"
-			(uuid "c1b2f117-ddd7-4a1b-b72c-6f630c2511b7")
-		)
-		(instances
-			(project "HSSM-LVPCB"
-				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -15720,138 +15646,6 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-LVPCB:SW_TACT_SKRPACE010")
-		(at 298.45 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ad9c06a-2e0c-44a3-a2b0-5934f8561584")
-		(property "Reference" "SW2"
-			(at 298.45 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SW_TACT_SKRPACE010"
-			(at 298.45 232.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-LVPCB:SW_TACT_SKRPACE010"
-			(at 298.45 234.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRP-1370722.pdf"
-			(at 298.45 237.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Tactile Switch, SPST, 50mA, 12V, 6.2x6.2mm"
-			(at 298.45 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SKRPACE010"
-			(at 298.45 239.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ALPS Alpine"
-			(at 298.45 242.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 298.45 244.856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Łukasz Nowarkiewicz"
-			(at 298.45 247.396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "TACT_SW"
-			(at 298.45 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "fd751678-c071-4d58-a92c-47de551f6ab5")
-		)
-		(pin "1"
-			(uuid "2ed78480-d5fb-4f69-9b71-c0ae5064897d")
-		)
-		(pin "2"
-			(uuid "f890610c-72d2-45b6-ad17-c37eb7996387")
-		)
-		(pin "4"
-			(uuid "f6c09e07-096c-45e0-8ff5-bcb40e3eccb2")
-		)
-		(instances
-			(project "HSSM-LVPCB"
-				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 180.34 156.21 0)
 		(unit 1)
@@ -16563,6 +16357,213 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:SW_angle_434331045822")
+		(at 227.33 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "547478a2-34b1-47ef-822a-47ac4bd28e8a")
+		(property "Reference" "SW_USER"
+			(at 227.33 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "434331045822"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:434331045822"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Electronics"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "4.7*3.5mm side push type,SMT, height 1.65mm, black actuator, 220gf, T&R"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "H" "1.65mm"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "QTY" "3300"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=snap"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/434331045822.pdf"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "434331045822"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" "434331045822"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OPERATION-FORCE" "220g"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=eda"
+			(at 227.33 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8428b18a-8742-4c37-beb4-164d127a5b65")
+		)
+		(pin "1"
+			(uuid "6c6f11f5-a876-446d-9ef4-3e3591007c60")
+		)
+		(pin "4"
+			(uuid "dcd45803-d08b-4bb7-9fcf-e63bb212569f")
+		)
+		(pin "3"
+			(uuid "83033f66-d549-4b19-bb55-e521df92582c")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "SW_USER")
 					(unit 1)
 				)
 			)
@@ -17304,6 +17305,213 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-LVPCB:SW_angle_434331045822")
+		(at 384.81 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67ec97a3-020c-49bc-a7f6-28b124a36f58")
+		(property "Reference" "S3"
+			(at 384.81 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "434331045822"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:434331045822"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Electronics"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "4.7*3.5mm side push type,SMT, height 1.65mm, black actuator, 220gf, T&R"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "H" "1.65mm"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "QTY" "3300"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=snap"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/434331045822.pdf"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "434331045822"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" "434331045822"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OPERATION-FORCE" "220g"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=eda"
+			(at 384.81 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ded3c6fa-c0ad-4f22-a843-bfaa53d73221")
+		)
+		(pin "1"
+			(uuid "cb075823-9d9b-4dc2-aaf4-5647766c211b")
+		)
+		(pin "4"
+			(uuid "747b2128-ccd2-4f2d-b3e3-6d5a543c0d2f")
+		)
+		(pin "3"
+			(uuid "9d2f985c-43dc-493c-9761-0e3706258026")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-LVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D")
 		(at 180.34 151.13 90)
 		(unit 1)
@@ -17824,6 +18032,213 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-LVPCB:SW_angle_434331045822")
+		(at 344.17 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7753e96b-b8c4-4ddc-966c-561ad8015684")
+		(property "Reference" "S2"
+			(at 344.17 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "434331045822"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:434331045822"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Electronics"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "4.7*3.5mm side push type,SMT, height 1.65mm, black actuator, 220gf, T&R"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "H" "1.65mm"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "QTY" "3300"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=snap"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/434331045822.pdf"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "434331045822"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" "434331045822"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OPERATION-FORCE" "220g"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=eda"
+			(at 344.17 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6473e1e-c5d3-41ff-a17c-e929246c8ff9")
+		)
+		(pin "1"
+			(uuid "e329b6e9-cbf3-439c-8f8d-8ea7db91c92f")
+		)
+		(pin "4"
+			(uuid "52f81993-0b8b-4415-a7fa-5d4a4ad2cf0b")
+		)
+		(pin "3"
+			(uuid "0916d334-6718-49b7-ade2-773b220af035")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 59.69 0)
 		(unit 1)
@@ -18165,138 +18580,6 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-LVPCB:SW_TACT_SKRPACE010")
-		(at 227.33 248.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8057ccb6-d745-424a-8d44-9b5f060e6dbe")
-		(property "Reference" "SW1"
-			(at 227.33 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SW_TACT_SKRPACE010"
-			(at 227.33 258.826 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-LVPCB:SW_TACT_SKRPACE010"
-			(at 227.33 261.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRP-1370722.pdf"
-			(at 227.33 263.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Tactile Switch, SPST, 50mA, 12V, 6.2x6.2mm"
-			(at 227.33 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SKRPACE010"
-			(at 227.33 266.446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ALPS Alpine"
-			(at 227.33 268.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 227.33 271.526 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Łukasz Nowarkiewicz"
-			(at 227.33 274.066 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "TACT_SW"
-			(at 227.33 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "5a81060d-a569-429a-983b-361a0e3f6e61")
-		)
-		(pin "1"
-			(uuid "3f56c229-2636-42c0-81d9-0896dacb3d89")
-		)
-		(pin "2"
-			(uuid "043a6c53-08e0-44e9-a93a-0ef68c0c7d5b")
-		)
-		(pin "4"
-			(uuid "13c2682c-2e28-4c1c-9f82-79329eb951b8")
-		)
-		(instances
-			(project ""
-				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -19915,138 +20198,6 @@
 			(project "HSSM-LVPCB"
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-LVPCB:SW_TACT_SKRPACE010")
-		(at 384.81 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a88b37ff-dba8-46ba-a06e-a4730739cff2")
-		(property "Reference" "SW4"
-			(at 384.81 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SW_TACT_SKRPACE010"
-			(at 384.81 232.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-LVPCB:SW_TACT_SKRPACE010"
-			(at 384.81 234.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/15/SKRP-1370722.pdf"
-			(at 384.81 237.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface Mount Tactile Switch, SPST, 50mA, 12V, 6.2x6.2mm"
-			(at 384.81 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SKRPACE010"
-			(at 384.81 239.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ALPS Alpine"
-			(at 384.81 242.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 384.81 244.856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Łukasz Nowarkiewicz"
-			(at 384.81 247.396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "TACT_SW"
-			(at 384.81 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "528056ee-0eb7-44d5-81da-517c42734cad")
-		)
-		(pin "1"
-			(uuid "3bbb475c-5127-4c30-9596-e64f170b9e89")
-		)
-		(pin "2"
-			(uuid "a915d8f5-63c7-42b2-8c44-caa2c8782362")
-		)
-		(pin "4"
-			(uuid "72e6c07d-09f5-4d9c-bf77-dcc1e2775020")
-		)
-		(instances
-			(project "HSSM-LVPCB"
-				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -22096,6 +22247,213 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:SW_angle_434331045822")
+		(at 298.45 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb95cf48-f141-4f3d-ad79-5a59ac8df277")
+		(property "Reference" "S1"
+			(at 298.45 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "434331045822"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:434331045822"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Electronics"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "4.7*3.5mm side push type,SMT, height 1.65mm, black actuator, 220gf, T&R"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "H" "1.65mm"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "QTY" "3300"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=snap"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/434331045822.pdf"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "434331045822"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" "434331045822"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OPERATION-FORCE" "220g"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/434331045822/Wurth+Electronics/view-part/?ref=eda"
+			(at 298.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b07acc5-b559-46c3-83b9-9b8f47474069")
+		)
+		(pin "1"
+			(uuid "55dd7bfc-d8d8-4a26-8224-ed04ed025457")
+		)
+		(pin "4"
+			(uuid "0a8fec93-6e12-4ef4-99c0-51ee3c065bcf")
+		)
+		(pin "3"
+			(uuid "99bff081-d9b1-44be-9f60-1c35b5fd659d")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "S1")
 					(unit 1)
 				)
 			)
