@@ -8469,6 +8469,12 @@
 		(uuid "48286859-94e8-4c3b-83a0-69cf335a967e")
 	)
 	(junction
+		(at 151.13 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49ca8f45-37c2-444c-a029-dda7236c2247")
+	)
+	(junction
 		(at 312.42 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8535,6 +8541,12 @@
 		(uuid "c1dd935d-7039-4f3c-8328-482b4018e480")
 	)
 	(junction
+		(at 151.13 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcd3b6bb-8456-46b1-916e-086672161402")
+	)
+	(junction
 		(at 321.31 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8560,7 +8572,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 219.71) (xy 160.02 219.71)
+			(xy 142.24 219.71) (xy 151.13 219.71)
 		)
 		(stroke
 			(width 0)
@@ -9020,6 +9032,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 231.14) (xy 151.13 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c75f9ea-5538-4c1a-9485-6657ad1382e2")
+	)
+	(wire
+		(pts
 			(xy 80.01 123.19) (xy 80.01 124.46)
 		)
 		(stroke
@@ -9047,6 +9069,16 @@
 			(type default)
 		)
 		(uuid "2fcbd650-65ed-40d6-89e6-0369dceb3e64")
+	)
+	(wire
+		(pts
+			(xy 151.13 243.84) (xy 160.02 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fcc05b3-7ae8-494d-b95f-f46f3fae7d16")
 	)
 	(wire
 		(pts
@@ -9540,6 +9572,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 219.71) (xy 160.02 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58299525-65d7-4e27-835e-2c333bc2a03a")
+	)
+	(wire
+		(pts
 			(xy 392.43 212.09) (xy 377.19 212.09)
 		)
 		(stroke
@@ -9787,6 +9829,16 @@
 			(type default)
 		)
 		(uuid "6e215bcf-94e5-4a1e-af4f-e8ef0e115d0e")
+	)
+	(wire
+		(pts
+			(xy 151.13 215.9) (xy 151.13 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e726e08-fb9f-4679-9462-b1114f0fc9fd")
 	)
 	(wire
 		(pts
@@ -10340,6 +10392,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 208.28) (xy 151.13 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7533fb6-3df4-475b-9192-28c2b257e4c9")
+	)
+	(wire
+		(pts
 			(xy 196.85 121.92) (xy 204.47 121.92)
 		)
 		(stroke
@@ -10587,6 +10649,16 @@
 			(type default)
 		)
 		(uuid "bb7dde0d-55f9-4a65-bad0-f5155d2d4435")
+	)
+	(wire
+		(pts
+			(xy 151.13 238.76) (xy 151.13 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfbe7ce-ce55-4459-b5f5-13d95330d648")
 	)
 	(wire
 		(pts
@@ -10990,7 +11062,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 243.84) (xy 160.02 243.84)
+			(xy 142.24 243.84) (xy 151.13 243.84)
 		)
 		(stroke
 			(width 0)
@@ -11710,7 +11782,7 @@
 		(uuid "4ef2fcd1-f0f6-4271-b139-ce61ddf4f62c")
 	)
 	(label "DTR"
-		(at 153.67 219.71 0)
+		(at 142.24 219.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11941,7 +12013,7 @@
 		(uuid "9503feff-82b7-4b06-80e8-a93152f37bfe")
 	)
 	(label "RTS"
-		(at 153.67 243.84 0)
+		(at 142.24 243.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15625,6 +15697,134 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-LVPCB:R_10k_1pct_0402_RC0402FR-0710KL")
+		(at 151.13 236.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41c143a3-fe05-4e91-bf91-44a0a582cda7")
+		(property "Reference" "R21"
+			(at 153.67 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_10k_1pct_0402_RC0402FR-0710KL"
+			(at 159.004 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:R_0402"
+			(at 161.544 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 164.084 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Thick Film Resistor, 10kΩ, ±1%, 0.063W, 0402"
+			(at 151.13 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 166.624 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 169.164 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 171.704 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 174.244 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10kΩ"
+			(at 153.67 237.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "8935bd80-8aef-4475-ab26-ff2ec978e310")
+		)
+		(pin "1"
+			(uuid "8e19ad8d-b68e-4094-b9cb-8a8f2a4e0c2b")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 298.45 231.14 0)
 		(unit 1)
@@ -15876,6 +16076,72 @@
 			(project "HSSM-LVPCB"
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 151.13 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49996bc8-100f-4acb-b05a-a243d02b7e2d")
+		(property "Reference" "#PWR026"
+			(at 151.13 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 151.13 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 151.13 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a7333f0-093e-4f9c-8fa4-c9568961f63b")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -17601,6 +17867,72 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 151.13 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6db05b20-68f3-4cbb-bdcd-2dd13a447c58")
+		(property "Reference" "#PWR025"
+			(at 151.13 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 151.13 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 151.13 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8978f7db-a539-47af-a164-ae13537ae28a")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -23121,6 +23453,134 @@
 			(project "HSSM-LVPCB"
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:R_10k_1pct_0402_RC0402FR-0710KL")
+		(at 151.13 213.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e386e631-7ba7-48f7-a95c-53130247ee25")
+		(property "Reference" "R20"
+			(at 153.67 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_10k_1pct_0402_RC0402FR-0710KL"
+			(at 159.004 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:R_0402"
+			(at 161.544 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 164.084 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Thick Film Resistor, 10kΩ, ±1%, 0.063W, 0402"
+			(at 151.13 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 166.624 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 169.164 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 171.704 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 174.244 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10kΩ"
+			(at 153.67 214.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "a7857cac-f906-4150-9853-f71069a7fc51")
+		)
+		(pin "1"
+			(uuid "8f9b11bf-6b3b-4e5e-a40f-d74ef29d3408")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "R20")
 					(unit 1)
 				)
 			)
