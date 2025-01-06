@@ -10469,16 +10469,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 59.69) (xy 280.67 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "287179f4-356b-486d-9985-990a842b4753")
-	)
-	(wire
-		(pts
 			(xy 354.33 153.67) (xy 363.22 153.67)
 		)
 		(stroke
@@ -11029,6 +11019,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 59.69) (xy 259.08 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fe79ab-70d9-4d74-8e33-7939f4345f90")
+	)
+	(wire
+		(pts
 			(xy 113.03 74.93) (xy 113.03 100.33)
 		)
 		(stroke
@@ -11136,6 +11136,16 @@
 			(type default)
 		)
 		(uuid "665142f3-d3db-4383-9107-c49b1651da63")
+	)
+	(wire
+		(pts
+			(xy 275.59 59.69) (xy 280.67 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6752e344-51fc-4df2-8add-b231ff8908d1")
 	)
 	(wire
 		(pts
@@ -11589,16 +11599,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 59.69) (xy 269.24 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "902ff30b-885b-4f47-b5dd-07b8dc51676f")
-	)
-	(wire
-		(pts
 			(xy 369.57 36.83) (xy 369.57 40.64)
 		)
 		(stroke
@@ -11816,6 +11816,16 @@
 			(type default)
 		)
 		(uuid "ac11cef6-d6f5-4ee8-ae56-764a4a78bd37")
+	)
+	(wire
+		(pts
+			(xy 266.7 59.69) (xy 270.51 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac965396-1c99-4e61-8c36-c63ba87f81ca")
 	)
 	(wire
 		(pts
@@ -12506,16 +12516,6 @@
 			(type default)
 		)
 		(uuid "e7cfb841-7ebd-499f-9d4e-4fa751e7c40f")
-	)
-	(wire
-		(pts
-			(xy 256.54 59.69) (xy 260.35 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7d9e35d-d901-46ca-8c22-7a98577b2486")
 	)
 	(wire
 		(pts
@@ -19105,7 +19105,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:D_rect_1A_1000V_SOD123_1N4007W")
-		(at 273.05 59.69 180)
+		(at 262.89 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19114,7 +19114,7 @@
 		(fields_autoplaced yes)
 		(uuid "83cb51c9-ec01-415d-97c9-e0288ead60ee")
 		(property "Reference" "D2"
-			(at 273.05 53.34 0)
+			(at 262.89 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19123,7 +19123,7 @@
 			)
 		)
 		(property "Value" "D_rect_1A_1000V_SOD123_1N4007W"
-			(at 273.05 51.816 0)
+			(at 262.89 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19134,7 +19134,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:D_SOD123"
-			(at 273.05 49.276 0)
+			(at 262.89 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19145,7 +19145,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6440/1N4007W.pdf"
-			(at 273.05 46.736 0)
+			(at 262.89 46.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19156,7 +19156,7 @@
 			)
 		)
 		(property "Description" "Rectifier Diode, 1A, 1000V, SOD123, 1N4007W"
-			(at 273.05 59.69 0)
+			(at 262.89 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19165,7 +19165,7 @@
 			)
 		)
 		(property "MPN" "1N4007W"
-			(at 273.05 44.196 0)
+			(at 262.89 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19176,7 +19176,7 @@
 			)
 		)
 		(property "Manufacturer" "EVVOSEMI"
-			(at 273.05 41.656 0)
+			(at 262.89 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19187,7 +19187,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 273.05 39.116 0)
+			(at 262.89 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19197,7 +19197,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 273.05 36.576 0)
+			(at 262.89 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19207,7 +19207,7 @@
 			)
 		)
 		(property "Val" "1A 1000V"
-			(at 273.05 55.88 0)
+			(at 262.89 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23890,7 +23890,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_10_5pct_Axial_RR02J10RTB")
-		(at 262.89 59.69 0)
+		(at 273.05 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23899,7 +23899,7 @@
 		(fields_autoplaced yes)
 		(uuid "d748e6b7-8a92-4ee5-b341-cdbcea4adea3")
 		(property "Reference" "R9"
-			(at 262.89 53.34 0)
+			(at 273.05 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23908,7 +23908,7 @@
 			)
 		)
 		(property "Value" "R_10_5pct_Axial_RR02J10RTB"
-			(at 262.89 67.564 0)
+			(at 273.05 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23919,7 +23919,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 262.89 70.104 0)
+			(at 273.05 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23930,7 +23930,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/usa-en/product-3-1879352-7.datasheet.pdf"
-			(at 262.89 72.644 0)
+			(at 273.05 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23941,7 +23941,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor, 10Ω, ±5%, 0402, RR02J10RTB"
-			(at 262.89 59.69 0)
+			(at 273.05 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23950,7 +23950,7 @@
 			)
 		)
 		(property "MPN" "RR02J10RTB"
-			(at 262.89 75.184 0)
+			(at 273.05 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23961,7 +23961,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity"
-			(at 262.89 77.724 0)
+			(at 273.05 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23972,7 +23972,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 262.89 80.264 0)
+			(at 273.05 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23982,7 +23982,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 262.89 82.804 0)
+			(at 273.05 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23992,7 +23992,7 @@
 			)
 		)
 		(property "Val" "10"
-			(at 262.89 55.88 0)
+			(at 273.05 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
