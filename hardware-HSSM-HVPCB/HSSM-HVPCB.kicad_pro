@@ -443,7 +443,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "HSSM-HVPCB"
+    ],
     "pinned_symbol_libs": [
       "HSSM-HVPCB"
     ]

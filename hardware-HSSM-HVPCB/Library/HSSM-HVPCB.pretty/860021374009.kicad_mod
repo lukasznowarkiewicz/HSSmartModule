@@ -1718,8 +1718,20 @@
 		(uuid "c605e50c-0020-44b7-9271-6776795f5350")
 	)
 	(model "${KIPRJMOD}/Library/HSSM-HVPCB.pretty/step/860021374009.stp"
+		(hide yes)
 		(offset
 			(xyz 1.8 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+	(model "${KIPRJMOD}/Library/HSSM-HVPCB.pretty/step/860021374009_bend.step"
+		(offset
+			(xyz 1.75 0 10)
 		)
 		(scale
 			(xyz 1 1 1)
