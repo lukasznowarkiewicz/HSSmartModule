@@ -2188,7 +2188,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HSSM-HVPCB:885012107018"
 			(at 0 0 0)
 			(effects
 				(font
