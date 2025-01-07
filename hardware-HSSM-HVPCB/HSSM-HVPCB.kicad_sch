@@ -852,189 +852,6 @@
 				)
 			)
 		)
-		(symbol "HSSM-HVPCB:C_10uF_10pct_25V_1206_CC1206KKX7R8BB106"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "C_10uF_10pct_25V_1206_CC1206KKX7R8BB106"
-				(at 0 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "HSSM-HVPCB:C_1206"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-				(at 0 -12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Ceramic Capacitor, 10µF, ±10%, 25V, X7R, 1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CC1206KKX7R8BB106"
-				(at 0 -15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Yageo"
-				(at 0 -18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 0 -20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Lukasz Nowarkiewicz"
-				(at 0 -23.114 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "10µF"
-				(at 0 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "Capacitor, Ceramic, SMD, 10µF, 25V, X7R, 1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_10uF_10pct_25V_1206_CC1206KKX7R8BB106_0_1"
-				(polyline
-					(pts
-						(xy -0.508 -1.524) (xy -0.508 1.524)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.524) (xy 0.508 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_10uF_10pct_25V_1206_CC1206KKX7R8BB106_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "HSSM-HVPCB:C_10u_10pct_25V_0603_GRM188R61E106KA73D"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -1584,56 +1401,32 @@
 				)
 			)
 		)
-		(symbol "HSSM-HVPCB:C_4u7_20pct_50V_1206_EMK316BJ475ML"
-			(pin_numbers hide)
-			(pin_names hide)
+		(symbol "HSSM-HVPCB:C_4u7_20_pct_25V_0805_885012107018"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0 -3.048 0)
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
-					(justify left bottom)
+					(justify bottom)
 				)
 			)
-			(property "Value" "C_4u7_20pct_50V_1206_EMK316BJ475ML"
-				(at 0 -7.874 0)
+			(property "Value" "WCAP-CSGP_0805_H1.25"
+				(at 1.27 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
-					(justify left bottom)
-					(hide yes)
+					(justify bottom)
 				)
 			)
-			(property "Footprint" "HSSM-HVPCB:C_1206"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=EMK316BJ475ML-T%20%20&u=M"
-				(at 0 -12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Ceramic Capacitor, 4.7µF, ±20%, 50V, X7R, 1206"
+			(property "Footprint" "HSSM-HVPCB:885012107018"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1642,58 +1435,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "EMK316BJ475ML"
-				(at 0 -15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Taiyo Yuden"
-				(at 0 -18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 0 -20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Lukasz Nowarkiewicz"
-				(at 0 -23.114 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "4.7µF"
-				(at 0 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "Capacitor, Ceramic, SMD, 4.7µF, 50V, X7R, 1206"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1702,65 +1444,176 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_4u7_20pct_50V_1206_EMK316BJ475ML_0_1"
-				(polyline
-					(pts
-						(xy -0.508 -1.524) (xy -0.508 1.524)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.524) (xy 0.508 1.524)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
 			)
-			(symbol "C_4u7_20pct_50V_1206_EMK316BJ475ML_1_1"
+			(property "Manufacturer" "Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            WCAP-CSGP General Purpose MLCC; SMT 0805; X5R; 4.7?F  20%; 25V; -55C to +85C; Tech. PN X5R0805475M025DFCT10000\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "0805 Wurth Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/885012107018/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "885012107018"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/885012107018/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "C_4u7_20_pct_25V_0805_885012107018_0_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.6426 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.9279 0) (xy 2.5705 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at -2.54 0 0)
-					(length 2.032)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
-					(length 2.032)
+					(at 5.08 0 180)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -10085,6 +9938,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 242.57) (xy 100.33 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007820f7-6423-4e30-b377-ee7863c8b0e9")
+	)
+	(wire
+		(pts
 			(xy 166.37 35.56) (xy 177.8 35.56)
 		)
 		(stroke
@@ -10332,16 +10195,6 @@
 			(type default)
 		)
 		(uuid "153abca5-52de-4013-849e-1d3ee25d05a5")
-	)
-	(wire
-		(pts
-			(xy 100.33 240.03) (xy 100.33 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17e4af6e-3ad0-40f4-b2fd-3763f932f821")
 	)
 	(wire
 		(pts
@@ -13326,134 +13179,6 @@
 		(uuid "ed3b90ff-33b5-4c86-ae10-9dfe4873cb80")
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:C_10uF_10pct_25V_1206_CC1206KKX7R8BB106")
-		(at 151.13 238.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00d956bd-6e8c-48b8-a10f-6f117d8ccf07")
-		(property "Reference" "C18"
-			(at 153.67 237.4836 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_10uF_10pct_25V_1206_CC1206KKX7R8BB106"
-			(at 159.004 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:C_1206"
-			(at 161.544 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 164.084 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Ceramic Capacitor, 10µF, ±10%, 25V, X7R, 1206"
-			(at 151.13 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC1206KKX7R8BB106"
-			(at 166.624 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 169.164 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 171.704 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 174.244 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10µF"
-			(at 153.67 240.0235 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "3f449630-bf15-408d-b9b8-dd6086066d70")
-		)
-		(pin "1"
-			(uuid "3efd4665-a14c-40a3-aa7f-ae563b81094c")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HSSM-HVPCB:power_meter_CS5480-INZ")
 		(at 167.64 72.39 0)
 		(unit 1)
@@ -15831,7 +15556,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 241.3 0)
+		(at 100.33 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15840,7 +15565,7 @@
 		(fields_autoplaced yes)
 		(uuid "31cc19fd-79b5-49b3-ae07-0128be26148b")
 		(property "Reference" "#PWR065"
-			(at 100.33 247.65 0)
+			(at 100.33 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15849,7 +15574,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 246.38 0)
+			(at 100.33 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15857,7 +15582,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 241.3 0)
+			(at 100.33 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15866,7 +15591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 241.3 0)
+			(at 100.33 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15875,7 +15600,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 241.3 0)
+			(at 100.33 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16544,6 +16269,134 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-HVPCB:C_10u_10pct_25V_0603_GRM188R61E106KA73D")
+		(at 161.29 238.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "409fdaf7-b41f-436a-b183-25845eff9b8c")
+		(property "Reference" "C18"
+			(at 163.83 237.4836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_10u_10pct_25V_0603_GRM188R61E106KA73D"
+			(at 169.164 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:C_0603"
+			(at 171.704 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM188R61E106KA73_01A-1985831.pdf"
+			(at 174.244 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Ceramic Capacitor, 10 µF, ±10%, 25V, X5R, 0603"
+			(at 161.29 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R61E106KA73D"
+			(at 176.784 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 179.324 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 181.864 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 184.404 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10u"
+			(at 163.83 240.0235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "27793589-b1ad-484f-9833-4e061b92c38c")
+		)
+		(pin "1"
+			(uuid "70482038-7222-4c49-a3b8-272374f69217")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 386.08 73.66 0)
 		(unit 1)
@@ -17061,6 +16914,134 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-HVPCB:C_10u_10pct_25V_0603_GRM188R61E106KA73D")
+		(at 151.13 238.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cb63fd0-00e2-475d-9b0c-650369b0c38c")
+		(property "Reference" "C17"
+			(at 153.67 237.4836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_10u_10pct_25V_0603_GRM188R61E106KA73D"
+			(at 159.004 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:C_0603"
+			(at 161.544 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM188R61E106KA73_01A-1985831.pdf"
+			(at 164.084 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Ceramic Capacitor, 10 µF, ±10%, 25V, X5R, 0603"
+			(at 151.13 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R61E106KA73D"
+			(at 166.624 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 169.164 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 171.704 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 174.244 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10u"
+			(at 153.67 240.0235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "40a39847-8273-4397-848c-329c491f4957")
+		)
+		(pin "1"
+			(uuid "3edc2712-7c8e-4748-8a61-1b8d93866b6b")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 64.77 176.53 0)
 		(unit 1)
@@ -17357,134 +17338,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-HVPCB:C_4u7_20pct_50V_1206_EMK316BJ475ML")
-		(at 100.33 237.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a38b758-9a5a-4c50-a37e-985030195153")
-		(property "Reference" "C15"
-			(at 102.87 236.2136 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_4u7_20pct_50V_1206_EMK316BJ475ML"
-			(at 108.204 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:C_1206"
-			(at 110.744 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=EMK316BJ475ML-T%20%20&u=M"
-			(at 113.284 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Ceramic Capacitor, 4.7µF, ±20%, 50V, X7R, 1206"
-			(at 100.33 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "EMK316BJ475ML"
-			(at 115.824 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Taiyo Yuden"
-			(at 118.364 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 120.904 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 123.444 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4.7µF"
-			(at 102.87 238.7535 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "72934261-607d-4f88-8483-227b57d147e0")
-		)
-		(pin "1"
-			(uuid "a49ee9a1-024c-4d6a-9df1-57f18a1a2240")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -18976,6 +18829,155 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:C_4u7_20_pct_25V_0805_885012107018")
+		(at 100.33 240.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "712c553d-3c8d-4be1-9b3d-831e2568148a")
+		(property "Reference" "C19"
+			(at 104.14 237.4746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "WCAP-CSGP_0805_H1.25"
+			(at 95.504 230.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:885012107018"
+			(at 100.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 100.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            WCAP-CSGP General Purpose MLCC; SMT 0805; X5R; 4.7?F  20%; 25V; -55C to +85C; Tech. PN X5R0805475M025DFCT10000\n                        \n"
+			(at 100.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805 Wurth Electronics"
+			(at 100.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 100.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/885012107018/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 100.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "885012107018"
+			(at 100.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 100.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/885012107018/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 100.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "287301a4-f84b-4143-a491-de5435830661")
+		)
+		(pin "2"
+			(uuid "ff443641-bf38-4c82-a85c-4d634ae11b96")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -21074,134 +21076,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-HVPCB:C_10uF_10pct_25V_1206_CC1206KKX7R8BB106")
-		(at 161.29 238.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c2027b9-ad6d-47bb-9f27-72a4d19b8469")
-		(property "Reference" "C19"
-			(at 163.83 237.4836 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_10uF_10pct_25V_1206_CC1206KKX7R8BB106"
-			(at 169.164 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:C_1206"
-			(at 171.704 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 174.244 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Ceramic Capacitor, 10µF, ±10%, 25V, X7R, 1206"
-			(at 161.29 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC1206KKX7R8BB106"
-			(at 176.784 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 179.324 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 181.864 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 184.404 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "10µF"
-			(at 163.83 240.0235 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "3f449630-bf15-408d-b9b8-dd6086066d71")
-		)
-		(pin "1"
-			(uuid "3efd4665-a14c-40a3-aa7f-ae563b81094d")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "C19")
 					(unit 1)
 				)
 			)
