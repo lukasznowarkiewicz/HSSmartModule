@@ -10541,7 +10541,7 @@
 				)
 			)
 		)
-		(property "Value" "LCM0207B03908JBP00"
+		(property "Value" "3R9 5% 1/4W"
 			(at 1.016 -3.048 0)
 			(effects
 				(font
@@ -10549,7 +10549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LCM0207B03908JBP00"
+		(property "Footprint" "HSSM-HVPCB:LCM0207B03908JBP00"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10584,6 +10584,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MPN" "LCM0207B03908JBP00"
@@ -10592,6 +10593,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "LCM0207B03908JBP00"
