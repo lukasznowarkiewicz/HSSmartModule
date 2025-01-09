@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:FFC_solder_connector_16pos"
+		(property "Footprint" "HSSM-FCB:FFC_solder_connector_16pos"
 			(at 0 5.08 0)
 			(effects
 				(font
