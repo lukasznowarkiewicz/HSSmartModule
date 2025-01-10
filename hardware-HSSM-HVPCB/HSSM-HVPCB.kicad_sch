@@ -12889,6 +12889,380 @@
 		)
 		(uuid "fc9d842d-6151-4658-9364-ee14f4cb2f4b")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 265.43 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fa59f01-850b-45db-8324-6e5a9e5c8e2c")
+		(property "Netclass" "230VAC"
+			(at 265.43 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 337.82 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49622073-3009-42f5-97c7-903b6523c9a4")
+		(property "Netclass" "230VAC"
+			(at 337.82 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 63.5 87.63 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59447060-da04-4998-a645-373722d0c340")
+		(property "Netclass" "230VAC"
+			(at 59.436 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 252.73 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a598290-6d43-429a-8019-8b9f3fcadc21")
+		(property "Netclass" "230VAC"
+			(at 252.73 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 68.58 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62fa6714-5a66-47db-9080-b328ee24db91")
+		(property "Netclass" "230VAC"
+			(at 68.58 249.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 332.74 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70e3f2fd-0347-4fe0-84d1-22f742a451fc")
+		(property "Netclass" "230VAC"
+			(at 332.74 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 63.5 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7340786c-9cb4-46d1-b651-4c2709a1c9f8")
+		(property "Netclass" "230VAC"
+			(at 59.436 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 252.73 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73bae0b3-723f-44e4-adac-16fc075fd99a")
+		(property "Netclass" "230VAC"
+			(at 256.286 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 55.88 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a219193-54c3-49fc-bfa1-9bc119f81e00")
+		(property "Netclass" "230VAC"
+			(at 55.88 249.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 34.29 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a328d99-1ed6-40b9-afb6-754d13b01680")
+		(property "Netclass" "230VAC"
+			(at 34.29 249.936 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 311.15 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85e887d5-ab98-4cbf-9f28-673f9a4c4b11")
+		(property "Netclass" "230VAC"
+			(at 311.15 79.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 298.45 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88dbc6af-08a9-4ca2-923f-088f1514909b")
+		(property "Netclass" "230VAC"
+			(at 298.45 79.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 298.45 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ec35862-4b44-4906-a0b2-8046ef2c0174")
+		(property "Netclass" "230VAC"
+			(at 301.498 93.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 349.25 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e4d5882-a78a-4ed4-9fee-8b6e4dcd323c")
+		(property "Netclass" "230VAC"
+			(at 349.25 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 63.5 95.25 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba7014d5-6d18-48d2-a747-f12ce46f38a5")
+		(property "Netclass" "230VAC"
+			(at 59.436 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 63.5 102.87 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc57edd8-0c17-4b6a-a390-2e444eeee381")
+		(property "Netclass" "230VAC"
+			(at 59.436 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 78.74 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc83f1d0-70cb-4a05-be16-0296a40c75b8")
+		(property "Netclass" "230VAC"
+			(at 76.962 249.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "HSSM-HVPCB:power_meter_CS5480-INZ")
 		(at 129.54 69.85 0)

@@ -472,13 +472,46 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "high_voltage",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {
+      "AC_L": "rgb(0, 255, 255)",
+      "AC_N": "rgb(0, 255, 0)"
+    },
+    "netclass_assignments": {
+      "AC_N": "230VAC",
+      "Net-(D2-A)": "230VAC",
+      "Net-(D2-K)": "230VAC",
+      "Net-(R11-Pad1)": "230VAC",
+      "Net-(R14-Pad2)": "230VAC",
+      "Net-(R19-Pad1)": "230VAC",
+      "Net-(R20-Pad1)": "230VAC",
+      "Net-(R21-Pad1)": "230VAC",
+      "Net-(U1-D)": "230VAC",
+      "Net-(U3-A)": "230VAC",
+      "Net-(U4-A)": "230VAC",
+      "Net-(U5-A)": "230VAC"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
