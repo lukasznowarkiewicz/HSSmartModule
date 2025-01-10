@@ -9,3 +9,8 @@
 	(constraint clearance (min 1mm))
 	(condition "B.Layer == 'In1.Cu' || B.Layer =='In2.Cu' && A.Type =='Pad' && B.Type == 'Track' && B.NetClass == '230VAC'")
 )
+
+(rule "Internal Layer Clearance for 230VAC for tracks"
+	(constraint clearance (min 1mm))
+	(condition "B.Layer == 'In1.Cu' || B.Layer =='In2.Cu' && A.Type =='Via' && B.Type == 'Track' && B.NetClass == '230VAC'")
+)
