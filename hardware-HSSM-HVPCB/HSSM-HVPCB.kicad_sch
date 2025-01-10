@@ -12996,6 +12996,28 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 288.29 142.24 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02690037-b128-41ca-95bd-60cc64fc1f0e")
+		(property "Netclass" "230VAC"
+			(at 292.354 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 287.02 83.82 0)
 		(effects
 			(font
@@ -13006,6 +13028,28 @@
 		(uuid "12114584-6bca-4220-813d-87c53bf67f3e")
 		(property "Netclass" "230VAC"
 			(at 287.02 79.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 363.22 143.51 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16a5e268-f373-4c8e-843d-e27e360a0061")
+		(property "Netclass" "230VAC"
+			(at 367.284 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
