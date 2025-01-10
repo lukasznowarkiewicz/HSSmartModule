@@ -9818,7 +9818,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 138.43) (xy 363.22 139.7)
+			(xy 363.22 128.27) (xy 363.22 134.62)
 		)
 		(stroke
 			(width 0)
@@ -10018,7 +10018,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 146.05) (xy 363.22 147.32)
+			(xy 363.22 140.97) (xy 363.22 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10108,7 +10108,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 137.16) (xy 288.29 138.43)
+			(xy 288.29 127) (xy 288.29 133.35)
 		)
 		(stroke
 			(width 0)
@@ -10148,7 +10148,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 146.05) (xy 364.49 146.05)
+			(xy 363.22 140.97) (xy 364.49 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10618,7 +10618,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 139.7) (xy 364.49 139.7)
+			(xy 363.22 134.62) (xy 364.49 134.62)
 		)
 		(stroke
 			(width 0)
@@ -11028,7 +11028,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 144.78) (xy 290.83 144.78)
+			(xy 288.29 139.7) (xy 290.83 139.7)
 		)
 		(stroke
 			(width 0)
@@ -11215,16 +11215,6 @@
 			(type default)
 		)
 		(uuid "8ced30e5-96e9-4c8d-b4bb-55c4102c0b8c")
-	)
-	(wire
-		(pts
-			(xy 288.29 144.78) (xy 288.29 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d960247-fcd5-479d-99fa-82d93584543c")
 	)
 	(wire
 		(pts
@@ -11455,6 +11445,16 @@
 			(type default)
 		)
 		(uuid "a68e0c0c-e8cc-4b21-b296-43cd2e5c8b40")
+	)
+	(wire
+		(pts
+			(xy 288.29 139.7) (xy 288.29 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a969ba46-da4b-4471-b026-5b921b33bb19")
 	)
 	(wire
 		(pts
@@ -12128,7 +12128,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 138.43) (xy 290.83 138.43)
+			(xy 288.29 133.35) (xy 290.83 133.35)
 		)
 		(stroke
 			(width 0)
@@ -12892,6 +12892,28 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 363.22 129.54 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04de525e-f872-4665-8480-ef8d04e406d1")
+		(property "Netclass" "high_current"
+			(at 367.284 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 265.43 48.26 0)
 		(effects
 			(font
@@ -12902,6 +12924,28 @@
 		(uuid "1fa59f01-850b-45db-8324-6e5a9e5c8e2c")
 		(property "Netclass" "230VAC"
 			(at 265.43 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 363.22 172.72 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c3e2939-5164-4040-9d5a-a8510fe4e0c4")
+		(property "Netclass" "high_current"
+			(at 367.284 172.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13178,6 +13222,28 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 363.22 146.05 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95955d20-6bc2-4f20-9376-db5c4d932ee4")
+		(property "Netclass" "high_current"
+			(at 367.284 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 349.25 48.26 0)
 		(effects
 			(font
@@ -13188,6 +13254,50 @@
 		(uuid "9e4d5882-a78a-4ed4-9fee-8b6e4dcd323c")
 		(property "Netclass" "230VAC"
 			(at 349.25 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 288.29 128.27 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2e23390-07fe-4ad2-b3f1-73eae4739bf2")
+		(property "Netclass" "high_current"
+			(at 292.354 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 288.29 144.78 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a390308e-0e3f-45ce-907a-78ad3a76e23b")
+		(property "Netclass" "high_current"
+			(at 292.354 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13254,6 +13364,28 @@
 		(uuid "dc83f1d0-70cb-4a05-be16-0296a40c75b8")
 		(property "Netclass" "230VAC"
 			(at 76.962 249.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 288.29 171.45 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed2d8547-97e9-4d41-9ccf-b0d9994f49ef")
+		(property "Netclass" "high_current"
+			(at 292.354 171.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15070,7 +15202,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 288.29 137.16 0)
+		(at 288.29 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15079,7 +15211,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b7d9c85-b998-4b13-ad30-d3527adae018")
 		(property "Reference" "#PWR016"
-			(at 288.29 139.7 0)
+			(at 288.29 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15088,7 +15220,7 @@
 			)
 		)
 		(property "Value" "AC_L"
-			(at 288.29 129.54 0)
+			(at 288.29 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15096,7 +15228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 137.16 0)
+			(at 288.29 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15105,7 +15237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 137.16 0)
+			(at 288.29 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15114,7 +15246,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 288.29 137.16 0)
+			(at 288.29 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17498,7 +17630,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 364.49 146.05 270)
+		(at 364.49 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17507,7 +17639,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b82b6eb-4704-4fdf-9e19-cf8faabb5f18")
 		(property "Reference" "#PWR052"
-			(at 361.95 146.05 0)
+			(at 361.95 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17516,7 +17648,7 @@
 			)
 		)
 		(property "Value" "AC_Q2_SHNT2"
-			(at 370.84 146.0499 90)
+			(at 370.84 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17525,7 +17657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 364.49 146.05 0)
+			(at 364.49 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17534,7 +17666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 364.49 146.05 0)
+			(at 364.49 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17543,7 +17675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 364.49 146.05 0)
+			(at 364.49 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19333,7 +19465,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 364.49 139.7 270)
+		(at 364.49 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19342,7 +19474,7 @@
 		(fields_autoplaced yes)
 		(uuid "79164658-8d4c-4581-8c6b-e19f2a92804b")
 		(property "Reference" "#PWR051"
-			(at 361.95 139.7 0)
+			(at 361.95 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19351,7 +19483,7 @@
 			)
 		)
 		(property "Value" "AC_Q2_SHNT1"
-			(at 370.84 139.6999 90)
+			(at 370.84 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19360,7 +19492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 364.49 139.7 0)
+			(at 364.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19369,7 +19501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 364.49 139.7 0)
+			(at 364.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19378,7 +19510,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 364.49 139.7 0)
+			(at 364.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19527,7 +19659,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 363.22 138.43 0)
+		(at 363.22 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19536,7 +19668,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d9fb2cf-c050-4aae-bc2b-3b175b232d7e")
 		(property "Reference" "#PWR018"
-			(at 363.22 140.97 0)
+			(at 363.22 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19545,7 +19677,7 @@
 			)
 		)
 		(property "Value" "AC_L"
-			(at 363.22 130.81 0)
+			(at 363.22 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19553,7 +19685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 138.43 0)
+			(at 363.22 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19562,7 +19694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 138.43 0)
+			(at 363.22 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19571,7 +19703,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 363.22 138.43 0)
+			(at 363.22 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19807,7 +19939,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 290.83 144.78 270)
+		(at 290.83 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19816,7 +19948,7 @@
 		(fields_autoplaced yes)
 		(uuid "8727d68c-109f-483e-9666-6cb58433b06d")
 		(property "Reference" "#PWR045"
-			(at 288.29 144.78 0)
+			(at 288.29 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19825,7 +19957,7 @@
 			)
 		)
 		(property "Value" "AC_Q1_SHNT2"
-			(at 297.18 144.7799 90)
+			(at 297.18 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19834,7 +19966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 290.83 144.78 0)
+			(at 290.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19843,7 +19975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 144.78 0)
+			(at 290.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19852,7 +19984,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 290.83 144.78 0)
+			(at 290.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22534,7 +22666,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 290.83 138.43 270)
+		(at 290.83 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22543,7 +22675,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0d47b13-30a8-4e49-bde0-241f7cf49254")
 		(property "Reference" "#PWR044"
-			(at 288.29 138.43 0)
+			(at 288.29 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22552,7 +22684,7 @@
 			)
 		)
 		(property "Value" "AC_Q1_SHNT1"
-			(at 297.18 138.4299 90)
+			(at 297.18 133.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22561,7 +22693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 290.83 138.43 0)
+			(at 290.83 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22570,7 +22702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 138.43 0)
+			(at 290.83 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22579,7 +22711,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 290.83 138.43 0)
+			(at 290.83 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)

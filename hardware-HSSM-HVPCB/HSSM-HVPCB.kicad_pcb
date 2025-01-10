@@ -19048,7 +19048,7 @@
 		)
 		(fp_arc
 			(start 0.723713 -1.475)
-			(mid 0.776931 -1.452903)
+			(mid 0.77695 -1.452914)
 			(end 0.799455 -1.399868)
 			(stroke
 				(width 0.127)
@@ -19059,7 +19059,7 @@
 		)
 		(fp_arc
 			(start 0.799455 1.37084)
-			(mid 0.776923 1.423875)
+			(mid 0.776921 1.423872)
 			(end 0.723714 1.445998)
 			(stroke
 				(width 0.127)
@@ -27041,7 +27041,7 @@
 	(segment
 		(start 166 123.1)
 		(end 169.444999 123.1)
-		(width 1.4)
+		(width 2)
 		(layer "B.Cu")
 		(net 31)
 		(uuid "39b715b5-5a2c-4b13-be5e-a03395bbfa3e")
@@ -27049,7 +27049,7 @@
 	(segment
 		(start 165.104904 123.995096)
 		(end 166 123.1)
-		(width 1.4)
+		(width 2)
 		(layer "B.Cu")
 		(net 31)
 		(uuid "94780281-53f1-40d1-9fa4-d072fdec8b43")
@@ -27057,7 +27057,7 @@
 	(segment
 		(start 169.444999 123.1)
 		(end 172 120.544999)
-		(width 1.4)
+		(width 2)
 		(layer "B.Cu")
 		(net 31)
 		(uuid "a45eacbd-7ae6-4cc2-896a-f296ce0f1df9")
@@ -27065,7 +27065,7 @@
 	(segment
 		(start 165.104904 124)
 		(end 165.104904 123.995096)
-		(width 1.4)
+		(width 2)
 		(layer "B.Cu")
 		(net 31)
 		(uuid "b6d9ced9-8490-4d18-bd63-4b7786ecbfd6")
