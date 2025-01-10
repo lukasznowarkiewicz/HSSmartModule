@@ -458,7 +458,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -534,7 +534,7 @@
       "Net-(R21-Pad1)": "230VAC",
       "Net-(U1-D)": "230VAC",
       "Net-(U3-A)": "230VAC",
-      "Net-(U4-A)": "230VAC",
+      "Net-(U4-K)": "230VAC",
       "Net-(U5-A)": "230VAC"
     },
     "netclass_patterns": []
