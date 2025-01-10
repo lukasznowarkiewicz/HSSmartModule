@@ -12996,16 +12996,16 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 363.22 129.54 270)
+		(at 287.02 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "04de525e-f872-4665-8480-ef8d04e406d1")
-		(property "Netclass" "high_current"
-			(at 367.284 129.286 0)
+		(uuid "12114584-6bca-4220-813d-87c53bf67f3e")
+		(property "Netclass" "230VAC"
+			(at 287.02 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13050,6 +13050,28 @@
 		(uuid "2c3e2939-5164-4040-9d5a-a8510fe4e0c4")
 		(property "Netclass" "high_current"
 			(at 367.284 172.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 325.12 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e3bd6f2-2d36-44c3-8740-c39eee3e64ee")
+		(property "Netclass" "230VAC"
+			(at 325.12 44.196 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13414,28 +13436,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 288.29 128.27 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a2e23390-07fe-4ad2-b3f1-73eae4739bf2")
-		(property "Netclass" "high_current"
-			(at 292.354 128.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 288.29 144.78 270)
 		(effects
 			(font
@@ -13534,6 +13534,28 @@
 		(uuid "ed2d8547-97e9-4d41-9ccf-b0d9994f49ef")
 		(property "Netclass" "high_current"
 			(at 292.354 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 242.57 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edd1ca15-18d6-4f94-98b2-d5affa01c631")
+		(property "Netclass" "230VAC"
+			(at 242.57 44.196 90)
 			(effects
 				(font
 					(size 1.27 1.27)
