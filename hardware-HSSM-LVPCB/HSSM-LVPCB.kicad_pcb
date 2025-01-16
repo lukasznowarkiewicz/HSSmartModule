@@ -24390,7 +24390,7 @@
 	)
 	(via
 		(at 148.45 116.8)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24398,7 +24398,7 @@
 	)
 	(via
 		(at 124.4 113.2)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24406,7 +24406,7 @@
 	)
 	(via
 		(at 147.8 119.7)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24414,7 +24414,7 @@
 	)
 	(via
 		(at 150.9 121.25)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24422,7 +24422,7 @@
 	)
 	(via
 		(at 151.1 113.95)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24430,7 +24430,7 @@
 	)
 	(via
 		(at 129.5 117.7)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24438,7 +24438,7 @@
 	)
 	(via
 		(at 151.05 115.45)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24446,7 +24446,7 @@
 	)
 	(via
 		(at 122 113.2)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24454,7 +24454,7 @@
 	)
 	(via
 		(at 148.7 120.6)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24462,7 +24462,7 @@
 	)
 	(via
 		(at 136.65 118.85)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24470,7 +24470,7 @@
 	)
 	(via
 		(at 126.9 117.9)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24478,7 +24478,7 @@
 	)
 	(via
 		(at 147.25 122.25)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24486,7 +24486,7 @@
 	)
 	(via
 		(at 150.95 118.3)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24494,7 +24494,7 @@
 	)
 	(via
 		(at 129.2 114.1)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24502,7 +24502,7 @@
 	)
 	(via
 		(at 120.2 116.3)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24510,7 +24510,7 @@
 	)
 	(via
 		(at 120.4 122.9)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24518,7 +24518,7 @@
 	)
 	(via
 		(at 149.8 121.05)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24526,7 +24526,7 @@
 	)
 	(via
 		(at 139.25 116.35)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24534,7 +24534,7 @@
 	)
 	(via
 		(at 144.9 121.75)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24542,7 +24542,7 @@
 	)
 	(via
 		(at 149.8 118.15)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24550,7 +24550,7 @@
 	)
 	(via
 		(at 149.35 114.12)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -24886,7 +24886,7 @@
 	)
 	(via
 		(at 144.9 120.32)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 5)
@@ -24894,7 +24894,7 @@
 	)
 	(via
 		(at 149.2 112.75)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 5)
@@ -24902,7 +24902,7 @@
 	)
 	(via
 		(at 149.9 115.55)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 5)
@@ -24910,7 +24910,7 @@
 	)
 	(via
 		(at 146.8 119.3)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 5)
@@ -24918,7 +24918,7 @@
 	)
 	(via
 		(at 121.7 116.3)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 5)
@@ -24926,7 +24926,7 @@
 	)
 	(via
 		(at 137.7 114.7)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 5)
@@ -24934,7 +24934,7 @@
 	)
 	(via
 		(at 141.9 121.6)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 5)
@@ -24942,7 +24942,7 @@
 	)
 	(via
 		(at 141.9 121)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 5)
@@ -25142,7 +25142,7 @@
 	)
 	(via
 		(at 146 112.8)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 10)
@@ -25222,7 +25222,7 @@
 	)
 	(via
 		(at 141.15 119.3)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 11)
@@ -25230,7 +25230,7 @@
 	)
 	(via
 		(at 122.6 113.8)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 11)
@@ -25374,7 +25374,7 @@
 	)
 	(via
 		(at 132.9 118.7)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 12)
@@ -25382,7 +25382,7 @@
 	)
 	(via
 		(at 143.85 112.75)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 12)
@@ -25390,7 +25390,7 @@
 	)
 	(via
 		(at 150.2 112.8)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 12)
@@ -25462,7 +25462,7 @@
 	)
 	(via
 		(at 147.95 117.3)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -25582,7 +25582,7 @@
 	)
 	(via
 		(at 140.35 113.35)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 18)
@@ -25678,7 +25678,7 @@
 	)
 	(via
 		(at 140.8 114.7)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 21)
@@ -25686,7 +25686,7 @@
 	)
 	(via
 		(at 131.4 118.5)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 21)
@@ -25814,7 +25814,7 @@
 	)
 	(via
 		(at 140 116)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 23)
@@ -25822,7 +25822,7 @@
 	)
 	(via
 		(at 119.8 119.9)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 23)
@@ -25942,7 +25942,7 @@
 	)
 	(via
 		(at 119.8 118.7)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 25)
@@ -25950,7 +25950,7 @@
 	)
 	(via
 		(at 140.56039 116.46039)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 25)
@@ -26030,7 +26030,7 @@
 	)
 	(via
 		(at 119.8 117.4)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 26)
@@ -26070,7 +26070,7 @@
 	)
 	(via
 		(at 141 117.1)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 27)
@@ -26230,7 +26230,7 @@
 	)
 	(via
 		(at 141.1 112.75)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 31)
@@ -26238,7 +26238,7 @@
 	)
 	(via
 		(at 128.2 121.95)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 31)
@@ -26334,7 +26334,7 @@
 	)
 	(via
 		(at 126.35 117.45)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 32)
@@ -26342,7 +26342,7 @@
 	)
 	(via
 		(at 148.85 113.55)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 32)
@@ -26422,7 +26422,7 @@
 	)
 	(via
 		(at 139.3 114.9)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 33)
@@ -26430,7 +26430,7 @@
 	)
 	(via
 		(at 144.1 121.1)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 33)
@@ -26558,7 +26558,7 @@
 	)
 	(via
 		(at 141.7 113.05)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 35)
@@ -26614,7 +26614,7 @@
 	)
 	(via
 		(at 126.2 116.75)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 36)
@@ -26622,7 +26622,7 @@
 	)
 	(via
 		(at 146.75 113.55)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 36)
@@ -26766,7 +26766,7 @@
 	)
 	(via
 		(at 146.7 114.25)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 40)
@@ -26774,7 +26774,7 @@
 	)
 	(via
 		(at 125.2 116.75)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 40)
@@ -26846,7 +26846,7 @@
 	)
 	(via
 		(at 143.75 120.45)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 42)
@@ -26854,7 +26854,7 @@
 	)
 	(via
 		(at 153.2 114.4)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 42)
@@ -26990,7 +26990,7 @@
 	)
 	(via
 		(at 125.55 121.75)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 44)
@@ -26998,7 +26998,7 @@
 	)
 	(via
 		(at 122.6 114.5)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 44)
@@ -27182,7 +27182,7 @@
 	)
 	(via
 		(at 140.35 115.25)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 48)
@@ -27190,7 +27190,7 @@
 	)
 	(via
 		(at 124.5 122.6)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 48)
@@ -27198,7 +27198,7 @@
 	)
 	(via
 		(at 121.5 121.2)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 48)
@@ -27358,7 +27358,7 @@
 	)
 	(via
 		(at 135.15 118.8)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 54)
@@ -27374,7 +27374,7 @@
 	)
 	(via
 		(at 139.65 119.2)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 55)
@@ -27390,7 +27390,7 @@
 	)
 	(via
 		(at 135.9 118.8)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 56)
@@ -27422,7 +27422,7 @@
 	)
 	(via
 		(at 143.1 112.75)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 57)
@@ -27430,7 +27430,7 @@
 	)
 	(via
 		(at 133.65 118.5)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 57)
@@ -27446,7 +27446,7 @@
 	)
 	(via
 		(at 138.9 119.05)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 58)
@@ -27462,7 +27462,7 @@
 	)
 	(via
 		(at 138.15 118.8)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 59)
@@ -27510,7 +27510,7 @@
 	)
 	(via
 		(at 140.4 119.4)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 60)
@@ -27526,7 +27526,7 @@
 	)
 	(via
 		(at 137.4 118.55)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 62)
@@ -27574,7 +27574,7 @@
 	)
 	(via
 		(at 142.4 112.95)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 63)
@@ -27582,7 +27582,7 @@
 	)
 	(via
 		(at 134.4 118.5)
-		(size 0.5)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 63)
