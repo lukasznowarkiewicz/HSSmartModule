@@ -7790,6 +7790,10 @@
 		(uuid "813d261a-cdd3-4094-a920-9a196aac8d08")
 	)
 	(no_connect
+		(at 104.14 137.16)
+		(uuid "9095803a-be3b-46b4-a0e3-75df402534f6")
+	)
+	(no_connect
 		(at 104.14 142.24)
 		(uuid "9973f4d2-d2ab-4699-8ecb-e1fb17a5c48c")
 	)
@@ -8019,6 +8023,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 165.1) (xy 157.48 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f24d30-cb5d-4884-a277-5c2b0649646e")
+	)
+	(wire
+		(pts
 			(xy 326.39 215.9) (xy 326.39 219.71)
 		)
 		(stroke
@@ -8226,16 +8240,6 @@
 			(type default)
 		)
 		(uuid "2d57d404-2a7b-41a5-a2c7-4eb8339649b3")
-	)
-	(wire
-		(pts
-			(xy 93.98 137.16) (xy 104.14 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ebcbddb-51b1-4f88-a5a0-ff34d27712f6")
 	)
 	(wire
 		(pts
@@ -10553,17 +10557,6 @@
 		)
 		(uuid "46fb27fe-dfcf-4c31-a193-5761227cd9b3")
 	)
-	(label "GPIO3"
-		(at 93.98 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48d13bd2-7ade-4862-befb-b1f6ab554441")
-	)
 	(label "GPIO_Q2"
 		(at 162.56 73.66 270)
 		(fields_autoplaced yes)
@@ -10948,6 +10941,17 @@
 			(justify left bottom)
 		)
 		(uuid "e114821f-b1af-4e78-bfb7-5851a0fe3b8a")
+	)
+	(label "GPIO3"
+		(at 157.48 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea26097a-8932-41fb-be26-7a4e30770b53")
 	)
 	(label "SPIHD"
 		(at 231.14 45.72 180)
