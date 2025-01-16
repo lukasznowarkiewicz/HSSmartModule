@@ -7777,6 +7777,10 @@
 		(color 0 0 0 0)
 		(uuid "f768b747-b650-4079-8f86-4264cdf5b9bf")
 	)
+	(no_connect
+		(at 175.26 111.76)
+		(uuid "68857bd5-cb99-492a-9a15-f417ea7cf8a3")
+	)
 	(wire
 		(pts
 			(xy 142.24 219.71) (xy 151.13 219.71)
@@ -8086,16 +8090,6 @@
 			(type default)
 		)
 		(uuid "1c1eb6c4-082f-4f37-b211-ba37e9994d34")
-	)
-	(wire
-		(pts
-			(xy 137.16 165.1) (xy 137.16 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e87000d-3dfc-426a-b253-617a377300d7")
 	)
 	(wire
 		(pts
@@ -8419,16 +8413,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 165.1) (xy 132.08 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fdfd479-ccda-4645-94fc-b3a8320a473b")
-	)
-	(wire
-		(pts
 			(xy 351.79 212.09) (xy 336.55 212.09)
 		)
 		(stroke
@@ -8646,6 +8630,16 @@
 			(type default)
 		)
 		(uuid "52b1c586-c113-44be-a357-c3d1e8ff2921")
+	)
+	(wire
+		(pts
+			(xy 123.19 176.53) (xy 119.38 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c431a7-e87c-4ed7-852d-8faabb3fe59f")
 	)
 	(wire
 		(pts
@@ -9139,6 +9133,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 176.53) (xy 132.08 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f77cc8-b578-4678-8b21-d6091be05a41")
+	)
+	(wire
+		(pts
 			(xy 190.5 41.91) (xy 193.04 41.91)
 		)
 		(stroke
@@ -9166,6 +9170,16 @@
 			(type default)
 		)
 		(uuid "8a459cc3-cc23-4959-bbc6-7bc3b3f86e76")
+	)
+	(wire
+		(pts
+			(xy 137.16 154.94) (xy 137.16 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a647691-6317-4b4b-9b17-ed75ab10b965")
 	)
 	(wire
 		(pts
@@ -9849,6 +9863,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 176.53) (xy 119.38 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e1d9c6-7b25-48fe-8698-2fa8b0b97b64")
+	)
+	(wire
+		(pts
 			(xy 223.52 217.17) (xy 217.17 217.17)
 		)
 		(stroke
@@ -10179,6 +10203,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 154.94) (xy 132.08 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda2c014-9e3a-49cc-9171-a4b29351e45d")
+	)
+	(wire
+		(pts
 			(xy 29.21 115.57) (xy 29.21 119.38)
 		)
 		(stroke
@@ -10309,16 +10343,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 111.76) (xy 204.47 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdfce946-48e8-4d5b-93ca-7259f6442bb9")
-	)
-	(wire
-		(pts
 			(xy 231.14 45.72) (xy 218.44 45.72)
 		)
 		(stroke
@@ -10356,16 +10380,6 @@
 			)
 		)
 		(uuid "33fc070f-0e49-4ae5-a1b5-b9d39aa9f540")
-	)
-	(text "missing pull up to boot\n"
-		(exclude_from_sim no)
-		(at 151.13 170.942 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3c6a12b9-9d31-4129-875d-54b6edf66014")
 	)
 	(text "S1 button"
 		(exclude_from_sim no)
@@ -10440,7 +10454,7 @@
 		)
 		(uuid "138c4f99-e31b-49ed-9786-db0970d011f0")
 	)
-	(label "GPIO9"
+	(label "BOOT"
 		(at 137.16 165.1 90)
 		(fields_autoplaced yes)
 		(effects
@@ -10472,6 +10486,17 @@
 			(justify left bottom)
 		)
 		(uuid "170b8917-54f7-41d2-9514-01b75d6a9e83")
+	)
+	(label "BOOT"
+		(at 175.26 232.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17aecbdf-1953-4f64-b575-7fe944fce0ec")
 	)
 	(label "GPIO4"
 		(at 93.98 142.24 0)
@@ -10516,6 +10541,17 @@
 			(justify left bottom)
 		)
 		(uuid "20bd14e8-f110-4eb0-9d08-2ddac486b063")
+	)
+	(label "GPIO8"
+		(at 132.08 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26d49512-de1d-4143-81dd-0d0fd41a7cca")
 	)
 	(label "GPIO_S1"
 		(at 232.41 144.78 0)
@@ -10593,28 +10629,6 @@
 			(justify left bottom)
 		)
 		(uuid "48d13bd2-7ade-4862-befb-b1f6ab554441")
-	)
-	(label "GPIO?"
-		(at 175.26 232.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c22f76f-598a-4d2f-9ad9-7177ba440051")
-	)
-	(label "GPIO8"
-		(at 132.08 165.1 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e5f71b9-28ca-4f64-bff1-23a95c7fb0c8")
 	)
 	(label "GPIO7"
 		(at 127 165.1 90)
@@ -10901,17 +10915,6 @@
 			(justify left bottom)
 		)
 		(uuid "a55771e9-0cd4-496f-9fc2-47a680944f8a")
-	)
-	(label "GPIO15"
-		(at 204.47 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b6e34991-b166-4437-9def-75483dcf8170")
 	)
 	(label "DEV_RX"
 		(at 240.03 154.94 0)
@@ -16506,6 +16509,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 119.38 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c0567a9-113f-4937-83cb-0fb19f142173")
+		(property "Reference" "#PWR027"
+			(at 119.38 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 119.38 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 119.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6053f444-3c2d-4aca-8a5f-475945701943")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 193.04 156.21 0)
 		(unit 1)
@@ -18301,6 +18370,132 @@
 			(project "HSSM-LVPCB"
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-LVPCB:R_10k_1pct_0402_RC0402FR-0710KL")
+		(at 125.73 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf28d36a-6c2c-4d26-ad4a-76bb3e505d84")
+		(property "Reference" "R22"
+			(at 125.73 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_10k_1pct_0402_RC0402FR-0710KL"
+			(at 125.73 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:R_0402"
+			(at 125.73 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 125.73 189.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Thick Film Resistor, 10kΩ, ±1%, 0.063W, 0402"
+			(at 125.73 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 125.73 192.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 125.73 194.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 125.73 197.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 125.73 199.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10kΩ"
+			(at 125.73 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fc15798e-56d6-474b-afef-23a0c70fb47e")
+		)
+		(pin "1"
+			(uuid "8415fe59-9fe6-4f37-a3e7-0cafb15d22fb")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "R22")
 					(unit 1)
 				)
 			)
