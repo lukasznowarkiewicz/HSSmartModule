@@ -7766,6 +7766,12 @@
 		(uuid "dcd3b6bb-8456-46b1-916e-086672161402")
 	)
 	(junction
+		(at 193.04 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de2f066f-0292-4d36-9404-93ea46514906")
+	)
+	(junction
 		(at 298.45 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8800,6 +8806,16 @@
 			(type default)
 		)
 		(uuid "66fd9f9c-bc0e-45c7-a4ab-ceda86ee314a")
+	)
+	(wire
+		(pts
+			(xy 210.82 146.05) (xy 193.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674ab9b9-0736-4499-ae96-3deb139b5e0a")
 	)
 	(wire
 		(pts
@@ -10210,6 +10226,16 @@
 			(type default)
 		)
 		(uuid "f19ac82e-682b-4713-98ed-c09fe31bb3f3")
+	)
+	(wire
+		(pts
+			(xy 210.82 146.05) (xy 210.82 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b6f968-9105-4f64-b982-e8be2272ece8")
 	)
 	(wire
 		(pts
@@ -11742,6 +11768,72 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 210.82 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1291f719-9f4b-412a-95eb-002849f883ac")
+		(property "Reference" "#PWR032"
+			(at 210.82 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_SPI"
+			(at 210.82 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 210.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "562fbad5-7eba-4de3-958a-b8d2fe50e500")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -19438,6 +19530,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 190.5 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cde99e53-8bed-464c-9088-4cbc808a7960")
+		(property "Reference" "#PWR022"
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_SPI"
+			(at 190.5 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 190.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c9a450e-d122-49c5-955f-f87115ce0c36")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 77.47 59.69 0)
 		(unit 1)
@@ -19498,72 +19656,6 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 190.5 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d16b234b-de38-44d9-b968-a832e4d7b727")
-		(property "Reference" "#PWR022"
-			(at 190.5 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 190.5 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 190.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "698c4556-b2f9-4a31-9df4-e6808fef933f")
-		)
-		(instances
-			(project "HSSM-LVPCB"
-				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -21696,7 +21788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "VDD_SPI"
 			(at 219.71 35.56 0)
 			(effects
 				(font
