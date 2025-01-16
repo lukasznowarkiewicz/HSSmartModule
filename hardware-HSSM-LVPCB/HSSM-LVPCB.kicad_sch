@@ -10418,6 +10418,17 @@
 		)
 		(uuid "0e23c5c2-ad79-4c52-a407-928940ca82f3")
 	)
+	(label "U0TXD"
+		(at 85.09 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e8afe1e-e123-4d25-8359-0600b5bd22e1")
+	)
 	(label "GPIO_S2"
 		(at 233.68 167.64 0)
 		(fields_autoplaced yes)
@@ -10450,17 +10461,6 @@
 			(justify left bottom)
 		)
 		(uuid "13bb3270-de4a-4543-83f9-504f3021f390")
-	)
-	(label "UART_MASTER_TX"
-		(at 85.09 184.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "160f733f-b565-4124-9314-b83d67abbdde")
 	)
 	(label "GPIO22"
 		(at 317.5 219.71 0)
@@ -10792,17 +10792,6 @@
 		)
 		(uuid "941b6d24-43f3-4de1-9eb6-3eaaee6c9a18")
 	)
-	(label "UART_MASTER_RX"
-		(at 85.09 186.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "94310e0f-90a3-4b22-9aac-da27d76f0abe")
-	)
 	(label "GPIO1"
 		(at 234.95 229.87 180)
 		(fields_autoplaced yes)
@@ -10923,6 +10912,17 @@
 			(justify left bottom)
 		)
 		(uuid "d153188e-46fd-421f-b689-d792923094dc")
+	)
+	(label "U0RXD"
+		(at 85.09 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1f7c81e-03aa-4857-9273-357290c39905")
 	)
 	(label "GPIO23"
 		(at 358.14 219.71 0)
@@ -12417,6 +12417,7 @@
 	(symbol
 		(lib_id "HSSM-LVPCB:R_0R_5pct_0402_RC0402JR-070RL")
 		(at 186.69 116.84 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12424,7 +12425,7 @@
 		(dnp no)
 		(uuid "1ccccd45-1517-4b6b-ba7c-59cf56997606")
 		(property "Reference" "R5"
-			(at 184.912 114.554 0)
+			(at 188.468 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12517,7 +12518,7 @@
 			)
 		)
 		(property "Val" "0Ω"
-			(at 188.214 114.554 0)
+			(at 185.166 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
