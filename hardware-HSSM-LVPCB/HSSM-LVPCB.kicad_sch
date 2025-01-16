@@ -7859,6 +7859,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 165.1) (xy 142.24 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e2e9c4-df88-4e20-9df3-27277680a385")
+	)
+	(wire
+		(pts
 			(xy 250.19 172.72) (xy 251.46 172.72)
 		)
 		(stroke
@@ -8289,6 +8299,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 73.66) (xy 157.48 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fd4dda-c562-44b9-b9fe-04b56c1feebd")
+	)
+	(wire
+		(pts
 			(xy 280.67 227.33) (xy 280.67 229.87)
 		)
 		(stroke
@@ -8536,16 +8556,6 @@
 			(type default)
 		)
 		(uuid "4d5477eb-9038-48f1-9795-478745152cdc")
-	)
-	(wire
-		(pts
-			(xy 142.24 165.1) (xy 142.24 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da3eed2-9661-4aa4-beec-5eb9c19266ad")
 	)
 	(wire
 		(pts
@@ -9036,6 +9046,16 @@
 			(type default)
 		)
 		(uuid "7c933491-dce6-4868-9485-2ce17f093ef7")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 162.56 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e79805c-142a-4957-80df-42230709a9b1")
 	)
 	(wire
 		(pts
@@ -9719,16 +9739,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 73.66) (xy 157.48 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c573549f-3945-4a38-8165-390400c0fa10")
-	)
-	(wire
-		(pts
 			(xy 76.2 194.31) (xy 76.2 198.12)
 		)
 		(stroke
@@ -10046,16 +10056,6 @@
 			(type default)
 		)
 		(uuid "e0a259b5-0841-4d4f-a6f8-9956d59b7a14")
-	)
-	(wire
-		(pts
-			(xy 162.56 73.66) (xy 162.56 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0d40775-d8d8-42a1-9b02-8f4e1c5e62f1")
 	)
 	(wire
 		(pts
@@ -10583,28 +10583,6 @@
 		)
 		(uuid "46fb27fe-dfcf-4c31-a193-5761227cd9b3")
 	)
-	(label "GPIO_Q2"
-		(at 162.56 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4d617ef8-3996-444b-a21b-40c2af7b81a9")
-	)
-	(label "GPIO_S1"
-		(at 142.24 165.1 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f616b9c-c19a-43fd-9e3c-8d58de2e9b7c")
-	)
 	(label "DTR"
 		(at 142.24 219.71 0)
 		(fields_autoplaced yes)
@@ -10693,17 +10671,6 @@
 		)
 		(uuid "735ee6da-d831-4ff4-a01c-22ff175e802e")
 	)
-	(label "GPIO_Q1"
-		(at 157.48 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "785cb742-0208-4dc7-be8d-cf2e5e776765")
-	)
 	(label "SPICS0"
 		(at 162.56 165.1 90)
 		(fields_autoplaced yes)
@@ -10736,6 +10703,17 @@
 			(justify right bottom)
 		)
 		(uuid "87953c39-3616-48c4-a5fc-f08c0f89c47a")
+	)
+	(label "GPIO_Q1"
+		(at 162.56 73.66 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "897230bb-21ea-4845-9c5c-17b7ab88e290")
 	)
 	(label "GPIO22"
 		(at 142.24 73.66 270)
@@ -10858,6 +10836,17 @@
 		)
 		(uuid "a55771e9-0cd4-496f-9fc2-47a680944f8a")
 	)
+	(label "GPIO_Q2"
+		(at 142.24 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a61a80c1-56d6-4fca-a208-e73ed29d27a3")
+	)
 	(label "DEV_RX"
 		(at 240.03 154.94 0)
 		(fields_autoplaced yes)
@@ -10890,6 +10879,17 @@
 			(justify right bottom)
 		)
 		(uuid "bca36d3e-508e-4a79-8a66-b93d74915ded")
+	)
+	(label "GPIO_S1"
+		(at 157.48 73.66 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cac1b168-6f34-4553-b426-d3ed567c9fd6")
 	)
 	(label "Enable"
 		(at 175.26 207.01 0)
@@ -18696,12 +18696,12 @@
 	(symbol
 		(lib_id "HSSM-LVPCB:L_2nH_0402_MLG0402Q2N0ST000")
 		(at 58.42 106.68 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6174bd4-713e-44a8-94ee-1746b81fb3db")
 		(property "Reference" "L2"
 			(at 58.42 101.6 0)
