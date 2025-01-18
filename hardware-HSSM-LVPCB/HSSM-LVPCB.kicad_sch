@@ -9357,16 +9357,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 137.16) (xy 104.14 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a09d59cd-acb9-45d8-9d8d-36db1a3139cd")
-	)
-	(wire
-		(pts
 			(xy 367.03 227.33) (xy 367.03 229.87)
 		)
 		(stroke
@@ -9614,6 +9604,16 @@
 			(type default)
 		)
 		(uuid "b77be8e1-ec91-4f28-8f78-368d611b27ff")
+	)
+	(wire
+		(pts
+			(xy 93.98 127) (xy 104.14 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e0316f-3d1e-4244-96d1-81448db46803")
 	)
 	(wire
 		(pts
@@ -10599,6 +10599,17 @@
 		)
 		(uuid "2dfc5b14-d5df-499e-905e-cad431d43cf1")
 	)
+	(label "S2_sym"
+		(at 93.98 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2dfc71fb-b722-44c4-af8a-b9c5a58f4455")
+	)
 	(label "SPID"
 		(at 204.47 116.84 180)
 		(fields_autoplaced yes)
@@ -10675,17 +10686,6 @@
 			(justify left bottom)
 		)
 		(uuid "5929626c-7d63-4358-b5f6-292d56cc3961")
-	)
-	(label "S2_sym"
-		(at 93.98 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6332901d-7194-4a69-bc7b-c326f6c3fa4d")
 	)
 	(label "GPIO_Q1"
 		(at 288.29 132.08 270)
@@ -11039,7 +11039,7 @@
 		)
 		(uuid "da6fab23-16a6-4cf8-95fe-0b77a53d0e33")
 	)
-	(label "GPIO3"
+	(label "S_set"
 		(at 200.66 246.38 0)
 		(fields_autoplaced yes)
 		(effects
