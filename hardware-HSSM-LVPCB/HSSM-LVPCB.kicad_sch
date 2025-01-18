@@ -10327,6 +10327,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 74.93) (xy 137.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8da433e-7326-4487-8252-cf27dae544b7")
+	)
+	(wire
+		(pts
 			(xy 317.5 219.71) (xy 326.39 219.71)
 		)
 		(stroke
@@ -10456,6 +10466,17 @@
 			(justify right bottom)
 		)
 		(uuid "0bd41acc-4bf2-4ca6-8263-cae13a4858f5")
+	)
+	(label "S1_sym"
+		(at 271.78 219.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c6caf3e-8215-4f0d-93f2-4f9dbb66501c")
 	)
 	(label "SPIQ"
 		(at 204.47 142.24 180)
@@ -10820,17 +10841,6 @@
 		)
 		(uuid "92544981-fa0b-45d7-b92d-02b3eab35803")
 	)
-	(label "GPIO21"
-		(at 271.78 219.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "941b6d24-43f3-4de1-9eb6-3eaaee6c9a18")
-	)
 	(label "RGB_G"
 		(at 234.95 229.87 180)
 		(fields_autoplaced yes)
@@ -10885,6 +10895,17 @@
 			(justify left bottom)
 		)
 		(uuid "a61a80c1-56d6-4fca-a208-e73ed29d27a3")
+	)
+	(label "S1_sym"
+		(at 137.16 74.93 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9474038-35f0-4092-81dd-67dc8c3c16a8")
 	)
 	(label "GPIO22"
 		(at 187.96 78.74 0)
