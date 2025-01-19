@@ -7422,10 +7422,6 @@
 		(at 127 154.94)
 		(uuid "813d261a-cdd3-4094-a920-9a196aac8d08")
 	)
-	(no_connect
-		(at 121.92 154.94)
-		(uuid "dfca256a-7641-49dd-b9c0-c54e57562686")
-	)
 	(wire
 		(pts
 			(xy 351.79 224.79) (xy 349.25 224.79)
@@ -8448,6 +8444,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 163.83) (xy 121.92 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1dc806-8f78-43d2-9271-4991d0c1bedf")
+	)
+	(wire
+		(pts
 			(xy 336.55 212.09) (xy 336.55 217.17)
 		)
 		(stroke
@@ -9365,16 +9371,6 @@
 			(type default)
 		)
 		(uuid "c6d85ae0-7681-4f6c-a55b-26b600595054")
-	)
-	(wire
-		(pts
-			(xy 95.25 132.08) (xy 104.14 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c73d0433-9638-4ce2-ad36-415658c5e673")
 	)
 	(wire
 		(pts
@@ -10323,6 +10319,17 @@
 		)
 		(uuid "8149e737-dc93-4ccf-9838-8693b8bfa226")
 	)
+	(label "S3_sym"
+		(at 121.92 163.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81a489b6-ea8b-4f88-a68d-98947da2d113")
+	)
 	(label "BOOT"
 		(at 134.62 205.74 180)
 		(fields_autoplaced yes)
@@ -10432,17 +10439,6 @@
 			(justify left bottom)
 		)
 		(uuid "a1a91dbf-2433-43e4-9a0c-ebee02792740")
-	)
-	(label "S3_sym"
-		(at 95.25 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a5061924-86a9-4c5b-bd0d-5bf765db9dc0")
 	)
 	(label "BOOT"
 		(at 66.04 181.61 180)
