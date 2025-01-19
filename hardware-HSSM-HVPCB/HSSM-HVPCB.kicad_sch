@@ -9327,7 +9327,7 @@
 		(uuid "0c5b0f10-c0c1-45a9-94dd-d4db3b151bac")
 	)
 	(junction
-		(at 85.09 24.13)
+		(at 73.66 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10195100-fa80-439f-a4c9-97a37cea5b0d")
@@ -9345,7 +9345,7 @@
 		(uuid "17624e88-8a56-4988-bd9a-c213763aa0ab")
 	)
 	(junction
-		(at 60.96 24.13)
+		(at 49.53 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "184e3186-419f-4319-a398-c480de441b56")
@@ -9423,13 +9423,13 @@
 		(uuid "4fac8ca1-52c5-4fe4-9def-7099462c60a8")
 	)
 	(junction
-		(at 90.17 125.73)
+		(at 69.85 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5329aabd-8dec-4121-ac3a-10e157142bc5")
 	)
 	(junction
-		(at 90.17 134.62)
+		(at 69.85 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56795524-fb67-4e56-ac9e-913d22a1305e")
@@ -9441,13 +9441,13 @@
 		(uuid "59fd181c-1c16-419c-b72f-06052955da13")
 	)
 	(junction
-		(at 66.04 125.73)
+		(at 45.72 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b61e1b5-c33d-4b5e-bb75-83617fbd6091")
 	)
 	(junction
-		(at 85.09 44.45)
+		(at 73.66 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dfb2725-8bfd-400a-a803-6847a74d028f")
@@ -9459,7 +9459,7 @@
 		(uuid "73598f38-a56d-4c89-8bc2-be68747b51e6")
 	)
 	(junction
-		(at 90.17 146.05)
+		(at 69.85 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73f9d692-1788-4923-8638-6b9ff2548ae7")
@@ -9549,13 +9549,13 @@
 		(uuid "bb08c648-6018-4bb5-8923-6ea249fd0334")
 	)
 	(junction
-		(at 85.09 33.02)
+		(at 73.66 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bedb3a97-531d-4865-ad5f-a5a4e072effa")
 	)
 	(junction
-		(at 60.96 44.45)
+		(at 49.53 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c27bc533-ee3f-4771-8506-0b49202e8e1d")
@@ -9573,7 +9573,7 @@
 		(uuid "d9ffb981-b6d0-4d5a-bac3-c7c37a3ffcf7")
 	)
 	(junction
-		(at 66.04 146.05)
+		(at 45.72 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3098497-55a7-49be-80f6-41d543d233d1")
@@ -9628,7 +9628,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 134.62) (xy 85.09 137.16)
+			(xy 64.77 38.1) (xy 64.77 40.64)
 		)
 		(stroke
 			(width 0)
@@ -9698,7 +9698,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 24.13) (xy 60.96 24.13)
+			(xy 45.72 121.92) (xy 49.53 121.92)
 		)
 		(stroke
 			(width 0)
@@ -9758,7 +9758,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 44.45) (xy 60.96 44.45)
+			(xy 45.72 142.24) (xy 49.53 142.24)
 		)
 		(stroke
 			(width 0)
@@ -9785,16 +9785,6 @@
 			(type default)
 		)
 		(uuid "0d29809e-d7ee-44ff-8efa-d2bc20eed60f")
-	)
-	(wire
-		(pts
-			(xy 124.46 95.25) (xy 124.46 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d6bbd6d-1c89-4050-978f-0fec86da3571")
 	)
 	(wire
 		(pts
@@ -9838,17 +9828,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 68.58) (xy 104.14 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ee510a2-b862-4406-b2f0-11218d9e5ebd")
-	)
-	(wire
-		(pts
-			(xy 90.17 134.62) (xy 90.17 137.16)
+			(xy 69.85 38.1) (xy 69.85 40.64)
 		)
 		(stroke
 			(width 0)
@@ -9898,6 +9878,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 29.21) (xy 91.44 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14436bde-5321-41fb-9066-ab2d41041c96")
+	)
+	(wire
+		(pts
 			(xy 102.87 179.07) (xy 107.95 179.07)
 		)
 		(stroke
@@ -9918,7 +9908,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 33.02) (xy 80.01 35.56)
+			(xy 88.9 76.2) (xy 104.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17cb83c0-445a-4185-a72b-6a8ca75815fa")
+	)
+	(wire
+		(pts
+			(xy 68.58 130.81) (xy 68.58 133.35)
 		)
 		(stroke
 			(width 0)
@@ -10128,7 +10128,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 146.05) (xy 66.04 148.59)
+			(xy 45.72 49.53) (xy 45.72 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10188,7 +10188,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 125.73) (xy 66.04 125.73)
+			(xy 41.91 29.21) (xy 45.72 29.21)
 		)
 		(stroke
 			(width 0)
@@ -10208,6 +10208,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 95.25) (xy 120.65 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f2fc6c-2ecc-4a64-946a-4e7166861944")
+	)
+	(wire
+		(pts
 			(xy 363.22 140.97) (xy 364.49 140.97)
 		)
 		(stroke
@@ -10218,7 +10228,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 44.45) (xy 60.96 46.99)
+			(xy 49.53 142.24) (xy 49.53 144.78)
 		)
 		(stroke
 			(width 0)
@@ -10258,7 +10268,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 146.05) (xy 90.17 146.05)
+			(xy 59.69 49.53) (xy 69.85 49.53)
 		)
 		(stroke
 			(width 0)
@@ -10298,7 +10308,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 31.75) (xy 85.09 33.02)
+			(xy 73.66 129.54) (xy 73.66 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10358,7 +10368,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 134.62) (xy 90.17 134.62)
+			(xy 64.77 38.1) (xy 69.85 38.1)
 		)
 		(stroke
 			(width 0)
@@ -10368,7 +10378,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 139.7) (xy 66.04 146.05)
+			(xy 45.72 43.18) (xy 45.72 49.53)
 		)
 		(stroke
 			(width 0)
@@ -10478,6 +10488,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 49.53) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "493b9808-7bea-4af5-a399-35ee33c2538a")
+	)
+	(wire
+		(pts
 			(xy 120.65 175.26) (xy 120.65 177.8)
 		)
 		(stroke
@@ -10488,7 +10508,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 38.1) (xy 60.96 44.45)
+			(xy 49.53 135.89) (xy 49.53 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10625,6 +10645,16 @@
 			(type default)
 		)
 		(uuid "57c995e4-b2d7-415a-97f0-f73b741b9750")
+	)
+	(wire
+		(pts
+			(xy 124.46 142.24) (xy 124.46 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588fafdd-11f5-4458-8ae0-69a038511aea")
 	)
 	(wire
 		(pts
@@ -10778,7 +10808,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 33.02) (xy 85.09 33.02)
+			(xy 68.58 130.81) (xy 73.66 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10795,6 +10825,16 @@
 			(type default)
 		)
 		(uuid "63bb7e2c-b886-4aa8-9cdb-edc2f9eb5cbc")
+	)
+	(wire
+		(pts
+			(xy 91.44 68.58) (xy 104.14 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6448c8ff-67a5-4408-82ec-bbb716551464")
 	)
 	(wire
 		(pts
@@ -10878,7 +10918,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 44.45) (xy 90.17 44.45)
+			(xy 73.66 142.24) (xy 124.46 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10928,7 +10968,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 125.73) (xy 120.65 125.73)
+			(xy 69.85 29.21) (xy 91.44 29.21)
 		)
 		(stroke
 			(width 0)
@@ -10955,16 +10995,6 @@
 			(type default)
 		)
 		(uuid "700a7acc-b70d-4cc4-8452-018e4e9d4413")
-	)
-	(wire
-		(pts
-			(xy 120.65 95.25) (xy 120.65 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "708d943a-7c92-4540-b798-b894f79981ec")
 	)
 	(wire
 		(pts
@@ -11068,7 +11098,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 142.24) (xy 90.17 146.05)
+			(xy 69.85 45.72) (xy 69.85 49.53)
 		)
 		(stroke
 			(width 0)
@@ -11098,7 +11128,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 44.45) (xy 69.85 44.45)
+			(xy 49.53 142.24) (xy 58.42 142.24)
 		)
 		(stroke
 			(width 0)
@@ -11188,7 +11218,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 24.13) (xy 85.09 24.13)
+			(xy 63.5 121.92) (xy 73.66 121.92)
 		)
 		(stroke
 			(width 0)
@@ -11278,7 +11308,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 125.73) (xy 90.17 125.73)
+			(xy 59.69 29.21) (xy 69.85 29.21)
 		)
 		(stroke
 			(width 0)
@@ -11378,7 +11408,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 133.35) (xy 90.17 134.62)
+			(xy 69.85 36.83) (xy 69.85 38.1)
 		)
 		(stroke
 			(width 0)
@@ -11428,7 +11458,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 146.05) (xy 74.93 146.05)
+			(xy 45.72 49.53) (xy 54.61 49.53)
 		)
 		(stroke
 			(width 0)
@@ -11438,7 +11468,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 125.73) (xy 66.04 129.54)
+			(xy 45.72 29.21) (xy 45.72 33.02)
 		)
 		(stroke
 			(width 0)
@@ -11458,7 +11488,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 24.13) (xy 60.96 27.94)
+			(xy 49.53 121.92) (xy 49.53 125.73)
 		)
 		(stroke
 			(width 0)
@@ -11558,7 +11588,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 125.73) (xy 74.93 125.73)
+			(xy 45.72 29.21) (xy 54.61 29.21)
 		)
 		(stroke
 			(width 0)
@@ -11578,7 +11608,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 24.13) (xy 69.85 24.13)
+			(xy 49.53 121.92) (xy 58.42 121.92)
 		)
 		(stroke
 			(width 0)
@@ -11628,7 +11658,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 125.73) (xy 90.17 128.27)
+			(xy 69.85 29.21) (xy 69.85 31.75)
 		)
 		(stroke
 			(width 0)
@@ -11858,7 +11888,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 146.05) (xy 124.46 146.05)
+			(xy 69.85 49.53) (xy 88.9 49.53)
 		)
 		(stroke
 			(width 0)
@@ -12098,7 +12128,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 44.45) (xy 85.09 44.45)
+			(xy 63.5 142.24) (xy 73.66 142.24)
 		)
 		(stroke
 			(width 0)
@@ -12128,7 +12158,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 24.13) (xy 93.98 24.13)
+			(xy 73.66 121.92) (xy 120.65 121.92)
 		)
 		(stroke
 			(width 0)
@@ -12168,16 +12198,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 44.45) (xy 90.17 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de7c1c33-d1e2-43d9-94f9-ce443ae2206f")
-	)
-	(wire
-		(pts
 			(xy 124.46 40.64) (xy 124.46 44.45)
 		)
 		(stroke
@@ -12185,16 +12205,6 @@
 			(type default)
 		)
 		(uuid "ded44987-782d-4a6a-ad7c-fea400ece6b3")
-	)
-	(wire
-		(pts
-			(xy 90.17 76.2) (xy 104.14 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "def5222a-3368-4bbe-afe7-8edb8561385a")
 	)
 	(wire
 		(pts
@@ -12288,7 +12298,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 33.02) (xy 85.09 35.56)
+			(xy 73.66 130.81) (xy 73.66 133.35)
 		)
 		(stroke
 			(width 0)
@@ -12328,7 +12338,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 40.64) (xy 85.09 44.45)
+			(xy 73.66 138.43) (xy 73.66 142.24)
 		)
 		(stroke
 			(width 0)
@@ -12368,7 +12378,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 24.13) (xy 85.09 26.67)
+			(xy 73.66 121.92) (xy 73.66 124.46)
 		)
 		(stroke
 			(width 0)
@@ -12418,16 +12428,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 24.13) (xy 93.98 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef877c96-9049-40f9-88e0-465a6559bb90")
-	)
-	(wire
-		(pts
 			(xy 373.38 48.26) (xy 373.38 45.72)
 		)
 		(stroke
@@ -12468,7 +12468,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 146.05) (xy 66.04 146.05)
+			(xy 41.91 49.53) (xy 45.72 49.53)
 		)
 		(stroke
 			(width 0)
@@ -12829,6 +12829,16 @@
 			)
 		)
 		(uuid "92cc24ef-b1cf-4279-be00-280f24a844d8")
+	)
+	(text "correct symbol - it is not a bare crystal"
+		(exclude_from_sim no)
+		(at 114.3 18.796 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "be00d25f-849a-41cc-8a27-5399ff41a87c")
 	)
 	(text "Switch 1, switch 2 and switch 3 input circuitry"
 		(exclude_from_sim no)
@@ -14394,7 +14404,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_1k_1pct_0402_CRCW04021K00FKED")
-		(at 72.39 24.13 0)
+		(at 60.96 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14403,7 +14413,7 @@
 		(fields_autoplaced yes)
 		(uuid "1110b2ab-e566-410f-955e-b415882c6b2a")
 		(property "Reference" "R24"
-			(at 72.39 17.78 0)
+			(at 60.96 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14412,7 +14422,7 @@
 			)
 		)
 		(property "Value" "R_1k_1pct_0402_CRCW04021K00FKED"
-			(at 72.39 32.004 0)
+			(at 60.96 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14423,7 +14433,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 72.39 34.544 0)
+			(at 60.96 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14434,7 +14444,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 72.39 37.084 0)
+			(at 60.96 134.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14445,7 +14455,7 @@
 			)
 		)
 		(property "Description" "SMD Thick Film Resistor, 1kΩ, ±1%, 0.063W, 0402, Vishay"
-			(at 72.39 24.13 0)
+			(at 60.96 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14454,7 +14464,7 @@
 			)
 		)
 		(property "MPN" "CRCW04021K00FKED"
-			(at 72.39 39.624 0)
+			(at 60.96 137.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14465,7 +14475,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 72.39 42.164 0)
+			(at 60.96 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14476,7 +14486,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 72.39 44.704 0)
+			(at 60.96 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14486,7 +14496,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 72.39 47.244 0)
+			(at 60.96 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14496,7 +14506,7 @@
 			)
 		)
 		(property "Val" "1kΩ"
-			(at 72.39 20.32 0)
+			(at 60.96 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14937,7 +14947,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_1k_1pct_0402_CRCW04021K00FKED")
-		(at 72.39 44.45 0)
+		(at 60.96 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14946,7 +14956,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ed738d8-c8d3-428d-8249-3d33efaced8d")
 		(property "Reference" "R23"
-			(at 72.39 38.1 0)
+			(at 60.96 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14955,7 +14965,7 @@
 			)
 		)
 		(property "Value" "R_1k_1pct_0402_CRCW04021K00FKED"
-			(at 72.39 52.324 0)
+			(at 60.96 150.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14966,7 +14976,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 72.39 54.864 0)
+			(at 60.96 152.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14977,7 +14987,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 72.39 57.404 0)
+			(at 60.96 155.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14988,7 +14998,7 @@
 			)
 		)
 		(property "Description" "SMD Thick Film Resistor, 1kΩ, ±1%, 0.063W, 0402, Vishay"
-			(at 72.39 44.45 0)
+			(at 60.96 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14997,7 +15007,7 @@
 			)
 		)
 		(property "MPN" "CRCW04021K00FKED"
-			(at 72.39 59.944 0)
+			(at 60.96 157.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15008,7 +15018,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 72.39 62.484 0)
+			(at 60.96 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15019,7 +15029,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 72.39 65.024 0)
+			(at 60.96 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15029,7 +15039,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 72.39 67.564 0)
+			(at 60.96 165.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15039,7 +15049,7 @@
 			)
 		)
 		(property "Val" "1kΩ"
-			(at 72.39 40.64 0)
+			(at 60.96 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15642,7 +15652,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_1k_1pct_0402_CRCW04021K00FKED")
-		(at 77.47 146.05 0)
+		(at 57.15 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15651,7 +15661,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bb99580-78d7-4008-bb15-a0c3eed7bc9f")
 		(property "Reference" "R28"
-			(at 77.47 139.7 0)
+			(at 57.15 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15660,7 +15670,7 @@
 			)
 		)
 		(property "Value" "R_1k_1pct_0402_CRCW04021K00FKED"
-			(at 77.47 153.924 0)
+			(at 57.15 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15671,7 +15681,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 77.47 156.464 0)
+			(at 57.15 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15682,7 +15692,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 77.47 159.004 0)
+			(at 57.15 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15693,7 +15703,7 @@
 			)
 		)
 		(property "Description" "SMD Thick Film Resistor, 1kΩ, ±1%, 0.063W, 0402, Vishay"
-			(at 77.47 146.05 0)
+			(at 57.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15702,7 +15712,7 @@
 			)
 		)
 		(property "MPN" "CRCW04021K00FKED"
-			(at 77.47 161.544 0)
+			(at 57.15 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15713,7 +15723,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 77.47 164.084 0)
+			(at 57.15 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15724,7 +15734,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 77.47 166.624 0)
+			(at 57.15 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15734,7 +15744,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 77.47 169.164 0)
+			(at 57.15 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15744,7 +15754,7 @@
 			)
 		)
 		(property "Val" "1kΩ"
-			(at 77.47 142.24 0)
+			(at 57.15 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16475,7 +16485,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:C_33nF_10pct_50V_0402_CC0402KRX7R9BB333")
-		(at 90.17 130.81 90)
+		(at 69.85 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16484,7 +16494,7 @@
 		(fields_autoplaced yes)
 		(uuid "385a84e3-4ed8-46da-8bc7-fc48278e3d9b")
 		(property "Reference" "C11"
-			(at 92.71 129.5336 90)
+			(at 72.39 33.0136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16494,7 +16504,7 @@
 			)
 		)
 		(property "Value" "C_33nF_10pct_50V_0402_CC0402KRX7R9BB333"
-			(at 98.044 130.81 0)
+			(at 77.724 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16505,7 +16515,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:C_0402"
-			(at 100.584 130.81 0)
+			(at 80.264 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16516,7 +16526,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 103.124 130.81 0)
+			(at 82.804 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16527,7 +16537,7 @@
 			)
 		)
 		(property "Description" "Ceramic Capacitor, 33nF, ±10%, 50V, X7R, 0402, Yageo"
-			(at 90.17 130.81 0)
+			(at 69.85 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16536,7 +16546,7 @@
 			)
 		)
 		(property "MPN" "CC0402KRX7R9BB333"
-			(at 105.664 130.81 0)
+			(at 85.344 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16547,7 +16557,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 108.204 130.81 0)
+			(at 87.884 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16558,7 +16568,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 110.744 130.81 0)
+			(at 90.424 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16568,7 +16578,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 113.284 130.81 0)
+			(at 92.964 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16578,7 +16588,7 @@
 			)
 		)
 		(property "Val" "33nF"
-			(at 92.71 132.0735 90)
+			(at 72.39 35.5535 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17942,7 +17952,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:C_33nF_10pct_50V_0402_CC0402KRX7R9BB333")
-		(at 85.09 29.21 90)
+		(at 73.66 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17951,7 +17961,7 @@
 		(fields_autoplaced yes)
 		(uuid "57d1a7e5-39ab-4212-a507-780fe48d16da")
 		(property "Reference" "C9"
-			(at 87.63 27.9336 90)
+			(at 76.2 125.7236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17961,7 +17971,7 @@
 			)
 		)
 		(property "Value" "C_33nF_10pct_50V_0402_CC0402KRX7R9BB333"
-			(at 92.964 29.21 0)
+			(at 81.534 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17972,7 +17982,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:C_0402"
-			(at 95.504 29.21 0)
+			(at 84.074 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17983,7 +17993,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 98.044 29.21 0)
+			(at 86.614 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17994,7 +18004,7 @@
 			)
 		)
 		(property "Description" "Ceramic Capacitor, 33nF, ±10%, 50V, X7R, 0402, Yageo"
-			(at 85.09 29.21 0)
+			(at 73.66 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18003,7 +18013,7 @@
 			)
 		)
 		(property "MPN" "CC0402KRX7R9BB333"
-			(at 100.584 29.21 0)
+			(at 89.154 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18014,7 +18024,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 103.124 29.21 0)
+			(at 91.694 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18025,7 +18035,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 105.664 29.21 0)
+			(at 94.234 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18035,7 +18045,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 108.204 29.21 0)
+			(at 96.774 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18045,7 +18055,7 @@
 			)
 		)
 		(property "Val" "33nF"
-			(at 87.63 30.4735 90)
+			(at 76.2 128.2635 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19065,7 +19075,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_1k_1pct_0402_CRCW04021K00FKED")
-		(at 77.47 125.73 0)
+		(at 57.15 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19074,7 +19084,7 @@
 		(fields_autoplaced yes)
 		(uuid "68bc1931-d204-44d1-aa0d-14f84f638d43")
 		(property "Reference" "R27"
-			(at 77.47 119.38 0)
+			(at 57.15 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19083,7 +19093,7 @@
 			)
 		)
 		(property "Value" "R_1k_1pct_0402_CRCW04021K00FKED"
-			(at 77.47 133.604 0)
+			(at 57.15 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19094,7 +19104,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 77.47 136.144 0)
+			(at 57.15 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19105,7 +19115,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 77.47 138.684 0)
+			(at 57.15 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19116,7 +19126,7 @@
 			)
 		)
 		(property "Description" "SMD Thick Film Resistor, 1kΩ, ±1%, 0.063W, 0402, Vishay"
-			(at 77.47 125.73 0)
+			(at 57.15 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19125,7 +19135,7 @@
 			)
 		)
 		(property "MPN" "CRCW04021K00FKED"
-			(at 77.47 141.224 0)
+			(at 57.15 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19136,7 +19146,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 77.47 143.764 0)
+			(at 57.15 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19147,7 +19157,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 77.47 146.304 0)
+			(at 57.15 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19157,7 +19167,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 77.47 148.844 0)
+			(at 57.15 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19167,7 +19177,7 @@
 			)
 		)
 		(property "Val" "1kΩ"
-			(at 77.47 121.92 0)
+			(at 57.15 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19431,7 +19441,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 46.99 0)
+		(at 49.53 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19440,7 +19450,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ed2e79c-291b-47f2-a2d4-b01eec196592")
 		(property "Reference" "#PWR03"
-			(at 60.96 53.34 0)
+			(at 49.53 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19449,7 +19459,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 52.07 0)
+			(at 49.53 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19457,7 +19467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 46.99 0)
+			(at 49.53 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19466,7 +19476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 46.99 0)
+			(at 49.53 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19475,7 +19485,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 46.99 0)
+			(at 49.53 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19777,7 +19787,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:C_33nF_10pct_50V_0402_CC0402KRX7R9BB333")
-		(at 90.17 139.7 90)
+		(at 69.85 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19786,7 +19796,7 @@
 		(fields_autoplaced yes)
 		(uuid "7888bb45-3ccf-4bba-ad5f-6fdade8af077")
 		(property "Reference" "C12"
-			(at 92.71 138.4236 90)
+			(at 72.39 41.9036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19796,7 +19806,7 @@
 			)
 		)
 		(property "Value" "C_33nF_10pct_50V_0402_CC0402KRX7R9BB333"
-			(at 98.044 139.7 0)
+			(at 77.724 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19807,7 +19817,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:C_0402"
-			(at 100.584 139.7 0)
+			(at 80.264 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19818,7 +19828,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 103.124 139.7 0)
+			(at 82.804 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19829,7 +19839,7 @@
 			)
 		)
 		(property "Description" "Ceramic Capacitor, 33nF, ±10%, 50V, X7R, 0402, Yageo"
-			(at 90.17 139.7 0)
+			(at 69.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19838,7 +19848,7 @@
 			)
 		)
 		(property "MPN" "CC0402KRX7R9BB333"
-			(at 105.664 139.7 0)
+			(at 85.344 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19849,7 +19859,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 108.204 139.7 0)
+			(at 87.884 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19860,7 +19870,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 110.744 139.7 0)
+			(at 90.424 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19870,7 +19880,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 113.284 139.7 0)
+			(at 92.964 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19880,7 +19890,7 @@
 			)
 		)
 		(property "Val" "33nF"
-			(at 92.71 140.9635 90)
+			(at 72.39 44.4435 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21036,7 +21046,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 62.23 146.05 90)
+		(at 41.91 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21045,7 +21055,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cabc54a-1d32-4109-8f4f-f3e6308ece2c")
 		(property "Reference" "#PWR049"
-			(at 64.77 146.05 0)
+			(at 44.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21054,7 +21064,7 @@
 			)
 		)
 		(property "Value" "AC_Q2_SHNT1"
-			(at 55.88 146.0499 90)
+			(at 35.56 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21063,7 +21073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 146.05 0)
+			(at 41.91 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21072,7 +21082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 146.05 0)
+			(at 41.91 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21081,7 +21091,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 62.23 146.05 0)
+			(at 41.91 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21168,7 +21178,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 62.23 125.73 90)
+		(at 41.91 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21177,7 +21187,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e08f504-0b93-4ce9-a9e1-fbce915cbf7c")
 		(property "Reference" "#PWR048"
-			(at 64.77 125.73 0)
+			(at 44.45 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21186,7 +21196,7 @@
 			)
 		)
 		(property "Value" "AC_Q2_SHNT2"
-			(at 55.88 125.7299 90)
+			(at 35.56 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21195,7 +21205,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 125.73 0)
+			(at 41.91 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21204,7 +21214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 125.73 0)
+			(at 41.91 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21213,7 +21223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 62.23 125.73 0)
+			(at 41.91 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21494,7 +21504,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 57.15 44.45 90)
+		(at 45.72 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21503,7 +21513,7 @@
 		(fields_autoplaced yes)
 		(uuid "95513567-b032-424a-af36-e9cc1106b17d")
 		(property "Reference" "#PWR046"
-			(at 59.69 44.45 0)
+			(at 48.26 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21512,7 +21522,7 @@
 			)
 		)
 		(property "Value" "AC_Q1_SHNT1"
-			(at 50.8 44.4499 90)
+			(at 39.37 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21521,7 +21531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 44.45 0)
+			(at 45.72 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21530,7 +21540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 44.45 0)
+			(at 45.72 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21539,7 +21549,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 57.15 44.45 0)
+			(at 45.72 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21627,7 +21637,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:C_33nF_10pct_50V_0402_CC0402KRX7R9BB333")
-		(at 85.09 38.1 90)
+		(at 73.66 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21636,7 +21646,7 @@
 		(fields_autoplaced yes)
 		(uuid "99726361-24ac-44ac-b630-94bd3700351f")
 		(property "Reference" "C10"
-			(at 87.63 36.8236 90)
+			(at 76.2 134.6136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21646,7 +21656,7 @@
 			)
 		)
 		(property "Value" "C_33nF_10pct_50V_0402_CC0402KRX7R9BB333"
-			(at 92.964 38.1 0)
+			(at 81.534 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21657,7 +21667,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:C_0402"
-			(at 95.504 38.1 0)
+			(at 84.074 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21668,7 +21678,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
-			(at 98.044 38.1 0)
+			(at 86.614 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21679,7 +21689,7 @@
 			)
 		)
 		(property "Description" "Ceramic Capacitor, 33nF, ±10%, 50V, X7R, 0402, Yageo"
-			(at 85.09 38.1 0)
+			(at 73.66 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21688,7 +21698,7 @@
 			)
 		)
 		(property "MPN" "CC0402KRX7R9BB333"
-			(at 100.584 38.1 0)
+			(at 89.154 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21699,7 +21709,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 103.124 38.1 0)
+			(at 91.694 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21710,7 +21720,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 105.664 38.1 0)
+			(at 94.234 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21720,7 +21730,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 108.204 38.1 0)
+			(at 96.774 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21730,7 +21740,7 @@
 			)
 		)
 		(property "Val" "33nF"
-			(at 87.63 39.3635 90)
+			(at 76.2 137.1535 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22850,7 +22860,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 137.16 0)
+		(at 64.77 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22859,7 +22869,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab564c26-f9db-493f-a4aa-8023d07a8427")
 		(property "Reference" "#PWR050"
-			(at 85.09 143.51 0)
+			(at 64.77 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22868,7 +22878,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 142.24 0)
+			(at 64.77 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22876,7 +22886,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 137.16 0)
+			(at 64.77 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22885,7 +22895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 137.16 0)
+			(at 64.77 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22894,7 +22904,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 137.16 0)
+			(at 64.77 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23754,7 +23764,7 @@
 	)
 	(symbol
 		(lib_id "power:AC")
-		(at 57.15 24.13 90)
+		(at 45.72 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23763,7 +23773,7 @@
 		(fields_autoplaced yes)
 		(uuid "b31a7327-4f79-4bc6-b306-b5b266b02ae1")
 		(property "Reference" "#PWR047"
-			(at 59.69 24.13 0)
+			(at 48.26 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23772,7 +23782,7 @@
 			)
 		)
 		(property "Value" "AC_Q1_SHNT2"
-			(at 50.8 24.1299 90)
+			(at 39.37 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23781,7 +23791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 24.13 0)
+			(at 45.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23790,7 +23800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 24.13 0)
+			(at 45.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23799,7 +23809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"AC\""
-			(at 57.15 24.13 0)
+			(at 45.72 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23821,7 +23831,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_Shunt_2mOhm_1pct_2512_CRE2512-FZ-R002E-3")
-		(at 60.96 33.02 90)
+		(at 49.53 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23830,7 +23840,7 @@
 		(fields_autoplaced yes)
 		(uuid "b375c0fe-9934-41b0-a9bd-0bda19d865a1")
 		(property "Reference" "R25"
-			(at 63.5 31.75 90)
+			(at 52.07 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23840,7 +23850,7 @@
 			)
 		)
 		(property "Value" "R_Shunt_2mOhm_1pct_2512_CRE2512-FZ-R002E-3"
-			(at 68.834 33.02 0)
+			(at 57.404 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23851,7 +23861,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_2512"
-			(at 71.374 33.02 0)
+			(at 59.944 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23862,7 +23872,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cre.pdf"
-			(at 73.914 33.02 0)
+			(at 62.484 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23873,7 +23883,7 @@
 			)
 		)
 		(property "Description" "Current Sense Resistor, 2mΩ, ±1%, 3W, 2512, Bourns"
-			(at 60.96 33.02 0)
+			(at 49.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23882,7 +23892,7 @@
 			)
 		)
 		(property "MPN" "CRE2512-FZ-R002E-3"
-			(at 76.454 33.02 0)
+			(at 65.024 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23893,7 +23903,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 78.994 33.02 0)
+			(at 67.564 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23904,7 +23914,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 81.534 33.02 0)
+			(at 70.104 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23914,7 +23924,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 84.074 33.02 0)
+			(at 72.644 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23924,7 +23934,7 @@
 			)
 		)
 		(property "Val" "2mΩ"
-			(at 63.5 34.2899 90)
+			(at 52.07 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25478,7 +25488,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 148.59 0)
+		(at 45.72 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25487,7 +25497,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd2eec5a-bef9-4474-9f6d-cef191f509f5")
 		(property "Reference" "#PWR076"
-			(at 66.04 154.94 0)
+			(at 45.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25496,7 +25506,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 153.67 0)
+			(at 45.72 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25504,7 +25514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 148.59 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25513,7 +25523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 148.59 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25522,7 +25532,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 148.59 0)
+			(at 45.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26518,7 +26528,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 35.56 0)
+		(at 68.58 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26527,7 +26537,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec4565d2-8d77-4673-bd19-bbb0311ec139")
 		(property "Reference" "#PWR043"
-			(at 80.01 41.91 0)
+			(at 68.58 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26536,7 +26546,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 40.64 0)
+			(at 68.58 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26544,7 +26554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 35.56 0)
+			(at 68.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26553,7 +26563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 35.56 0)
+			(at 68.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26562,7 +26572,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 35.56 0)
+			(at 68.58 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27490,7 +27500,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_Shunt_2mOhm_1pct_2512_CRE2512-FZ-R002E-3")
-		(at 66.04 134.62 90)
+		(at 45.72 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27499,7 +27509,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdefd888-9fa1-42cf-b078-2a04ee4028aa")
 		(property "Reference" "R26"
-			(at 68.58 133.35 90)
+			(at 48.26 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27509,7 +27519,7 @@
 			)
 		)
 		(property "Value" "R_Shunt_2mOhm_1pct_2512_CRE2512-FZ-R002E-3"
-			(at 73.914 134.62 0)
+			(at 53.594 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27520,7 +27530,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_2512"
-			(at 76.454 134.62 0)
+			(at 56.134 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27531,7 +27541,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cre.pdf"
-			(at 78.994 134.62 0)
+			(at 58.674 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27542,7 +27552,7 @@
 			)
 		)
 		(property "Description" "Current Sense Resistor, 2mΩ, ±1%, 3W, 2512, Bourns"
-			(at 66.04 134.62 0)
+			(at 45.72 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27551,7 +27561,7 @@
 			)
 		)
 		(property "MPN" "CRE2512-FZ-R002E-3"
-			(at 81.534 134.62 0)
+			(at 61.214 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27562,7 +27572,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 84.074 134.62 0)
+			(at 63.754 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27573,7 +27583,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 86.614 134.62 0)
+			(at 66.294 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27583,7 +27593,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 89.154 134.62 0)
+			(at 68.834 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27593,7 +27603,7 @@
 			)
 		)
 		(property "Val" "2mΩ"
-			(at 68.58 135.8899 90)
+			(at 48.26 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
