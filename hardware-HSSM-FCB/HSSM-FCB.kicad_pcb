@@ -1035,8 +1035,63 @@
 		)
 	)
 	(gr_rect
-		(start 117 130.2)
-		(end 129.6 141.8)
+		(start 123.5125 136.6625)
+		(end 125.6125 137.6375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "0caf45c4-b6bd-4c44-9043-4c23d15b2230")
+	)
+	(gr_rect
+		(start 121.525 136.6125)
+		(end 125.6875 137.6625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2e28e525-dd0b-4b68-8aee-0f483d67138b")
+	)
+	(gr_rect
+		(start 121.525 135.4)
+		(end 121.7 136.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "ca8b4cd9-01b8-4a64-817e-df933baa0242")
+	)
+	(gr_rect
+		(start 125.5 135.4)
+		(end 125.675 136.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d2e9c142-f91c-446b-8c51-baec1b613cc5")
+	)
+	(gr_rect
+		(start 121.525 135.4)
+		(end 125.675 136.475)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "df379754-c52c-45e4-a044-42f49fb2742c")
+	)
+	(gr_rect
+		(start 117.2 130.2)
+		(end 129.8 141.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1044,6 +1099,45 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "0dfa5309-a226-4e6c-b246-181ebc32da65")
+	)
+	(gr_text "SN:"
+		(at 121.45 137.6375 0)
+		(layer "F.SilkS" knockout)
+		(uuid "202c21a1-6b55-4608-81d8-adc249db856e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "HSSM~FCB"
+		(at 120.5 135.25 0)
+		(layer "F.SilkS" knockout)
+		(uuid "a7e51f28-af9e-43a5-859f-ed4a802d9e5e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "V1.0.0"
+		(at 121.65 136.45 0)
+		(layer "F.SilkS" knockout)
+		(uuid "fdc5f483-a677-4f6a-8617-d1d665f3ac85")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 118.625 140)
