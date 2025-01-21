@@ -2260,6 +2260,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "huaxindianzi"
@@ -2268,6 +2269,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "40MHz Surface Mount Crystal 10pF ±10ppm ±30ppm SMD2016-4P Crystals ROHS"
