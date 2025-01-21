@@ -10044,6 +10044,16 @@
 		)
 		(uuid "d1405a02-4f29-45ed-b0f7-a5e0c0769182")
 	)
+	(text "correct symbol - it is not a bare crystal"
+		(exclude_from_sim no)
+		(at 99.822 32.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d777b1a0-ffca-40da-98b5-0b9cba607a62")
+	)
 	(label "Enable"
 		(at 66.04 179.07 180)
 		(fields_autoplaced yes)
