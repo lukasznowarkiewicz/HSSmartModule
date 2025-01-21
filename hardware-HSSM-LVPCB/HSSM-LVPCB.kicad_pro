@@ -451,7 +451,9 @@
     "pinned_footprint_libs": [
       "HSSM-LVPCB"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "HSSM-LVPCB"
+    ]
   },
   "meta": {
     "filename": "HSSM-LVPCB.kicad_pro",
