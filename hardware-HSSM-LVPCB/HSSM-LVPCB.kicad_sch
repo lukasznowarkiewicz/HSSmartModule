@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "77e28373-c8b2-479f-b36e-df59d529ffba")
 	(paper "A3")
+	(title_block
+		(title "HSSM-LVPCB")
+		(date "2025-01-21")
+		(rev "1.0.0")
+	)
 	(lib_symbols
 		(symbol "HSSM-LVPCB:C_0p9_0.05pct_50V_0201_GRM0335C1HR90WA01D"
 			(pin_numbers hide)
