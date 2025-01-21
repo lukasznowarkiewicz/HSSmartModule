@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "8bcbf0e8-3979-4047-9cac-9c803c81ffef")
 	(paper "A4")
+	(title_block
+		(title "HSSM-FCB")
+		(date "2025-01-22")
+		(rev "1.0.0")
+	)
 	(lib_symbols
 		(symbol "HSSM-FCB:FFC_solder_connector_16pos"
 			(exclude_from_sim no)
@@ -682,52 +687,52 @@
 			)
 		)
 		(pin "14"
-			(uuid "1e087e4b-8378-4619-acad-180bb5426845")
+			(uuid "1e087e4b-8378-4619-acad-180bb5426846")
 		)
 		(pin "5"
-			(uuid "15baf5f6-1ea9-441c-a021-d9ecc4d767bf")
+			(uuid "15baf5f6-1ea9-441c-a021-d9ecc4d767c0")
 		)
 		(pin "7"
-			(uuid "1a37b334-4cf1-4ab6-960c-612a524c1328")
+			(uuid "1a37b334-4cf1-4ab6-960c-612a524c1329")
 		)
 		(pin "2"
-			(uuid "ffb475f8-654a-4be3-b637-bb1b58e53df5")
+			(uuid "ffb475f8-654a-4be3-b637-bb1b58e53df6")
 		)
 		(pin "4"
-			(uuid "64a41331-204e-4ede-96dc-3aaa4e55d58e")
+			(uuid "64a41331-204e-4ede-96dc-3aaa4e55d58f")
 		)
 		(pin "13"
-			(uuid "9b805910-0bec-455d-a71b-5e254bb2ebe8")
+			(uuid "9b805910-0bec-455d-a71b-5e254bb2ebe9")
 		)
 		(pin "10"
-			(uuid "b6f72ba9-1151-49ec-8c9f-353b7596682e")
+			(uuid "b6f72ba9-1151-49ec-8c9f-353b7596682f")
 		)
 		(pin "8"
-			(uuid "08c4f755-905c-4ac8-9764-bf542cc5913a")
+			(uuid "08c4f755-905c-4ac8-9764-bf542cc5913b")
 		)
 		(pin "9"
-			(uuid "cb0b41b1-6dd8-4b9f-b12b-3cc8b34367d3")
+			(uuid "cb0b41b1-6dd8-4b9f-b12b-3cc8b34367d4")
 		)
 		(pin "11"
-			(uuid "5ae1b075-2be4-4b65-8506-190c3b767a60")
+			(uuid "5ae1b075-2be4-4b65-8506-190c3b767a61")
 		)
 		(pin "3"
-			(uuid "2ac8917f-522e-4f02-9e47-25779df1fbbf")
+			(uuid "2ac8917f-522e-4f02-9e47-25779df1fbc0")
 		)
 		(pin "1"
-			(uuid "bfc9efea-5cfc-4774-b6d4-e76993e579bc")
+			(uuid "bfc9efea-5cfc-4774-b6d4-e76993e579bd")
 		)
 		(pin "6"
-			(uuid "54b026e0-df79-4d25-8661-33b20d7f3e17")
+			(uuid "54b026e0-df79-4d25-8661-33b20d7f3e18")
 		)
 		(pin "16"
-			(uuid "d853755c-b5d3-4f95-aaaa-7e5b5817f931")
+			(uuid "d853755c-b5d3-4f95-aaaa-7e5b5817f932")
 		)
 		(pin "15"
-			(uuid "54592070-3b38-464b-b66b-a705afdace29")
+			(uuid "54592070-3b38-464b-b66b-a705afdace2a")
 		)
 		(pin "12"
-			(uuid "98ba0329-c2bc-436b-a748-e26c13b5c279")
+			(uuid "98ba0329-c2bc-436b-a748-e26c13b5c27a")
 		)
 		(instances
 			(project ""
