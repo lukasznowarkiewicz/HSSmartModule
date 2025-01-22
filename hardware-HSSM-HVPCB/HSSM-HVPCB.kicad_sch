@@ -8,6 +8,342 @@
 		(title "HSSM-HVPCB")
 	)
 	(lib_symbols
+		(symbol "HSSM-HVPCB:1N5819HW-7-F"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1N5819HW-7-F"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "HSSM-HVPCB:1N5819HW-7-F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/2989649f1dde670a1cc3c74637d70943/1n5819hw.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Diodes Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Diode Schottky 1A 40V SOD123 | Diodes Inc 1N5819HW-7-F\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOD-123 Fairchild Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/1N5819HW-7-F/Diodes+Inc./view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "18-2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/1N5819HW-7-F/Diodes+Inc./view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "1N5819HW-7-F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "1N5819HW-7-F_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.016) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HSSM-HVPCB:ACDC_converter_LNK3204D-TL_power_intergrations"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9530,7 +9866,7 @@
 		)
 	)
 	(junction
-		(at 146.05 182.88)
+		(at 162.56 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "037ed39a-0a56-46b7-9c45-890dd03aa09f")
@@ -9630,6 +9966,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37c21840-b4cc-4a51-9ad7-2cf7558a943a")
+	)
+	(junction
+		(at 162.56 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c0b5885-1aa8-4801-95d9-21ba560925cf")
 	)
 	(junction
 		(at 86.36 97.79)
@@ -9752,12 +10094,6 @@
 		(uuid "99a77d2e-de71-4b82-ab6d-2d77b6b40121")
 	)
 	(junction
-		(at 146.05 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e510a0a-4213-4c6e-ab87-2c30b9b6fe19")
-	)
-	(junction
 		(at 113.03 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9774,12 +10110,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad2ec8c0-0a36-41f7-8b80-925fbea625a1")
-	)
-	(junction
-		(at 130.81 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb08c648-6018-4bb5-8923-6ea249fd0334")
 	)
 	(junction
 		(at 73.66 130.81)
@@ -9834,6 +10164,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb665e6c-ba59-431b-993b-5cb53210fd74")
+	)
+	(junction
+		(at 130.81 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec9bab53-4aaa-4970-ab4c-5ee96f86ebbe")
 	)
 	(junction
 		(at 171.45 265.43)
@@ -10095,7 +10431,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 189.23) (xy 146.05 190.5)
+			(xy 162.56 189.23) (xy 162.56 190.5)
 		)
 		(stroke
 			(width 0)
@@ -10225,7 +10561,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 175.26) (xy 148.59 175.26)
+			(xy 162.56 175.26) (xy 165.1 175.26)
 		)
 		(stroke
 			(width 0)
@@ -10425,7 +10761,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 175.26) (xy 146.05 176.53)
+			(xy 162.56 175.26) (xy 162.56 176.53)
 		)
 		(stroke
 			(width 0)
@@ -10585,7 +10921,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 181.61) (xy 146.05 182.88)
+			(xy 162.56 181.61) (xy 162.56 182.88)
 		)
 		(stroke
 			(width 0)
@@ -10652,6 +10988,16 @@
 			(type default)
 		)
 		(uuid "413d8016-7020-48b0-ae07-c07076304333")
+	)
+	(wire
+		(pts
+			(xy 130.81 175.26) (xy 140.97 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c3f7b1-5f0e-4162-b856-e19f5bbf3fcd")
 	)
 	(wire
 		(pts
@@ -10802,6 +11148,16 @@
 			(type default)
 		)
 		(uuid "4ebd0248-e9f6-4f9c-907d-16bbcc564093")
+	)
+	(wire
+		(pts
+			(xy 151.13 175.26) (xy 162.56 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb22a36-b9bd-40a1-8659-10b571e9bffe")
 	)
 	(wire
 		(pts
@@ -10995,7 +11351,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 182.88) (xy 146.05 184.15)
+			(xy 162.56 182.88) (xy 162.56 184.15)
 		)
 		(stroke
 			(width 0)
@@ -11385,16 +11741,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 175.26) (xy 146.05 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77d6fcb1-0e92-4313-a895-237a3b1796bf")
-	)
-	(wire
-		(pts
 			(xy 132.08 41.91) (xy 132.08 44.45)
 		)
 		(stroke
@@ -11475,7 +11821,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 182.88) (xy 140.97 193.04)
+			(xy 157.48 182.88) (xy 157.48 193.04)
 		)
 		(stroke
 			(width 0)
@@ -11685,7 +12031,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 172.72) (xy 148.59 175.26)
+			(xy 165.1 172.72) (xy 165.1 175.26)
 		)
 		(stroke
 			(width 0)
@@ -12615,7 +12961,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 193.04) (xy 140.97 193.04)
+			(xy 80.01 193.04) (xy 157.48 193.04)
 		)
 		(stroke
 			(width 0)
@@ -12785,7 +13131,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 182.88) (xy 146.05 182.88)
+			(xy 157.48 182.88) (xy 162.56 182.88)
 		)
 		(stroke
 			(width 0)
@@ -17652,7 +17998,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_20k_1pct_0402_RC0402FR-0720KL")
-		(at 146.05 186.69 90)
+		(at 162.56 186.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17661,7 +18007,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d3ffa1b-c593-4f08-b0bf-2e410856bdd5")
 		(property "Reference" "R34"
-			(at 148.59 185.42 90)
+			(at 165.1 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17671,7 +18017,7 @@
 			)
 		)
 		(property "Value" "R_20k_1pct_0402_RC0402FR-0720KL"
-			(at 153.924 186.69 0)
+			(at 170.434 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17682,7 +18028,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 156.464 186.69 0)
+			(at 172.974 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17693,7 +18039,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 159.004 186.69 0)
+			(at 175.514 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17704,7 +18050,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor, 20 kΩ, ±1%, 1/16W, 0402, RC0402FR-0720KL"
-			(at 146.05 186.69 0)
+			(at 162.56 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17713,7 +18059,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0720KL"
-			(at 161.544 186.69 0)
+			(at 178.054 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17724,7 +18070,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 164.084 186.69 0)
+			(at 180.594 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17735,7 +18081,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 166.624 186.69 0)
+			(at 183.134 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17745,7 +18091,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 169.164 186.69 0)
+			(at 185.674 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17755,7 +18101,7 @@
 			)
 		)
 		(property "Val" "20kΩ"
-			(at 148.59 187.9599 90)
+			(at 165.1 187.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24351,7 +24697,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:R_61k9_1pct_0402_RC0402FR-0761K9L")
-		(at 146.05 179.07 90)
+		(at 162.56 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24360,7 +24706,7 @@
 		(fields_autoplaced yes)
 		(uuid "accb27ab-34f2-425f-95d8-3e6343baaf0b")
 		(property "Reference" "R33"
-			(at 148.59 177.8 90)
+			(at 165.1 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24370,7 +24716,7 @@
 			)
 		)
 		(property "Value" "R_61k9_1pct_0402_RC0402FR-0761K9L"
-			(at 153.924 179.07 0)
+			(at 170.434 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24381,7 +24727,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:R_0402"
-			(at 156.464 179.07 0)
+			(at 172.974 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24392,7 +24738,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 159.004 179.07 0)
+			(at 175.514 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24403,7 +24749,7 @@
 			)
 		)
 		(property "Description" "SMD Resistor, 61.9 kΩ, ±1%, 1/16W, 0402, RC0402FR-0761K9L"
-			(at 146.05 179.07 0)
+			(at 162.56 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24412,7 +24758,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0761K9L"
-			(at 161.544 179.07 0)
+			(at 178.054 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24423,7 +24769,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 164.084 179.07 0)
+			(at 180.594 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24434,7 +24780,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 166.624 179.07 0)
+			(at 183.134 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24444,7 +24790,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 169.164 179.07 0)
+			(at 185.674 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24454,7 +24800,7 @@
 			)
 		)
 		(property "Val" "61.9kΩ"
-			(at 148.59 180.3399 90)
+			(at 165.1 180.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25647,7 +25993,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 148.59 172.72 0)
+		(at 165.1 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25656,7 +26002,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba95a99a-bea3-4cb5-b30b-792d746bcbd2")
 		(property "Reference" "#PWR073"
-			(at 148.59 176.53 0)
+			(at 165.1 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25665,7 +26011,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 148.59 167.64 0)
+			(at 165.1 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25673,7 +26019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 172.72 0)
+			(at 165.1 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25682,7 +26028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 172.72 0)
+			(at 165.1 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25691,7 +26037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 148.59 172.72 0)
+			(at 165.1 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25812,7 +26158,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 190.5 0)
+		(at 162.56 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25821,7 +26167,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcbb148e-0550-489b-b8b6-b4d9f736e32d")
 		(property "Reference" "#PWR066"
-			(at 146.05 196.85 0)
+			(at 162.56 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25830,7 +26176,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 195.58 0)
+			(at 162.56 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25838,7 +26184,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 190.5 0)
+			(at 162.56 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25847,7 +26193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 190.5 0)
+			(at 162.56 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25856,7 +26202,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 190.5 0)
+			(at 162.56 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27259,6 +27605,175 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:1N5819HW-7-F")
+		(at 146.05 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9a0bd8f-0aff-4b21-8495-0a966d98a634")
+		(property "Reference" "D3"
+			(at 146.05 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819HW-7-F"
+			(at 146.05 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:1N5819HW-7-F"
+			(at 146.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/2989649f1dde670a1cc3c74637d70943/1n5819hw.pdf"
+			(at 146.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Diodes Inc."
+			(at 146.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Diode Schottky 1A 40V SOD123 | Diodes Inc 1N5819HW-7-F\n                        \n"
+			(at 146.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-123 Fairchild Semiconductor"
+			(at 146.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 146.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/1N5819HW-7-F/Diodes+Inc./view-part/?ref=eda"
+			(at 146.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 146.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "18-2"
+			(at 146.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1N5819HW-7-F/Diodes+Inc./view-part/?ref=snap"
+			(at 146.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N5819HW-7-F"
+			(at 146.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 146.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "475674de-9210-4a07-9fdd-6ab4927fffea")
+		)
+		(pin "A"
+			(uuid "d0ef3908-14ee-422d-bf23-01f3ff79e276")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "D3")
 					(unit 1)
 				)
 			)
