@@ -10170,6 +10170,16 @@
 		)
 		(uuid "0034b5ab-a770-4718-8176-c73fb08ef7c7")
 	)
+	(text "QuadSPI io3"
+		(exclude_from_sim no)
+		(at 237.998 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "324d4dc7-390c-4817-bfd2-25c97355efad")
+	)
 	(text "Set button"
 		(exclude_from_sim no)
 		(at 217.678 264.922 0)
@@ -10189,6 +10199,36 @@
 			)
 		)
 		(uuid "52eaf667-7a97-493a-aa38-b45d2bd83447")
+	)
+	(text "QuadSPI io2"
+		(exclude_from_sim no)
+		(at 172.72 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6eee46dd-334b-467a-a9f2-4211c41760c9")
+	)
+	(text "QuadSPI io1"
+		(exclude_from_sim no)
+		(at 172.974 45.212 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "79c4d343-cbd5-44ca-a728-f7237f725712")
+	)
+	(text "QuadSPI io0"
+		(exclude_from_sim no)
+		(at 237.998 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9133cf97-c445-4ba9-91d5-878ffbc10830")
 	)
 	(text "S2 button"
 		(exclude_from_sim no)
