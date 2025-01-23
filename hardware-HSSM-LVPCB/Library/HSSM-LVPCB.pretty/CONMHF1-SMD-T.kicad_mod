@@ -248,34 +248,6 @@
 			)
 		)
 	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "B.Cu")
-		(uuid "ba99dd12-8757-4b5c-b698-593598329391")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.01)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -0.95 -1) (xy 0.95 -1) (xy 0.95 1) (xy -0.95 1)
-			)
-		)
-	)
 	(model "${KIPRJMOD}/Library/HSSM-LVPCB.pretty/step/CONMHF1-SMD-T.step"
 		(offset
 			(xyz 0 0 0)
