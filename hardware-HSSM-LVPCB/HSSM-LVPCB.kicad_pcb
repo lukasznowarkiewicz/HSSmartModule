@@ -9975,7 +9975,7 @@
 		(descr "Inductor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L1"
-			(at -0.388909 0.919239 135)
+			(at 0.035355 0.742462 135)
 			(layer "F.SilkS")
 			(uuid "b6afeefa-8af4-4087-bbd2-5ad033bb8fd5")
 			(effects
@@ -11351,7 +11351,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at -0.636396 0.848528 45)
+			(at 1.45 0.3 0)
 			(layer "F.SilkS")
 			(uuid "dd787ae2-c3c2-4aed-87b6-ad64a0deb1f7")
 			(effects
