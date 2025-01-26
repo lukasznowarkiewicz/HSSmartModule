@@ -484,7 +484,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "230VAC",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 255, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "via_diameter": 0.6,
