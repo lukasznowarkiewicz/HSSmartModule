@@ -2505,6 +2505,225 @@
 				)
 			)
 		)
+		(symbol "HSSM-HVPCB:ECS-2520MVLC-010-BN-TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -15.5252 8.1444 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ECS-2520MVLC-010-BN-TR"
+				(at -15.2679 -12.4688 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "HSSM-HVPCB:ECS-2520MVLC-041-BN-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.farnell.com/datasheets/3764782.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "ECS Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            1MHz XO (Standard) CMOS Oscillator 1.8V, 2.5V, 3.3V Enable/Disable 4-SMD, No Lead\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "ECS-2520MVLC-0-4 ECS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-2520MVLC-010-BN-TR/ECS/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ECS-2520MVLC-010-BN-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ECS-2520MVLC-010-BN-TR/ECS/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ECS-2520MVLC-010-BN-TR_0_0"
+				(rectangle
+					(start -15.24 -10.16)
+					(end 15.24 7.62)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "TRI_STATE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "HSSM-HVPCB:FFC_solder_connector_16pos"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -3788,304 +4007,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "HSSM-HVPCB:OSC_2520_4.096MHz_25ppm_ECS-2520MVLC-041-BN-TR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0.508 -9.144 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "OSC_2520_4.096MHz_25ppm_ECS-2520MVLC-041-BN-TR"
-				(at 0.508 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "HSSM-HVPCB:ECS-2520MVLC-041-BN-TR"
-				(at 0.508 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-2520MVLC.pdf"
-				(at 0.508 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Oscillator, 4.096 MHz, ±25 ppm, 1.6V ~ 3.6V, 2520 package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "ECS-2520MVLC-041-BN-TR"
-				(at 0.508 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "ECS Inc."
-				(at 0.508 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 0.508 -26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Lukasz Nowarkiewicz"
-				(at 0.508 -29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "4.096MHz"
-				(at 0.508 -11.684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "oscillator, SMD, ECS, 4.096MHz, 2520"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OSC_2520_4.096MHz_25ppm_ECS-2520MVLC-041-BN-TR_0_0"
-				(rectangle
-					(start -5.08 6.35)
-					(end 5.08 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.3368 3.81) (xy -2.3368 -1.27)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 3.81) (xy -1.397 -1.27)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 3.81) (xy 1.397 3.81)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 -1.27) (xy -1.397 -1.27)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 3.81) (xy 1.397 -1.27)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.3368 3.81) (xy 2.3368 -1.27)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 1.27 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -3.81 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 1.27 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -3.81 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -10034,6 +9955,12 @@
 		(uuid "5dfb2725-8bfd-400a-a803-6847a74d028f")
 	)
 	(junction
+		(at 149.86 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f890ccf-49a2-400a-9625-ffa1915ef67d")
+	)
+	(junction
 		(at 368.3 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10062,6 +9989,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a738808-923c-439d-bb28-85c9a80f58f9")
+	)
+	(junction
+		(at 149.86 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c098982-f877-444f-8867-554043f0900b")
 	)
 	(junction
 		(at 160.02 231.14)
@@ -10226,6 +10159,10 @@
 		(uuid "94b6cfef-380d-4e36-a5c4-15de2ecfa90a")
 	)
 	(no_connect
+		(at 120.65 44.45)
+		(uuid "9a6ac7db-126c-412b-a5a7-ebef67aca83a")
+	)
+	(no_connect
 		(at 102.87 182.88)
 		(uuid "a2816020-3933-40d8-bf5d-e900ed38121c")
 	)
@@ -10315,7 +10252,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 52.07) (xy 190.5 54.61)
+			(xy 190.5 66.04) (xy 190.5 68.58)
 		)
 		(stroke
 			(width 0)
@@ -10685,7 +10622,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 52.07) (xy 179.07 54.61)
+			(xy 179.07 66.04) (xy 179.07 68.58)
 		)
 		(stroke
 			(width 0)
@@ -11055,16 +10992,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 31.75) (xy 100.33 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "429baf64-bb02-4e4d-a06d-f95648563150")
-	)
-	(wire
-		(pts
 			(xy 176.53 265.43) (xy 176.53 267.97)
 		)
 		(stroke
@@ -11395,7 +11322,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 44.45) (xy 179.07 46.99)
+			(xy 179.07 58.42) (xy 179.07 60.96)
 		)
 		(stroke
 			(width 0)
@@ -11505,13 +11432,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 36.83) (xy 116.84 36.83)
+			(xy 149.86 29.21) (xy 149.86 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63bb7e2c-b886-4aa8-9cdb-edc2f9eb5cbc")
+		(uuid "633b183a-2d76-4b74-b177-eb67a4d7f24b")
 	)
 	(wire
 		(pts
@@ -12035,6 +11962,26 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 36.83) (xy 149.86 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f4c078-28bf-4c22-9cb8-6193ca1ddd0b")
+	)
+	(wire
+		(pts
+			(xy 199.39 41.91) (xy 199.39 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e0dbf5-36e8-4f9e-816d-b6b607e21526")
+	)
+	(wire
+		(pts
 			(xy 369.57 227.33) (xy 368.3 227.33)
 		)
 		(stroke
@@ -12072,6 +12019,16 @@
 			(type default)
 		)
 		(uuid "897a582d-c03d-4066-bdff-fa46315c64ea")
+	)
+	(wire
+		(pts
+			(xy 196.85 31.75) (xy 205.74 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89fd6f2d-9d5e-4a42-8fb0-75449744681d")
 	)
 	(wire
 		(pts
@@ -12122,6 +12079,16 @@
 			(type default)
 		)
 		(uuid "8e764ae1-4a3b-4861-90a3-63b44306d38a")
+	)
+	(wire
+		(pts
+			(xy 149.86 31.75) (xy 156.21 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efcc143-b43a-4aab-93fd-6d0634bf8515")
 	)
 	(wire
 		(pts
@@ -12265,6 +12232,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 36.83) (xy 149.86 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f174acc-29df-4cf4-ae0f-3cdeed818561")
+	)
+	(wire
+		(pts
 			(xy 176.53 139.7) (xy 180.34 139.7)
 		)
 		(stroke
@@ -12322,16 +12299,6 @@
 			(type default)
 		)
 		(uuid "a206e810-7094-45fc-b841-4141d9e644ee")
-	)
-	(wire
-		(pts
-			(xy 120.65 31.75) (xy 120.65 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2e3fea5-f90a-460f-a83c-79fd1369f883")
 	)
 	(wire
 		(pts
@@ -12465,13 +12432,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 31.75) (xy 120.65 31.75)
+			(xy 196.85 41.91) (xy 199.39 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3b5b8c6-f946-47a5-94cd-dff0f0649168")
+		(uuid "b385f9d8-443c-4ba8-93c4-f7a36212def5")
 	)
 	(wire
 		(pts
@@ -12685,16 +12652,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 60.96) (xy 104.14 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf2255b0-1fbc-451e-8133-f283377a37ab")
-	)
-	(wire
-		(pts
 			(xy 80.01 182.88) (xy 80.01 193.04)
 		)
 		(stroke
@@ -12755,13 +12712,23 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 44.45) (xy 190.5 46.99)
+			(xy 190.5 58.42) (xy 190.5 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c2d35a1f-48e8-4b73-8544-66db96511c3f")
+	)
+	(wire
+		(pts
+			(xy 149.86 43.18) (xy 149.86 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4304010-f87f-4ff6-9580-4b96c00b7622")
 	)
 	(wire
 		(pts
@@ -13085,16 +13052,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 36.83) (xy 116.84 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e42b7f48-b981-4adc-8732-cd64a3198498")
-	)
-	(wire
-		(pts
 			(xy 124.46 241.3) (xy 124.46 246.38)
 		)
 		(stroke
@@ -13112,6 +13069,16 @@
 			(type default)
 		)
 		(uuid "e53c23f3-59da-4834-a985-052149b716f2")
+	)
+	(wire
+		(pts
+			(xy 104.14 60.96) (xy 95.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59e5555-3846-4f08-8d97-05eb1fa97c44")
 	)
 	(wire
 		(pts
@@ -13305,16 +13272,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 31.75) (xy 99.06 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f35da4de-d7db-4c4c-ae04-ee19bdea0f9e")
-	)
-	(wire
-		(pts
 			(xy 113.03 254) (xy 113.03 250.19)
 		)
 		(stroke
@@ -13392,6 +13349,16 @@
 			(type default)
 		)
 		(uuid "f748e993-e275-441b-8020-f0221953c278")
+	)
+	(wire
+		(pts
+			(xy 149.86 36.83) (xy 149.86 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7fd819b-8797-4d2d-8849-e0e7ee6fd91d")
 	)
 	(wire
 		(pts
@@ -13687,6 +13654,17 @@
 		)
 		(uuid "dd7c2d48-1f45-447f-9570-d18a15fbc0e6")
 	)
+	(label "REF_CLK"
+		(at 205.74 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a04b2f1-7564-4e80-9e95-7ae0781b340c")
+	)
 	(label "DO1"
 		(at 231.14 247.65 0)
 		(fields_autoplaced yes)
@@ -13752,6 +13730,17 @@
 			(justify left bottom)
 		)
 		(uuid "3ccf1630-59b8-47cc-8984-eb6cb4fbb04d")
+	)
+	(label "REF_CLK"
+		(at 95.25 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f4eaeb4-21c8-4eb1-8ddb-dcf732d6a0ce")
 	)
 	(label "GPIO_S1"
 		(at 231.14 229.87 0)
@@ -14557,6 +14546,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 149.86 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00a2afce-a2c7-4e4d-9c70-ed55867abde2")
+		(property "Reference" "#PWR083"
+			(at 149.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3LDO"
+			(at 148.844 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 149.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57e71db4-f504-4628-99ac-e6674a51af48")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:power_meter_CS5480-INZ")
 		(at 129.54 69.85 0)
 		(unit 1)
@@ -14779,72 +14833,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "044f5dd1-63a6-453d-bef4-591a3451d146")
-		(property "Reference" "#PWR058"
-			(at 116.84 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e05cc8c-5773-4a8b-a6e8-074ca427cab5")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 250.19 260.35 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14912,7 +14900,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 179.07 44.45 0)
+		(at 179.07 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14920,7 +14908,7 @@
 		(dnp no)
 		(uuid "08a50fbd-e341-4388-99e9-4406adc98ac9")
 		(property "Reference" "#PWR061"
-			(at 179.07 48.26 0)
+			(at 179.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14929,7 +14917,7 @@
 			)
 		)
 		(property "Value" "+3V3LDO"
-			(at 178.054 40.132 0)
+			(at 178.054 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14937,7 +14925,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 44.45 0)
+			(at 179.07 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14946,7 +14934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 44.45 0)
+			(at 179.07 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14955,7 +14943,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 179.07 44.45 0)
+			(at 179.07 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15370,6 +15358,161 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-HVPCB:ECS-2520MVLC-010-BN-TR")
+		(at 176.53 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fc0907f-35ae-4339-a837-75307cccae8b")
+		(property "Reference" "Y2"
+			(at 176.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-2520MVLC-010-BN-TR"
+			(at 176.53 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:ECS-2520MVLC-041-BN-TR"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/3764782.pdf"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "ECS Inc."
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            1MHz XO (Standard) CMOS Oscillator 1.8V, 2.5V, 3.3V Enable/Disable 4-SMD, No Lead\n                        \n"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "ECS-2520MVLC-0-4 ECS"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-2520MVLC-010-BN-TR/ECS/view-part/?ref=snap"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ECS-2520MVLC-010-BN-TR"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ECS-2520MVLC-010-BN-TR/ECS/view-part/?ref=eda"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1fef856a-c6ea-48e1-9797-8ae48daabc4f")
+		)
+		(pin "3"
+			(uuid "43842bfb-9128-4d78-a9a5-52cb0a2b7c9c")
+		)
+		(pin "2"
+			(uuid "10336068-4497-41a4-acc9-d412ae6e5345")
+		)
+		(pin "1"
+			(uuid "9e45613c-b92a-4ad6-8902-a4c732fb7d5a")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:R_1k_1pct_0402_CRCW04021K00FKED")
 		(at 60.96 121.92 0)
 		(unit 1)
@@ -15752,7 +15895,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D")
-		(at 179.07 49.53 90)
+		(at 179.07 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15761,7 +15904,7 @@
 		(fields_autoplaced yes)
 		(uuid "16f01756-4c7f-43af-9577-e903671e05d8")
 		(property "Reference" "C20"
-			(at 181.61 48.2536 90)
+			(at 181.61 62.2236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15771,7 +15914,7 @@
 			)
 		)
 		(property "Value" "C_0u1_10pct_50V_0402_GRM155R71H104KE14D"
-			(at 186.944 49.53 0)
+			(at 186.944 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15782,7 +15925,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:C_0402"
-			(at 189.484 49.53 0)
+			(at 189.484 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15793,7 +15936,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
-			(at 192.024 49.53 0)
+			(at 192.024 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15804,7 +15947,7 @@
 			)
 		)
 		(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 50V, X7R, 0402, GRM155R71H104KE14D"
-			(at 179.07 49.53 0)
+			(at 179.07 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15813,7 +15956,7 @@
 			)
 		)
 		(property "MPN" "GRM155R71H104KE14D"
-			(at 194.564 49.53 0)
+			(at 194.564 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15824,7 +15967,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 197.104 49.53 0)
+			(at 197.104 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15835,7 +15978,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 199.644 49.53 0)
+			(at 199.644 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15845,7 +15988,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 202.184 49.53 0)
+			(at 202.184 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15855,7 +15998,7 @@
 			)
 		)
 		(property "Val" "0.1µF"
-			(at 181.61 50.7935 90)
+			(at 181.61 64.7635 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16300,7 +16443,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 190.5 44.45 0)
+		(at 190.5 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16308,7 +16451,7 @@
 		(dnp no)
 		(uuid "214b41da-8dc4-4fa1-a5e7-73c0061c1824")
 		(property "Reference" "#PWR072"
-			(at 190.5 48.26 0)
+			(at 190.5 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16317,7 +16460,7 @@
 			)
 		)
 		(property "Value" "+3V3LDO"
-			(at 189.484 40.132 0)
+			(at 189.484 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16325,7 +16468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 44.45 0)
+			(at 190.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16334,7 +16477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 44.45 0)
+			(at 190.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16343,7 +16486,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 190.5 44.45 0)
+			(at 190.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17576,6 +17719,72 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33de3dce-0c09-4e89-b390-351dc725e4fd")
+		(property "Reference" "#PWR084"
+			(at 149.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66c6b691-a900-4a97-8397-66cde3aba989")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -18942,7 +19151,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 54.61 0)
+		(at 179.07 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18951,7 +19160,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a9ac65d-735d-4143-a382-730e5295224c")
 		(property "Reference" "#PWR071"
-			(at 179.07 60.96 0)
+			(at 179.07 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18960,7 +19169,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 59.69 0)
+			(at 179.07 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18968,7 +19177,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 54.61 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18977,7 +19186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 54.61 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18986,7 +19195,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 54.61 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22396,138 +22605,6 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:OSC_2520_4.096MHz_25ppm_ECS-2520MVLC-041-BN-TR")
-		(at 107.95 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a1cc333-8580-4659-9271-3be8e6a2fefe")
-		(property "Reference" "Y1"
-			(at 107.95 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "OSC_2520_4.096MHz_25ppm_ECS-2520MVLC-041-BN-TR"
-			(at 108.458 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:ECS-2520MVLC-041-BN-TR"
-			(at 108.458 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-2520MVLC.pdf"
-			(at 108.458 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Oscillator, 4.096 MHz, ±25 ppm, 1.6V ~ 3.6V, 2520 package"
-			(at 107.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ECS-2520MVLC-041-BN-TR"
-			(at 108.458 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ECS Inc."
-			(at 108.458 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 108.458 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 108.458 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4.096MHz"
-			(at 107.95 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ed5359c-ff99-4980-acb0-8e6cd03ae7f0")
-		)
-		(pin "4"
-			(uuid "4ab81044-1b17-406d-a9a3-228066a22b63")
-		)
-		(pin "3"
-			(uuid "ca9f965d-7ad3-4ef4-94b1-3eecece4f6fb")
-		)
-		(pin "2"
-			(uuid "4d018f96-b00c-46ae-9e65-ee540323f468")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:AC")
 		(at 323.85 53.34 90)
 		(mirror x)
@@ -23115,6 +23192,72 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "936f37d5-a82a-43d5-929b-ab309681418d")
+		(property "Reference" "#PWR085"
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a999fe0b-9358-4f8a-9461-fe83f64947c1")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -25188,7 +25331,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 54.61 0)
+		(at 190.5 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25197,7 +25340,7 @@
 		(fields_autoplaced yes)
 		(uuid "af48c009-3666-45b5-8fbb-06c6d5860546")
 		(property "Reference" "#PWR077"
-			(at 190.5 60.96 0)
+			(at 190.5 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25206,7 +25349,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 59.69 0)
+			(at 190.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25214,7 +25357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 54.61 0)
+			(at 190.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25223,7 +25366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 54.61 0)
+			(at 190.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25232,7 +25375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 54.61 0)
+			(at 190.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26914,7 +27057,7 @@
 	)
 	(symbol
 		(lib_id "HSSM-HVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D")
-		(at 190.5 49.53 90)
+		(at 190.5 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26923,7 +27066,7 @@
 		(fields_autoplaced yes)
 		(uuid "c875781d-9c66-40ba-8feb-7233762326d4")
 		(property "Reference" "C21"
-			(at 193.04 48.2536 90)
+			(at 193.04 62.2236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26933,7 +27076,7 @@
 			)
 		)
 		(property "Value" "C_0u1_10pct_50V_0402_GRM155R71H104KE14D"
-			(at 198.374 49.53 0)
+			(at 198.374 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26944,7 +27087,7 @@
 			)
 		)
 		(property "Footprint" "HSSM-HVPCB:C_0402"
-			(at 200.914 49.53 0)
+			(at 200.914 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26955,7 +27098,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
-			(at 203.454 49.53 0)
+			(at 203.454 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26966,7 +27109,7 @@
 			)
 		)
 		(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 50V, X7R, 0402, GRM155R71H104KE14D"
-			(at 190.5 49.53 0)
+			(at 190.5 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26975,7 +27118,7 @@
 			)
 		)
 		(property "MPN" "GRM155R71H104KE14D"
-			(at 205.994 49.53 0)
+			(at 205.994 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26986,7 +27129,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 208.534 49.53 0)
+			(at 208.534 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26997,7 +27140,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 211.074 49.53 0)
+			(at 211.074 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27007,7 +27150,7 @@
 			)
 		)
 		(property "Author" "Lukasz Nowarkiewicz"
-			(at 213.614 49.53 0)
+			(at 213.614 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27017,7 +27160,7 @@
 			)
 		)
 		(property "Val" "0.1µF"
-			(at 193.04 50.7935 90)
+			(at 193.04 64.7635 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28592,6 +28735,134 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D")
+		(at 149.86 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e865aa7e-ed3a-41f6-804e-7839825892ee")
+		(property "Reference" "C24"
+			(at 152.4 39.3636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_0u1_10pct_50V_0402_GRM155R71H104KE14D"
+			(at 157.734 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:C_0402"
+			(at 160.274 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
+			(at 162.814 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 50V, X7R, 0402, GRM155R71H104KE14D"
+			(at 149.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 165.354 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 167.894 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 170.434 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 172.974 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0.1µF"
+			(at 152.4 41.9035 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "1e73baa6-e582-4007-ad89-81266d6d1176")
+		)
+		(pin "2"
+			(uuid "f63c607f-9bd7-4ca3-95d5-e690c710e608")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "C24")
 					(unit 1)
 				)
 			)
