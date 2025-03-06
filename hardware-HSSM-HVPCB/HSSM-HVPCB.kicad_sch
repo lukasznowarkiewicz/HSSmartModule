@@ -2505,7 +2505,7 @@
 				)
 			)
 		)
-		(symbol "HSSM-HVPCB:ECS-2520MVLC-010-BN-TR"
+		(symbol "HSSM-HVPCB:ECS-2520MVLC-041-BN-TR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2521,7 +2521,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "ECS-2520MVLC-010-BN-TR"
+			(property "Value" "ECS-2520MVLC-041-BN-TR"
 				(at -15.2679 -12.4688 0)
 				(effects
 					(font
@@ -2608,7 +2608,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "ECS-2520MVLC-010-BN-TR"
+			(property "MPN" "ECS-2520MVLC-041-BN-TR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2638,7 +2638,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ECS-2520MVLC-010-BN-TR_0_0"
+			(symbol "ECS-2520MVLC-041-BN-TR_0_0"
 				(rectangle
 					(start -15.24 -10.16)
 					(end 15.24 7.62)
@@ -7706,7 +7706,7 @@
 				)
 			)
 		)
-		(symbol "HSSM-HVPCB:R_Shunt_2mOhm_1pct_2512_CRE2512-FZ-R002E-3"
+		(symbol "HSSM-HVPCB:R_Shunt_2mOhm_1pct_1210_PMR25HZPFV2L00"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -7722,7 +7722,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "R_Shunt_2mOhm_1pct_2512_CRE2512-FZ-R002E-3"
+			(property "Value" "R_Shunt_2mOhm_1pct_1210_PMR25HZPFV2L00"
 				(at 0 -7.874 0)
 				(effects
 					(font
@@ -7733,7 +7733,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "HSSM-HVPCB:R_2512"
+			(property "Footprint" "HSSM-HVPCB:R_1210"
 				(at 0 -10.414 0)
 				(effects
 					(font
@@ -7744,7 +7744,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cre.pdf"
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/pmr_series-e.pdf"
 				(at 0 -12.954 0)
 				(effects
 					(font
@@ -7764,7 +7764,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CRE2512-FZ-R002E-3"
+			(property "MPN" "PMR25HZPFV2L00"
 				(at 0 -15.494 0)
 				(effects
 					(font
@@ -7775,7 +7775,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Bourns"
+			(property "Manufacturer" "ROHM"
 				(at 0 -18.034 0)
 				(effects
 					(font
@@ -7815,7 +7815,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "Resistor, Shunt, 2mΩ, 1%, 3W, 2512, Bourns"
+			(property "ki_keywords" "Resistor, Shunt, 2mΩ, 1%, 1W, 1210, ROHM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7824,7 +7824,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_Shunt_2mOhm_1pct_2512_CRE2512-FZ-R002E-3_0_1"
+			(symbol "R_Shunt_2mOhm_1pct_1210_PMR25HZPFV2L00_0_1"
 				(rectangle
 					(start -3.81 1.27)
 					(end 3.81 -1.27)
@@ -7837,7 +7837,7 @@
 					)
 				)
 			)
-			(symbol "R_Shunt_2mOhm_1pct_2512_CRE2512-FZ-R002E-3_1_1"
+			(symbol "R_Shunt_2mOhm_1pct_1210_PMR25HZPFV2L00_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 1.27)
@@ -10249,16 +10249,6 @@
 			(type default)
 		)
 		(uuid "08357d52-7a46-483d-83ee-d03e552290bb")
-	)
-	(wire
-		(pts
-			(xy 190.5 66.04) (xy 190.5 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "084576fb-b317-4cd0-8d7a-1aaa0e560891")
 	)
 	(wire
 		(pts
@@ -12712,16 +12702,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 58.42) (xy 190.5 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2d35a1f-48e8-4b73-8544-66db96511c3f")
-	)
-	(wire
-		(pts
 			(xy 149.86 43.18) (xy 149.86 44.45)
 		)
 		(stroke
@@ -13633,16 +13613,6 @@
 			)
 		)
 		(uuid "92cc24ef-b1cf-4279-be00-280f24a844d8")
-	)
-	(text "correct symbol - it is not a bare crystal"
-		(exclude_from_sim no)
-		(at 114.3 18.796 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "be00d25f-849a-41cc-8a27-5399ff41a87c")
 	)
 	(text "Switch 1, switch 2 and switch 3 input circuitry"
 		(exclude_from_sim no)
@@ -15358,161 +15328,6 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:ECS-2520MVLC-010-BN-TR")
-		(at 176.53 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fc0907f-35ae-4339-a837-75307cccae8b")
-		(property "Reference" "Y2"
-			(at 176.53 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ECS-2520MVLC-010-BN-TR"
-			(at 176.53 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:ECS-2520MVLC-041-BN-TR"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/3764782.pdf"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "ECS Inc."
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            1MHz XO (Standard) CMOS Oscillator 1.8V, 2.5V, 3.3V Enable/Disable 4-SMD, No Lead\n                        \n"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "ECS-2520MVLC-0-4 ECS"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-2520MVLC-010-BN-TR/ECS/view-part/?ref=snap"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ECS-2520MVLC-010-BN-TR"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ECS-2520MVLC-010-BN-TR/ECS/view-part/?ref=eda"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "1fef856a-c6ea-48e1-9797-8ae48daabc4f")
-		)
-		(pin "3"
-			(uuid "43842bfb-9128-4d78-a9a5-52cb0a2b7c9c")
-		)
-		(pin "2"
-			(uuid "10336068-4497-41a4-acc9-d412ae6e5345")
-		)
-		(pin "1"
-			(uuid "9e45613c-b92a-4ad6-8902-a4c732fb7d5a")
-		)
-		(instances
-			(project ""
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HSSM-HVPCB:R_1k_1pct_0402_CRCW04021K00FKED")
 		(at 60.96 121.92 0)
 		(unit 1)
@@ -16442,16 +16257,43 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 190.5 58.42 0)
+		(lib_id "HSSM-HVPCB:ECS-2520MVLC-041-BN-TR")
+		(at 176.53 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "214b41da-8dc4-4fa1-a5e7-73c0061c1824")
-		(property "Reference" "#PWR072"
-			(at 190.5 62.23 0)
+		(fields_autoplaced yes)
+		(uuid "236e5b21-cf16-484e-99aa-9a151001c86f")
+		(property "Reference" "Y1"
+			(at 176.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-2520MVLC-041-BN-TR"
+			(at 176.53 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:ECS-2520MVLC-041-BN-TR"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.farnell.com/datasheets/3764782.pdf"
+			(at 176.53 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16459,16 +16301,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3LDO"
-			(at 189.484 54.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 58.42 0)
+		(property "Description" ""
+			(at 176.53 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16476,31 +16310,102 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 190.5 58.42 0)
+		(property "MF" "ECS Inc."
+			(at 176.53 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 190.5 58.42 0)
+		(property "Description_1" "\n                        \n                            1MHz XO (Standard) CMOS Oscillator 1.8V, 2.5V, 3.3V Enable/Disable 4-SMD, No Lead\n                        \n"
+			(at 176.53 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "ECS-2520MVLC-0-4 ECS"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-2520MVLC-010-BN-TR/ECS/view-part/?ref=snap"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ECS-2520MVLC-041-BN-TR"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ECS-2520MVLC-010-BN-TR/ECS/view-part/?ref=eda"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "e09e2983-8e5a-4f75-9266-6867d22565d1")
+			(uuid "f07566ca-dd75-431f-8d47-f10b4d3287c0")
+		)
+		(pin "2"
+			(uuid "503f3ff2-dbbd-4880-9c7b-98ec147c70da")
+		)
+		(pin "3"
+			(uuid "4370e2c1-3b87-43f2-b37e-58cdffe9a5bc")
+		)
+		(pin "4"
+			(uuid "63cec3dc-c6e3-4c15-b5f2-5488d3fc716b")
 		)
 		(instances
-			(project "HSSM-HVPCB"
+			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR072")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -19531,6 +19436,134 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:R_Shunt_2mOhm_1pct_1210_PMR25HZPFV2L00")
+		(at 49.53 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51f66705-423a-41fa-91c1-f6952f8e9a72")
+		(property "Reference" "R25"
+			(at 52.07 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Shunt_2mOhm_1pct_1210_PMR25HZPFV2L00"
+			(at 57.404 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_1210"
+			(at 59.944 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/pmr_series-e.pdf"
+			(at 62.484 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current Sense Resistor, 2mΩ, ±1%, 3W, 2512, Bourns"
+			(at 49.53 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PMR25HZPFV2L00"
+			(at 65.024 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM"
+			(at 67.564 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 70.104 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 72.644 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "2mΩ"
+			(at 52.07 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "b397db9d-40ed-42c5-b38a-2373cf9cd1a4")
+		)
+		(pin "1"
+			(uuid "81013410-00d8-4e6e-b8f4-632a750e060b")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -25330,72 +25363,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 190.5 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af48c009-3666-45b5-8fbb-06c6d5860546")
-		(property "Reference" "#PWR077"
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b044fb9-576e-4ad1-b62a-864a90d320f6")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:AC")
 		(at 363.22 224.79 0)
 		(unit 1)
@@ -25716,134 +25683,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-HVPCB:R_Shunt_2mOhm_1pct_2512_CRE2512-FZ-R002E-3")
-		(at 49.53 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b375c0fe-9934-41b0-a9bd-0bda19d865a1")
-		(property "Reference" "R25"
-			(at 52.07 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Shunt_2mOhm_1pct_2512_CRE2512-FZ-R002E-3"
-			(at 57.404 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:R_2512"
-			(at 59.944 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cre.pdf"
-			(at 62.484 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Current Sense Resistor, 2mΩ, ±1%, 3W, 2512, Bourns"
-			(at 49.53 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRE2512-FZ-R002E-3"
-			(at 65.024 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 67.564 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 70.104 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 72.644 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "2mΩ"
-			(at 52.07 132.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "115300b4-3f3a-434e-9387-160a6160781d")
-		)
-		(pin "1"
-			(uuid "8311399c-cabd-46cc-bc67-60cc9340e420")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -27050,134 +26889,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-HVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D")
-		(at 190.5 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c875781d-9c66-40ba-8feb-7233762326d4")
-		(property "Reference" "C21"
-			(at 193.04 62.2236 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "C_0u1_10pct_50V_0402_GRM155R71H104KE14D"
-			(at 198.374 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:C_0402"
-			(at 200.914 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
-			(at 203.454 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Ceramic Capacitor, 0.1 µF, ±10%, 50V, X7R, 0402, GRM155R71H104KE14D"
-			(at 190.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM155R71H104KE14D"
-			(at 205.994 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 208.534 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 211.074 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 213.614 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0.1µF"
-			(at 193.04 64.7635 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "5810f5ec-117b-4ed7-bf0b-55aae2a71330")
-		)
-		(pin "2"
-			(uuid "dece7eea-a310-491b-8f18-890b38247366")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -29392,6 +29103,134 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-HVPCB:R_Shunt_2mOhm_1pct_1210_PMR25HZPFV2L00")
+		(at 45.72 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4f80789-fb84-4c08-a21c-d180c8f30f50")
+		(property "Reference" "R26"
+			(at 48.26 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Shunt_2mOhm_1pct_1210_PMR25HZPFV2L00"
+			(at 53.594 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:R_1210"
+			(at 56.134 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/pmr_series-e.pdf"
+			(at 58.674 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current Sense Resistor, 2mΩ, ±1%, 3W, 2512, Bourns"
+			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PMR25HZPFV2L00"
+			(at 61.214 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM"
+			(at 63.754 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 66.294 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 68.834 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "2mΩ"
+			(at 48.26 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "62a5496c-6dc7-4be5-b7b1-c1629f5b1e43")
+		)
+		(pin "1"
+			(uuid "7c248def-f141-4bcc-b58e-909239554d0b")
+		)
+		(instances
+			(project "HSSM-HVPCB"
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-HVPCB:R_10k_1pct_0402_RC0402FR-0710KL")
 		(at 335.28 78.74 90)
 		(unit 1)
@@ -29967,134 +29806,6 @@
 			(project "HSSM-HVPCB"
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-HVPCB:R_Shunt_2mOhm_1pct_2512_CRE2512-FZ-R002E-3")
-		(at 45.72 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdefd888-9fa1-42cf-b078-2a04ee4028aa")
-		(property "Reference" "R26"
-			(at 48.26 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Shunt_2mOhm_1pct_2512_CRE2512-FZ-R002E-3"
-			(at 53.594 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:R_2512"
-			(at 56.134 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cre.pdf"
-			(at 58.674 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Current Sense Resistor, 2mΩ, ±1%, 3W, 2512, Bourns"
-			(at 45.72 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRE2512-FZ-R002E-3"
-			(at 61.214 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 63.754 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 66.294 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 68.834 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "2mΩ"
-			(at 48.26 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "2"
-			(uuid "2f81cc64-c8cb-4612-b6f3-cf3013fb60dd")
-		)
-		(pin "1"
-			(uuid "1d9085d6-6338-4f2b-a83c-841a522a25a8")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "R26")
 					(unit 1)
 				)
 			)
