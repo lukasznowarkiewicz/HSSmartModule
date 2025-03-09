@@ -1741,7 +1741,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "R19"
-			(at 0 -1.85 0)
+			(at -8.7 0 0)
 			(layer "F.SilkS")
 			(uuid "d5ec395d-c653-4ad1-ac1f-c4d698e196d1")
 			(effects
@@ -4669,7 +4669,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.1625 -1.51) (xy -1.4025 -1.84) (xy -0.9225 -1.84) (xy -1.1625 -1.51)
+				(xy -1.1625 -0.5) (xy -0.9225 -0.17) (xy -1.4025 -0.17) (xy -1.1625 -0.5)
 			)
 			(stroke
 				(width 0.12)
@@ -5368,7 +5368,7 @@
 			(uuid "5a16ae9e-0a8f-4faa-8a1b-924a033604ee")
 		)
 		(fp_text user "*"
-			(at -3.6 -2.9718 0)
+			(at -3 -1.7 0)
 			(layer "F.SilkS")
 			(uuid "4f5b06f8-5897-44d5-a01c-bbd5dde7af95")
 			(effects
@@ -5722,7 +5722,7 @@
 		(uuid "8ce6397d-4674-4697-9986-2f8453cea4d8")
 		(at 168.7 130.9)
 		(property "Reference" "R18"
-			(at 2.7 -0.4 0)
+			(at 2.1 -0.4 0)
 			(layer "F.SilkS")
 			(uuid "ea5d0c95-7b63-4e2e-9e2c-f1734b4f76eb")
 			(effects
@@ -7454,7 +7454,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "R20"
-			(at 0 -1.85 0)
+			(at -7.1 0 0)
 			(layer "F.SilkS")
 			(uuid "51a9f9ce-707c-4c4e-98eb-d980eb2a1689")
 			(effects
@@ -8660,7 +8660,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "R22"
-			(at 0 -1.85 0)
+			(at -3.9 -0.4 0)
 			(layer "F.SilkS")
 			(uuid "60fd5b6b-4b9e-49fc-81de-d7c01208f089")
 			(effects
@@ -9199,7 +9199,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "R21"
-			(at 0 -1.85 0)
+			(at 3.7 -0.1 0)
 			(layer "F.SilkS")
 			(uuid "4687cf69-1be3-457f-ad20-64f9a02facdf")
 			(effects
@@ -11447,7 +11447,7 @@
 		(uuid "17d0e47e-0d7f-4e77-8b75-11a2d8dc8f99")
 		(at 159.1 126.6)
 		(property "Reference" "R31"
-			(at 0 1 360)
+			(at 2.4 0.1 360)
 			(layer "B.SilkS")
 			(uuid "03ccf8d1-0b18-4bde-a045-ae83f5eaba4f")
 			(effects
@@ -12066,7 +12066,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "C22"
-			(at -1.3 1.3 0)
+			(at 0 1.3 0)
 			(layer "B.SilkS")
 			(uuid "da55966b-a6c6-4bfe-b818-ae163ada73c7")
 			(effects
@@ -13264,7 +13264,7 @@
 		(uuid "4167a56f-6440-46df-af42-a56846fdc968")
 		(at 153.8 131 -90)
 		(property "Reference" "C8"
-			(at 1.032 1.1564 90)
+			(at 0 0.9 90)
 			(layer "B.SilkS")
 			(uuid "0f6420f9-a426-49a8-9116-8261a23f1834")
 			(effects
@@ -13518,7 +13518,7 @@
 		(uuid "4188558d-2db5-44c2-9970-ec15a2803eee")
 		(at 164.2 130.4 180)
 		(property "Reference" "R27"
-			(at 0.4 -1 360)
+			(at 0 -1.1 360)
 			(layer "B.SilkS")
 			(uuid "f38ad358-a732-4052-ae88-db3025bc2038")
 			(effects
@@ -13772,7 +13772,7 @@
 		(uuid "41aeeb07-c6f3-424e-acf7-7d083dce00e0")
 		(at 149.5 125.9 -90)
 		(property "Reference" "C23"
-			(at 1.032 1.1564 90)
+			(at -0.2 2.2 90)
 			(layer "B.SilkS")
 			(uuid "de2b487c-f79b-466a-acb7-c219102a6695")
 			(effects
@@ -14280,7 +14280,7 @@
 		(uuid "50cd053a-8b03-415d-a2fe-9cd7df731b24")
 		(at 144.4 130.7 -90)
 		(property "Reference" "C9"
-			(at 0 -1.099999 90)
+			(at 0 4.7 90)
 			(layer "B.SilkS")
 			(uuid "ee001080-2ac9-4d0b-9435-4cdcf9d91138")
 			(effects
@@ -14534,7 +14534,7 @@
 		(uuid "531d9e6a-6e8a-4465-bbc4-0f8cc0867d74")
 		(at 159.5 131.1 180)
 		(property "Reference" "C11"
-			(at 0 1.099999 0)
+			(at -2.1 0 0)
 			(layer "B.SilkS")
 			(uuid "b8ed65e8-072a-4c3f-953e-1186afb01e52")
 			(effects
@@ -15330,7 +15330,7 @@
 		(uuid "5943b5e7-e938-4b32-b3ce-5f04e8b58778")
 		(at 159.3 128.8 -90)
 		(property "Reference" "Y1"
-			(at -0.762633 1.807067 90)
+			(at -0.6 2 0)
 			(layer "B.SilkS")
 			(uuid "ac51205e-00fb-4d88-b9c3-42c41c2bb7d4")
 			(effects
@@ -15687,7 +15687,7 @@
 		(uuid "6918782d-114b-4bd3-9faa-33a54313b9eb")
 		(at 161.3 128.8 90)
 		(property "Reference" "C24"
-			(at 1.032 1.1564 90)
+			(at 0 1.1 90)
 			(layer "B.SilkS")
 			(uuid "7ca64a4d-57ed-4e87-8fbf-1e722f1a3c15")
 			(effects
@@ -16311,7 +16311,7 @@
 		(uuid "72fab6a9-e80b-4321-8978-2a503c8e6455")
 		(at 146.8 130.7 -90)
 		(property "Reference" "R23"
-			(at -2.1 0 90)
+			(at 0.1 4.7 90)
 			(layer "B.SilkS")
 			(uuid "0ed714da-19d2-4650-8c10-0f59e1070140")
 			(effects
@@ -16565,7 +16565,7 @@
 		(uuid "80c99094-c7e7-42c7-b049-f2da857ff953")
 		(at 145.6 130.7 90)
 		(property "Reference" "C10"
-			(at 0.065001 -1 90)
+			(at -0.1 -4.7 90)
 			(layer "B.SilkS")
 			(uuid "995f111e-7fe3-4e85-a6df-c33df2c0ac8a")
 			(effects
@@ -16819,7 +16819,7 @@
 		(uuid "81ec7db5-7f4c-4c55-8e99-603f1381a130")
 		(at 150.7 125.9 -90)
 		(property "Reference" "C20"
-			(at 0 1.099999 90)
+			(at -0.2 2.3 90)
 			(layer "B.SilkS")
 			(uuid "f19b6bc5-8ee8-4e02-80f6-bd937a6e4f3b")
 			(effects
@@ -18131,7 +18131,7 @@
 		(uuid "8c2c9d79-6ed6-49e8-b66c-93b95007b08e")
 		(at 152.2 129 90)
 		(property "Reference" "C13"
-			(at 0 -1.099999 90)
+			(at -2.1 -0.4 90)
 			(layer "B.SilkS")
 			(uuid "55414003-f4c4-454d-9cc5-97286f8af3a5")
 			(effects
@@ -18385,7 +18385,7 @@
 		(uuid "96c67f80-75f6-43ec-bf7f-10889e2bb213")
 		(at 168.9 128.1)
 		(property "Reference" "R26"
-			(at 0 1.7 180)
+			(at 1.1 -1.6 180)
 			(layer "B.SilkS")
 			(uuid "c0712eb1-a4eb-4a92-9d66-0aba68c2816a")
 			(effects
@@ -20124,7 +20124,7 @@
 		(uuid "97f081ff-f38d-4e29-8656-d9c1e9562687")
 		(at 167.7 131 180)
 		(property "Reference" "R28"
-			(at -0.034999 1.099999 360)
+			(at -2.3 0.5 360)
 			(layer "B.SilkS")
 			(uuid "7efa054d-adf8-4d0d-ba8e-2c6d5c6dd93c")
 			(effects
@@ -20767,7 +20767,7 @@
 		(uuid "9bdfb507-0892-4adf-9346-ba1dd208bc89")
 		(at 158.6 125.5)
 		(property "Reference" "C14"
-			(at 0 -0.9 360)
+			(at 2.2 0 360)
 			(layer "B.SilkS")
 			(uuid "74dcb246-5329-423f-b3fa-365a72d55d8d")
 			(effects
@@ -22674,7 +22674,7 @@
 		(uuid "ad632f90-d832-432a-8f41-e9c5cc770778")
 		(at 157.3 129.5 90)
 		(property "Reference" "C15"
-			(at -0.035 -1 90)
+			(at 0 0 90)
 			(layer "B.SilkS")
 			(uuid "7e6633c1-39eb-4c77-8762-6ccfb705fe9c")
 			(effects
@@ -22928,7 +22928,7 @@
 		(uuid "ad92a43c-f545-41ae-98a7-096fce812204")
 		(at 144.05 128.15 180)
 		(property "Reference" "R25"
-			(at 0 1.7 0)
+			(at -1.15 1.65 0)
 			(layer "B.SilkS")
 			(uuid "13335fdd-294a-429f-895e-f69bccfcc22a")
 			(effects
@@ -24667,7 +24667,7 @@
 		(uuid "b75f3406-b7e1-405a-ada4-d4eca69adc36")
 		(at 157.4 131.5 180)
 		(property "Reference" "C12"
-			(at 0.1 1.1 0)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "e7701e14-ad94-47f7-a5ff-c3c328ad41e6")
 			(effects
@@ -24921,7 +24921,7 @@
 		(uuid "b919322b-694a-42a8-b230-ec3717da83d3")
 		(at 155.4 130.3)
 		(property "Reference" "C7"
-			(at 1.032 1.1564 360)
+			(at 0 0.1 360)
 			(layer "B.SilkS")
 			(uuid "97f01fc9-c481-4bf1-9a48-d796b34b835f")
 			(effects
@@ -25464,7 +25464,7 @@
 		(uuid "bed94005-c533-409d-bb15-123b193b341e")
 		(at 152.375 108.2 180)
 		(property "Reference" "CON1"
-			(at -0.125 0.5 0)
+			(at -0.025 -2.6 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "13133f68-1c16-43e3-b101-6ddac1c4124e")
@@ -25741,7 +25741,7 @@
 		(uuid "c4a41c4a-16fb-48c5-a4af-dcdbd137ceb1")
 		(at 155.4 131.5)
 		(property "Reference" "R17"
-			(at 1.032 1.1564 0)
+			(at 0 0.1 0)
 			(layer "B.SilkS")
 			(uuid "c0edf6f8-85b3-4510-9ac7-52249b98c547")
 			(effects
@@ -26278,7 +26278,7 @@
 		(at 154.6 126.5 135)
 		(tags "CS5480-INZ ")
 		(property "Reference" "U2"
-			(at 1.6823 -4.95 45)
+			(at 2.545584 2.687006 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "c975d041-87b6-4350-a6ac-76a9bc094fd4")
@@ -27975,7 +27975,7 @@
 		(at 149.6 128.3)
 		(tags "TPS71533QDCKRQ1 ")
 		(property "Reference" "U7"
-			(at 0.5 2.1 180)
+			(at -1.6 2.2 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "a9a817a3-94c8-472d-881e-0131fd989c10")
@@ -28884,7 +28884,7 @@
 		(uuid "f386de36-d646-4bee-81e2-c942f284c69c")
 		(at 143.2 130.7 -90)
 		(property "Reference" "R24"
-			(at 0 1.099999 90)
+			(at 0.1 4.6 90)
 			(layer "B.SilkS")
 			(uuid "f6ff696e-7d2e-4d20-a8a6-925cd9c19aa4")
 			(effects
