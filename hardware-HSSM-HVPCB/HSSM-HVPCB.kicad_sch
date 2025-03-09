@@ -15612,7 +15612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:R_1206"
+		(property "Footprint" "HSSM-HVPCB:R_1206_HV"
 			(at 331.47 42.926 0)
 			(effects
 				(font
@@ -22476,7 +22476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:R_1206"
+		(property "Footprint" "HSSM-HVPCB:R_1206_HV"
 			(at 259.08 58.674 0)
 			(effects
 				(font
@@ -25199,7 +25199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:R_1206"
+		(property "Footprint" "HSSM-HVPCB:R_1206_HV"
 			(at 342.9 42.926 0)
 			(effects
 				(font
@@ -25525,7 +25525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:R_1206"
+		(property "Footprint" "HSSM-HVPCB:R_1206_HV"
 			(at 304.8 94.234 0)
 			(effects
 				(font
@@ -27833,7 +27833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:R_1206"
+		(property "Footprint" "HSSM-HVPCB:R_1206_HV"
 			(at 293.37 94.234 0)
 			(effects
 				(font
@@ -28939,7 +28939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "HSSM-HVPCB:R_1206"
+		(property "Footprint" "HSSM-HVPCB:R_1206_HV"
 			(at 247.65 58.674 0)
 			(effects
 				(font
