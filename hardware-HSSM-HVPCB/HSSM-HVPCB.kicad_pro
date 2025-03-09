@@ -515,9 +515,9 @@
     "net_colors": null,
     "netclass_assignments": {
       "AC_N": "230VAC",
-      "AC_Q1": "230VAC",
+      "AC_Q1": "high_current",
       "AC_Q1_SHNT2": "high_current",
-      "AC_Q2": "high_current",
+      "AC_Q2": "230VAC",
       "AC_Q2_SHNT2": "high_current",
       "AC_S1": "230VAC",
       "AC_S2": "230VAC",
