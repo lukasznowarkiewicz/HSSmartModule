@@ -7441,10 +7441,22 @@
 		(uuid "2e57589d-7cf4-45a7-82b8-14daef6ccab9")
 	)
 	(junction
+		(at 80.01 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ebd5cc0-6e32-4665-b213-eb2cfc555248")
+	)
+	(junction
 		(at 219.71 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "385999dc-3cf1-4ec3-90e6-0e1107efdb94")
+	)
+	(junction
+		(at 217.17 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "397089c8-cf2d-4c35-8b67-c326c43d6642")
 	)
 	(junction
 		(at 40.64 106.68)
@@ -8652,6 +8664,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 105.41) (xy 217.17 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d19f7f6-b46f-422b-abfe-72612a013bea")
+	)
+	(wire
+		(pts
 			(xy 96.52 55.88) (xy 96.52 54.61)
 		)
 		(stroke
@@ -9009,6 +9031,16 @@
 			(type default)
 		)
 		(uuid "904ebdb0-cbc3-4158-b977-1e51433545aa")
+	)
+	(wire
+		(pts
+			(xy 80.01 114.3) (xy 80.01 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90512a52-054f-44f6-8b30-8101758f707b")
 	)
 	(wire
 		(pts
@@ -15805,6 +15837,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 80.01 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e63d79a-d492-4132-9cb7-8a84468c108a")
+		(property "Reference" "#PWR026"
+			(at 80.01 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 80.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "079951ba-6bde-4ff5-bc09-48f3f5cffd0e")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "HSSM-LVPCB:C_0u1_10pct_50V_0402_GRM155R71H104KE14D")
 		(at 180.34 151.13 90)
 		(unit 1)
@@ -21369,6 +21467,72 @@
 			(project ""
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 217.17 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9c792c6-98dc-438b-aef7-ce29afca473e")
+		(property "Reference" "#PWR049"
+			(at 217.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 217.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 217.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8216094d-40c0-4838-94e6-2d6e269a8e9d")
+		)
+		(instances
+			(project "HSSM-LVPCB"
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
