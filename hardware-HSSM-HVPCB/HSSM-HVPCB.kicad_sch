@@ -2322,7 +2322,7 @@
 				)
 			)
 		)
-		(symbol "HSSM-HVPCB:D_rect_1A_600V_SOD123FL_MURS160-E3_52T"
+		(symbol "HSSM-HVPCB:D_rect_1A_600V_SOD123FL_ERL1J"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2338,7 +2338,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "D_rect_1A_600V_SOD123FL_MURS160-E3_52T"
+			(property "Value" "D_rect_1A_600V_SOD123FL_ERL1J"
 				(at 0 -7.874 0)
 				(effects
 					(font
@@ -2360,7 +2360,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0008609320/VISH-S-A0010476695-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+			(property "Datasheet" "https://www.tme.eu/Document/549bb333d839965f25cc0052c8ee5122/erl1a.pdf"
 				(at 0 -12.954 0)
 				(effects
 					(font
@@ -2380,7 +2380,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "MURS160-E3/52T"
+			(property "MPN" "ERL1J"
 				(at 0 -15.494 0)
 				(effects
 					(font
@@ -2391,7 +2391,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Vishay"
+			(property "Manufacturer" " DIOTEC SEMICONDUCTOR"
 				(at 0 -18.034 0)
 				(effects
 					(font
@@ -2431,7 +2431,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "Diode, Rectifier, 1A, 600V, SOD123FL, Vishay, Surface Mount, MURS160"
+			(property "ki_keywords" "Diode, Rectifier, 1A, 600V, SOD123FL, DIOTEC SEMICONDUCTOR, Surface Mount, ERL1J"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2440,7 +2440,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_rect_1A_600V_SOD123FL_MURS160-E3_52T_0_1"
+			(symbol "D_rect_1A_600V_SOD123FL_ERL1J_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -2466,7 +2466,7 @@
 					)
 				)
 			)
-			(symbol "D_rect_1A_600V_SOD123FL_MURS160-E3_52T_1_1"
+			(symbol "D_rect_1A_600V_SOD123FL_ERL1J_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -16478,133 +16478,6 @@
 		)
 	)
 	(symbol
-		(lib_id "HSSM-HVPCB:D_rect_1A_600V_SOD123FL_MURS160-E3_52T")
-		(at 124.46 255.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2492a873-d4c2-402b-894f-474e6a5349f5")
-		(property "Reference" "D1"
-			(at 127 254 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_rect_1A_600V_SOD123FL_MURS160-E3_52T"
-			(at 116.586 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-HVPCB:D_SOD123FL"
-			(at 114.046 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0008609320/VISH-S-A0010476695-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 111.506 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rectifier Diode, 1A, 600V, SOD123FL, Surface Mount"
-			(at 124.46 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MURS160-E3/52T"
-			(at 108.966 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 106.426 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 103.886 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 101.346 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "1A_600V"
-			(at 127 256.286 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "c6516e9b-2989-446f-9f39-5ce2faa90aa3")
-		)
-		(pin "2"
-			(uuid "dbb3789a-9b7d-4ac2-b433-b5da2dfef23a")
-		)
-		(instances
-			(project "HSSM-HVPCB"
-				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "HSSM-HVPCB:R_1k_1pct_0402_CRCW04021K00FKED")
 		(at 77.47 64.77 0)
 		(unit 1)
@@ -17690,6 +17563,134 @@
 			(project ""
 				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HSSM-HVPCB:D_rect_1A_600V_SOD123FL_ERL1J")
+		(at 124.46 255.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "349638cc-13f8-4c72-8111-1bba9ae08d0a")
+		(property "Reference" "D1"
+			(at 127 254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_rect_1A_600V_SOD123FL_ERL1J"
+			(at 116.586 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-HVPCB:D_SOD123FL"
+			(at 114.046 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/549bb333d839965f25cc0052c8ee5122/erl1a.pdf"
+			(at 111.506 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rectifier Diode, 1A, 600V, SOD123FL, Surface Mount"
+			(at 124.46 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERL1J"
+			(at 108.966 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" " DIOTEC SEMICONDUCTOR"
+			(at 106.426 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 103.886 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 101.346 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1A_600V"
+			(at 127 256.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "e4da86b1-069b-4c1e-98de-2216773c24ff")
+		)
+		(pin "2"
+			(uuid "abd0556e-376c-445f-889b-a0d7b50bc837")
+		)
+		(instances
+			(project ""
+				(path "/e1056638-7c6b-48e4-9e2e-c0f7b783eee5"
+					(reference "D1")
 					(unit 1)
 				)
 			)

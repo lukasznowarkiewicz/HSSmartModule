@@ -3689,7 +3689,7 @@
 			)
 		)
 	)
-	(symbol "D_rect_1A_600V_SOD123FL_MURS160-E3_52T"
+	(symbol "D_rect_1A_600V_SOD123FL_ERL1J"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -3705,7 +3705,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "D_rect_1A_600V_SOD123FL_MURS160-E3_52T"
+		(property "Value" "D_rect_1A_600V_SOD123FL_ERL1J"
 			(at 0 -7.874 0)
 			(effects
 				(font
@@ -3727,7 +3727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/VISH/VISH-S-A0008609320/VISH-S-A0010476695-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+		(property "Datasheet" "https://www.tme.eu/Document/549bb333d839965f25cc0052c8ee5122/erl1a.pdf"
 			(at 0 -12.954 0)
 			(effects
 				(font
@@ -3747,7 +3747,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MURS160-E3/52T"
+		(property "MPN" "ERL1J"
 			(at 0 -15.494 0)
 			(effects
 				(font
@@ -3758,7 +3758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" " DIOTEC SEMICONDUCTOR"
 			(at 0 -18.034 0)
 			(effects
 				(font
@@ -3798,7 +3798,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "ki_keywords" "Diode, Rectifier, 1A, 600V, SOD123FL, Vishay, Surface Mount, MURS160"
+		(property "ki_keywords" "Diode, Rectifier, 1A, 600V, SOD123FL, DIOTEC SEMICONDUCTOR, Surface Mount, ERL1J"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3807,7 +3807,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "D_rect_1A_600V_SOD123FL_MURS160-E3_52T_0_1"
+		(symbol "D_rect_1A_600V_SOD123FL_ERL1J_0_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -3833,7 +3833,7 @@
 				)
 			)
 		)
-		(symbol "D_rect_1A_600V_SOD123FL_MURS160-E3_52T_1_1"
+		(symbol "D_rect_1A_600V_SOD123FL_ERL1J_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
