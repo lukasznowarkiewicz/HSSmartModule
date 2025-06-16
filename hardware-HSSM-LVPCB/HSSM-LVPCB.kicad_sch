@@ -4672,7 +4672,7 @@
 				)
 			)
 		)
-		(symbol "HSSM-LVPCB:L_2nH_0402_MLG0402Q2N0ST000"
+		(symbol "HSSM-LVPCB:L_2nH_0402_ MHQ1005075HA2N0BTD25"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4688,7 +4688,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "L_2nH_0402_MLG0402Q2N0ST000"
+			(property "Value" "L_2nH_0402_ MHQ1005075HA2N0BTD25"
 				(at 0 -7.874 0)
 				(effects
 					(font
@@ -4710,7 +4710,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_high-frequency_mlg0402q_en.pdf"
+			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_high-frequency_mhq1005075ha_en.pdf"
 				(at 0 -12.954 0)
 				(effects
 					(font
@@ -4730,7 +4730,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "MLG0402Q2N0ST000"
+			(property "MPN" "MHQ1005075HA2N0BTD25"
 				(at 0 -15.494 0)
 				(effects
 					(font
@@ -4790,7 +4790,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_2nH_0402_MLG0402Q2N0ST000_0_1"
+			(symbol "L_2nH_0402_ MHQ1005075HA2N0BTD25_0_1"
 				(arc
 					(start -1.016 0)
 					(mid -1.524 0.5058)
@@ -4840,7 +4840,7 @@
 					)
 				)
 			)
-			(symbol "L_2nH_0402_MLG0402Q2N0ST000_1_1"
+			(symbol "L_2nH_0402_ MHQ1005075HA2N0BTD25_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 0.508)
@@ -16792,6 +16792,132 @@
 		)
 	)
 	(symbol
+		(lib_id "HSSM-LVPCB:L_2nH_0402_ MHQ1005075HA2N0BTD25")
+		(at 58.42 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f12730a-4a2c-4940-9716-73db5d84fa3d")
+		(property "Reference" "L2"
+			(at 58.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "L_2nH_0402_ MHQ1005075HA2N0BTD25"
+			(at 58.42 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HSSM-LVPCB:L_0402"
+			(at 58.42 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_high-frequency_mhq1005075ha_en.pdf"
+			(at 58.42 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "TDK High-Frequency Inductor, 2.0nH, 0402, High-Q, SMD"
+			(at 58.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MHQ1005075HA2N0BTD25"
+			(at 58.42 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 58.42 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 58.42 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Lukasz Nowarkiewicz"
+			(at 58.42 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "2nH"
+			(at 58.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ad4c9c3e-7815-4097-bad4-cc16d78ea2bb")
+		)
+		(pin "1"
+			(uuid "611c6acd-64e3-4933-9e18-3eca3678cb9e")
+		)
+		(instances
+			(project ""
+				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 209.55 234.95 0)
 		(unit 1)
@@ -18914,132 +19040,6 @@
 			(project "HSSM-LVPCB"
 				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "HSSM-LVPCB:L_2nH_0402_MLG0402Q2N0ST000")
-		(at 58.42 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6174bd4-713e-44a8-94ee-1746b81fb3db")
-		(property "Reference" "L2"
-			(at 58.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "L_2nH_0402_MLG0402Q2N0ST000"
-			(at 58.42 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "HSSM-LVPCB:L_0402"
-			(at 58.42 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_high-frequency_mlg0402q_en.pdf"
-			(at 58.42 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "TDK High-Frequency Inductor, 2.0nH, 0402, High-Q, SMD"
-			(at 58.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MLG0402Q2N0ST000"
-			(at 58.42 122.174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 58.42 124.714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 58.42 127.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Lukasz Nowarkiewicz"
-			(at 58.42 129.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "2nH"
-			(at 58.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0c7f46c4-4a1b-488b-87a9-c1c1236db45b")
-		)
-		(pin "1"
-			(uuid "faacdb05-5a7f-4c87-9f51-31e6e2ca2df2")
-		)
-		(instances
-			(project ""
-				(path "/77e28373-c8b2-479f-b36e-df59d529ffba"
-					(reference "L2")
 					(unit 1)
 				)
 			)

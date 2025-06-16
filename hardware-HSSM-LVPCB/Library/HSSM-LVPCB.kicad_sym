@@ -7038,7 +7038,7 @@
 			)
 		)
 	)
-	(symbol "L_2nH_0402_MLG0402Q2N0ST000"
+	(symbol "L_2nH_0402_ MHQ1005075HA2N0BTD25"
 		(pin_numbers hide)
 		(pin_names hide)
 		(exclude_from_sim no)
@@ -7054,7 +7054,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "L_2nH_0402_MLG0402Q2N0ST000"
+		(property "Value" "L_2nH_0402_ MHQ1005075HA2N0BTD25"
 			(at 0 -7.874 0)
 			(effects
 				(font
@@ -7076,7 +7076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_high-frequency_mlg0402q_en.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_high-frequency_mhq1005075ha_en.pdf"
 			(at 0 -12.954 0)
 			(effects
 				(font
@@ -7096,7 +7096,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MLG0402Q2N0ST000"
+		(property "MPN" "MHQ1005075HA2N0BTD25"
 			(at 0 -15.494 0)
 			(effects
 				(font
@@ -7156,7 +7156,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "L_2nH_0402_MLG0402Q2N0ST000_0_1"
+		(symbol "L_2nH_0402_ MHQ1005075HA2N0BTD25_0_1"
 			(arc
 				(start -1.016 0)
 				(mid -1.524 0.5058)
@@ -7206,7 +7206,7 @@
 				)
 			)
 		)
-		(symbol "L_2nH_0402_MLG0402Q2N0ST000_1_1"
+		(symbol "L_2nH_0402_ MHQ1005075HA2N0BTD25_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 0.508)
