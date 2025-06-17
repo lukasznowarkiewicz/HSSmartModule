@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "HSSM-LVPCB")
+		(date "2025-06-17")
+		(rev "1.0.1")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(1 "In1.Cu" signal)
@@ -23745,7 +23750,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "V1.0.0"
+	(gr_text "V1.0.1"
 		(at 135.175 121.7 0)
 		(layer "F.SilkS" knockout)
 		(uuid "c02ab1d5-375b-4582-b0db-003f33223325")
