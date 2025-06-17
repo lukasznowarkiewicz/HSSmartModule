@@ -1,27 +1,163 @@
-
-(footprint WCAP-CSGP_0805_H1.25_R (layer F.Cu) (tedit 677D2370)
-  (descr "<b>WCAP-CSGP MLCCs 0805</b><br>Solder type: Reflow,2 x 1.25x1.25( LxWxH) ;")
-  (attr smd)
-  (fp_text reference REF** (at 0.0 -1.4032 0) (layer F.SilkS)
-    (effects (font (size 0.32 0.32) (thickness 0.15)))
-  )
-  (fp_text value WCAP-CSGP_0805_H1.25_R (at 0.0 1.1968 0) (layer F.Fab)
-    (effects (font (size 0.32 0.32) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -0.95 0.0) (size 0.9 1.3) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 0.95 0.0) (size 0.9 1.3) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -1.0 -0.625) (end -1.0 0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.0 0.625) (end 1.0 -0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.0 -0.625) (end 1.0 -0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.0 0.625) (end 1.0 0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.2 -0.725) (end 0.2 -0.725) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.2 0.725) (end 0.2 0.725) (layer F.SilkS) (width 0.2))
-  (fp_poly
-    (pts
-      (xy -1.6 -0.925)
-      (xy 1.6 -0.925)
-      (xy 1.6 0.925)
-      (xy -1.6 0.925)
-    ) (layer F.CrtYd) (width 0.1)
-  )
+(footprint "885012107018"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WCAP-CSGP MLCCs 0805</b><br>Solder type: Reflow,2 x 1.25x1.25( LxWxH) ;")
+	(property "Reference" "REF**"
+		(at 0 -1.4032 0)
+		(layer "F.SilkS")
+		(uuid "4beb1724-95ce-4f71-9057-62d0b099a64c")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "WCAP-CSGP_0805_H1.25_R"
+		(at 0 1.1968 0)
+		(layer "F.Fab")
+		(uuid "52efd71f-7349-4503-b8a5-e7aa81c8ab5a")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f06b281-77f3-4cbc-9bc1-70cbe7ae7f9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e3897be-a074-4495-b6e4-08c52d5451f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4fc9bf94-83a6-464d-99ff-78143f167289")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.2 -0.725)
+		(end 0.2 -0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6de4d3fc-9dee-4a02-b074-c53e68c7c991")
+	)
+	(fp_line
+		(start -0.2 0.725)
+		(end 0.2 0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1258157d-1e5e-4355-b441-4fdc5e693872")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 -0.925) (xy 1.6 -0.925) (xy 1.6 0.925) (xy -1.6 0.925)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "4b63a00e-913a-4fbe-8742-0563fde96886")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef35a890-ab63-4acd-a9be-3459219f869e")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "acdb05b7-adf6-4cb6-9d53-f541bfbe5989")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fab5a953-dd33-4caa-a15b-a6d2aa6247ff")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75990f0c-34f8-42a4-9767-0efff3785c99")
+	)
+	(pad "1" smd rect
+		(at -0.95 0)
+		(size 0.9 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "f67cf794-968b-4b31-938a-4c0e0e83a88c")
+	)
+	(pad "2" smd rect
+		(at 0.95 0)
+		(size 0.9 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "1386d7cb-d2fe-427d-befa-576b38a524c0")
+	)
+	(model "${KIPRJMOD}/Library/HSSM-HVPCB.pretty/step/C_0805.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
