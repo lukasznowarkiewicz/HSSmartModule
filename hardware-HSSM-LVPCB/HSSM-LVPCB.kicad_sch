@@ -10220,16 +10220,6 @@
 		)
 		(uuid "ff038e04-d871-42c1-b8e6-af97d55e8fb6")
 	)
-	(text "Verify pin-pin compatibility"
-		(exclude_from_sim no)
-		(at 250.444 179.832 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0034b5ab-a770-4718-8176-c73fb08ef7c7")
-	)
 	(text "QuadSPI io3"
 		(exclude_from_sim no)
 		(at 237.998 45.72 0)

@@ -6962,4 +6962,15 @@
 		(roundrect_rratio 0.25)
 		(uuid "743bd49d-6a99-478f-a36c-21270d1ff853")
 	)
+	(model "${KIPRJMOD}/Library/HSSM-LVPCB.pretty/step/L_0402.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

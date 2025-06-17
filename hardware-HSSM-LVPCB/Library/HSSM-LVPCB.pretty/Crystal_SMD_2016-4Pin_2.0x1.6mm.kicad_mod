@@ -252,7 +252,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "cbc9241c-8606-4c07-9edc-64c2127bb1c2")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.wrl"
+	(model "${KIPRJMOD}/Library/HSSM-LVPCB.pretty/step/Crystal_SMD_2016-4Pin_2_0x1_6mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -260,7 +260,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )
