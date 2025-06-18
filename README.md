@@ -27,27 +27,28 @@ This repository contains design files of Home Span Smart Module. The device is i
 
 ## Low Voltage PCB
 
-Schematic
-![HSSM-LVPCB](images/HSSM-LVPCB.svg)
 
 ![HSSM-LVPCB-PCB-TOP](images/HSSM-LVPCB-PCB-TOP.png)
 
 ![HSSM-LVPCB-PCB-BOTTOM](images/HSSM-LVPCB-PCB-BOTTOM.png)
 
+### LVPCB Schematic
 
-- 3V3 power input
+![HSSM-LVPCB](images/HSSM-LVPCB.svg)
 
-- ESP32-C6 microcontroller
+- 3V3 power input - board is powered from HVPCB, or from programmer. If HVPCB is supplying power, 3V3 power jumper on HSSM-Prog should be left unconnected. 
 
-- Antenna connector
+- ESP32-C6 microcontroller - controlls outputs, reads values from inputs, controlls LEDs and communicate with other devices over thread, zigbee or wifi. All power inputs, crystal oscillator circuit, connection to SPI flash implemented according to datasheet.
 
-- SPI flash memory
+- Antenna connector - allow connecting external 2.4 GHz antenna for wirelless connectivity
 
-- Additional switches and outs for debug
+- SPI flash memory - stores ESP32-C6 program
 
-- Programming connector
+- Additional switches and outs for debug - as program development with board powered from 230VAC seems risky, added additional switches and LEDs representing inputs and outputs on HVPCB. With those program development is possible, even without HVPCB, while LVPCB beeing powered from 3V3 LDO on programming board. 
 
-- Edge connector
+- Programming connector - to connect HSSM-Prog, enables UART communication and puting ESP32-C6 into programming mode
+
+- Edge connector - allows HSSM-FCB to be soldered to and connect HVPCB
 
 
 
