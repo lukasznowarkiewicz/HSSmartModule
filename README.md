@@ -28,6 +28,12 @@ This repository contains design files of Home Span Smart Module. The device is i
 ## Low Voltage PCB
 
 Schematic
+![HSSM-LVPCB](images/HSSM-LVPCB.svg)
+
+![HSSM-LVPCB-PCB-TOP](images/HSSM-LVPCB-PCB-TOP.png)
+
+![HSSM-LVPCB-PCB-BOTTOM](images/HSSM-LVPCB-PCB-BOTTOM.png)
+
 
 - 3V3 power input
 
@@ -49,6 +55,15 @@ Schematic
 
 ## High Voltage PCB
 
+![HSSM-HVPCB-PCB-TOP](images/HSSM-HVPCB-PCB-TOP.png)
+
+![HSSM-HVPCB-PCB-BOTTOM](images/HSSM-HVPCB-PCB-BOTTOM.png)
+
+<!-- ![HSSM-HVPCB-PCB-BOTTOM-IZO](images/HSSM-HVPCB-PCB-BOTTOM-IZO.png)
+![HSSM-HVPCB-PCB-TOP-IZO](images/HSSM-HVPCB-PCB-TOP-IZO.png)
+![HSSM-HVPCB-PCB-TOP-IZO2](images/HSSM-HVPCB-PCB-TOP-IZO2.png) -->
+![HSSM-HVPCB](images/HSSM-HVPCB.svg)
+
 Features:
 - Outputs controls - two relays 
 
@@ -63,8 +78,23 @@ Features:
 
 ## Flexible circuit board
 
+![HSSM-FCB-PCB-TOP](images/HSSM-FCB-PCB-TOP.png)
+
+![HSSM-FCB-PCB-BOTTOM](images/HSSM-FCB-PCB-BOTTOM.png)
+
+
+![HSSM-FCB](images/HSSM-FCB.svg)
+
 
 ## HSSmartModule Programmer
+
+![HSSM-Prog-PCB-TOP](images/HSSM-Prog-PCB-TOP.png)
+
+![HSSM-Prog-PCB-BOTTOM](images/HSSM-Prog-PCB-BOTTOM.png)
+
+![HSSM-Prog-PCB-IZO](images/HSSM-Prog-PCB-IZO.png)
+
+![HSSM-Prog-schematic](images/HSSM-Prog-schematic.svg)
 
 Features
 - CP2102N USB UART converter
@@ -81,3 +111,8 @@ Features
 
 
 ### Firmware for boards testing
+
+
+
+
+
