@@ -1,0 +1,4 @@
+# Set SPI flash size to 8 MB
+CONFIG_ESPTOOLPY_FLASHSIZE="8MB"
+# Make the bootloader header get updated with this size
+CONFIG_ESPTOOLPY_HEADER_FLASHSIZE_UPDATE=y
