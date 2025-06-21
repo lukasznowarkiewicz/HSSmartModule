@@ -1,10 +1,12 @@
 # HSSmartModule
 
+![HSSM-3d-model](images/HSSM-3d-model.png)
 
 ## Overview
 
 This repository contains design files of Home Span Smart Module. The device is intended to use with existing electrical installation as a light controller. Initially intended to be flashed with Home Span firmware and  use with Apple Home Kit ecosystem. This will allow basic support of the implement features like outputs control, reading states form the inputs and control from other devices - aka smart home in-wall module functionality. This will allow rather quick start of the desting of the device in the files and give chance to spot potential problems right away. In the future it is planned to create custom application, with support for all implemented features in hardware like power measurement, input from presence sensor and enabling thread radio communication. The device intentionally is divided into two PCBs. This will allow independent testing, of high voltage and low voltage parts. In the future will be possible to replace low voltage PCB with with another variant - equiped with another MCU, for example NRF52840. In the future after initial bringup, set of boards could be easily redesigned as single rigid-flex PCB. 
 
+![HSSM_module_and_prog_foto](images/HSSM_module_and_prog_foto.png)
 
 ## Features
 
@@ -66,9 +68,9 @@ This repository contains design files of Home Span Smart Module. The device is i
 ![HSSM-HVPCB](images/HSSM-HVPCB.svg)
 
 Features:
-- Outputs controls - two relays 
+- Outputs controls - two relays for switching 230VAC loads, internally connected to live wire terminal. Both relays powered from 12V 
 
-- Input switches - three 230V inputs
+- Input switches - three 230VAC inputs - for 
 
 - 230VAC to 12VDC
 
@@ -79,9 +81,7 @@ Features:
 
 ## Flexible circuit board
 
-![HSSM-FCB-PCB-TOP](images/HSSM-FCB-PCB-TOP.png)
-
-![HSSM-FCB-PCB-BOTTOM](images/HSSM-FCB-PCB-BOTTOM.png)
+![HSSM-FCB-PCB](images/HSSM-FCB-PCB.png)
 
 
 ![HSSM-FCB](images/HSSM-FCB.svg)
@@ -107,8 +107,45 @@ Features
 
 ## Manufacturing
 
+All PCBs manufactured by JLCPCB, according to stackup set in each board's project.  
+
+### HSSM-Prog
+
+
+![HSSM-Prog-solder-paste](images/HSSM-Prog-solder-paste.png)
+
+![HSSM-Prog-soldered](images/HSSM-Prog-soldered.png)
+
+
+### HSSM-LVPCB
+
+![HSSM-LVPCB-solder-paste-TOP](images/HSSM-LVPCB-solder-paste-TOP.png)
+
+![HSSM-LVPCB-soldered-TOP](images/HSSM-LVPCB-soldered-TOP.png)
+
+
+
+### HSSM-HVPCB
+
+![HSSM-HVPCB-soldered-TOP](images/HSSM-HVPCB-soldered-TOP.png)
+
+![HSSM-HVPCB-soldered-TOP2](images/HSSM-HVPCB-soldered-TOP2.png)
+
+![HSSM-HVPCB-soldered-BOTTOM](images/HSSM-HVPCB-soldered-BOTTOM.png)
 
 ## Boards bring up 
+
+![LVPCB-bringup](images/LVPCB-bringup.png)
+
+
+![HVPCB-bringup](images/HVPCB-bringup.png)
+
+
+
+## HSSM device assembly
+
+![HSSM_module_foto](images/HSSM_module_foto.png)
+![HSSM_module_foto2](images/HSSM_module_foto2.png)
 
 
 ### Firmware for boards testing
