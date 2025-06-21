@@ -289,7 +289,7 @@
 		(zone_connect 2)
 		(uuid "685a0e9a-284e-4fed-a338-ba90c7ebb5be")
 	)
-	(model "${KIPRJMOD}/Library/HSSM-LVPCB.pretty/step/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm.wrl"
+	(model "${KIPRJMOD}/Library/HSSM-LVPCB.pretty/step/WSON-8-1EP_6x5mm_P1_27mm_EP3_4x4_3mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
